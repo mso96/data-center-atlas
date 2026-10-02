@@ -1,0 +1,44 @@
+{
+  "facilityId": "dc-42f504662e6210953e58facb944d252b",
+  "status": "reviewed",
+  "reviewNote": "The official Equinix IBX Sustainability Quick Reference Guide was checked for the Rio de Janeiro metro and address. The imported operator, metro and address are retained as the facility identity. The public reference does not provide a facility-specific capacity, Tier, PUE, cooling or security value for this record, so those fields remain undisclosed rather than inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Equinix facility in Janeiro, Brazil; imported address retained verbatim for traceability."
+  },
+  "aliases": [
+    "Rio de Janeiro",
+    "Rio de Janeiro Equinix IBX"
+  ],
+  "sources": [
+    {
+      "id": "equinix-sustainability-qrg-2025",
+      "title": "Equinix — IBX Sustainability Quick Reference Guide",
+      "url": "https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf",
+      "accessedAt": "2026-10-03",
+      "publishedAt": null
+    },
+    {
+      "id": "equinix-data-centers",
+      "title": "Equinix — official data center portfolio",
+      "url": "https://www.equinix.com/data-centers",
+      "accessedAt": "2026-10-03",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-location-0",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator location reference",
+      "value": "Rua Voluntarios da Patria, 360 Botafogo 22.270-010 Rio de Janeiro Brazil",
+      "sourceIds": [
+        "equinix-sustainability-qrg-2025"
+      ],
+      "status": "verified"
+    }
+  ]
+}

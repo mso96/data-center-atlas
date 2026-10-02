@@ -8,8 +8,9 @@ future correction; they do not contribute to public filters, lists, counts or ma
 All mapped records have Overview, Specs and Location pages with available data.
 
 The research queue contains **1,000 candidates in 140 countries**, arranged in ten
-batches of 100. **Thirty-seven have been reviewed and twenty-one enriched from official sources;
-959 remain pending and four are in progress.** Selecting a candidate is not research completion. Do not
+batches of 100. **Ninety-six have been reviewed and seventy-nine enriched from official sources;
+900 remain pending and four are in progress.** The latest completed review group added 58 Equinix
+records and one Kelag Klagenfurt record. Selecting a candidate is not research completion. Do not
 advertise the queue as 1,000 verified profiles, or as a definitive global ranking.
 Machine-readable progress and all outstanding IDs: `research/report.json`.
 

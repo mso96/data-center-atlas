@@ -1,0 +1,44 @@
+{
+  "facilityId": "dc-72875b8144f068ffff97b604036f59b0",
+  "status": "reviewed",
+  "reviewNote": "The official Equinix IBX Sustainability Quick Reference Guide was checked for the Toronto 2 metro and address. The imported operator, metro and address are retained as the facility identity. The public reference does not provide a facility-specific capacity, Tier, PUE, cooling or security value for this record, so those fields remain undisclosed rather than inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Equinix facility in St, Canada; imported address retained verbatim for traceability."
+  },
+  "aliases": [
+    "Toronto 2",
+    "Toronto 2 Equinix IBX"
+  ],
+  "sources": [
+    {
+      "id": "equinix-sustainability-qrg-2025",
+      "title": "Equinix — IBX Sustainability Quick Reference Guide",
+      "url": "https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf",
+      "accessedAt": "2026-10-03",
+      "publishedAt": null
+    },
+    {
+      "id": "equinix-data-centers",
+      "title": "Equinix — official data center portfolio",
+      "url": "https://www.equinix.com/data-centers",
+      "accessedAt": "2026-10-03",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-location-0",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator location reference",
+      "value": "45 Parliament St ON M5A 0B2 Toronto Canada",
+      "sourceIds": [
+        "equinix-sustainability-qrg-2025"
+      ],
+      "status": "verified"
+    }
+  ]
+}

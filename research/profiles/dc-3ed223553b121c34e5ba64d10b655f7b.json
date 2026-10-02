@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-3ed223553b121c34e5ba64d10b655f7b",
+  "status": "reviewed",
+  "reviewNote": "PeeringDB's current facility record matches the imported Kelag Klagenfurt name, i3b/Oja.at operator listing and Arnulfplatz 2 address. No operator-published public capacity, Tier, PUE, cooling or security values were found, so no technical facts are inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The facility registry record identifies Kelag Klagenfurt at Arnulfplatz 2, Klagenfurt, with i3b/Oja.at website references."
+  },
+  "aliases": ["Kelag Klagenfurt", "i3b Kelag Klagenfurt"],
+  "sources": [
+    {
+      "id": "peeringdb-facility",
+      "title": "PeeringDB — Kelag Klagenfurt facility record",
+      "url": "https://www.as262647.peeringdb.com/fac/777",
+      "accessedAt": "2026-10-03",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-site",
+      "title": "i3b — operator website",
+      "url": "https://www.i3b.at/",
+      "accessedAt": "2026-10-03",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
