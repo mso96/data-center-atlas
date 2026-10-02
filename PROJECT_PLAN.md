@@ -11,7 +11,7 @@ The public explorer now shows only the 6,086 geolocated facilities. Its title is
 “Discover data centers”. Each mapped facility has a dedicated Overview / Specs /
 Location page, with safe filter-preserving Back to map navigation and linked sources.
 Migration 002 stores research separately from imported records. The 1,000-candidate
-selection is complete; **official-source research is 4 reviewed/enriched, 996 pending**.
+selection is complete; **official-source research is 15 reviewed/enriched, 985 pending**.
 The requested 1,000-facility research is not complete. See [research workflow and
 progress](docs/RESEARCH.md) and `research/report.json`.
 

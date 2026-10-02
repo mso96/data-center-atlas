@@ -1,0 +1,157 @@
+{
+  "facilityId": "dc-6fa6e530b477bac45314568ce50d14ec",
+  "status": "reviewed",
+  "reviewNote": "Matched Equinix AM6, its operator and street address against the official facility page. Area is colocation space, not total building area.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Matched Equinix AM6, its operator and street address against the official facility page. Area is colocation space, not total building area."
+  },
+  "aliases": [
+    "Equinix AM6"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "title": "Equinix AM6 — official facility specifications",
+      "url": "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/amsterdam-data-centers/am6",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-0",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Overview",
+      "value": "Equinix AM6 provides colocation in Amsterdam, with 6,000 m² of customer equipment space. The operator specifies N+1 UPS and N+2 cooling redundancy. Private cages and cross-connects are listed for this facility. On-site technical assistance is offered through Smart Hands.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Duivendrechtsekade 80A, 1096 AH Amsterdam, Netherlands",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation space",
+      "value": "6,000 m²",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Minimum cabinet supply",
+      "value": "6 kVA (apparent power)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+2",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Fire suppression",
+      "value": "Water mist",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access protection",
+      "value": "Biometric access",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Interconnection",
+      "value": "Cross-connects",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "overview",
+      "category": "Services",
+      "label": "Private cages",
+      "value": "Private cages",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-10",
+      "section": "overview",
+      "category": "Services",
+      "label": "Cabinet colocation",
+      "value": "Cabinet colocation",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-11",
+      "section": "overview",
+      "category": "Services",
+      "label": "Technical support",
+      "value": "Smart Hands",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

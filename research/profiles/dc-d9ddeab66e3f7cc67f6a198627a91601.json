@@ -1,0 +1,19 @@
+{
+  "facilityId": "dc-d9ddeab66e3f7cc67f6a198627a91601",
+  "status": "reviewed",
+  "reviewNote": "Equinix SG2, its operator and 15 Pioneer Walk address match the official Singapore facility page.",
+  "identity": {"nameMatched": true, "operatorMatched": true, "addressMatched": true, "notes": "Official Equinix page identifies SG2 at 15 Pioneer Walk, Singapore 627753."},
+  "aliases": ["Equinix SG2"],
+  "sources": [{"id":"operator","title":"Equinix SG2 — official facility specifications","url":"https://www.equinix.com/data-centers/asia-pacific-colocation/singapore-colocation/singapore-data-center/sg2","accessedAt":"2026-10-02","publishedAt":null}],
+  "facts": [
+    {"id":"summary","section":"overview","category":"Summary","label":"Overview","value":"Equinix SG2 provides colocation and interconnection in Singapore. The operator lists private cages, high-density cooling, Smart Hands and Equinix connectivity products.","sourceIds":["operator"],"status":"verified"},
+    {"id":"address","section":"location","category":"Location","label":"Operator-published address","value":"15 Pioneer Walk, #04-01, Singapore 627753","sourceIds":["operator"],"status":"verified"},
+    {"id":"space","section":"specs","category":"Capacity","label":"Colocation space","value":"20,370 m²","sourceIds":["operator"],"status":"verified"},
+    {"id":"power","section":"specs","category":"Power","label":"Generator redundancy","value":"2N","sourceIds":["operator"],"status":"verified"},
+    {"id":"cabinet","section":"specs","category":"Power","label":"Minimum cabinet supply","value":"5 kVA (apparent power)","sourceIds":["operator"],"status":"verified"},
+    {"id":"cooling","section":"specs","category":"Cooling","label":"Cooling redundancy","value":"N+1","sourceIds":["operator"],"status":"verified"},
+    {"id":"security","section":"specs","category":"Security","label":"Access protection","value":"Onsite security guarding vendor and biometrics","sourceIds":["operator"],"status":"verified"},
+    {"id":"service-cage","section":"overview","category":"Services","label":"Private cages","value":"Private cages","sourceIds":["operator"],"status":"verified"},
+    {"id":"service-hands","section":"overview","category":"Services","label":"Technical support","value":"Smart Hands","sourceIds":["operator"],"status":"verified"}
+  ]
+}

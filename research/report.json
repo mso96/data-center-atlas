@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-02T21:52:50.531Z",
+  "generatedAt": "2026-10-02T22:18:01.481Z",
   "selected": 1000,
   "states": [
     {
       "status": "pending",
-      "count": 996
+      "count": 985
     },
     {
       "status": "reviewed",
-      "count": 4
+      "count": 15
     }
   ],
-  "enriched": 4,
+  "enriched": 15,
   "batches": [
     {
       "batch": 1,
@@ -26,17 +26,22 @@
     {
       "batch": 3,
       "status": "pending",
-      "count": 99
+      "count": 98
     },
     {
       "batch": 3,
       "status": "reviewed",
-      "count": 1
+      "count": 2
     },
     {
       "batch": 4,
       "status": "pending",
-      "count": 100
+      "count": 98
+    },
+    {
+      "batch": 4,
+      "status": "reviewed",
+      "count": 2
     },
     {
       "batch": 5,
@@ -51,22 +56,22 @@
     {
       "batch": 7,
       "status": "pending",
-      "count": 99
+      "count": 94
     },
     {
       "batch": 7,
       "status": "reviewed",
-      "count": 1
+      "count": 6
     },
     {
       "batch": 8,
       "status": "pending",
-      "count": 98
+      "count": 95
     },
     {
       "batch": 8,
       "status": "reviewed",
-      "count": 2
+      "count": 5
     },
     {
       "batch": 9,
@@ -1567,21 +1572,6 @@
     },
     {
       "facility_id": "dc-a48658ed167348604c3f3024e1818069",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-a5c50c78f4e13af64460855a872d6402",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-b340d9f2ba3f48757450294bbb064c11",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-bc503df26666399cbc3ffc08722e8fe6",
       "status": "pending",
       "review_note": null
     },
@@ -3176,16 +3166,6 @@
       "review_note": null
     },
     {
-      "facility_id": "dc-21990d3050bbc56d10c272458fe899d9",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-29eef9b61a4e4dbec5608d2554468a77",
-      "status": "pending",
-      "review_note": null
-    },
-    {
       "facility_id": "dc-2b52c420382a33dcb2a48c999f69db36",
       "status": "pending",
       "review_note": null
@@ -3206,11 +3186,6 @@
       "review_note": null
     },
     {
-      "facility_id": "dc-4e954bc6c0331d409357cee8c5693577",
-      "status": "pending",
-      "review_note": null
-    },
-    {
       "facility_id": "dc-5007cb3c8d231f33bd6123d0107150a5",
       "status": "pending",
       "review_note": null
@@ -3226,22 +3201,12 @@
       "review_note": null
     },
     {
-      "facility_id": "dc-6fa6e530b477bac45314568ce50d14ec",
-      "status": "pending",
-      "review_note": null
-    },
-    {
       "facility_id": "dc-80bda4241499fa1dc50a9c1bfd448c11",
       "status": "pending",
       "review_note": null
     },
     {
       "facility_id": "dc-833e7fe18cb6483703881d2753af2d56",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-84dc185fe42b8a004e95b5c3c276dcb7",
       "status": "pending",
       "review_note": null
     },
@@ -3896,11 +3861,6 @@
       "review_note": null
     },
     {
-      "facility_id": "dc-80da864c284530b6af6c2016e47e6955",
-      "status": "pending",
-      "review_note": null
-    },
-    {
       "facility_id": "dc-b676d39e3303ca76d42fb2abe3faabe5",
       "status": "pending",
       "review_note": null
@@ -3977,16 +3937,6 @@
     },
     {
       "facility_id": "dc-8853517f52af48a045711232e4fb8e25",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-cd298b065bd0c9c4b795f04ec9c4353d",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-d9ddeab66e3f7cc67f6a198627a91601",
       "status": "pending",
       "review_note": null
     },

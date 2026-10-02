@@ -8,8 +8,8 @@ future correction; they do not contribute to public filters, lists, counts or ma
 All mapped records have Overview, Specs and Location pages with available data.
 
 The research queue contains **1,000 candidates in 140 countries**, arranged in ten
-batches of 100. **Four have been reviewed and enriched from official sources;
-996 remain pending.** Selecting a candidate is not research completion. Do not
+batches of 100. **Fifteen have been reviewed and enriched from official sources;
+985 remain pending.** Selecting a candidate is not research completion. Do not
 advertise the queue as 1,000 verified profiles, or as a definitive global ranking.
 Machine-readable progress and all outstanding IDs: `research/report.json`.
 
@@ -71,7 +71,7 @@ before operating. Applying a file of profiles commits each validated profile
 independently; a later validation failure leaves earlier committed profiles intact.
 Reapplying the same profile is safe. Rebuild the progress report after changes.
 For reproducing this installation, import the pinned Ringmast4r dataset first,
-select candidates, then apply the four committed profile JSON files.
+select candidates, then apply the committed profile JSON files for the researched facilities.
 
 ## Continue the outstanding research
 

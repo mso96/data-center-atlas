@@ -21,7 +21,7 @@ try {
   const profiles=Array.isArray(payload)?payload:[payload];for(const p of profiles)saveProfile(db,p);console.log(JSON.stringify({applied:profiles.length}));
  }else if(values.action==="report"){
   const states=db.prepare("SELECT status,count(*) count FROM research_queue GROUP BY status").all();
-  const enriched=db.prepare("SELECT count(DISTINCT q.facility_id) n FROM research_queue q JOIN research_facts f ON f.facility_id=q.facility_id WHERE json_extract(f.fact,'$.status')='verified'").get()!.n;
+  const enriched=db.prepare("SELECT count(DISTINCT q.facility_id) n FROM research_queue q JOIN research_facts f ON f.facility_id=q.facility_id WHERE q.status='reviewed' AND json_extract(f.fact,'$.status')='verified'").get()!.n;
   const report={generatedAt:new Date().toISOString(),selected:db.prepare("SELECT count(*) n FROM research_queue").get()!.n,states,enriched,batches:db.prepare("SELECT batch,status,count(*) count FROM research_queue GROUP BY batch,status").all(),unresolved:db.prepare("SELECT facility_id,status,review_note FROM research_queue WHERE status<>'reviewed' OR facility_id NOT IN (SELECT facility_id FROM research_facts WHERE json_extract(fact,'$.status')='verified') ORDER BY priority").all()};
   if(values.output)writeFileSync(values.output,JSON.stringify(report,null,2)+"\n");console.log(JSON.stringify({...report,unresolved:report.unresolved.length}));
  }else throw new Error("Use --action select|apply|report [--file PROFILE.json] [--output REPORT.json]");

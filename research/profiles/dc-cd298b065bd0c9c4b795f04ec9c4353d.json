@@ -1,0 +1,20 @@
+{
+  "facilityId": "dc-cd298b065bd0c9c4b795f04ec9c4353d",
+  "status": "reviewed",
+  "reviewNote": "Equinix SG3, its operator and 26A Ayer Rajah Crescent address match the official Singapore facility page.",
+  "identity": {"nameMatched": true, "operatorMatched": true, "addressMatched": true, "notes": "Official Equinix page identifies SG3 at 26A Ayer Rajah Crescent, Singapore 139963."},
+  "aliases": ["Equinix SG3"],
+  "sources": [{"id":"operator","title":"Equinix SG3 — official facility specifications","url":"https://www.equinix.com/data-centers/asia-pacific-colocation/singapore-colocation/singapore-data-center/sg3","accessedAt":"2026-10-02","publishedAt":null}],
+  "facts": [
+    {"id":"summary","section":"overview","category":"Summary","label":"Overview","value":"Equinix SG3 provides colocation and interconnection in Singapore. The operator describes liquid-cooling capability and lists private cages, high-density cooling, Smart Hands and Equinix connectivity products.","sourceIds":["operator"],"status":"verified"},
+    {"id":"address","section":"location","category":"Location","label":"Operator-published address","value":"26A Ayer Rajah Crescent, Private Lot FX1-4a, Singapore 139963","sourceIds":["operator"],"status":"verified"},
+    {"id":"space","section":"specs","category":"Capacity","label":"Colocation space","value":"10,890 m²","sourceIds":["operator"],"status":"verified"},
+    {"id":"power","section":"specs","category":"Power","label":"Power redundancy","value":"2N","sourceIds":["operator"],"status":"verified"},
+    {"id":"generator","section":"specs","category":"Power","label":"Generator redundancy","value":"2N","sourceIds":["operator"],"status":"verified"},
+    {"id":"cabinet","section":"specs","category":"Power","label":"Minimum cabinet supply","value":"4 kVA (apparent power)","sourceIds":["operator"],"status":"verified"},
+    {"id":"cooling","section":"specs","category":"Cooling","label":"Cooling redundancy","value":"N+1","sourceIds":["operator"],"status":"verified"},
+    {"id":"security","section":"specs","category":"Security","label":"Access protection","value":"Onsite security guarding vendor and combination access controls","sourceIds":["operator"],"status":"verified"},
+    {"id":"service-cage","section":"overview","category":"Services","label":"Private cages","value":"Private cages","sourceIds":["operator"],"status":"verified"},
+    {"id":"service-hands","section":"overview","category":"Services","label":"Technical support","value":"Smart Hands","sourceIds":["operator"],"status":"verified"}
+  ]
+}
