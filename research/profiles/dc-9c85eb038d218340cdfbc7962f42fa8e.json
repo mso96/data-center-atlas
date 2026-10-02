@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-9c85eb038d218340cdfbc7962f42fa8e",
+  "status": "reviewed",
+  "reviewNote": "Paratus' official Angola data-center page identifies Data Center 2 at the Patriota facility in Luanda, inaugurated in 2019 with capacity for more than 7,000 servers. The official fact sheet adds the Patriota/Talatona location and infrastructure details, but the imported record has no city or address, so no facility-specific facts are promoted until the source identity is address-matched.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "ITA-DC2 aligns with Paratus Angola Data Center 2; imported location fields are null while the source identifies Patriota, Luanda."
+  },
+  "aliases": ["Paratus Angola Data Center 2", "Paratus ITA DC2", "ITA-DC2"],
+  "sources": [
+    {
+      "id": "operator-angola",
+      "title": "Paratus Angola — official data center services",
+      "url": "https://www.paratus.ao/en/servicos/datacenter/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-factsheet",
+      "title": "Paratus Angola — official data center fact sheet",
+      "url": "https://paratus.africa/wp-content/uploads/2025/09/Angola_DC-Fact-Sheet_v2.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

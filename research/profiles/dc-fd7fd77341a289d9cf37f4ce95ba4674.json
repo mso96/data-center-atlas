@@ -1,0 +1,127 @@
+{
+  "facilityId": "dc-fd7fd77341a289d9cf37f4ce95ba4674",
+  "status": "reviewed",
+  "reviewNote": "Multipla's official contact and colocation pages match the imported Estrada de Viana KM 19 address. The operator's technical PDF publishes a 1 MW available power design, InRow cooling, concurrent maintenance, six security barriers, CCTV, fire/flood protection and 24/7 monitoring. Multipla pages use conflicting Tier III and Tier IV descriptions, so Tier is intentionally omitted.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Multipla Data Center / AZCloud, Multipla and Estrada de Viana KM 19, Luanda match the imported record."
+  },
+  "aliases": ["Multipla Data Center", "AZCloud Data Centre", "Datacenter MULTIPLA"],
+  "sources": [
+    {
+      "id": "operator-contact",
+      "title": "AZ Cloud / Multipla — official contact and data-center address",
+      "url": "https://azcloud.co.ao/contact-us/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-specs",
+      "title": "Multipla — official data center specifications PDF",
+      "url": "https://multipla.co.ao/wp-content/uploads/2019/09/Datacenter-Multipla-10-Anos-1.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-colocation",
+      "title": "Multipla — official colocation service",
+      "url": "https://multipla.co.ao/service/colocation/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-0",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Estrada de Viana KM 19, Luanda, Angola",
+      "sourceIds": ["operator-contact"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility role",
+      "value": "Main site or disaster-recovery site for customer equipment and applications",
+      "sourceIds": ["operator-colocation"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Power",
+      "label": "Available power",
+      "value": "1 MW",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling",
+      "value": "Distributed InRow cooling technology",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Maintainability",
+      "value": "Designed to permit concurrent maintenance",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Security",
+      "label": "Physical security",
+      "value": "Six security barriers and CCTV",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Environmental protection",
+      "value": "Fire and flood protection",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Security",
+      "label": "Monitoring",
+      "value": "24/7 monitoring",
+      "sourceIds": ["operator-specs", "operator-colocation"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Carrier and network connectivity",
+      "value": "Carrier-neutral facility with 9 ISPs, 2 international carriers and connections to national Internet Exchange Points",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "overview",
+      "category": "Services",
+      "label": "Services",
+      "value": "Colocation, cloud, NOC, storage and backup services",
+      "sourceIds": ["operator-colocation"],
+      "status": "verified"
+    }
+  ]
+}

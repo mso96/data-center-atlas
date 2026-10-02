@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-a0eac0a442c70b663c1c3707481730db",
+  "status": "reviewed",
+  "reviewNote": "The WACS consortium's official site confirms the West Africa Cable System as a 16,000 km submarine cable with 15 terminal stations. It does not identify a Sangano facility in the published page, and the imported record has no city or address, so no location or infrastructure facts are promoted from third-party landing-point listings.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "WACS / West Africa Cable System matches the operator context, but the specific Sangano Village facility cannot be address-matched from the official source."
+  },
+  "aliases": ["West Africa Cable System Sangano CLS", "WACS Sangano landing station"],
+  "sources": [
+    {
+      "id": "operator-cable",
+      "title": "WACS — official cable system overview",
+      "url": "https://www.wacscable.com/aboutus.jsp",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

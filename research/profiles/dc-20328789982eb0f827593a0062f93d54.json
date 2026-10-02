@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-20328789982eb0f827593a0062f93d54",
+  "status": "reviewed",
+  "reviewNote": "ACE's official submarine-cable page documents the Africa Coast to Europe system and its published landing-station list, which does not include Luanda. The imported CLS Luanda record has no city or address, so no facility-specific identity or technical facts can be safely assigned.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The ACE operator aligns with the source, but the official landing-station list does not identify a Luanda station and the imported record lacks location fields."
+  },
+  "aliases": ["Africa Coast to Europe CLS", "ACE cable landing station"],
+  "sources": [
+    {
+      "id": "operator-cable",
+      "title": "ACE Submarine — official cable and landing-station list",
+      "url": "https://ace-submarinecable.com/en/submarine-cable/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
