@@ -1,0 +1,59 @@
+{
+  "facilityId": "dc-52bb5e4eea84f2e76d51f8f1bb51a2e7",
+  "status": "reviewed",
+  "reviewNote": "VisualHosting's official company profile matches Chacabuco 145 in Buenos Aires and describes an in-house data center with cloud, VPS, dedicated-server and colocation services monitored 24 hours by its technical staff. No additional operator-published power, cooling or Tier values were found.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "VisualHosting SRL, its own data center and Chacabuco 145, Buenos Aires match the imported record."
+  },
+  "aliases": ["VisualHosting Data Center", "VisualHosting 1", "VisualHosting SRL Datacenter"],
+  "sources": [
+    {
+      "id": "operator-profile",
+      "title": "VisualHosting SRL — official company profile and location",
+      "url": "https://ar.linkedin.com/company/visualhosting",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-0",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Chacabuco 145, PB Oficina 6, Capital Federal, Buenos Aires 1069, Argentina",
+      "sourceIds": ["operator-profile"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Services",
+      "value": "Cloud, VPS, dedicated servers and colocation",
+      "sourceIds": ["operator-profile"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Security",
+      "label": "Monitoring",
+      "value": "The in-house data center is monitored 24 hours by the operator's technical staff",
+      "sourceIds": ["operator-profile"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Published uptime",
+      "value": "99.97% uptime stated by the operator",
+      "sourceIds": ["operator-profile"],
+      "status": "verified"
+    }
+  ]
+}

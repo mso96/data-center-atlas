@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-30e84f5ea22e371e42545e2e90828822",
+  "status": "reviewed",
+  "reviewNote": "The University of Vienna's official ZID pages confirm the Vienna University Computer Center at Universitätsstraße 7, 1010 Vienna and describe it as the university's coordinated ICT service unit. The sources do not identify a public data-center facility at this address or publish facility-specific power, cooling, Tier or colocation values, so no technical facts are promoted.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The university computer center, University of Vienna and Universitätsstraße 7 address align, but the data-center classification remains unverified."
+  },
+  "aliases": ["Vienna University Computer Center", "University of Vienna ZID", "Zentraler Informatikdienst"],
+  "sources": [
+    {
+      "id": "operator-zid",
+      "title": "University of Vienna — official Vienna University Computer Center",
+      "url": "https://ucrisportal.univie.ac.at/en/organisations/zentraler-informatikdienst/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-location",
+      "title": "University of Vienna ZID — official location",
+      "url": "https://zid.univie.ac.at/en/locations",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

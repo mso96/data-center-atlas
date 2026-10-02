@@ -1,0 +1,93 @@
+{
+  "facilityId": "dc-9faf60ca1f27cdb2119bd0f7f1ea0fa7",
+  "status": "reviewed",
+  "reviewNote": "Digital Realty's official VIE2 page matches the imported Louis-Häfliger-Gasse 10 address and identifies Building 2 in Vienna. Interxion is preserved as the legacy operator name following the Digital Realty combination. Published building, power, cooling, security and compliance values are added with their stated scope.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "VIE2 / Vienna 2 and Louis-Häfliger-Gasse 10 match. Digital Realty is current operator; Interxion is retained as imported legacy name."
+  },
+  "aliases": ["Digital Realty VIE2", "VIE2", "Interxion Vienna 2"],
+  "sources": [
+    {
+      "id": "operator-facility",
+      "title": "Digital Realty — official VIE2 data center",
+      "url": "https://www.digitalrealty.com/data-centers/emea/vienna/vie2",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-market",
+      "title": "Digital Realty — official Vienna data center portfolio",
+      "url": "https://www.digitalrealty.com/data-centers/emea/vienna",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-0",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Louis-Häfliger-Gasse 10, Building 2, Vienna 1210, Austria",
+      "sourceIds": ["operator-facility"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-1",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Total building size",
+      "value": "20,400 m²",
+      "sourceIds": ["operator-facility", "operator-market"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "2N",
+      "sourceIds": ["operator-facility"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1",
+      "sourceIds": ["operator-facility", "operator-market"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Security",
+      "label": "Security controls",
+      "value": "24/7 onsite security, CCTV with 90-day backup and biometric/photo-badge access",
+      "sourceIds": ["operator-facility"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Compliance programs",
+      "value": "SOC 2, SOC 3, PCI-DSS, ISO 9001, ISO 14001, ISO 22301, ISO 27001 and ISO 50001",
+      "sourceIds": ["operator-facility"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Power",
+      "label": "Renewable energy",
+      "value": "100% renewable energy shown on the operator facility page",
+      "sourceIds": ["operator-facility"],
+      "status": "verified"
+    }
+  ]
+}

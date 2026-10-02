@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-5576aa99f00c3871c866104e6b02f3e9",
+  "status": "reviewed",
+  "reviewNote": "The imported Neutrona record uses Av. del Campo 1300, while the official Cirion BUE1 facility page identifies a different operator and address at Av. del Campo 1301. No official Neutrona facility page was found to establish that this record is a separate building or an operator presence at 1300, so the facilities are not merged and no facts are promoted.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The nearby Cirion BUE1 source does not verify a Neutrona facility at the imported address."
+  },
+  "aliases": ["Neutrona Buenos Aires", "Neutrona Av. del Campo"],
+  "sources": [
+    {
+      "id": "nearby-facility",
+      "title": "Cirion — official Buenos Aires BUE1 facility for address comparison",
+      "url": "https://www.ciriontechnologies.com/en/data-center/our-data-centers/buenos-aires-1/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

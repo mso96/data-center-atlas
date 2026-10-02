@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-8aea7a8e0e5e606356dd9bcc3956814c",
+  "status": "reviewed",
+  "reviewNote": "iPlan's official Ringo DCI documents match Los Patos 2948/2954 in Parque Patricios, Buenos Aires and publish Tier III design, rack, power and facility details. The imported operator is Ultrasitios while the official facility operator is iPlan, so the operator identities are not merged and no technical facts are promoted to this record.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "Ringo DCI and the Los Patos address match the official iPlan sources; the imported Ultrasitios operator does not."
+  },
+  "aliases": ["Ringo DCI", "iPlan Ringo Data Center"],
+  "sources": [
+    {
+      "id": "operator-specs",
+      "title": "iPlan — official Ringo DCI infrastructure brochure",
+      "url": "https://www.iplan.com.ar/sites/default/files/documentos/folleto_RINGODCI_IPLAN_espanol_2021.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-factsheet",
+      "title": "iPlan biz — official Ringo DCI factsheet",
+      "url": "https://www.iplan.com.ar/themes/iplan_b4/pdf/INFRAESTRUCTURA_RINGO_IPLAN_biz.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

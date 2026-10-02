@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-9d1494efc30d91403d0eb97adca16a4c",
+  "status": "reviewed",
+  "reviewNote": "Telecom Argentina's official integrated report confirms that the company operates five proprietary data centers, but it does not identify a facility at Av. Congreso 3684 or match that address to this named record. No facility-specific facts are promoted without an official address match.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The operator is confirmed as a data-center owner, but the imported Avenida Congreso facility identity is not established by the official source."
+  },
+  "aliases": ["Telecom Argentina Avenida Congreso", "Telecom Argentina data center"],
+  "sources": [
+    {
+      "id": "operator-report",
+      "title": "Telecom Argentina — official integrated annual report",
+      "url": "https://institucional.telecom.com.ar/assets/files/sustainability/reports/file_download_grid/Integrated%20Annual%20Report%202023%20Telecom%20Argentina.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
