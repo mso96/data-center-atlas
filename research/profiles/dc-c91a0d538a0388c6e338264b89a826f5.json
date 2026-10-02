@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-c91a0d538a0388c6e338264b89a826f5",
+  "status": "reviewed",
+  "reviewNote": "Official Abu Dhabi and Mubadala announcements identify Injazat Data Systems' Tier IV data center in Madinat Mohammed Bin Zayed, Abu Dhabi. The imported P.O. Box 8230 value is not a building address, and no official facility page with a more precise street address was found during this review; technical fields remain unverified.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Facility and operator match official announcements; imported postal-box location was not treated as a physical building address."
+  },
+  "aliases": ["Injazat Premier Data Center", "Injazat Tier IV Data Centre"],
+  "sources": [
+    {
+      "id": "mubadala-announcement",
+      "title": "Mubadala — Injazat Tier IV data centre in Madinat Mohammed Bin Zayed",
+      "url": "https://www.mubadala.com/en/news/injazat-address-dealing-information-security-risks-data-center-data-center-dynamics-dubai-co",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "wam-announcement",
+      "title": "WAM — Injazat Data Systems and Aldar data centre development",
+      "url": "https://www.wam.ae/en/article/hsyiln8o-injazat-data-systems-aldar-develop",
+      "accessedAt": "2026-10-02",
+      "publishedAt": "2007-02-07"
+    }
+  ],
+  "facts": []
+}

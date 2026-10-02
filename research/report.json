@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:25:38.404Z",
+  "generatedAt": "2026-10-02T22:26:11.914Z",
   "selected": 1000,
   "states": [
     {
@@ -8,11 +8,11 @@
     },
     {
       "status": "pending",
-      "count": 983
+      "count": 982
     },
     {
       "status": "reviewed",
-      "count": 15
+      "count": 16
     }
   ],
   "enriched": 15,
@@ -25,7 +25,12 @@
     {
       "batch": 1,
       "status": "pending",
-      "count": 98
+      "count": 97
+    },
+    {
+      "batch": 1,
+      "status": "reviewed",
+      "count": 1
     },
     {
       "batch": 2,
@@ -106,8 +111,8 @@
     },
     {
       "facility_id": "dc-c91a0d538a0388c6e338264b89a826f5",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Official Abu Dhabi and Mubadala announcements identify Injazat Data Systems' Tier IV data center in Madinat Mohammed Bin Zayed, Abu Dhabi. The imported P.O. Box 8230 value is not a building address, and no official facility page with a more precise street address was found during this review; technical fields remain unverified."
     },
     {
       "facility_id": "dc-ed8b2b35caeb3e6e741c9045f25ed34e",
