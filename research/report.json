@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-10-02T22:18:01.481Z",
+  "generatedAt": "2026-10-02T22:25:38.404Z",
   "selected": 1000,
   "states": [
     {
+      "status": "in-progress",
+      "count": 2
+    },
+    {
       "status": "pending",
-      "count": 985
+      "count": 983
     },
     {
       "status": "reviewed",
@@ -15,8 +19,13 @@
   "batches": [
     {
       "batch": 1,
+      "status": "in-progress",
+      "count": 2
+    },
+    {
+      "batch": 1,
       "status": "pending",
-      "count": 100
+      "count": 98
     },
     {
       "batch": 2,
@@ -87,13 +96,13 @@
   "unresolved": [
     {
       "facility_id": "dc-6eaa49031cbbe50eaca5089012169a2e",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "The Dubai Silicon Oasis Authority business page confirms zone-level data-center infrastructure, including redundant UPS, gas fire suppression, structured cabling and controlled environment. It does not identify a facility named Dubai Silicon Oasis Data Center at the imported Nad Al Sheba 6009 address, so identity and technical facts remain unverified."
     },
     {
       "facility_id": "dc-c43092e1d15c4dc7c8b1854e6b2fc09f",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "Official UAE government FedNet material confirms a production data center in Dubai and a disaster-recovery data center in Abu Dhabi, operated in an Active–Passive arrangement. It does not publish the imported Al Salam Street address or identify which physical building is represented by this row, so the facility identity and address are not yet complete."
     },
     {
       "facility_id": "dc-c91a0d538a0388c6e338264b89a826f5",

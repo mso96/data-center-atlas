@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-6eaa49031cbbe50eaca5089012169a2e",
+  "status": "in-progress",
+  "reviewNote": "The Dubai Silicon Oasis Authority business page confirms zone-level data-center infrastructure, including redundant UPS, gas fire suppression, structured cabling and controlled environment. It does not identify a facility named Dubai Silicon Oasis Data Center at the imported Nad Al Sheba 6009 address, so identity and technical facts remain unverified.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Official DSO material describes shared zone infrastructure rather than a facility-specific record; imported address was not confirmed."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator-zone",
+      "title": "Dubai Silicon Oasis — official business infrastructure overview",
+      "url": "https://www.dso.ae/business",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

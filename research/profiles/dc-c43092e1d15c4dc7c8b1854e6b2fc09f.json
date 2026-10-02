@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-c43092e1d15c4dc7c8b1854e6b2fc09f",
+  "status": "in-progress",
+  "reviewNote": "Official UAE government FedNet material confirms a production data center in Dubai and a disaster-recovery data center in Abu Dhabi, operated in an Active–Passive arrangement. It does not publish the imported Al Salam Street address or identify which physical building is represented by this row, so the facility identity and address are not yet complete.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "FedNet name and government operator match official TDRA/DGOV material; the imported street address was not found in the official documents."
+  },
+  "aliases": ["FEDnet", "Federal Network"],
+  "sources": [
+    {
+      "id": "government-brochure",
+      "title": "FEDnet official government brochure",
+      "url": "https://u.ae/-/media/mGov/FEDnet_Brochure_V8.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "dgov-service",
+      "title": "DGOV FedNet — official service overview",
+      "url": "https://dgov.tdra.gov.ae/services/fednet",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
