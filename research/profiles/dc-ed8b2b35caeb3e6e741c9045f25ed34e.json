@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-ed8b2b35caeb3e6e741c9045f25ed34e",
+  "status": "reviewed",
+  "reviewNote": "Gulf Data Hub's official Dubai location page identifies DSO 1 and DSO 2 as operational facilities in Dubai Silicon Oasis and states that Dubai sites range from 4.2 to 16 MW. The imported combined name Dubai 1&2 does not identify one building or assign a capacity to either site, so no facility-specific technical values are published here.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The source confirms the DSO1/DSO2 campus in Dubai Silicon Oasis; the imported record is retained as a combined campus entry rather than split without source evidence."
+  },
+  "aliases": ["Gulf Data Hub DSO 1", "Gulf Data Hub DSO 2"],
+  "sources": [
+    {
+      "id": "operator-dubai",
+      "title": "Gulf Data Hub — official Dubai locations",
+      "url": "https://www.gulfdatahub.ae/dubai",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

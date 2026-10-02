@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:26:11.914Z",
+  "generatedAt": "2026-10-02T22:26:37.253Z",
   "selected": 1000,
   "states": [
     {
@@ -8,11 +8,11 @@
     },
     {
       "status": "pending",
-      "count": 982
+      "count": 981
     },
     {
       "status": "reviewed",
-      "count": 16
+      "count": 17
     }
   ],
   "enriched": 15,
@@ -25,12 +25,12 @@
     {
       "batch": 1,
       "status": "pending",
-      "count": 97
+      "count": 96
     },
     {
       "batch": 1,
       "status": "reviewed",
-      "count": 1
+      "count": 2
     },
     {
       "batch": 2,
@@ -116,8 +116,8 @@
     },
     {
       "facility_id": "dc-ed8b2b35caeb3e6e741c9045f25ed34e",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Gulf Data Hub's official Dubai location page identifies DSO 1 and DSO 2 as operational facilities in Dubai Silicon Oasis and states that Dubai sites range from 4.2 to 16 MW. The imported combined name Dubai 1&2 does not identify one building or assign a capacity to either site, so no facility-specific technical values are published here."
     },
     {
       "facility_id": "dc-29d3fe87c718277d1abfd1b1420a674e",
