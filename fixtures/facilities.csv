@@ -1,0 +1,3 @@
+record_id,facility,operator,country,city,lat,lng,power_kw,area_ft2,source_url,updated,status
+fixture-001,Fictional Test Harbour,Fictional Test Operator,UK,London,51.5,-0.12,12000,10000,https://example.com/fictional-001,2026-09-01,active
+fixture-002,Fictional Test Meadow,Fictional Test Operator,Finland,Helsinki,,,,,,,planned

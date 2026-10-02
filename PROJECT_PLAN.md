@@ -1,181 +1,167 @@
-# Data Center Atlas
+# Data Center Atlas — completed application
 
-Phases 1 and 2 complete. Phase 3 has not started. All four facilities and operators
-remain fictional demo data; only basemap tiles are fetched from an external service.
+**Current data: four fictional demo facilities, not a live or licensed Data Center
+Map feed.** No authorized source dataset was supplied. Phases 1–3 are implemented;
+obtaining and licensing real data remains an external dependency.
 
-## Architecture and directories
+## Architecture
 
 Next.js 16 App Router, React 19, strict TypeScript, Tailwind CSS 4, shadcn/ui,
-MapLibre GL JS 6.11.2, npm, and the committed dependency lockfile. Node 22+ required;
-validated here with Node 26.8.1 / npm 11.19.0. System fonts avoid build-time downloads.
+MapLibre GL JS 6.11.2, and SQLite through Node's `node:sqlite`. npm lockfile included.
+Node >=22.13 required; validated on Node 26.8.1 / npm 11.19.0.
+
+The established Phase 2 map architecture is retained: **official OpenFreeMap Dark
++ direct MapLibre**, not Creative Tim. Phase 2 explicitly removed that wrapper.
+The geographic style, globe projection, attribution and original panel design remain.
 
 ```text
-src/app/                        Server page, loading/error boundaries, theme/CSS
-src/components/layout/          Client shell; single selected-facility ID; mobile sheet
-src/components/explorer/        Typed disabled filters, tags, count, list, details, states
-src/components/map/             Direct client-side MapLibre integration
-src/components/ui/              Shared shadcn button (preserved)
-src/domain/data-center.ts       Shared data/filter contracts and coordinate validation
-src/data/repository.ts          Async repository interface and response types
-src/data/index.ts               Adapter selection / composition boundary
-src/data/demo/                  Fictional fixtures and in-memory adapter
-scripts/copy-maplibre-worker.mjs Build/dev worker asset preparation
-public/maplibre/                Generated worker + shared module (ignored by Git/lint)
-tests/repository.test.ts        Seven repository contract tests
+src/app/                       Server page, loading/error boundaries, theme tokens
+src/app/api/explorer/           GET-only, no-cache read endpoint
+src/components/layout/         Shared query/selection state, URL sync, mobile sheet
+src/components/explorer/        Search, filters, tags, list, details, states
+src/components/map/            Direct MapLibre globe, clusters and selection layer
+src/components/ui/             Shared shadcn component
+src/domain/                    Model, runtime validation, URL/filter contracts
+src/data/repository.ts          Replaceable async repository contract
+src/data/demo/                  Explicit fictional in-memory adapter
+src/data/sqlite/                Database access, migrations, persistent adapter
+src/data/explorer.ts            Consistent list/map/options/selection read service
+src/data/index.ts               Server-only mode boundary
+src/import/                    CSV/GeoJSON parsing, normalization, upsert reporting
+migrations/                    Versioned SQL schema and indexes
+scripts/                       Local migration/import commands, worker preparation
+fixtures/                      Clearly fictional CSV, GeoJSON and column mappings
+tests/                         Repository, query, SQLite and importer checks
+docs/                          Detailed import and deployment instructions
 ```
 
-The Server Component retrieves the demo list, options, and map features through the
-repository. The client shell owns one selected ID for list/details/map. MapLibre
-loads through a client-only dynamic import with SSR disabled. Presentation does
-not import fixtures. Persistence will replace the adapter in `src/data/index.ts`.
-No production data API or imports exist. The Creative Tim wrapper and its lint
-exceptions were removed in Phase 2. No Creative Tim package was present in the
-manifest; MapLibre, Lucide, and the unrelated shared shadcn dependencies remain in use.
+## Data and repository contract
 
-## Data contract
+`DataCenter` retains all Phase 1 fields: internal/source IDs, name/operator,
+country/city/address, coordinates, description/image, status, MW, m², Tier metadata,
+PUE, operational year, source URL/update date, import timestamp and explicit demo flag.
+Unknown optional values are null. Latitude/longitude are finite WGS84 degrees in
+[-90,90]/[-180,180]; incomplete pairs remain searchable but never become points.
+GeoJSON uses **[longitude, latitude]**. PUE is dimensionless, power is MW, area m².
+Source date and import timestamp are independent; no invented source update dates.
 
-`DataCenter` includes internal/source IDs, name, operator, country code/name,
-city/address, latitude/longitude, description/image, status, power capacity,
-area, Tier level/certification information, PUE, operational year, provenance,
-import time, and explicit `isDemo`. Optional source values are represented by
-required nullable fields so unknown data remains `null`, never 0 or a guessed
-value. Names and internal IDs are required. Country codes use ISO alpha-2.
+The async interface still exposes `list`, `getById`, `getFilterOptions`, and
+`getMapFeatures`. Text search is case-insensitive substring matching across name,
+operator, city, country (also country code, address and description). Exact filters
+for country/city/operator/status combine with AND. SQL uses bound parameters;
+percent/underscore are literal search characters. Results use stable internal-ID
+order, one-based pagination, and total counts independent of loaded page size.
 
-Coordinates use WGS84 decimal degrees: finite latitude [-90, 90] and longitude
-[-180, 180]. Zero is valid. Both must be valid to create a map feature; missing,
-partial, or invalid pairs remain retrievable in list/detail results. GeoJSON
-uses **[longitude, latitude]**. Power is MW, area is m², PUE is dimensionless,
-and operational year is a calendar year. Tier metadata is not proof of certification.
-`sourceUpdatedAt` is a source-supplied ISO date/timestamp (nullable);
-`importedAt` is a separate required UTC ISO timestamp. Fixtures use a fixed
-creation/import timestamp and have no source update date or source URL.
+SQLite stores the validated complete model as JSON with indexed identifier/filter
+columns. Migration 001 adds uniqueness for source namespace + source ID, coordinate
+checks, and country/city/operator/status/identity indexes. Runtime reads validate
+stored records. A server-only boundary prevents database imports into client code.
 
-`DataCenterFilters` supplies search, countryCode, city, operator, and status.
-Empty/blank/null filters are unrestricted. Filters combine with AND. Text
-comparison trims whitespace and ignores case. City/operator/country filters
-match exactly; search is a substring across name, operator, country code/name,
-city, address, and description.
+## Completed scope
 
-`DataCenterRepository` exposes:
+### Phase 1
 
-- `list(filters?, pagination?)`: ID-ordered records, total, page, pageSize, totalPages.
-  One-based page (default 1), pageSize 1–100 (default 20); invalid inputs throw
-  RangeError. Out-of-range pages are empty; zero matches means zero total pages.
-- `getById(id)`: facility or null.
-- `getFilterOptions(filters?)`: distinct sorted known countries, cities, operators,
-  and statuses within the supplied filter scope.
-- `getMapFeatures(filters?)`: lightweight GeoJSON points for **all** filtered
-  matches, independent of pagination. Includes matchingCount and
-  missingCoordinatesCount (also counts invalid coordinate pairs).
+Established stack, nullable model, filter/repository contracts, fictional adapter,
+seven initial contract tests, theme tokens and shell.
 
-List and map use the same matching function. Returned records are copies so
-callers cannot mutate repository state. No UI filtering is implemented yet.
+### Phase 2
 
-## Commands
+Built the black interface, 380 px desktop sidebar, independent scrolling and mobile
+bottom sheet. Integrated the verified official Dark style endpoint
+`https://tiles.openfreemap.org/styles/dark`, globe projection, map controls,
+fullscreen/reset, loading/error/retry, resize observation, and selection/detail views.
+
+### Phase 3
+
+- Persistent SQLite repository, transactional migrations and administrative imports.
+- Explicit server modes: `demo` is the default in-memory adapter; `imported` reads
+  only non-demo rows from SQLite. Fixture imports stay flagged as demo and are
+  excluded from imported mode. Missing storage returns an error, never demo fallback.
+- CSV/GeoJSON importer with explicit column mappings, source namespaces, stable
+  source IDs, country/date/unit normalization, coordinate checks, URL validation,
+  dry runs, deterministic upserts and per-row inserted/updated/skipped/invalid reports.
+  Conflicting IDs and ambiguous natural-identity duplicates are flagged, not merged.
+  No deletion of records absent from a later file. No public upload/write endpoint.
+- Search debounces for 300 ms; cancelled requests and a per-effect active guard
+  prevent older responses replacing new state. Failure keeps the last successful
+  list/map marked as stale and allows retry. Invalid rows produce actionable reasons.
+- Country/city/operator/status filters, individual tags, clear-all and country-scoped
+  city choices. Changing country clears city; invalid shared country/city combinations
+  are normalized by the server. Empty views and unavailable data have explicit states.
+- Search, filters, page and selected ID are stored in URL parameters. Refresh and
+  browser history restore them. Results have 20-item pagination; counts include all
+  matches. Back from details returns to results **without clearing selection**, so
+  pagination preserves the selected facility. Excluding filters clear selection.
+- List and map receive one consistent filtered response; persistent reads share a
+  transaction snapshot. All matching geolocated facilities are mapped, not only the
+  loaded page. A visible message explains the total-vs-mapped difference.
+- Clustered GeoJSON source, count labels and click-to-expand. Individual points appear
+  as clusters separate. Selected facility uses an independent unclustered orange
+  source/layer so it stays visible even inside a cluster. Camera focus depends only
+  on selected ID/coordinates; unrelated query/page updates do not reset it.
+- Safe source links, available metadata, null-value labels and demo/imported indicators
+  remain synchronized. Keyboard focus restoration, mobile collapse/expand, map
+  resizing and reduced-motion handling are preserved.
+
+## Run and validate
 
 ```sh
 npm ci
-npm run dev         # http://localhost:3000; prepares worker files automatically
-npm run lint
-npm run typecheck
-npm test
-npm run build       # prepares workers, then builds production assets
-npm start           # production server after build
-npm run validate    # lint + types + tests + production build
+npm run dev
+npm run db:migrate       # only needed for persistent storage
+npm run import -- --file PATH --format csv --mapping PATH --source SOURCE --authorized --dry-run
+npm run validate        # lint + type checking + all tests + production build
+npm start               # after production build
 ```
 
-Dev/build use supported Webpack mode because this workspace restricts the local
-worker port used by Turbopack CSS processing. Next.js must be allowed to start
-local processes/ports. No API keys or application environment variables are needed.
+See [setup and deployment](docs/DEPLOYMENT.md) and
+[column mapping and authorized imports](docs/DATA_IMPORT.md) for full instructions.
+Default database path is `data/atlas.sqlite`; override `ATLAS_DB_PATH`.
+`ATLAS_DATA_MODE=imported` activates persistent records. These variables are server
+only. Administrative scripts use shell environment variables rather than loading
+Next's `.env.local` automatically.
 
-## Completed Phase 1
+The dev/build scripts use Webpack. Predev/prebuild copy both MapLibre worker modules
+from the installed version. Generated worker assets are omitted from Git and lint;
+application code has no map-specific React lint exemptions.
 
-Typed nullable model, filter and repository contracts; four fictional fixtures
-including one without coordinates; contract tests; theme tokens and initial shell.
-Theme tokens remain #050505 background, #0B0B0B sidebar, #141414 surfaces,
-#262626 borders, #F5F5F5 text, #A3A3A3 secondary text, and #F97316 accent.
+## Verification results
 
-## Completed Phase 2
+- 15 automated tests pass: original contracts, SQLite persistence/reopen and migration
+  repeatability, unit/country/date normalization, GeoJSON order/null geometry,
+  invalid-coordinate/URL/date/header reports, repeated imports, dry-run isolation,
+  duplicate ambiguity, fixture separation, SQL/demo filter parity and injection-like
+  search strings, all-matching map counts, pagination/selection and URL round trips.
+- CLI smoke test: dry run reported 2 possible inserts, real **fixture** import inserted
+  2, identical reimport inserted 0 and skipped 2. This used a separate test database.
+- Browser checks: clicking a map point opened the correct facility and URL; search + country + city + operator + status produced the same
+  list/map match; keyboard selection opened correct details; refresh retained the
+  selected facility and all URL filters. A country change removed the invalid city
+  and excluded selection. Fast successive searches settled on the final input.
+- Missing-coordinate search returned one list result and zero map points with an
+  explanation; mobile keyboard activation opened its details without a fabricated
+  location. Desktop/mobile layout and attribution remain usable.
+- Read-API checks verified filter/selection data, fixture exclusion from imported
+  mode, HTTP 405 for POST, and HTTP 503 with no demo fallback when the database is unavailable.
+- Lint, TypeScript, and production build pass. No application browser errors were
+  observed during the tested flows. Full large-dataset browser/load testing awaits
+  an authorized dataset; pagination is covered with 45 synthetic records in tests.
 
-- Compact header, 380 px desktop sidebar, independently scrolling results/details,
-  and a mobile collapsible bottom sheet that leaves the map and attribution visible.
-- Reusable search/country/city/operator controls and active-filter tags with typed
-  callbacks. Search and filters are visibly disabled with a Phase 3 explanation.
-- Four selectable demo facilities; three map points. Details use “Not available”
-  for unknown values; source URL/update date appear only when supplied. A facility
-  without coordinates opens details without moving the camera to a guessed location.
-- One selected ID synchronizes marker/list selection, detail view, and camera focus.
-  Back restores the list and focus to its originating item. Map selections focus
-  the detail heading. Native buttons and visible focus styles support keyboard use.
-- Direct MapLibre integration with the official, unmodified OpenFreeMap Dark style:
-  `https://tiles.openfreemap.org/styles/dark`. The endpoint was obtained from the
-  official example's Dark button and style-selection module, then verified HTTP 200
-  with a version 8 style, 47 geographic layers, vector/raster sources and glyph URL.
-- Globe projection uses `map.setProjection({ type: "globe" })` after `style.load`,
-  verified against MapLibre's installed types and official globe example. A guarded
-  Mercator fallback reports globe unavailability; the tested setup renders globe.
-- GeoJSON source `atlas-facilities` and independent `atlas-points` / `atlas-selected`
-  circle layers. White base markers and orange selection leave basemap styling and
-  labels intact. Clustering is deliberately off; the source can support it in Phase 3.
-- Map instance survives selection/data renders; source updates use `setData`,
-  selection updates a layer filter. Initialization, load timeout, resource/WebGL
-  errors, retry, ResizeObserver, popup cleanup, worker and map teardown are handled.
-- Hover tooltip uses text nodes (no HTML interpolation). Zoom, compass, fullscreen,
-  reset and fly-to are supported. Camera animation is nonessential and uses zero
-  duration when reduced motion is requested; CSS also disables transitions.
-- MapLibre CSS is included globally. Current MapLibre 6 documentation explicitly
-  requires **both** worker and shared module in Next.js, even with Webpack. The
-  predev/prebuild script copies both from the installed version; `setWorkerUrl`
-  points to the same-origin worker. Do not replace this with Vite's worker import.
-- Expanded, readable OpenFreeMap/OpenMapTiles/OpenStreetMap attribution is retained.
+## External dependencies and limitations
 
-## Phase 2 verification and limitations
-
-- Lint passes without React rule exceptions; type checking, all seven repository
-  tests, and the optimized production build pass.
-- Production preview starts. Browser verification covered actual Dark tiles and
-  labels, globe view, selected orange marker, list-to-map focus, marker-to-details,
-  back/focus restoration, keyboard activation of the coordinate-less record,
-  zoom/drag/compass/reset, fullscreen entry/exit, and 1280 px desktop / 390 px mobile.
-- Mobile sheet expanded/collapsed and desktop resizing render without blank map
-  regions; attribution remains visible. Disabled controls and the demo label are
-  exposed in the accessibility tree. No application console errors were observed.
-- Reduced-motion logic was reviewed against MapLibre's installed camera source
-  (which uses prefers-reduced-motion for nonessential animations). OS preference
-  switching was not simulated. Hover handling is implemented; automated pointer
-  tooling did not provide an isolated hover operation.
-- **Upstream style limitation:** the official Dark style references `circle-11`
-  for some city/town symbols, but the official `ofm_f384/ofm.json` sprite manifest
-  does not contain it. MapLibre emits a missing-image warning at some zooms. The
-  basemap and labels otherwise render. No substitute icon/style was injected, to
-  preserve the requested official geographic style. Recheck upstream before launch.
-- The referenced composition screenshot was not attached in this session; the
-  provided written layout requirements guided the implementation.
-- WebGL and network access to OpenFreeMap are required. Error/timeout UI is present;
-  forced offline and GPU-loss scenarios were not browser-simulated.
-
-## Phase 3 — persistent data and complete flows (not started)
-
-Retain **OpenFreeMap Dark + direct MapLibre**, the client-only boundary, worker
-preparation, globe projection, attribution, and separate facility layers. Do not
-restore Creative Tim. Connect search/filter callbacks to a shared typed filter
-state and query both repository list/map methods with that same state. Add robust
-pagination, dependent filter options, cluster layers as dataset size requires,
-selection consistency across changing results, and end-to-end tests.
-
-Choose persistence, implement the repository adapter, and obtain an authorized
-dataset with usage/redistribution rights. Design validation, deduplication,
-idempotent imports, source attribution, and separate source/import timestamps.
-Finish persistent loading/error/empty states and full interaction flows. Never
-promote fictional demo metrics or Tier claims into real data.
-
-## External requirements and references
-
-- [OpenFreeMap quick start](https://openfreemap.org/quick_start/) and
-  [OpenFreeMap](https://openfreemap.org/): official style selection and attribution.
-- [MapLibre installation](https://maplibre.org/maplibre-gl-js/docs/): Next.js worker
-  setup, stylesheets, WebGL and CSP requirements.
-- [MapLibre globe example](https://maplibre.org/maplibre-gl-js/docs/examples/display-a-globe-with-a-vector-map/): projection API.
-- [Data Center Map](https://www.datacentermap.com/) remains the proposed facility
-  source. No API is assumed. Obtain permission and an authorized export/feed or
-  other approved access method. No records were scraped or imported.
+- **Dataset/license:** [Data Center Map exports](https://www.datacentermap.com/research/)
+  currently lists CSV/GeoJSON and other export formats; API access is described as
+  forthcoming. Its [Terms of Use](https://www.datacentermap.com/legal/terms/) restrict
+  automated retrieval, external database reuse and redistribution without permission.
+  Obtain a licensed export and confirm this application's audience/display/API rights.
+  No website facility records were scraped and no live integration is claimed.
+- **Hosting:** imported mode needs persistent local storage, migrations, backups and
+  an appropriate Node runtime. SQLite WAL is not suitable for ephemeral/serverless
+  disk or a shared network filesystem. Larger deployments can replace the adapter.
+- **Map service:** WebGL and access to OpenFreeMap are required. Its official Dark
+  style references `circle-11`, absent from its published sprite; this can emit a
+  nonfatal upstream warning. Geographic styling has not been altered to hide it.
+- Reduced-motion paths are implemented and reviewed against MapLibre's camera
+  behavior; OS preference switching and forced GPU loss were not simulated.
+- The originally referenced composition screenshot was not supplied; the existing
+  approved written composition and Phase 2 implementation were preserved.

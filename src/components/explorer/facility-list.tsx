@@ -3,7 +3,7 @@ import { hasValidCoordinates, type DataCenter } from "@/domain/data-center";
 import { EmptyState } from "./states";
 export const facilityName = (name: string) => name.replace(/^Demo — /, "");
 export function ResultCount({ total, mapped }: { total: number; mapped: number }) {
-  return <div className="result-count"><span><strong>{total}</strong> facilities</span><span>{mapped} on map</span></div>;
+  return <div className="result-count"><span><strong>{total}</strong> {total === 1 ? "facility" : "facilities"}</span><span>{mapped} on map</span></div>;
 }
 export function FacilityList({ facilities, selectedId, onSelect }: { facilities: DataCenter[]; selectedId: string | null; onSelect: (id: string) => void }) {
   if (!facilities.length) return <EmptyState />;

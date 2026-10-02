@@ -1,8 +1,8 @@
+import { matchesFilters } from "../../domain/explorer-query";
 import { hasValidCoordinates, type DataCenter, type DataCenterFilters } from "../../domain/data-center";
 import type { DataCenterRepository, Pagination, MapFeature } from "../repository";
 import { demoFacilities } from "./facilities";
 
-const normalize = (value: string | null | undefined) => value?.trim().toLowerCase() ?? "";
 const distinct = (values: (string | null)[]) => [...new Set(values.filter((v): v is string => v !== null))].sort();
 
 export class DemoDataCenterRepository implements DataCenterRepository {
@@ -11,14 +11,7 @@ export class DemoDataCenterRepository implements DataCenterRepository {
     this.records = structuredClone([...records]).sort((a, b) => a.id.localeCompare(b.id));
   }
   private matching(filters: DataCenterFilters = {}) {
-    const search = normalize(filters.search);
-    return this.records.filter(record =>
-      (!search || [record.name, record.operator, record.countryCode, record.country, record.city, record.address, record.description]
-        .some(value => normalize(value).includes(search)))
-      && (!normalize(filters.countryCode) || normalize(record.countryCode) === normalize(filters.countryCode))
-      && (!normalize(filters.city) || normalize(record.city) === normalize(filters.city))
-      && (!normalize(filters.operator) || normalize(record.operator) === normalize(filters.operator))
-      && (!filters.status || record.status === filters.status));
+    return this.records.filter(record => matchesFilters(record, filters));
   }
   async list(filters: DataCenterFilters = {}, { page = 1, pageSize = 20 }: Pagination = {}) {
     if (!Number.isSafeInteger(page) || page < 1 || !Number.isSafeInteger(pageSize) || pageSize < 1 || pageSize > 100) {

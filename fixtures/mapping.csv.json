@@ -1,0 +1,5 @@
+{
+  "columns": {"sourceId":"record_id","name":"facility","operator":"operator","country":"country","city":"city","latitude":"lat","longitude":"lng","powerCapacityMw":"power_kw","facilityAreaSqM":"area_ft2","sourceUrl":"source_url","sourceUpdatedAt":"updated","status":"status"},
+  "units":{"power":"kW","area":"ft2"},
+  "statusAliases":{"active":"operational"}
+}
