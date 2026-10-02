@@ -18,7 +18,7 @@ export function FilterControls({ value, options, onChange, disabled = false }: {
   </section>;
 }
 export function ActiveFilterTags({ value, onRemove }: { value: DataCenterFilters; onRemove: (key: keyof DataCenterFilters) => void }) {
-  const entries = Object.entries(value).filter(([, v]) => v?.trim()) as [keyof DataCenterFilters, string][];
+  const entries = Object.entries(value).filter(([, v]) => typeof v === "string" && v.trim()) as [keyof DataCenterFilters, string][];
   if (!entries.length) return null;
   return <div className="filter-tags" aria-label="Active filters">{entries.map(([key, label]) => <button key={key} onClick={() => onRemove(key)} aria-label={`Remove ${key} filter: ${label}`}>{label}<X size={12} /></button>)}</div>;
 }

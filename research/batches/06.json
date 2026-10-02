@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 6,
+  "candidates": [
+    {
+      "facilityId": "dc-9960ae6ad1bbb5bd0133db7a98318435",
+      "name": "8-1, 5 Chome, Yamabuki, Saito",
+      "operator": "Digital Realty Trust",
+      "country": "Japan",
+      "city": "Ibaraki-shi",
+      "address": "8-1, 5 Chome 567-0051 Ibaraki-shi Japan",
+      "priority": 501,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-a9f8607c9a501e05d7223c6d2c370c2a",
+      "name": "Tokyo 10",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Bunkyō-ku",
+      "address": "1 Chome-12-3 112-0006 Bunkyō-ku Japan",
+      "priority": 502,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-b468ff9625bbb7b9680d4edbe0b23f9d",
+      "name": "Tokyo 5",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "Edagawa 1-10-19 Tokyo Japan",
+      "priority": 503,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-b80640ffef176f6f4ef19c4d1eea6819",
+      "name": "Tokyo 9",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Bunkyō-ku",
+      "address": "1 Chome-12-3 112-0015 Bunkyō-ku Japan",
+      "priority": 504,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0cc9353df58da3e14f7ee0673d9d3b86",
+      "name": "Nairobi",
+      "operator": "SimbaNET",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "address": "Pension Towers, Loita St Nairobi Kenya",
+      "priority": 505,
+      "operatorGroup": "simbanet"
+    },
+    {
+      "facilityId": "dc-261fc3e0348da99fde16239156560244",
+      "name": "IXAfrica Data Centre",
+      "operator": "IXAfrica Data Centre",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "address": "Mombasa Road Nairobi Kenya",
+      "priority": 506,
+      "operatorGroup": "ixafrica data centre"
+    },
+    {
+      "facilityId": "dc-2b2dd70b60ea84bafd66ab6d1d82332b",
+      "name": "Nairobi 2",
+      "operator": "Safaricom",
+      "country": "Kenya",
+      "city": "Thika",
+      "address": "Kenyatta Hwy Thika Kenya",
+      "priority": 507,
+      "operatorGroup": "safaricom"
+    },
+    {
+      "facilityId": "dc-5b57459fe6a1cb4f7bfb3eef9bbe0412",
+      "name": "Nairobi-1",
+      "operator": "PAIX Data Centres",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "address": "Britam Tower, Hospital Rd Nairobi Kenya",
+      "priority": 508,
+      "operatorGroup": "paix data centres"
+    },
+    {
+      "facilityId": "dc-9f6b7241096cf23abffdd54485d81273",
+      "name": "Nairobi",
+      "operator": "iColo",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "address": "Bogani E Rd Nairobi Kenya",
+      "priority": 509,
+      "operatorGroup": "icolo"
+    },
+    {
+      "facilityId": "dc-a1d440c42d879b6d2a89b88c5e2e00b5",
+      "name": "Mombasa",
+      "operator": "iColo",
+      "country": "Kenya",
+      "city": "Mombasa",
+      "address": "Mombasa Road Mombasa Kenya",
+      "priority": 510,
+      "operatorGroup": "icolo"
+    },
+    {
+      "facilityId": "dc-ad1b2cea39a2a4f11b0cd325f4ee8218",
+      "name": "Nairobi 1",
+      "operator": "Safaricom",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "address": "Lower Kabete Rd Nairobi Kenya",
+      "priority": 511,
+      "operatorGroup": "safaricom"
+    },
+    {
+      "facilityId": "dc-bcb511819a3e75b2cc10699e7d449be5",
+      "name": "Nyali Exchange",
+      "operator": "Telkom Kenya",
+      "country": "Kenya",
+      "city": "Mombasa",
+      "address": "Links Road, Nyali Mombasa Kenya",
+      "priority": 512,
+      "operatorGroup": "telkom kenya"
+    },
+    {
+      "facilityId": "dc-f975651ea80a5b25a7f96e7a2f39ff9c",
+      "name": "icolo.io Nairobi One",
+      "operator": "icolo.io",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "address": "Langata S Rd 00502 Nairobi Kenya",
+      "priority": 513,
+      "operatorGroup": "icolo.io"
+    },
+    {
+      "facilityId": "dc-1c0e9d578bebf942ca7f22fedd8587e8",
+      "name": "Sangam IT Data Center",
+      "operator": "LG CNS",
+      "country": "South Korea",
+      "city": "Seoul",
+      "address": "424, World Cup buk-ro, Mapo-gu Seoul South Korea",
+      "priority": 514,
+      "operatorGroup": "lg cns"
+    },
+    {
+      "facilityId": "dc-ed5e37eca2c012e2c67bd32742f4a418",
+      "name": "Incheon Data Center",
+      "operator": "LG CNS",
+      "country": "South Korea",
+      "city": "Incheon",
+      "address": "23, Anaji-ro 213beon-gil, Gyeyang-gu Incheon South Korea",
+      "priority": 515,
+      "operatorGroup": "lg cns"
+    },
+    {
+      "facilityId": "dc-6e147467416a16e079b8abea18a75452",
+      "name": "Busan",
+      "operator": "Colt",
+      "country": "South Korea",
+      "city": null,
+      "address": null,
+      "priority": 516,
+      "operatorGroup": "colt"
+    },
+    {
+      "facilityId": "dc-4191df8701d50b4799f67befa02ddab0",
+      "name": "National Bank of Kuwait",
+      "operator": "National Bank of Kuwait (NBK)",
+      "country": "Kuwait",
+      "city": "Farwaniya",
+      "address": "Block 1، Fifth Ring road Farwaniya Kuwait",
+      "priority": 517,
+      "operatorGroup": "national bank of kuwait (nbk)"
+    },
+    {
+      "facilityId": "dc-c3d1fc29337fc7498a52022c85fdb2a1",
+      "name": "Al Samoud",
+      "operator": "Kuwait National Guard",
+      "country": "Kuwait",
+      "city": "City",
+      "address": "Al-Asima Governorate Kuwait City Kuwait",
+      "priority": 518,
+      "operatorGroup": "kuwait national guard"
+    },
+    {
+      "facilityId": "dc-e5935154448e2d5bd00c66911a841075",
+      "name": "Qualitynet Data Center",
+      "operator": "Qualitynet",
+      "country": "Kuwait",
+      "city": null,
+      "address": null,
+      "priority": 519,
+      "operatorGroup": "qualitynet"
+    },
+    {
+      "facilityId": "dc-3296790d319c77b7f31d137f87ca9870",
+      "name": "Schwefelstrasse 5a",
+      "operator": "ICT Center",
+      "country": "Liechtenstein",
+      "city": null,
+      "address": null,
+      "priority": 520,
+      "operatorGroup": "ict center"
+    },
+    {
+      "facilityId": "dc-36d084c200c46b7e868102843b756479",
+      "name": "Vaduz",
+      "operator": "CBRE",
+      "country": "Liechtenstein",
+      "city": null,
+      "address": null,
+      "priority": 521,
+      "operatorGroup": "cbre"
+    },
+    {
+      "facilityId": "dc-a327d48b7069c132a211956c53eaa462",
+      "name": "kyberna DataCenter",
+      "operator": "kyberna AG",
+      "country": "Liechtenstein",
+      "city": null,
+      "address": null,
+      "priority": 522,
+      "operatorGroup": "kyberna ag"
+    },
+    {
+      "facilityId": "dc-e2a1b3338d4c9ba7c4d1c57b05016353",
+      "name": "LKW Kollokation TZ Eschen",
+      "operator": null,
+      "country": "Liechtenstein",
+      "city": null,
+      "address": null,
+      "priority": 523,
+      "operatorGroup": "unknown:dc-e2a1b3338d4c9ba7c4d1c57b05016353"
+    },
+    {
+      "facilityId": "dc-5207956dd011cf0cdfebcef920805d09",
+      "name": "RDK Revenue",
+      "operator": "RDK REVENUE",
+      "country": "Sri Lanka",
+      "city": null,
+      "address": null,
+      "priority": 524,
+      "operatorGroup": "rdk revenue"
+    },
+    {
+      "facilityId": "dc-c3a49ad4a7da2c998af2d0ec74420912",
+      "name": "Monrovia",
+      "operator": "MTN",
+      "country": "Liberia",
+      "city": null,
+      "address": null,
+      "priority": 525,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-efda3e83ec468b7edceb2c77abd859c0",
+      "name": "CLS Monrovia",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Liberia",
+      "city": null,
+      "address": null,
+      "priority": 526,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-07695258c48ac2c7863f914dcd1298d0",
+      "name": "Sventoji",
+      "operator": "Telia Carrier",
+      "country": "Lithuania",
+      "city": "Palanga",
+      "address": "Mokyklos g. 2 00303 Palanga Lithuania",
+      "priority": 527,
+      "operatorGroup": "telia carrier"
+    },
+    {
+      "facilityId": "dc-4c7a3ab6593dfc71895c1b6d8187d7e9",
+      "name": "Jasinskio 16a",
+      "operator": "Bridge2cloud",
+      "country": "Lithuania",
+      "city": "Vilnius",
+      "address": "Jasinskio 16a 01112 Vilnius Lithuania",
+      "priority": 528,
+      "operatorGroup": "bridge2cloud"
+    },
+    {
+      "facilityId": "dc-5b28adf719c1ddb7a3f3cdd9850bc4c9",
+      "name": "Vilnius (Konarskio)",
+      "operator": "Viasat",
+      "country": "Lithuania",
+      "city": "Vilnius",
+      "address": "S. Konarskio g. 49 03123 Vilnius Lithuania",
+      "priority": 529,
+      "operatorGroup": "viasat"
+    },
+    {
+      "facilityId": "dc-5eed026a99deeee9f97793140c7c2c3a",
+      "name": "Vilnius",
+      "operator": "Telia Latvija",
+      "country": "Lithuania",
+      "city": "Vilnius",
+      "address": "T. Ševčenkos g. 25 03113 Vilnius Lithuania",
+      "priority": 530,
+      "operatorGroup": "telia latvija"
+    },
+    {
+      "facilityId": "dc-d712128590422eb11dcdbcbd3c29618c",
+      "name": "Vilnius (Kalvariju)",
+      "operator": "Viasat",
+      "country": "Lithuania",
+      "city": "Vilnius",
+      "address": "Kalvarijų g. 143 08221 Vilnius Lithuania",
+      "priority": 531,
+      "operatorGroup": "viasat"
+    },
+    {
+      "facilityId": "dc-2133bab09833050bf2d6b0a92e2bfada",
+      "name": "Vilnius (Kalvariju)",
+      "operator": "Viasat",
+      "country": "Lithuania",
+      "city": null,
+      "address": null,
+      "priority": 532,
+      "operatorGroup": "viasat"
+    },
+    {
+      "facilityId": "dc-0a9bcb18dd9cbac48bcf5eb68c1f3624",
+      "name": "DCLux03",
+      "operator": "Datacenter Luxembourg S.A.",
+      "country": "Luxembourg",
+      "city": "Koerich",
+      "address": "Route d'Arlon 8399 Koerich Luxembourg",
+      "priority": 533,
+      "operatorGroup": "datacenter luxembourg s.a."
+    },
+    {
+      "facilityId": "dc-0fd4fc2814bb706193465754a39e7858",
+      "name": "Luxembourg",
+      "operator": "Sungard",
+      "country": "Luxembourg",
+      "city": "Munsbach",
+      "address": "6 rue Gabriel Lippmann 5365 Munsbach Luxembourg",
+      "priority": 534,
+      "operatorGroup": "sungard"
+    },
+    {
+      "facilityId": "dc-2f299e8d9a4072ee6a5c6f756906d9b1",
+      "name": "Colocation-Center 1 Contern",
+      "operator": "Visual Online",
+      "country": "Luxembourg",
+      "city": "Contern",
+      "address": "6, rue Goell 5326 Contern Luxembourg",
+      "priority": 535,
+      "operatorGroup": "visual online"
+    },
+    {
+      "facilityId": "dc-3282566492427e6056850aedccdec29b",
+      "name": "Resilience Centre South",
+      "operator": "EBRC (European Business Reliance Centre)",
+      "country": "Luxembourg",
+      "city": "Kayl",
+      "address": "210, rue de Noertzange 3670 Kayl Luxembourg",
+      "priority": 536,
+      "operatorGroup": "ebrc (european business reliance centre)"
+    },
+    {
+      "facilityId": "dc-34f02384533edccdbb2e00020554fc67",
+      "name": "Bettemburg 3",
+      "operator": "LuxConnect",
+      "country": "Luxembourg",
+      "city": "Bettemburg",
+      "address": "4 A. Graham Bell 3235 Bettemburg Luxembourg",
+      "priority": 537,
+      "operatorGroup": "luxconnect"
+    },
+    {
+      "facilityId": "dc-35b535ec4ca79e98486179292113d510",
+      "name": "Resilience Centre Luxembourg 2",
+      "operator": "EBRC (European Business Reliance Centre)",
+      "country": "Luxembourg",
+      "city": "Luxembourg",
+      "address": "11, rue Eugène Ruppert 2453 Luxembourg Luxembourg",
+      "priority": 538,
+      "operatorGroup": "ebrc (european business reliance centre)"
+    },
+    {
+      "facilityId": "dc-37500ba2ee10483f66b08f0d1211dda2",
+      "name": "Luxembourg",
+      "operator": "Verizon",
+      "country": "Luxembourg",
+      "city": "Contern",
+      "address": "4 A/B, Rue de l'Etang 5326 Contern Luxembourg",
+      "priority": 539,
+      "operatorGroup": "verizon"
+    },
+    {
+      "facilityId": "dc-37c37bfc89df47cafbf51281236e1350",
+      "name": "Kirchberg",
+      "operator": "BCE Broadcasting Center Europe",
+      "country": "Luxembourg",
+      "city": "Luxembourg",
+      "address": "45 Boulevard Pierre Frieden 1543 Luxembourg Luxembourg",
+      "priority": 540,
+      "operatorGroup": "bce broadcasting center europe"
+    },
+    {
+      "facilityId": "dc-398243458181f49145ac304b7f2be07f",
+      "name": "DCLux02",
+      "operator": "Datacenter Luxembourg S.A.",
+      "country": "Luxembourg",
+      "city": "Luxembourg",
+      "address": "Rue Henri M. Schnadt 2530 Luxembourg Luxembourg",
+      "priority": 541,
+      "operatorGroup": "datacenter luxembourg s.a."
+    },
+    {
+      "facilityId": "dc-048c201b746f7bdcf2182fd9c3ffdf5f",
+      "name": "Brivibas",
+      "operator": "Lattelecom",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Brivibas iela 304 LV-1006 Jugla Latvia",
+      "priority": 542,
+      "operatorGroup": "lattelecom"
+    },
+    {
+      "facilityId": "dc-0ab828a55f6af8e213bd988a06d67b30",
+      "name": "Perses2-Riga",
+      "operator": "LIA",
+      "country": "Latvia",
+      "city": "Riga",
+      "address": "Perses 2 1050 Riga Latvia",
+      "priority": 543,
+      "operatorGroup": "lia"
+    },
+    {
+      "facilityId": "dc-0c614e7bc60b6ac2bb8fcb1329ae0e72",
+      "name": "Kaleju",
+      "operator": "Lattelecom",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Kaleju iela 48 LV-1050 Centrs Latvia",
+      "priority": 544,
+      "operatorGroup": "lattelecom"
+    },
+    {
+      "facilityId": "dc-1c77c740bbc8935ff7e96011e598392e",
+      "name": "Riga (Maskavas)",
+      "operator": "Viasat",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Maskavas iela 322 LV-1063 Rīga Latvia",
+      "priority": 545,
+      "operatorGroup": "viasat"
+    },
+    {
+      "facilityId": "dc-5d63334eb3c7d9b1d9f2ff36d502150f",
+      "name": "Sirius Satellite Services Latvija",
+      "operator": "SES S.A.",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Zaķusalas krastmala 3 LV-1050 Rīga Latvia",
+      "priority": 546,
+      "operatorGroup": "ses s.a."
+    },
+    {
+      "facilityId": "dc-6ead674ae5a6b4425bad49f42608c6bd",
+      "name": "Kleisti",
+      "operator": "Lattelecom",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Kleistu iela 5 LV-1067 Imanta Latvia",
+      "priority": 547,
+      "operatorGroup": "lattelecom"
+    },
+    {
+      "facilityId": "dc-797286ab548c5eca7238284b3cf6bcc0",
+      "name": "Riga (Dzelzavas)",
+      "operator": "Viasat",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Dzelzavas iela 120 LV-1021 Rīga Latvia",
+      "priority": 548,
+      "operatorGroup": "viasat"
+    },
+    {
+      "facilityId": "dc-8a80e3a152e31a2c54eb7bd715442518",
+      "name": "Riga",
+      "operator": "Telenet",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Raunas 44 LV1039 Riga Latvia",
+      "priority": 549,
+      "operatorGroup": "telenet"
+    },
+    {
+      "facilityId": "dc-95a39c00147d34b3aa84fd74ff2d4f45",
+      "name": "Riga (Lielvardes iela)",
+      "operator": "Telia Latvija",
+      "country": "Latvia",
+      "city": "Latvia",
+      "address": "Lielvārdes iela 8A LV-1006 Rīga Latvia",
+      "priority": 550,
+      "operatorGroup": "telia latvija"
+    },
+    {
+      "facilityId": "dc-ac9ad98977001afbcf90bb1e94a70a46",
+      "name": "LS TIP03MDC",
+      "operator": "Libyan Spider",
+      "country": "Libya",
+      "city": null,
+      "address": null,
+      "priority": 551,
+      "operatorGroup": "libyan spider"
+    },
+    {
+      "facilityId": "dc-e39ba09816fba4b40d346779020816f7",
+      "name": "Rabat",
+      "operator": "Maroc Telecom",
+      "country": "Morocco",
+      "city": "Morocco",
+      "address": "Avenue Kifah Rabat Morocco",
+      "priority": 552,
+      "operatorGroup": "maroc telecom"
+    },
+    {
+      "facilityId": "dc-2c6ec906cfbf43d5f1b21df9de093ae3",
+      "name": "Casablanca 2",
+      "operator": "N+ONE Datacenters",
+      "country": "Morocco",
+      "city": null,
+      "address": null,
+      "priority": 553,
+      "operatorGroup": "n+one datacenters"
+    },
+    {
+      "facilityId": "dc-4383df13d80f9b25c8d40bcdde777b04",
+      "name": "Morocco International Gateway Datacenters",
+      "operator": "Medasys",
+      "country": "Morocco",
+      "city": null,
+      "address": null,
+      "priority": 554,
+      "operatorGroup": "medasys"
+    },
+    {
+      "facilityId": "dc-75cf9e7990eb8864e460b4a929bced13",
+      "name": "Sidi Maarouf",
+      "operator": "inwi",
+      "country": "Morocco",
+      "city": null,
+      "address": null,
+      "priority": 555,
+      "operatorGroup": "inwi"
+    },
+    {
+      "facilityId": "dc-88747dd1e8b6578dadb1295d71b85d85",
+      "name": "Nouaceur",
+      "operator": "inwi",
+      "country": "Morocco",
+      "city": null,
+      "address": null,
+      "priority": 556,
+      "operatorGroup": "inwi"
+    },
+    {
+      "facilityId": "dc-94b24305fa8938a551e56c897767448f",
+      "name": "Orange Casablanca 1",
+      "operator": "Orange",
+      "country": "Morocco",
+      "city": null,
+      "address": null,
+      "priority": 557,
+      "operatorGroup": "orange"
+    },
+    {
+      "facilityId": "dc-c4d70fac8edabff6b97195f573774063",
+      "name": "CLS Casablanca",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Morocco",
+      "city": null,
+      "address": null,
+      "priority": 558,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-6b5fb14657594da999e967930d309664",
+      "name": "Monaco DC3",
+      "operator": "Monaco Telecom",
+      "country": "Monaco",
+      "city": null,
+      "address": null,
+      "priority": 559,
+      "operatorGroup": "monaco telecom"
+    },
+    {
+      "facilityId": "dc-3eef25d18a36154818b0e315d4f58a67",
+      "name": "Alexhost",
+      "operator": "Alexhost SRL",
+      "country": "Moldova, Republic of",
+      "city": null,
+      "address": null,
+      "priority": 560,
+      "operatorGroup": "alexhost srl"
+    },
+    {
+      "facilityId": "dc-653edba6109807d662819219a7dcaf99",
+      "name": "Antananarivo 1",
+      "operator": "STELLARIX",
+      "country": "Madagascar",
+      "city": null,
+      "address": null,
+      "priority": 561,
+      "operatorGroup": "stellarix"
+    },
+    {
+      "facilityId": "dc-b9887cab281cc876602f982a4a5b9861",
+      "name": "Antananarivo 2",
+      "operator": "STELLARIX",
+      "country": "Madagascar",
+      "city": null,
+      "address": null,
+      "priority": 562,
+      "operatorGroup": "stellarix"
+    },
+    {
+      "facilityId": "dc-6190461cbaa97e9e497179b92e511299",
+      "name": "Skopje",
+      "operator": "Telesmart",
+      "country": "The Republic of North Macedonia",
+      "city": null,
+      "address": null,
+      "priority": 563,
+      "operatorGroup": "telesmart"
+    },
+    {
+      "facilityId": "dc-1eb2d654916a586c25d750d432ccf942",
+      "name": "Bamako - Mali",
+      "operator": "Huawei",
+      "country": "Mali",
+      "city": null,
+      "address": null,
+      "priority": 564,
+      "operatorGroup": "huawei"
+    },
+    {
+      "facilityId": "dc-bb991c8c94dd98cd3a77a71b5c65e6f9",
+      "name": "Myanmar",
+      "operator": "True Internet Data Center",
+      "country": "Myanmar",
+      "city": "Myanmar",
+      "address": "tbc tbc Myanmar",
+      "priority": 565,
+      "operatorGroup": "true internet data center"
+    },
+    {
+      "facilityId": "dc-3c61d5b53da376764d8f10b9f4a90b77",
+      "name": "CLS Nouakchott",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Mauritania",
+      "city": null,
+      "address": null,
+      "priority": 566,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-a3a3ef7f7b9af8b7528b8d6362a2c2c9",
+      "name": "Tasiast Gold Mine",
+      "operator": "Kinross Gold Corporation",
+      "country": "Mauritania",
+      "city": null,
+      "address": null,
+      "priority": 567,
+      "operatorGroup": "kinross gold corporation"
+    },
+    {
+      "facilityId": "dc-2da771215760fb7bc46a0a0abf2c0582",
+      "name": "Malta 1",
+      "operator": "Continent 8 Technologies",
+      "country": "Malta",
+      "city": "Malta",
+      "address": "central Malta Malta Malta",
+      "priority": 568,
+      "operatorGroup": "continent 8 technologies"
+    },
+    {
+      "facilityId": "dc-7fa84fd24ab0648258e28a50a8a75eae",
+      "name": "Malta 2",
+      "operator": "Continent 8 Technologies",
+      "country": "Malta",
+      "city": null,
+      "address": null,
+      "priority": 569,
+      "operatorGroup": "continent 8 technologies"
+    },
+    {
+      "facilityId": "dc-c272eece62ce843154b60e94b598d3ec",
+      "name": "Marsa",
+      "operator": "Enemalta",
+      "country": "Malta",
+      "city": null,
+      "address": null,
+      "priority": 570,
+      "operatorGroup": "enemalta"
+    },
+    {
+      "facilityId": "dc-05eacaaabd9bd402bb2908a7cd2f09fd",
+      "name": "Port Louis",
+      "operator": "Harel Mallac Technologies",
+      "country": "Mauritius",
+      "city": "Port",
+      "address": "18, Edith Cavell Street 11302 Port Louis Mauritius",
+      "priority": 571,
+      "operatorGroup": "harel mallac technologies"
+    },
+    {
+      "facilityId": "dc-8ae64420e4f9aca22cef63986ae6256c",
+      "name": "Port Louis",
+      "operator": "Rogers Capital",
+      "country": "Mauritius",
+      "city": "Mauritius",
+      "address": "59, Edith Cavell St. Port Louis Mauritius",
+      "priority": 572,
+      "operatorGroup": "rogers capital"
+    },
+    {
+      "facilityId": "dc-8f19935b838ea03931b37d48c7f8e90c",
+      "name": "Rose Belle",
+      "operator": "Mauritius Telecom",
+      "country": "Mauritius",
+      "city": null,
+      "address": null,
+      "priority": 573,
+      "operatorGroup": "mauritius telecom"
+    },
+    {
+      "facilityId": "dc-0d48128bb70eed14e3ebe5bc4a69e21c",
+      "name": "Blantyre",
+      "operator": "Skyband",
+      "country": "Malawi",
+      "city": null,
+      "address": null,
+      "priority": 574,
+      "operatorGroup": "skyband"
+    },
+    {
+      "facilityId": "dc-1b185439dbfac347baee2db0a482abc8",
+      "name": "Lilongwe",
+      "operator": "Skyband",
+      "country": "Malawi",
+      "city": null,
+      "address": null,
+      "priority": 575,
+      "operatorGroup": "skyband"
+    },
+    {
+      "facilityId": "dc-43ff17ea911e12969645d3d2a64e124f",
+      "name": "Platino 225, Torreon",
+      "operator": "Silver Knight Enterprises Corp / Data Max",
+      "country": "Mexico",
+      "city": "Torreon",
+      "address": "Platino 225 27367 Torreon Mexico",
+      "priority": 576,
+      "operatorGroup": "silver knight enterprises corp / data max"
+    },
+    {
+      "facilityId": "dc-61ffc1ebdbc43bd60493e1df415a0438",
+      "name": "Querétaro",
+      "operator": "Alestra",
+      "country": "Mexico",
+      "city": "Querétaro",
+      "address": "Parque Tecnologico Innovacion Querétaro Querétaro Mexico",
+      "priority": 577,
+      "operatorGroup": "alestra"
+    },
+    {
+      "facilityId": "dc-814dd8870d586c3976ccc0cfaa42e8d0",
+      "name": "Mexico City (Boulevard Magnocentro)",
+      "operator": "KIO Networks",
+      "country": "Mexico",
+      "city": "Huixquilucan",
+      "address": "Boulevard Magnocentro 6 52760 Huixquilucan Mexico",
+      "priority": 578,
+      "operatorGroup": "kio networks"
+    },
+    {
+      "facilityId": "dc-9bc22ad6c3faede0adf3655415a14109",
+      "name": "Cuajimalpa",
+      "operator": "KIO Networks",
+      "country": "Mexico",
+      "city": "Cuajimalpa",
+      "address": "Prolongacion paseo de la reforma 5287 05000 Cuajimalpa Mexico",
+      "priority": 579,
+      "operatorGroup": "kio networks"
+    },
+    {
+      "facilityId": "dc-b23287797f3929ab6ffb45c0a288007e",
+      "name": "Aguascalientes",
+      "operator": "Nissan",
+      "country": "Mexico",
+      "city": "Aguascalientes",
+      "address": "Aguascalientes Aguascalientes Mexico",
+      "priority": 580,
+      "operatorGroup": "nissan"
+    },
+    {
+      "facilityId": "dc-b80c4da4837ab7efd7e26cb363712720",
+      "name": "Santa Fe 1",
+      "operator": "KIO Networks",
+      "country": "Mexico",
+      "city": "Ciudad",
+      "address": "Alfonso Nápoles Gándara 50 01219 Ciudad de México Mexico",
+      "priority": 581,
+      "operatorGroup": "kio networks"
+    },
+    {
+      "facilityId": "dc-c33ec52e2adcdd10ed1ee6ef4d5e2f5b",
+      "name": "Facultad Ciencias Físico Matemáticas Data Center",
+      "operator": "Autonomous University of Nuevo León",
+      "country": "Mexico",
+      "city": "Ciudad",
+      "address": "Av Nuevo León 254 06100 Ciudad de México Mexico",
+      "priority": 582,
+      "operatorGroup": "autonomous university of nuevo león"
+    },
+    {
+      "facilityId": "dc-52d99907eb47d99b47e9d08a27a7071f",
+      "name": "Cyberjaya 4",
+      "operator": "NTT",
+      "country": "Malaysia",
+      "city": "Cyberjaya",
+      "address": "Persiaran Apec 63000 Cyberjaya Malaysia",
+      "priority": 583,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-b8afc89b37a1cdbff9a143c78215b517",
+      "name": "Cyberjaya 2",
+      "operator": "NTT",
+      "country": "Malaysia",
+      "city": "Cyberjaya",
+      "address": "Jalan Teknologi 1 / Jalan Impact 63000 Cyberjaya Malaysia",
+      "priority": 584,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-1db8ef46aaaae7f8a8065082320de3e5",
+      "name": "PJ3 Centre",
+      "operator": "MyTelehaus Sdn Bhd",
+      "country": "Malaysia",
+      "city": "Petaling",
+      "address": "1, Jalan Kemajuan 46200 Petaling Jaya Malaysia",
+      "priority": 585,
+      "operatorGroup": "mytelehaus sdn bhd"
+    },
+    {
+      "facilityId": "dc-28c5a5e8503a21272cafba2d37d1ceb4",
+      "name": "N2N Connect Berhad",
+      "operator": "N2N Connect",
+      "country": "Malaysia",
+      "city": "Kuala",
+      "address": "Jalan Kerinchi 59200 Kuala Lumpur Malaysia",
+      "priority": 586,
+      "operatorGroup": "n2n connect"
+    },
+    {
+      "facilityId": "dc-2fea4de78072ea4ba31bbdeb87ccb2fd",
+      "name": "Kulim Hi-Tech Park Data Centre",
+      "operator": "Basis Bay",
+      "country": "Malaysia",
+      "city": "Malaysia",
+      "address": "Kulim Hi-Tech Park Kulim Malaysia",
+      "priority": 587,
+      "operatorGroup": "basis bay"
+    },
+    {
+      "facilityId": "dc-497efc75b5c9e5a8fc96687a103a02b4",
+      "name": "Malaysia 1",
+      "operator": "Bridge Data Centres",
+      "country": "Malaysia",
+      "city": "Cyberjaya",
+      "address": "7118 Jalan Impact 63000 Cyberjaya Malaysia",
+      "priority": 588,
+      "operatorGroup": "bridge data centres"
+    },
+    {
+      "facilityId": "dc-501b9c6f70ef9491f93a895bfb9a90be",
+      "name": "Menara AIMS, Kuala Lumpur",
+      "operator": "AIMS",
+      "country": "Malaysia",
+      "city": "Kuala",
+      "address": "Menara Aik Hua, Changkat Raja Chulan 50200 Kuala Lumpur Malaysia",
+      "priority": 589,
+      "operatorGroup": "aims"
+    },
+    {
+      "facilityId": "dc-55b1708e6ba964c7cbb9ce2fb7d9e8ed",
+      "name": "Astro-Measat Braodcast Network System",
+      "operator": "MEASAT Broadcast Network Systems",
+      "country": "Malaysia",
+      "city": "Kuala",
+      "address": "Lebuhraya Bukit Jalil 57000 Kuala Lumpur Malaysia",
+      "priority": 590,
+      "operatorGroup": "measat broadcast network systems"
+    },
+    {
+      "facilityId": "dc-56095466db208bde669d45df7dcc8d11",
+      "name": "CX2",
+      "operator": "CSF Group",
+      "country": "Malaysia",
+      "city": "Cyberjaya",
+      "address": "Jalan Impact 63000 Cyberjaya Malaysia",
+      "priority": 591,
+      "operatorGroup": "csf group"
+    },
+    {
+      "facilityId": "dc-5b12a832e43af63e7ebaa86e9b26fa51",
+      "name": "Sabah State Data Centre",
+      "operator": "Sabah Net Sdn. Bhd.",
+      "country": "Malaysia",
+      "city": "Kota",
+      "address": "72, Jalan Istiadat 88400 Kota Kinabalu Malaysia",
+      "priority": 592,
+      "operatorGroup": "sabah net sdn. bhd."
+    },
+    {
+      "facilityId": "dc-661d642c57c78722812a90df17d00c6c",
+      "name": "CX3",
+      "operator": "CSF Group",
+      "country": "Malaysia",
+      "city": "Malaysia",
+      "address": "Menara Cyberport Johor Bahru Malaysia",
+      "priority": 593,
+      "operatorGroup": "csf group"
+    },
+    {
+      "facilityId": "dc-64b24e03d7d6972f5ea30f201e90d0e7",
+      "name": "Matola",
+      "operator": "Vodacom Mozambique",
+      "country": "Mozambique",
+      "city": "Mozambique",
+      "address": "Tchumene Matola Mozambique",
+      "priority": 594,
+      "operatorGroup": "vodacom mozambique"
+    },
+    {
+      "facilityId": "dc-980939ec68f8f24f25dcd9883203ea61",
+      "name": "CLS Maputo",
+      "operator": "SEACOM",
+      "country": "Mozambique",
+      "city": "Mozambique",
+      "address": "Av. da Marginal Maputo Mozambique",
+      "priority": 595,
+      "operatorGroup": "seacom"
+    },
+    {
+      "facilityId": "dc-b3f4cbfe1c43896ac8f44bd1cc3104ae",
+      "name": "Maputo",
+      "operator": "Internet Solutions (IS)",
+      "country": "Mozambique",
+      "city": "Mozambique",
+      "address": "Rua de Sidano Maputo Mozambique",
+      "priority": 596,
+      "operatorGroup": "internet solutions (is)"
+    },
+    {
+      "facilityId": "dc-d10ddc809856448fcd0b2f14a993a842",
+      "name": "Maputo",
+      "operator": "Vaninga & Investimentos Limitada",
+      "country": "Mozambique",
+      "city": "Mozambique",
+      "address": "Matola Maputo Mozambique",
+      "priority": 597,
+      "operatorGroup": "vaninga & investimentos limitada"
+    },
+    {
+      "facilityId": "dc-e23a727b00ebff1162d8c6b38ab0fe24",
+      "name": "Mozambique",
+      "operator": "ContinuitySA",
+      "country": "Mozambique",
+      "city": "Mozambique",
+      "address": "Av. União Africana 01 Maputo Mozambique",
+      "priority": 598,
+      "operatorGroup": "continuitysa"
+    },
+    {
+      "facilityId": "dc-e14f49808a112688d8d73c772a312c7f",
+      "name": "Raxio Mozambique",
+      "operator": "Raxio Group",
+      "country": "Mozambique",
+      "city": null,
+      "address": null,
+      "priority": 599,
+      "operatorGroup": "raxio group"
+    },
+    {
+      "facilityId": "dc-0ac29a0e2eb2278eb675ea7959796c92",
+      "name": "Windhoek",
+      "operator": "Telecom Namibia",
+      "country": "Namibia",
+      "city": "Namibia",
+      "address": "Luderitz Street Windhoek Namibia",
+      "priority": 600,
+      "operatorGroup": "telecom namibia"
+    }
+  ]
+}

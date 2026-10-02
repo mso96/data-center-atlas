@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 7,
+  "candidates": [
+    {
+      "facilityId": "dc-491bfbbcd01f90fcadecf23b51409c2a",
+      "name": "Walvis Bay",
+      "operator": "IT Guru Solutions",
+      "country": "Namibia",
+      "city": "Namibia",
+      "address": "6th St Walvis Bay Namibia",
+      "priority": 601,
+      "operatorGroup": "it guru solutions"
+    },
+    {
+      "facilityId": "dc-601b6b76ad723c4fb41a299f1b654ec3",
+      "name": "Windhoek",
+      "operator": "MTN",
+      "country": "Namibia",
+      "city": "Namibia",
+      "address": "Robert Mugabe Ave Windhoek Namibia",
+      "priority": 602,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-788a804e95d502033db92e5dfefb98be",
+      "name": "Windhoek",
+      "operator": "SALT Essential Information Technology",
+      "country": "Namibia",
+      "city": "Namibia",
+      "address": "161 Mandume Ndemufayo Avenue Windhoek Namibia",
+      "priority": 603,
+      "operatorGroup": "salt essential information technology"
+    },
+    {
+      "facilityId": "dc-d1debfa551b952bd882f2edcb74f0452",
+      "name": "Windhoek",
+      "operator": "National Petroleum Corporation of Namibia (Namcor)",
+      "country": "Namibia",
+      "city": "Namibia",
+      "address": "Aviation Road Windhoek Namibia",
+      "priority": 604,
+      "operatorGroup": "national petroleum corporation of namibia (namcor)"
+    },
+    {
+      "facilityId": "dc-d0cfc7ec4e8b5878ab41ba25f8226e9e",
+      "name": "CLS Swakopmund",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Namibia",
+      "city": null,
+      "address": null,
+      "priority": 605,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-1e20ac7a1f5486ffde5f4a51be779ba2",
+      "name": "Warri",
+      "operator": "Equinix",
+      "country": "Nigeria",
+      "city": null,
+      "address": null,
+      "priority": 606,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-ba8987b8117ee2b6dea5b512ac9314e8",
+      "name": "Sapele",
+      "operator": "Equinix",
+      "country": "Nigeria",
+      "city": null,
+      "address": null,
+      "priority": 607,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-1dd9b248fb9fa6c697400102ad819a36",
+      "name": "Port Harcourt PoP",
+      "operator": "Interconnection Clearinghouse Nigeria Limited (ICN)",
+      "country": "Nigeria",
+      "city": "Harcourt",
+      "address": "7 Choba St Port Harcourt Nigeria",
+      "priority": 608,
+      "operatorGroup": "interconnection clearinghouse nigeria limited (icn)"
+    },
+    {
+      "facilityId": "dc-2e1b69ba24fe18b5fec4c9e29241799b",
+      "name": "Lekki Phase 1",
+      "operator": "Airtel Africa",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "address": "Sola Oguntade Cl Lagos Nigeria",
+      "priority": 609,
+      "operatorGroup": "airtel africa"
+    },
+    {
+      "facilityId": "dc-45e252ce91ed6bb64a5df7dcf4f21920",
+      "name": "Lagos",
+      "operator": "21 Century Technologies",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "address": "Jeremiah Ugwu St Lagos Nigeria",
+      "priority": 610,
+      "operatorGroup": "21 century technologies"
+    },
+    {
+      "facilityId": "dc-53db8935a3c55159587c884d561de734",
+      "name": "Lagos",
+      "operator": "Excelsimo Networks",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "address": "18 Estaport Ave Lagos Nigeria",
+      "priority": 611,
+      "operatorGroup": "excelsimo networks"
+    },
+    {
+      "facilityId": "dc-65528d90e61d89b98fb07b5fc6944cdb",
+      "name": "Kano",
+      "operator": "MTN",
+      "country": "Nigeria",
+      "city": "Kano",
+      "address": "64 Hadejia Rd Kano Nigeria",
+      "priority": 612,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-65e8fd6062d18e214d036db25df078b9",
+      "name": "Lagos PoP",
+      "operator": "Interconnection Clearinghouse Nigeria Limited (ICN)",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "address": "15 Marina Rd Lagos Nigeria",
+      "priority": 613,
+      "operatorGroup": "interconnection clearinghouse nigeria limited (icn)"
+    },
+    {
+      "facilityId": "dc-78adb54f9977339b182911bf4911f160",
+      "name": "Victoria Island",
+      "operator": "Internet Solutions Nigeria Limited (ISN)",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "address": "11 Ibiyinka Olorunbe Lagos Nigeria",
+      "priority": 614,
+      "operatorGroup": "internet solutions nigeria limited (isn)"
+    },
+    {
+      "facilityId": "dc-7b62437d13860918d768c8ec0bf3c2d4",
+      "name": "Abuja PoP",
+      "operator": "Interconnection Clearinghouse Nigeria Limited (ICN)",
+      "country": "Nigeria",
+      "city": "Abuja",
+      "address": "10 Durban St Abuja Nigeria",
+      "priority": 615,
+      "operatorGroup": "interconnection clearinghouse nigeria limited (icn)"
+    },
+    {
+      "facilityId": "dc-000768bf449fd5f7fe57be5da7a39e7b",
+      "name": "Equinix AM5",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Schepenbergweg 42 1105AT Amsterdam Netherlands",
+      "priority": 616,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0149a7f265fe9e740b5287b0eaa037d5",
+      "name": "Amsterdam (J.W. Lucasweg)",
+      "operator": "Iron Mountain",
+      "country": "Netherlands",
+      "city": "Haarlem",
+      "address": "J.W. Lucasweg 35 2031 BE Haarlem Netherlands",
+      "priority": 617,
+      "operatorGroup": "Iron Mountain"
+    },
+    {
+      "facilityId": "dc-0651c8906e68d9f98969c9476c9c8102",
+      "name": "Equinix AM7",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Kuiperbergweg 13 1101 AE Amsterdam Netherlands",
+      "priority": 618,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0c15c0a8d76a38df7e78df2291f19696",
+      "name": "Iron Mountain Amsterdam Data Center",
+      "operator": "iron mountain",
+      "country": "Netherlands",
+      "city": "Haarlem",
+      "address": "J.W. Lucasweg 35 2031 BG Haarlem Netherlands",
+      "priority": 619,
+      "operatorGroup": "Iron Mountain"
+    },
+    {
+      "facilityId": "dc-0e903d8d673514703bac793fbaa8da02",
+      "name": "Amsterdam 10",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Pudongweg 1436 Schiphol-Rijk Netherlands",
+      "priority": 620,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-14b48864898c4c032acc2011ced001f3",
+      "name": "Gyroscoopweg 2E-2F",
+      "operator": "Digital Realty Trust",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Gyroscoopweg 2E-2F 1042 AB Amsterdam Netherlands",
+      "priority": 621,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-21990d3050bbc56d10c272458fe899d9",
+      "name": "Equinix  AM1",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Luttenbergweg 4 1101EC Amsterdam Netherlands",
+      "priority": 622,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-29eef9b61a4e4dbec5608d2554468a77",
+      "name": "Equinix AM3",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Science Park 610 1098 XH Amsterdam Netherlands",
+      "priority": 623,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-2b52c420382a33dcb2a48c999f69db36",
+      "name": "Amsterdam",
+      "operator": "EdgeConneX",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Koolhovenlaan 12 1119 NE Schiphol-Rijk Netherlands",
+      "priority": 624,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-2eecc87a9bc2c5f1206e1f0eee37e1d9",
+      "name": "Amstel Business Park",
+      "operator": "Digital Realty Trust",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "H.J.E. Wenckebachweg 127 1096 AM Amsterdam Netherlands",
+      "priority": 625,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-4437cdb5362b69892d3594f19ec752a1",
+      "name": "Middenmeer",
+      "operator": "Microsoft",
+      "country": "Netherlands",
+      "city": "Middenmeer",
+      "address": "Agriport 601 1775TK Middenmeer Netherlands",
+      "priority": 626,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-49d9425fe2f6d1e5ad27b693660c6ffb",
+      "name": "Amsterdam Science Park 120",
+      "operator": "Digital Realty Trust",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Amsterdam Science Park 120 1098 SJ Amsterdam Netherlands",
+      "priority": 627,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-4e954bc6c0331d409357cee8c5693577",
+      "name": "Equinix AM4",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "XH",
+      "address": "Science Park 610 1098 XH Amsterdam Nederland",
+      "priority": 628,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-5007cb3c8d231f33bd6123d0107150a5",
+      "name": "Science Park",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Science Park 121 1098 XG Amsterdam Netherlands",
+      "priority": 629,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-5c399fd1a154f479c559b93f6f54bdc1",
+      "name": "Liverpoolweg 10",
+      "operator": "Digital Realty Trust",
+      "country": "Netherlands",
+      "city": "Groningen",
+      "address": "Liverpoolweg 10 9744 Groningen Netherlands",
+      "priority": 630,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-6ecbf1ef7f5d25a0bc23484796903d74",
+      "name": "Amsterdam 7",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Cessnalaan 50 1119 NL Schiphol-Rijk Netherlands",
+      "priority": 631,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-6fa6e530b477bac45314568ce50d14ec",
+      "name": "Equinix AM6",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Duivendrechtsekade 80A 1096AH Amsterdam Netherlands",
+      "priority": 632,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-80bda4241499fa1dc50a9c1bfd448c11",
+      "name": "Amsterdam 2",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Gyroscoopweg 72 1042 AC Amsterdam Netherlands",
+      "priority": 633,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-833e7fe18cb6483703881d2753af2d56",
+      "name": "Amsterdam 5",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Tupolevlaan 101 1119 PA Schiphol-Rijk Netherlands",
+      "priority": 634,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-84dc185fe42b8a004e95b5c3c276dcb7",
+      "name": "Equinix AM2",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Luttenbergweg 4 1101 EC Amsterdam Netherlands",
+      "priority": 635,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-84e3395000cfb99e79c475ce164621d5",
+      "name": "Amsterdam 1",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Gyroscoopweg 58-60 1042 AC Amsterdam Netherlands",
+      "priority": 636,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-8b4767843f76a9fcea469ce77693bf79",
+      "name": "Amsterdam 6",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Koolhovenlaan 25 1119 NB Schiphol-Rijk Netherlands",
+      "priority": 637,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-8f0891205b9e850cbe13fdf1f267b9d2",
+      "name": "Equinix ZW1",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Zwolle",
+      "address": "Telfordstraat 3 8013 RL Zwolle Netherlands",
+      "priority": 638,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-9d9b6065b5910e9f38eeb204ddfe0f99",
+      "name": "Equinix EN1",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Enschede",
+      "address": "Auke Vleerstraat 1 7521 PE Enschede Netherlands",
+      "priority": 639,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-a8f9580646b8515c727e45673b89e053",
+      "name": "Amsterdam 8",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Pudongweg 37 1437 EM Schiphol-Rijk Netherlands",
+      "priority": 640,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-ab08ac3e6a8d2e3d89cae5272da26a29",
+      "name": "Paul van Vlissingenstraat 16",
+      "operator": "Digital Realty Trust",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Paul van Vlissingenstraat 16 1096 BK Amsterdam Netherlands",
+      "priority": 641,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-bc85ac75411631ffb1ef2efc2808d045",
+      "name": "Equinix AM4",
+      "operator": "Equinix",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Science Park 610 1098 Amsterdam Netherlands",
+      "priority": 642,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-d15dad67304ac409630a3d58ae8beae4",
+      "name": "Amsterdam 4",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Gyroscoopweg 58-60 1042 AC Amsterdam Netherlands",
+      "priority": 643,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-d3c04302e3133c85e3b89caeaef6e0f2",
+      "name": "Eemshaven",
+      "operator": "Google",
+      "country": "Netherlands",
+      "city": "Eemshaven",
+      "address": "Weg Spijk-Eemshaven Eemshaven Netherlands",
+      "priority": 644,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-df7fe91a8827b51418b2f83285b35ed1",
+      "name": "Eemshaven",
+      "operator": "Google",
+      "country": "Netherlands",
+      "city": "TA",
+      "address": "Oostpolder 4 9909 TA Eemshaven Nederland",
+      "priority": 645,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-e0132d502ddcc02d3429c54ffb9702d5",
+      "name": "Amsterdam 3",
+      "operator": "Interxion",
+      "country": "Netherlands",
+      "city": "Schiphol-Rijk",
+      "address": "Cessnalaan 1-33 1119 NJ Schiphol-Rijk Netherlands",
+      "priority": 646,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-e1f3667781d4edd01adfeefda8b49005",
+      "name": "Middenmeer",
+      "operator": "Microsoft",
+      "country": "Netherlands",
+      "city": "TK",
+      "address": "Agriport 601 1775 TK Middenmeer Nederland",
+      "priority": 647,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-00679a5efa0c9e0be1a5814c2a0d1748",
+      "name": "Nethome DataCenter 1",
+      "operator": "ITsjefen AS",
+      "country": "Norway",
+      "city": "Trondheim",
+      "address": "Havnegata 9 7010 Trondheim Norway",
+      "priority": 648,
+      "operatorGroup": "itsjefen as"
+    },
+    {
+      "facilityId": "dc-1edc2c8f11596b2658cfdbb599371fcf",
+      "name": "Oslo - Rosenholm",
+      "operator": "DigiPlex AS",
+      "country": "Norway",
+      "city": "Trollåsen",
+      "address": "Rosenholmveien 25 1414 Trollåsen Norway",
+      "priority": 649,
+      "operatorGroup": "digiplex as"
+    },
+    {
+      "facilityId": "dc-21ed8cb9711a5b0a570773164405fa61",
+      "name": "Grue",
+      "operator": "Nordavind",
+      "country": "Norway",
+      "city": "Kirkenær",
+      "address": "Industrivegen 73 2260 Kirkenær Norway",
+      "priority": 650,
+      "operatorGroup": "nordavind"
+    },
+    {
+      "facilityId": "dc-2a59aadff8314d278c7ad19a6197facd",
+      "name": "Oslo (Sigurds Gate)",
+      "operator": "Unclaimed",
+      "country": "Norway",
+      "city": "Oslo",
+      "address": "Sigurds gate 14 0650 Oslo Norway",
+      "priority": 651,
+      "operatorGroup": "unclaimed"
+    },
+    {
+      "facilityId": "dc-2a648e815352bb9d9e3ae6e84262c8fb",
+      "name": "Norwegian Broadcasting Corporation (NRK)",
+      "operator": "Norwegian Broadcasting Corporation (NRK)",
+      "country": "Norway",
+      "city": "Oslo",
+      "address": "Bjørnstjerne Bjørnsons plass 1 0340 Oslo Norway",
+      "priority": 652,
+      "operatorGroup": "norwegian broadcasting corporation (nrk)"
+    },
+    {
+      "facilityId": "dc-3560777af2e1de5396709d175683b4aa",
+      "name": "Oslo",
+      "operator": "Rent a Rack",
+      "country": "Norway",
+      "city": "Oslo",
+      "address": "Ulvenveien 87 0581 Oslo Norway",
+      "priority": 653,
+      "operatorGroup": "rent a rack"
+    },
+    {
+      "facilityId": "dc-3a3c1c62a0a4f168a69a74ca7d3e8ea1",
+      "name": "Oslo (Ostre Akers Vei)",
+      "operator": "Telenor",
+      "country": "Norway",
+      "city": "Oslo",
+      "address": "Østre Aker vei 18 0581 Oslo Norway",
+      "priority": 654,
+      "operatorGroup": "telenor"
+    },
+    {
+      "facilityId": "dc-4447d5666ebf03576d156ffa2508d958",
+      "name": "Oslo - Ulven",
+      "operator": "DigiPlex AS",
+      "country": "Norway",
+      "city": "Oslo",
+      "address": "Ulvenveien 89B 0581 Oslo Norway",
+      "priority": 655,
+      "operatorGroup": "digiplex as"
+    },
+    {
+      "facilityId": "dc-46fcccba9c0049b479fcde921b54f95d",
+      "name": "Elverum",
+      "operator": "Nordavind",
+      "country": "Norway",
+      "city": "Elverum",
+      "address": "Vestsivegen Elverum Norway",
+      "priority": 656,
+      "operatorGroup": "nordavind"
+    },
+    {
+      "facilityId": "dc-7a9094b45549f6d08d52d224f8c18a81",
+      "name": "Oslo",
+      "operator": "IP Only",
+      "country": "Norway",
+      "city": "Oslo",
+      "address": "Hans Møller Gasmanns vei 9 0598 Oslo Norway",
+      "priority": 657,
+      "operatorGroup": "ip only"
+    },
+    {
+      "facilityId": "dc-7fc54a262ee3094bd8d9eedcc21689c1",
+      "name": "Rjukan",
+      "operator": "Green Mountain Data Centre",
+      "country": "Norway",
+      "city": "Rjukan",
+      "address": "Rjukan Rjukan Norway",
+      "priority": 658,
+      "operatorGroup": "green mountain data centre"
+    },
+    {
+      "facilityId": "dc-14c169bb3bda6af496b4ca24fb9e3fce",
+      "name": "Alexander Rd, Trentham 2",
+      "operator": "Revera",
+      "country": "New Zealand",
+      "city": "Upper",
+      "address": "Alexander Rd 5018 Upper Hutt New Zealand",
+      "priority": 659,
+      "operatorGroup": "revera"
+    },
+    {
+      "facilityId": "dc-151ac11eefc5088933990fa6a165b1c6",
+      "name": "Auckland",
+      "operator": "Dimension Data",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "address": "49 Market Pl 1010 Auckland New Zealand",
+      "priority": 660,
+      "operatorGroup": "dimension data"
+    },
+    {
+      "facilityId": "dc-1f3fa55517f6df6d7fab7341b83d9ca9",
+      "name": "Wellington",
+      "operator": "Spark Digital",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "address": "70 Featherston St 6011 Wellington New Zealand",
+      "priority": 661,
+      "operatorGroup": "spark digital"
+    },
+    {
+      "facilityId": "dc-20e3ef5c332a58cf051b5b5c9960b43c",
+      "name": "Southland",
+      "operator": "Spark Digital",
+      "country": "New Zealand",
+      "city": "Invercargill",
+      "address": "239 Dee St 9810 Invercargill New Zealand",
+      "priority": 662,
+      "operatorGroup": "spark digital"
+    },
+    {
+      "facilityId": "dc-2102edbf9ecda8a46e3d62fbc13b83c5",
+      "name": "Auckland",
+      "operator": "Revera",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "address": "20 William Pickering Dr 0632 Auckland New Zealand",
+      "priority": 663,
+      "operatorGroup": "revera"
+    },
+    {
+      "facilityId": "dc-220ccaa4ca0f7f083b995d51eeb444b6",
+      "name": "Takanini",
+      "operator": "Spark Digital",
+      "country": "New Zealand",
+      "city": "Takanini",
+      "address": "23 Popes Rd 2105 Takanini New Zealand",
+      "priority": 664,
+      "operatorGroup": "spark digital"
+    },
+    {
+      "facilityId": "dc-2acce3fa53f4b50f8e3d3340652ccedb",
+      "name": "Otago",
+      "operator": "Spark Digital",
+      "country": "New Zealand",
+      "city": "Dunedin",
+      "address": "18 Tennyson St 9016 Dunedin New Zealand",
+      "priority": 665,
+      "operatorGroup": "spark digital"
+    },
+    {
+      "facilityId": "dc-3066df62008085e10a486dd462b68689",
+      "name": "Auckland",
+      "operator": "Vocus Communications",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "address": "191 Queen St 1010 Auckland New Zealand",
+      "priority": 666,
+      "operatorGroup": "vocus communications"
+    },
+    {
+      "facilityId": "dc-33bd6be3ac78852908078cc4b6942440",
+      "name": "ICONZ House",
+      "operator": "Internet Company of New Zealand Limited (ICONZ)",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "address": "60 Airedale St 1010 Auckland New Zealand",
+      "priority": 667,
+      "operatorGroup": "internet company of new zealand limited (iconz)"
+    },
+    {
+      "facilityId": "dc-37358dacedacd1a48b69e75709e3e3e3",
+      "name": "Auckland (Tarndale)",
+      "operator": "Plan B Limited",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "address": "15 Tarndale Grove 0632 Auckland New Zealand",
+      "priority": 668,
+      "operatorGroup": "plan b limited"
+    },
+    {
+      "facilityId": "dc-37383d91bde61513a7bbe494ab6a86dc",
+      "name": "Hereford Street",
+      "operator": "Gen-i",
+      "country": "New Zealand",
+      "city": "Christchurch",
+      "address": "8 Hereford Street 8011 Christchurch New Zealand",
+      "priority": 669,
+      "operatorGroup": "gen-i"
+    },
+    {
+      "facilityId": "dc-48cd46496030f09117787e1aae079dbd",
+      "name": "Dunedin",
+      "operator": "Computer Concepts Limited (CCL)",
+      "country": "New Zealand",
+      "city": "Dunedin",
+      "address": "480 Moray Pl 9016 Dunedin New Zealand",
+      "priority": 670,
+      "operatorGroup": "computer concepts limited (ccl)"
+    },
+    {
+      "facilityId": "dc-562a31f7a112e38d64407f80698cf8c8",
+      "name": "Airedale",
+      "operator": "Spark Digital",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "address": "45 Airedale St 1010 Auckland New Zealand",
+      "priority": 671,
+      "operatorGroup": "spark digital"
+    },
+    {
+      "facilityId": "dc-a7f0fa8ef64ea2f5c82be506390554c6",
+      "name": "PDO Telecom",
+      "operator": "Petroleum Development Oman (PDO)",
+      "country": "Oman",
+      "city": null,
+      "address": null,
+      "priority": 672,
+      "operatorGroup": "petroleum development oman (pdo)"
+    },
+    {
+      "facilityId": "dc-ae035cd6a1aa971112509d6cb865e63b",
+      "name": "Panamaserver.com",
+      "operator": "Panamaserver.com",
+      "country": "Panama",
+      "city": "Panama",
+      "address": "Bella Vista el Cangrejo Panama Panama",
+      "priority": 673,
+      "operatorGroup": "panamaserver.com"
+    },
+    {
+      "facilityId": "dc-087d61313d6a36c12d84b2a8d43ee597",
+      "name": "Ministry of Transport and Communications",
+      "operator": "Ministry of Transportation and Communications",
+      "country": "Peru",
+      "city": "Cercado",
+      "address": "Jirón Zorritos 1203 15082 Cercado de Lima Peru",
+      "priority": 674,
+      "operatorGroup": "ministry of transportation and communications"
+    },
+    {
+      "facilityId": "dc-36298362e30b4e5766d840fad616ff3c",
+      "name": "Lima",
+      "operator": "Telefonica",
+      "country": "Peru",
+      "city": "Peru",
+      "address": "Monterrico Lima Peru",
+      "priority": 675,
+      "operatorGroup": "telefonica"
+    },
+    {
+      "facilityId": "dc-7aa3726c2f13f81f9aa9612bd7931720",
+      "name": "Lima",
+      "operator": "CenturyLink",
+      "country": "Peru",
+      "city": "Lima",
+      "address": "Avenida Manuel Olguín 395 15023 Lima Peru",
+      "priority": 676,
+      "operatorGroup": "centurylink"
+    },
+    {
+      "facilityId": "dc-b62f763a418dd5059363b426e4c847fe",
+      "name": "Ministry of Women and Vulnerable Populations (MIMP)",
+      "operator": "Ministry of Women and Vulnerable Populations",
+      "country": "Peru",
+      "city": "Cercado",
+      "address": "Jirón Camaná 616 15001 Cercado de Lima Peru",
+      "priority": 677,
+      "operatorGroup": "ministry of women and vulnerable populations"
+    },
+    {
+      "facilityId": "dc-e67484d82157db337303e71ba216f222",
+      "name": "PeruRail",
+      "operator": "Belmond",
+      "country": "Peru",
+      "city": "Miraflores",
+      "address": "Armendariz 480 15074 Miraflores Peru",
+      "priority": 678,
+      "operatorGroup": "belmond"
+    },
+    {
+      "facilityId": "dc-9d11149a6e0c5ed04d42c373193dac01",
+      "name": "Papeenoo",
+      "operator": "Tahiti Nui Telecom",
+      "country": "French Polynesia",
+      "city": null,
+      "address": null,
+      "priority": 679,
+      "operatorGroup": "tahiti nui telecom"
+    },
+    {
+      "facilityId": "dc-012b57ce72be5e9b7f113b56d7a2524f",
+      "name": "Manila Makati",
+      "operator": "NTT",
+      "country": "Philippines",
+      "city": null,
+      "address": null,
+      "priority": 680,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-2e322892a314209d6cc284965be75add",
+      "name": "Manila Pasig",
+      "operator": "NTT",
+      "country": "Philippines",
+      "city": null,
+      "address": null,
+      "priority": 681,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-6a8c58731ce4dac0af2949e2d412c579",
+      "name": "Manila Paranaque",
+      "operator": "NTT",
+      "country": "Philippines",
+      "city": null,
+      "address": null,
+      "priority": 682,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-7203c53299360c8e1e91ade0d81d5f0e",
+      "name": "Clark",
+      "operator": "NTT",
+      "country": "Philippines",
+      "city": null,
+      "address": null,
+      "priority": 683,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-1597f1cc561a6b687a545f831f8c8b23",
+      "name": "Cavite",
+      "operator": "Globe Telecom, Inc.",
+      "country": "Philippines",
+      "city": "Philippines",
+      "address": "tbc Cavite Philippines",
+      "priority": 684,
+      "operatorGroup": "globe telecom, inc."
+    },
+    {
+      "facilityId": "dc-1ea1e6965b0cfa31dcbf40b30752e8e6",
+      "name": "Bonuan Gueset",
+      "operator": "Bitstop Network Services",
+      "country": "Philippines",
+      "city": "Philippines",
+      "address": "Alimango St Dagupan Philippines",
+      "priority": 685,
+      "operatorGroup": "bitstop network services"
+    },
+    {
+      "facilityId": "dc-db5b01f65131b16441257115c8e2a9c4",
+      "name": "Manila 1",
+      "operator": "Zenlayer",
+      "country": "Philippines",
+      "city": "Philippines",
+      "address": "Canley Road Pasig Philippines",
+      "priority": 686,
+      "operatorGroup": "zenlayer"
+    },
+    {
+      "facilityId": "dc-2883fb2e5edb9cd48bb81d216234b217",
+      "name": "Karachi",
+      "operator": "Pakistan Telecommunication Company Limited (PTCL)",
+      "country": "Pakistan",
+      "city": "Pakistan",
+      "address": "I.I Chundrigar Road Karachi Pakistan",
+      "priority": 687,
+      "operatorGroup": "pakistan telecommunication company limited (ptcl)"
+    },
+    {
+      "facilityId": "dc-30705b804133ef251f9f1018a98f77d8",
+      "name": "Islamabad",
+      "operator": "Multinet",
+      "country": "Pakistan",
+      "city": "Pakistan",
+      "address": "60 Nazim-ud-din Rd Islamabad Pakistan",
+      "priority": 688,
+      "operatorGroup": "multinet"
+    },
+    {
+      "facilityId": "dc-71f74435aaf70a4b87cacbc1ba401145",
+      "name": "NEXNOC-1",
+      "operator": "NEXLINX",
+      "country": "Pakistan",
+      "city": "Lahore",
+      "address": "37C1 Gulberg 3 54000 Lahore Pakistan",
+      "priority": 689,
+      "operatorGroup": "nexlinx"
+    },
+    {
+      "facilityId": "dc-7cec3075b5a81e55aa882ab482510f56",
+      "name": "Cube XS Weatherly",
+      "operator": "CubeXS Weatherly (Pvt.) Ltd.",
+      "country": "Pakistan",
+      "city": "Karachi",
+      "address": "Shahrah-e-Firdousi 75500 Karachi Pakistan",
+      "priority": 690,
+      "operatorGroup": "cubexs weatherly (pvt.) ltd."
+    },
+    {
+      "facilityId": "dc-7f9a37a8184152bca24eb83c5fa900a5",
+      "name": "University of Lahore",
+      "operator": "University of Lahore",
+      "country": "Pakistan",
+      "city": "Pakistan",
+      "address": "1 - KM Defence Road Lahore Pakistan",
+      "priority": 691,
+      "operatorGroup": "university of lahore"
+    },
+    {
+      "facilityId": "dc-db274d422e7a0c0f05b266b68b4464cc",
+      "name": "Allama Iqbal Open University",
+      "operator": "Allama Iqbal Open University (AIOU)",
+      "country": "Pakistan",
+      "city": "Islamabad",
+      "address": "Allama Iqbal Open University 44000 Islamabad Pakistan",
+      "priority": 692,
+      "operatorGroup": "allama iqbal open university (aiou)"
+    },
+    {
+      "facilityId": "dc-a5b70de9204e0949ad835d1118f8629d",
+      "name": "Warsaw 2",
+      "operator": "Equinix",
+      "country": "Poland",
+      "city": "Warszawa",
+      "address": "Poleczki 23 Warszawa Poland",
+      "priority": 693,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-ab12b0ee579bcb7f0fe52c4a99da3ad4",
+      "name": "Warsaw 1",
+      "operator": "Equinix",
+      "country": "Poland",
+      "city": "Warszawa",
+      "address": "Aleje Jerozolimskie 65/79 00-697 Warszawa Poland",
+      "priority": 694,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-074093d9da05ea491886f419a87f0502",
+      "name": "PIO-NET Data Center",
+      "operator": "PIO-NET",
+      "country": "Poland",
+      "city": "Mogilno",
+      "address": "Powstancow Wielkopolskich 41A/29 Mogilno Poland",
+      "priority": 695,
+      "operatorGroup": "pio-net"
+    },
+    {
+      "facilityId": "dc-086539c1e2bb8bca510e48632e7e73f4",
+      "name": "Warsaw",
+      "operator": "3S Data Center",
+      "country": "Poland",
+      "city": "Warszawa",
+      "address": "Annopol 3 03-236 Warszawa Poland",
+      "priority": 696,
+      "operatorGroup": "3s data center"
+    },
+    {
+      "facilityId": "dc-1154e8889d631e2120af3f7dd13da735",
+      "name": "Poznan 1",
+      "operator": "Beyond.pl",
+      "country": "Poland",
+      "city": "Poznań",
+      "address": "Półwiejska 42 60-273 Poznań Poland",
+      "priority": 697,
+      "operatorGroup": "beyond.pl"
+    },
+    {
+      "facilityId": "dc-12789142816800b5a25a402eb9b10c17",
+      "name": "Katowice",
+      "operator": "ATMAN",
+      "country": "Poland",
+      "city": "Katowice",
+      "address": "Uniwersytecka 13 40-007 Katowice Poland",
+      "priority": 698,
+      "operatorGroup": "atman"
+    },
+    {
+      "facilityId": "dc-13fb1687cd4d8aeb97ed7dd3c253ee46",
+      "name": "Lodz",
+      "operator": "Kylos",
+      "country": "Poland",
+      "city": "Lodz",
+      "address": "Wróblewskiego 18 93-578 Lodz Poland",
+      "priority": 699,
+      "operatorGroup": "kylos"
+    },
+    {
+      "facilityId": "dc-206bd6737d932b7ff12305bec12dd2d8",
+      "name": "Katowice 2",
+      "operator": "3S Data Center",
+      "country": "Poland",
+      "city": "Katowice",
+      "address": "Ligocka 103 40-568 Katowice Poland",
+      "priority": 700,
+      "operatorGroup": "3s data center"
+    }
+  ]
+}

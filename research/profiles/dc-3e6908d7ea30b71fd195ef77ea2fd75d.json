@@ -1,0 +1,113 @@
+{
+  "facilityId": "dc-3e6908d7ea30b71fd195ef77ea2fd75d",
+  "status": "reviewed",
+  "reviewNote": "Helsinki 6 corresponds to HE6. Equinix and Sinimäentie/Sinimaentie 12, Espoo match. Official postcode 02630 differs from imported 02180; retain official address as a separately sourced fact.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Helsinki 6 corresponds to HE6. Equinix and Sinimäentie/Sinimaentie 12, Espoo match. Official postcode 02630 differs from imported 02180; retain official address as a separately sourced fact."
+  },
+  "aliases": [
+    "Equinix HE6"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "title": "Equinix HE6 — official facility information",
+      "url": "https://www.equinix.com/data-centers/europe-colocation/finland-colocation/helsinki-data-centers/he6",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "summary",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Overview",
+      "value": "HE6 is an Equinix colocation facility in Espoo serving the Helsinki market. Its published specifications describe a five-storey concrete building and redundant power and cooling.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "address",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Sinimaentie 12, 02630 Espoo, Finland",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-0",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation space",
+      "value": "1,756 m²",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-1",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-2",
+      "section": "specs",
+      "category": "Power",
+      "label": "Generator redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-3",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "service-0",
+      "section": "overview",
+      "category": "Services",
+      "label": "Private cages",
+      "value": "Private cages",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "service-1",
+      "section": "overview",
+      "category": "Services",
+      "label": "Smart Hands",
+      "value": "Smart Hands",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

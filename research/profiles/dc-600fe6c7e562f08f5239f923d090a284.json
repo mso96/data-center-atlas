@@ -1,0 +1,69 @@
+{
+  "facilityId": "dc-600fe6c7e562f08f5239f923d090a284",
+  "status": "reviewed",
+  "reviewNote": "Singapore 1 corresponds to SG1. Equinix, 20 Ayer Rajah Crescent and postcode 139964 match.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Singapore 1 corresponds to SG1. Equinix, 20 Ayer Rajah Crescent and postcode 139964 match."
+  },
+  "aliases": [
+    "Equinix SG1"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "title": "Equinix SG1 — official facility information",
+      "url": "https://www.equinix.com/fr/fr/data-centers/asia-pacific-colocation/singapore-colocation/singapore-data-center/sg1",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "summary",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Overview",
+      "value": "Equinix SG1 is located at Ayer Rajah in Singapore. The operator identifies it as a site for its Asia-Pacific network operations centre and Internet exchange connectivity.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "address",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "20 Ayer Rajah Crescent, Singapore 139964",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-0",
+      "section": "specs",
+      "category": "Power",
+      "label": "Power redundancy",
+      "value": "2N",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-1",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

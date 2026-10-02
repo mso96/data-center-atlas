@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 3,
+  "candidates": [
+    {
+      "facilityId": "dc-5331a40d9e6c8a90d2ac71896b3fc03f",
+      "name": "CLS Palmarejo",
+      "operator": "WACS (West Africa Cable System)",
+      "country": "Cape Verde",
+      "city": null,
+      "address": null,
+      "priority": 201,
+      "operatorGroup": "wacs (west africa cable system)"
+    },
+    {
+      "facilityId": "dc-10d874d782bafedd25d440c19d598c89",
+      "name": "Nicosia",
+      "operator": "PrimeTel PLC",
+      "country": "Cyprus",
+      "city": "Nicosia",
+      "address": "Limassol Avenue 2121 Nicosia Cyprus",
+      "priority": 202,
+      "operatorGroup": "primetel plc"
+    },
+    {
+      "facilityId": "dc-1577d0af47ff173cc613b2ae046d9e18",
+      "name": "Paralimni",
+      "operator": "MTN",
+      "country": "Cyprus",
+      "city": "Cyprus",
+      "address": "Kennedy Ave 87 Paralimni Cyprus",
+      "priority": 203,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-29d7262a96d4e41623aa27490c8bda7e",
+      "name": "Logosnet Data Center",
+      "operator": "Logosnet Services LTD",
+      "country": "Cyprus",
+      "city": "Strovolos",
+      "address": "Patriarchou Petrou 2054 Strovolos Cyprus",
+      "priority": 204,
+      "operatorGroup": "logosnet services ltd"
+    },
+    {
+      "facilityId": "dc-ba212c873d9ae43d7b176bdf2e4b8261",
+      "name": "Datumcenter",
+      "operator": "GigaByte Limited",
+      "country": "Cyprus",
+      "city": "Nicosia",
+      "address": "2 Fener Sokak Kizilbas 90000 Nicosia Cyprus",
+      "priority": 205,
+      "operatorGroup": "gigabyte limited"
+    },
+    {
+      "facilityId": "dc-c38414f03f98518f38209d8f1658e7cb",
+      "name": "Limassol",
+      "operator": "PostCy Ltd",
+      "country": "Cyprus",
+      "city": "Limassol",
+      "address": "Pontidos 17 4103 Limassol Cyprus",
+      "priority": 206,
+      "operatorGroup": "postcy ltd"
+    },
+    {
+      "facilityId": "dc-ed78fada49dfb4c92aba6b9d28fa0e0f",
+      "name": "Latsia",
+      "operator": "MTN",
+      "country": "Cyprus",
+      "city": null,
+      "address": null,
+      "priority": 207,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-102b093956b38ffb92e4f136d1650082",
+      "name": "Czech Republic",
+      "operator": "Aruba.it",
+      "country": "Czech Republic",
+      "city": "384",
+      "address": "38403 384 03 Ktiš Czechia",
+      "priority": 208,
+      "operatorGroup": "aruba.it"
+    },
+    {
+      "facilityId": "dc-10b606f6e43890b59fdf86cd0f6b79ab",
+      "name": "Sarka Data Center",
+      "operator": "Vegacom",
+      "country": "Czech Republic",
+      "city": "Prague",
+      "address": "Luzna 4 16000 Prague Czech Republic",
+      "priority": 209,
+      "operatorGroup": "vegacom"
+    },
+    {
+      "facilityId": "dc-17cab02f17018f35f1fffa113ffb6dfe",
+      "name": "Master DC Brno",
+      "operator": "Master Internet Ltd.",
+      "country": "Czech Republic",
+      "city": "Brno",
+      "address": "Cejl 20 60200 Brno Czech Republic",
+      "priority": 210,
+      "operatorGroup": "master internet ltd."
+    },
+    {
+      "facilityId": "dc-3468ead5ad89a1123a79d39459352202",
+      "name": "Prague",
+      "operator": "Seznam.cz",
+      "country": "Czech Republic",
+      "city": "Republic",
+      "address": "VGP Horní Po?ernice Prague Czech Republic",
+      "priority": 211,
+      "operatorGroup": "seznam.cz"
+    },
+    {
+      "facilityId": "dc-496d5345998dcdd91f92131602fcbecb",
+      "name": "BVV",
+      "operator": "GTS Telecom SRL",
+      "country": "Czech Republic",
+      "city": "Brno-střed-Pisárky",
+      "address": "Výstaviště 405/1 64700 Brno-střed-Pisárky Czechia",
+      "priority": 212,
+      "operatorGroup": "gts telecom srl"
+    },
+    {
+      "facilityId": "dc-6538b70c4e88366e8096855f3fda5bd3",
+      "name": "Prague (5.kvetna)",
+      "operator": "T-Systems International GmbH",
+      "country": "Czech Republic",
+      "city": "140",
+      "address": "5. května 1640/65 140 00 Praha 4-Nusle Czechia",
+      "priority": 213,
+      "operatorGroup": "t-systems international gmbh"
+    },
+    {
+      "facilityId": "dc-65c228fbf70f7aaa2a3078fb395412a4",
+      "name": "TVPM - Zizkov Prague",
+      "operator": "Radiokomunikace, a.s.",
+      "country": "Czech Republic",
+      "city": "Prague",
+      "address": "Mahlerovy sady 1 13000 Prague Czech Republic",
+      "priority": 214,
+      "operatorGroup": "radiokomunikace, a.s."
+    },
+    {
+      "facilityId": "dc-7ba766c0b49386eda2ebe8a61a5f22f9",
+      "name": "THP",
+      "operator": "GTS Telecom SRL",
+      "country": "Czech Republic",
+      "city": "Czechia",
+      "address": "Vinohradská 190 130 00 Praha 3 Czechia",
+      "priority": 215,
+      "operatorGroup": "gts telecom srl"
+    },
+    {
+      "facilityId": "dc-99822cbf593f897865114812dd9cb453",
+      "name": "SDC",
+      "operator": "GTS Telecom SRL",
+      "country": "Czech Republic",
+      "city": "106",
+      "address": "Nad Elektrárnou 1428/47 106 00 Praha 10-Michle Czechia",
+      "priority": 216,
+      "operatorGroup": "gts telecom srl"
+    },
+    {
+      "facilityId": "dc-a47c5012f90f6a46d501bfd129ddd689",
+      "name": "Datacentrum Moravia",
+      "operator": "Merit Group a.s.",
+      "country": "Czech Republic",
+      "city": "Olomouc",
+      "address": "Brezinova 136/7 77200 Olomouc Czech Republic",
+      "priority": 217,
+      "operatorGroup": "merit group a.s."
+    },
+    {
+      "facilityId": "dc-b0f489a7e1e00c8d1799ccde459c541a",
+      "name": "CE Colo",
+      "operator": "CE Colo",
+      "country": "Czech Republic",
+      "city": "106",
+      "address": "Nad Elektrárnou 1428/47 106 00 Praha 10-Michle Czechia",
+      "priority": 218,
+      "operatorGroup": "ce colo"
+    },
+    {
+      "facilityId": "dc-01b6839161d8f6f35483daebdfacc391",
+      "name": "Frankfurt 7",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstrasse 32-40 60314 Frankfurt am Main Germany",
+      "priority": 219,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-077d2e01563a9c057ddc9aab40bb8e37",
+      "name": "Frankfurt 1",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Taubenstraße 7-9 60313 Frankfurt am Main Germany",
+      "priority": 220,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-094de89227e06f9440eba2faba11cc88",
+      "name": "Frankfurt 4",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstrasse 19 60314 Frankfurt am Main Germany",
+      "priority": 221,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-15a5ccb926057cd7f841a4dca646f642",
+      "name": "Munich 1",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Munich",
+      "address": "Seidlstraße 3 / Alte Hopfenpost 80335 Munich Germany",
+      "priority": 222,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-2ac6c9515bcfaee42e73dab19b69c0c1",
+      "name": "Frankfurt 3",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstraße 21-23 60314 Frankfurt am Main Germany",
+      "priority": 223,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-2c63e807aa3a7a52b0826ec4ce2f9550",
+      "name": "Frankfurt 5",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Hanauer Landstraße 308A 60314 Frankfurt am Main Germany",
+      "priority": 224,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-33e1ec444f712235579a012d91c12536",
+      "name": "Frankfurt 10",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstrasse 38 60314 Frankfurt am Main Germany",
+      "priority": 225,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-4040d0c68e4ff50651340c5566d94223",
+      "name": "Frankfurt 6",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "GIP Park, Hanauer Landstrasse 300a-300 60314 Frankfurt am Main Germany",
+      "priority": 226,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-40fe446013d8f2adb2fbe6e695e00c2f",
+      "name": "Frankfurt 2",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Kruppstraße 121-127 60388 Frankfurt am Main Germany",
+      "priority": 227,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-54bf2b0d4acac502283325b05eeb4b61",
+      "name": "Frankfurt 3",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Mörfelden",
+      "address": "Starkenburgstraße 12 64546 Mörfelden Germany",
+      "priority": 228,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-5803ffca1c552c686092d41fd672c9a9",
+      "name": "Frankfurt 1",
+      "operator": "NTT",
+      "country": "Germany",
+      "city": "+81-3-3500-8111",
+      "address": "Frankfurt Germany +81-3-3500-8111",
+      "priority": 229,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-5aa18ee7ebb719e9297342b1936e033a",
+      "name": "Frankfurt 12",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstrasse 60314 Frankfurt am Main Germany",
+      "priority": 230,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-5baffcd75de47e0d25979ef5b8e36bac",
+      "name": "Frankfurt 6",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Lärchenstraße 110 65933 Frankfurt am Main Germany",
+      "priority": 231,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-65a8ee87e4c73b8671b4110838ffa2fe",
+      "name": "Wilhelm Fay Strasse",
+      "operator": "Digital Realty Trust",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Wilhelm-Fay-Straße 65936 Frankfurt am Main Germany",
+      "priority": 232,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-67712995d11d48ad8103b014aa4d23d5",
+      "name": "Munich 2",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Munich",
+      "address": "AM Moosfeld 37 81820 Munich Germany",
+      "priority": 233,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-6ac9d064558764582ab2435708f5a9da",
+      "name": "Frankfurt 2",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "GIP Park, Hanauer Landstrasse 304-304a 60314 Frankfurt am Main Germany",
+      "priority": 234,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-9c986e35bfbaceffb38a310c6afe8ac2",
+      "name": "Digital Park Frankfurt",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Adam-Opel-Strasse 60386 Frankfurt Germany",
+      "priority": 235,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-a2856878706bf1602272b2967c0de047",
+      "name": "Frankfurt 13",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstrasse 60314 Frankfurt am Main Germany",
+      "priority": 236,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-a6781f7bf11a9584c3e61c70eb138947",
+      "name": "Dusseldorf 1",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Dusseldorf",
+      "address": "Albertstrasse 27 40589 Dusseldorf Germany",
+      "priority": 237,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-a75865bf935e77eed64b058edca33740",
+      "name": "Munich 3",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Munich",
+      "address": "Seidlstrasse 3 80335 Munich Germany",
+      "priority": 238,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-a8e5892d50278533d464641f645a94b2",
+      "name": "Frankfurt 5",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Kleyerstrasse 90 60326 Frankfurt am Main Germany",
+      "priority": 239,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-b2c5caa38463108e57f14e7bada9fc3a",
+      "name": "Munich 2",
+      "operator": "NTT",
+      "country": "Germany",
+      "city": "+81-3-3500-8111",
+      "address": "Munich Germany +81-3-3500-8111",
+      "priority": 240,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-c20351813fa4358843c420b8252255e5",
+      "name": "Frankfurt 1",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Hanauer Landstraße 302 60314 Frankfurt am Main Germany",
+      "priority": 241,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-c9b64994dafa3f1b326a924371a47422",
+      "name": "Dusseldorf 2",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Dusseldorf",
+      "address": "In der Steele 39-45 40599 Dusseldorf Germany",
+      "priority": 242,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-e6b36a1b2149a34d396ed68922d5b04e",
+      "name": "Frankfurt 11",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Ammerthalstrasse 22-32 60314 Frankfurt am Main Germany",
+      "priority": 243,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-ece4e70f2741a844f8023485aca2af9c",
+      "name": "Lyoner Strasse 28",
+      "operator": "Digital Realty Trust",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Lyoner Str. 28 60528 Frankfurt am Main Germany",
+      "priority": 244,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-efb76129d4726c5576eaac330893f443",
+      "name": "Frankfurt 8",
+      "operator": "Interxion",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Weismüllerstraße 36 60314 Frankfurt am Main Germany",
+      "priority": 245,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-efbbd92d8d8d5a4907c43f8fdec48401",
+      "name": "Frankfurt 4",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Lärchenstraße 110 65933 Frankfurt am Main Germany",
+      "priority": 246,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-f2d96788fb85970dfd9540509d894a8b",
+      "name": "Frankfurt 7",
+      "operator": "Equinix",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "address": "Gutleutstraße 310 60327 Frankfurt am Main Germany",
+      "priority": 247,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-3802dc95badb9428dfc0028328b2637e",
+      "name": "Djibouti 1",
+      "operator": "Djibouti Data Center (DDC)",
+      "country": "Djibouti",
+      "city": null,
+      "address": null,
+      "priority": 248,
+      "operatorGroup": "djibouti data center (ddc)"
+    },
+    {
+      "facilityId": "dc-7e34e005a0b204d38e959dbdc17283c3",
+      "name": "PAIX Djibouti",
+      "operator": "PAIX Data Centres",
+      "country": "Djibouti",
+      "city": null,
+      "address": null,
+      "priority": 249,
+      "operatorGroup": "paix data centres"
+    },
+    {
+      "facilityId": "dc-e6de8977d36e5ee5281fc182781c0774",
+      "name": "Wingu Djibouti",
+      "operator": "Wingu.Africa",
+      "country": "Djibouti",
+      "city": null,
+      "address": null,
+      "priority": 250,
+      "operatorGroup": "wingu.africa"
+    },
+    {
+      "facilityId": "dc-775deccf2f16c19724e89587f119f658",
+      "name": "Fredericia",
+      "operator": "Google",
+      "country": "Denmark",
+      "city": null,
+      "address": null,
+      "priority": 251,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-0ba48b695865a7f2aa84d23d20cd1b16",
+      "name": "Copenhagen (Vesterbrogade)",
+      "operator": "Global Connect",
+      "country": "Denmark",
+      "city": "København",
+      "address": "Vesterbrogade 149 1800 København Denmark",
+      "priority": 252,
+      "operatorGroup": "global connect"
+    },
+    {
+      "facilityId": "dc-1f67ce19976d02a04fc8a26f2599d663",
+      "name": "Global Connect Kolding",
+      "operator": "Global Connect",
+      "country": "Denmark",
+      "city": "Kolding",
+      "address": "Kokbjerg 8 6000 Kolding Denmark",
+      "priority": 253,
+      "operatorGroup": "global connect"
+    },
+    {
+      "facilityId": "dc-226a185a23fd8f8ddad4c7430ef651e0",
+      "name": "Kolding",
+      "operator": "ScanNet",
+      "country": "Denmark",
+      "city": "Kolding",
+      "address": "Birkemose Allé 11 6000 Kolding Denmark",
+      "priority": 254,
+      "operatorGroup": "scannet"
+    },
+    {
+      "facilityId": "dc-22c199fdf9497d63e23a1606cec3af7f",
+      "name": "Randers",
+      "operator": "DanDomain",
+      "country": "Denmark",
+      "city": "Randers",
+      "address": "Alsikevej 31 8920 Randers Denmark",
+      "priority": 255,
+      "operatorGroup": "dandomain"
+    },
+    {
+      "facilityId": "dc-3596b91275e1f453aa9c49dc6bf7e6ed",
+      "name": "Copenhagen (Metrovej)",
+      "operator": "Telia Carrier",
+      "country": "Denmark",
+      "city": "København",
+      "address": "Metrovej 1 2300 København Denmark",
+      "priority": 256,
+      "operatorGroup": "telia carrier"
+    },
+    {
+      "facilityId": "dc-420835adc8dd64e92c665ca71d9e37a1",
+      "name": "DLX.DK",
+      "operator": "DLX AS",
+      "country": "Denmark",
+      "city": "Herning",
+      "address": "Hammershusvej 16C 7400 Herning Denmark",
+      "priority": 257,
+      "operatorGroup": "dlx as"
+    },
+    {
+      "facilityId": "dc-57345947d55f332000d7a96bb69cd5b1",
+      "name": "Copenhagen",
+      "operator": "DigiPlex AS",
+      "country": "Denmark",
+      "city": "København",
+      "address": "Holmbladsgade 142 2300 København Denmark",
+      "priority": 258,
+      "operatorGroup": "digiplex as"
+    },
+    {
+      "facilityId": "dc-5b9da17adc130395e4879790325e62b2",
+      "name": "Jay.net Smedeland",
+      "operator": "Jay.net A/S",
+      "country": "Denmark",
+      "city": "Glostrup",
+      "address": "Smedeland 32 2600 Glostrup Denmark",
+      "priority": 259,
+      "operatorGroup": "jay.net a/s"
+    },
+    {
+      "facilityId": "dc-5be6adfb9f822287f3618dde272eda00",
+      "name": "Silkeborg",
+      "operator": "Sotea",
+      "country": "Denmark",
+      "city": "Silkeborg",
+      "address": "Vejlsøvej 51 8600 Silkeborg Denmark",
+      "priority": 260,
+      "operatorGroup": "sotea"
+    },
+    {
+      "facilityId": "dc-5eeba1df5166fe23cbf456db2ffa400a",
+      "name": "Kolding",
+      "operator": "house4IT Hosting",
+      "country": "Denmark",
+      "city": "Kolding",
+      "address": "Kokholm 1A 6000 Kolding Denmark",
+      "priority": 261,
+      "operatorGroup": "house4it hosting"
+    },
+    {
+      "facilityId": "dc-704b4f5d8efe8e4784759d1afe361271",
+      "name": "Dominican Republic",
+      "operator": "KIO Networks",
+      "country": "Dominican Republic",
+      "city": "Republic",
+      "address": "tbc tbc Dominican Republic",
+      "priority": 262,
+      "operatorGroup": "kio networks"
+    },
+    {
+      "facilityId": "dc-155f087a115e0cdb1c308ca7c4ab32e7",
+      "name": "Oran",
+      "operator": "ISSAL",
+      "country": "Algeria",
+      "city": "Oran",
+      "address": "Rue N 6 101 31007 Oran Algeria",
+      "priority": 263,
+      "operatorGroup": "issal"
+    },
+    {
+      "facilityId": "dc-8df8f7875e8a4309a9811e7b8220e2a3",
+      "name": "Hussein Dey",
+      "operator": "Ayrade",
+      "country": "Algeria",
+      "city": "Algeria",
+      "address": "Rue Kamel Cheikh Hussein Dey Algeria",
+      "priority": 264,
+      "operatorGroup": "ayrade"
+    },
+    {
+      "facilityId": "dc-bf380e0fe18503b1220ab8c86294a4b7",
+      "name": "Tassili",
+      "operator": "Ayrade",
+      "country": "Algeria",
+      "city": null,
+      "address": null,
+      "priority": 265,
+      "operatorGroup": "ayrade"
+    },
+    {
+      "facilityId": "dc-c91bba7d1cc4ed0c6fea613d95960f57",
+      "name": "Tiaret data center",
+      "operator": "w-doors",
+      "country": "Algeria",
+      "city": null,
+      "address": null,
+      "priority": 266,
+      "operatorGroup": "w-doors"
+    },
+    {
+      "facilityId": "dc-e04a7ff1391a182cbbd4cffd3eea1ef7",
+      "name": "WebServices",
+      "operator": "Electronic Business Services (eBS)",
+      "country": "Algeria",
+      "city": null,
+      "address": null,
+      "priority": 267,
+      "operatorGroup": "electronic business services (ebs)"
+    },
+    {
+      "facilityId": "dc-42cfd4365406f68a28841d4f8f0d319e",
+      "name": "Quito",
+      "operator": "CenturyLink",
+      "country": "Ecuador",
+      "city": "Quito",
+      "address": "Juan Díaz 170147 Quito Ecuador",
+      "priority": 268,
+      "operatorGroup": "centurylink"
+    },
+    {
+      "facilityId": "dc-25f41e0000ddfbf224390beb8bffcc79",
+      "name": "DC Infonet",
+      "operator": "Infonet DC",
+      "country": "Estonia",
+      "city": "Põhja-Tallinna",
+      "address": "Laevastiku 3r 10313 Põhja-Tallinna Estonia",
+      "priority": 269,
+      "operatorGroup": "infonet dc"
+    },
+    {
+      "facilityId": "dc-3761d4eb700e24acecdd3799c10b764b",
+      "name": "Elisa Tallinn",
+      "operator": "Elisa Oy",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "address": "Adala 4 10614 Tallinn Estonia",
+      "priority": 270,
+      "operatorGroup": "elisa oy"
+    },
+    {
+      "facilityId": "dc-38ab17f92b24662e37c0dc4c72595ccb",
+      "name": "Tallinn",
+      "operator": "Levira",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "address": "Kloostrimetsa tee 58A 15026 Tallinn Estonia",
+      "priority": 271,
+      "operatorGroup": "levira"
+    },
+    {
+      "facilityId": "dc-3f42284544681eb6b186d20e5749d0db",
+      "name": "All Media Estonia",
+      "operator": "Eesti Meedia",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "address": "Peterburi tee 81 13626 Tallinn Estonia",
+      "priority": 272,
+      "operatorGroup": "eesti meedia"
+    },
+    {
+      "facilityId": "dc-524cafa09a02066cd06ed4e0bbca0eba",
+      "name": "Valga",
+      "operator": "Unclaimed",
+      "country": "Estonia",
+      "city": "Valga",
+      "address": "Võru 116a 68205 Valga Estonia",
+      "priority": 273,
+      "operatorGroup": "unclaimed"
+    },
+    {
+      "facilityId": "dc-6891d09c1debbd5fb3bb7e649b68045d",
+      "name": "Tallinn (Sole)",
+      "operator": "Telia Carrier",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "address": "Sõle 14 10611 Tallinn Estonia",
+      "priority": 274,
+      "operatorGroup": "telia carrier"
+    },
+    {
+      "facilityId": "dc-a068544c319a7be7a5b9d2d1b81a652a",
+      "name": "Elion telehouse",
+      "operator": "Elion",
+      "country": "Estonia",
+      "city": "Estonia",
+      "address": "Sole 14D Tallinn Estonia",
+      "priority": 275,
+      "operatorGroup": "elion"
+    },
+    {
+      "facilityId": "dc-a65de80ea5225052b2cc0abe3e48c5a7",
+      "name": "Johvi",
+      "operator": "AstrecData",
+      "country": "Estonia",
+      "city": "Jõhvi",
+      "address": "2. Tartu põik 5 41537 Jõhvi Estonia",
+      "priority": 276,
+      "operatorGroup": "astrecdata"
+    },
+    {
+      "facilityId": "dc-032654bed7ec9bd002f19b34b921332a",
+      "name": "Madrid 3",
+      "operator": "Interxion",
+      "country": "Spain",
+      "city": "Madrid",
+      "address": "Calle de Emilio Muñoz, 49-51 28037 Madrid Spain",
+      "priority": 277,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-0aaa61fafcb49cf34b93ebeb71e3d26b",
+      "name": "Madrid 2 (Isabel Colbrand)",
+      "operator": "Equinix",
+      "country": "Spain",
+      "city": "Madrid",
+      "address": "Isabel Colbrand, 6 28050 Madrid Spain",
+      "priority": 278,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0f875cd62ef3e76f46ef9215bbaf328b",
+      "name": "Madrid 1",
+      "operator": "Interxion",
+      "country": "Spain",
+      "city": "Madrid",
+      "address": "Calle Albasanz 71 28820 Madrid Spain",
+      "priority": 279,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-380e8c7cf560edfc295b53f2af647675",
+      "name": "Madrid 1 (Calle Valgrande)",
+      "operator": "Equinix",
+      "country": "Spain",
+      "city": "Alcobendas",
+      "address": "Calle Valgrande, 6 28108 Alcobendas Spain",
+      "priority": 280,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-48fb337491f7e88723af2080323edb8f",
+      "name": "Barcelona",
+      "operator": "Equinix",
+      "country": "Spain",
+      "city": "Barcelona",
+      "address": "Carrer de l'Acer, 30 08038 Barcelona Spain",
+      "priority": 281,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-a297ad090accc73fb80a48a6d0f988d4",
+      "name": "Madrid 2",
+      "operator": "Interxion",
+      "country": "Spain",
+      "city": "Madrid",
+      "address": "Calle Albasanz 73 28037 Madrid Spain",
+      "priority": 282,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-b4087b700d7fc6e731b0fc9d3c06070f",
+      "name": "Madrid 2",
+      "operator": "NTT",
+      "country": "Spain",
+      "city": "+81-3-3500-8111",
+      "address": "Madrid Spain +81-3-3500-8111",
+      "priority": 283,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-07a30b9d57b7468754969bf6e1d3a1c9",
+      "name": "Carrierhouse 1 Madrid",
+      "operator": "Schneider Electric",
+      "country": "Spain",
+      "city": "Madrid",
+      "address": "c/Isabel Colbrand n°8 1 28050 Madrid Spain",
+      "priority": 284,
+      "operatorGroup": "schneider electric"
+    },
+    {
+      "facilityId": "dc-14dc286e74321724a8e8e1409fdaf3f4",
+      "name": "Valencia",
+      "operator": "Nixval",
+      "country": "Spain",
+      "city": "Paterna",
+      "address": "Industrial Park Fuente del Jarro, Calle Villa de Madrid 44 46988 Paterna Spain",
+      "priority": 285,
+      "operatorGroup": "nixval"
+    },
+    {
+      "facilityId": "dc-1835482c0b4240b97a5c0fd23ed1faa3",
+      "name": "Albacete",
+      "operator": "Area Project Solutions S.L.",
+      "country": "Spain",
+      "city": "Albacete",
+      "address": "Albacete 02006 Albacete Spain",
+      "priority": 286,
+      "operatorGroup": "area project solutions s.l."
+    },
+    {
+      "facilityId": "dc-186aae3df262609167f2f230ea02cd52",
+      "name": "CATNIX GIRONA",
+      "operator": "Catalunya Neutral Internet eXchange (CATNIX)",
+      "country": "Spain",
+      "city": "Girona",
+      "address": "Plaça de Pompeu Fabra, 1 Girona Spain",
+      "priority": 287,
+      "operatorGroup": "catalunya neutral internet exchange (catnix)"
+    },
+    {
+      "facilityId": "dc-1a5b9d5bf42051a8247071fe30750f26",
+      "name": "Calle Xátiva Valencia",
+      "operator": "Renfe",
+      "country": "Spain",
+      "city": "Valencia",
+      "address": "Calle Xátiva 46007 Valencia Spain",
+      "priority": 288,
+      "operatorGroup": "renfe"
+    },
+    {
+      "facilityId": "dc-343f92cda4b01f83fbe3e518e8e7cb9e",
+      "name": "Valencia",
+      "operator": "Plexval",
+      "country": "Spain",
+      "city": "Paterna",
+      "address": "c/ Ciudad de Sevilla, 76 Pg. Ind. Fuente del Jarro 46980 Paterna Spain",
+      "priority": 289,
+      "operatorGroup": "plexval"
+    },
+    {
+      "facilityId": "dc-389db90d70b5c6e4d182126371623a5e",
+      "name": "BME - Madrid",
+      "operator": "Bolsas y Mercados Españoles (BME)",
+      "country": "Spain",
+      "city": "Las",
+      "address": "Calle de la Tramontana, 2 28231 Las Rozas Spain",
+      "priority": 290,
+      "operatorGroup": "bolsas y mercados españoles (bme)"
+    },
+    {
+      "facilityId": "dc-3f84f95e83f05a6718098a924b96a84a",
+      "name": "Ochoa Servicios Digitales",
+      "operator": "Transportes Ochoa, S.A.",
+      "country": "Spain",
+      "city": "Zaragoza",
+      "address": "C/ Virgen del Buen Acuerdo 5 50014 Zaragoza Spain",
+      "priority": 291,
+      "operatorGroup": "transportes ochoa, s.a."
+    },
+    {
+      "facilityId": "dc-443d2e39f1f6fc8e005050a959da55e6",
+      "name": "Madrid (Calle de Jose Bardasano Baos)",
+      "operator": "Cogent Communications Inc.",
+      "country": "Spain",
+      "city": "Madrid",
+      "address": "Calle de Jose Bardasano Baos, 9, Planta 2ª A 28016 Madrid Spain",
+      "priority": 292,
+      "operatorGroup": "cogent communications inc."
+    },
+    {
+      "facilityId": "dc-2496c37e3b1866a1f09235f3abb7b31c",
+      "name": "Raxio Ethiopia",
+      "operator": "Raxio Group",
+      "country": "Ethiopia",
+      "city": null,
+      "address": null,
+      "priority": 293,
+      "operatorGroup": "raxio group"
+    },
+    {
+      "facilityId": "dc-83ad0ee4dff6845f6585783a3d3f9bf0",
+      "name": "Wingu Ethiopia",
+      "operator": "Wingu.Africa",
+      "country": "Ethiopia",
+      "city": null,
+      "address": null,
+      "priority": 294,
+      "operatorGroup": "wingu.africa"
+    },
+    {
+      "facilityId": "dc-0ebee441837412451cd850e4c2e235b0",
+      "name": "Helsinki 2",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Helsinki",
+      "address": "Kanavaranta 5 00160 Helsinki Finland",
+      "priority": 295,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-1b0e16049e30308643ad98522e830ccb",
+      "name": "Hamina",
+      "operator": "Google",
+      "country": "Finland",
+      "city": "Hamina",
+      "address": "Ensontie, Summa Hamina Finland",
+      "priority": 296,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-3e6908d7ea30b71fd195ef77ea2fd75d",
+      "name": "Helsinki 6",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Espoo",
+      "address": "Sinimäentie 12 02180 Espoo Finland",
+      "priority": 297,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-9d18aeaae251ee5d052757a96f3e54bb",
+      "name": "Helsinki 1",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Helsinki",
+      "address": "Hiomotie 32 00380 Helsinki Finland",
+      "priority": 298,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-a48658ed167348604c3f3024e1818069",
+      "name": "Helsinki",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Helsinki",
+      "address": "Parrukatu 2 00540 Helsinki Finland",
+      "priority": 299,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-a5c50c78f4e13af64460855a872d6402",
+      "name": "Helsinki 5",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Helsinki",
+      "address": "Sahamyllyntie 4b 00560 Helsinki Finland",
+      "priority": 300,
+      "operatorGroup": "Equinix"
+    }
+  ]
+}

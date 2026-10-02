@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 8,
+  "candidates": [
+    {
+      "facilityId": "dc-4c88ad40eb348cc86fdd826e3e605c9b",
+      "name": "GPW",
+      "operator": "Warsaw Stock Exchange",
+      "country": "Poland",
+      "city": "Warszawa",
+      "address": "Książęca 4 00-498 Warszawa Poland",
+      "priority": 701,
+      "operatorGroup": "warsaw stock exchange"
+    },
+    {
+      "facilityId": "dc-54f037099595b96387afbb35ebab6b9b",
+      "name": "LIM Warsaw",
+      "operator": "LIM",
+      "country": "Poland",
+      "city": "Warsaw",
+      "address": "Al. Jerozolimskie 65/79 00-697 Warsaw Poland",
+      "priority": 702,
+      "operatorGroup": "lim"
+    },
+    {
+      "facilityId": "dc-5a62841645983b04feda2b35df4f2e6e",
+      "name": "datahouse.pl",
+      "operator": "eTOP",
+      "country": "Poland",
+      "city": "Warszawa",
+      "address": "Al. Jerozolimskie 200 02-222 Warszawa Poland",
+      "priority": 703,
+      "operatorGroup": "etop"
+    },
+    {
+      "facilityId": "dc-66874204a7bba1d5b98341bab0ea3483",
+      "name": "Warsaw-1",
+      "operator": "ATMAN",
+      "country": "Poland",
+      "city": "Warsaw",
+      "address": "Grochowska 21a 04-186 Warsaw Poland",
+      "priority": 704,
+      "operatorGroup": "atman"
+    },
+    {
+      "facilityId": "dc-052b30bc0784138304a634f13db16ff1",
+      "name": "Critical Hub DataCenter",
+      "operator": "Critical Hub Networks",
+      "country": "Puerto Rico",
+      "city": null,
+      "address": null,
+      "priority": 705,
+      "operatorGroup": "critical hub networks"
+    },
+    {
+      "facilityId": "dc-6fe815dcd055c6a82be85135c6289de8",
+      "name": "Santurce",
+      "operator": "Critical Hub Networks",
+      "country": "Puerto Rico",
+      "city": null,
+      "address": null,
+      "priority": 706,
+      "operatorGroup": "critical hub networks"
+    },
+    {
+      "facilityId": "dc-3b49c6d14665e17bf36e91323cce2dd2",
+      "name": "Portugal",
+      "operator": "Equinix",
+      "country": "Portugal",
+      "city": "Prior",
+      "address": "Av. Severiano Falcão 14 2685 Prior Velho Portugal",
+      "priority": 707,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-3df4966ad80aa633447ce0a2cd276685",
+      "name": "FCCN Lisbon",
+      "operator": "National Laboratory of Civil Engineering (LNEC)",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "address": "Av.Brasil 101 1700-066 Lisbon Portugal",
+      "priority": 708,
+      "operatorGroup": "national laboratory of civil engineering (lnec)"
+    },
+    {
+      "facilityId": "dc-4c39433e4abca794542f4cedf28ecfdb",
+      "name": "Ermesinde",
+      "operator": "REN - Redes Energéticas Nacionais",
+      "country": "Portugal",
+      "city": "Ermesinde",
+      "address": "Rua das Agras Novas, 46 4445-283 Ermesinde Portugal",
+      "priority": 709,
+      "operatorGroup": "ren - redes energéticas nacionais"
+    },
+    {
+      "facilityId": "dc-653f9a568a1ed81b83a25f1e7fa78844",
+      "name": "FCCN Lisbon",
+      "operator": "FCCN Fundação para a Computação Científica Nacional",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "address": "Av.Brasil 101 Lisbon Portugal",
+      "priority": 710,
+      "operatorGroup": "fccn fundação para a computação científica nacional"
+    },
+    {
+      "facilityId": "dc-68d3eb1083e29c69500493213c2fe763",
+      "name": "Porto",
+      "operator": "Bitcanal Internet Services",
+      "country": "Portugal",
+      "city": "Porto",
+      "address": "Rua da Estação de Contumil 4000 Porto Portugal",
+      "priority": 711,
+      "operatorGroup": "bitcanal internet services"
+    },
+    {
+      "facilityId": "dc-877c5ca4cd36034baa1bf22155ce922e",
+      "name": "Lisbon",
+      "operator": "Colt",
+      "country": "Portugal",
+      "city": "Carnaxide",
+      "address": "Estrada Outurela 118 2790-114 Carnaxide Portugal",
+      "priority": 712,
+      "operatorGroup": "colt"
+    },
+    {
+      "facilityId": "dc-a0cf505716a308130683f3b3bd5a3ce1",
+      "name": "Imopolis II",
+      "operator": "NOS Sistemas",
+      "country": "Portugal",
+      "city": "Carnaxide",
+      "address": "Estrada Outurela 118 2790-114 Carnaxide Portugal",
+      "priority": 713,
+      "operatorGroup": "nos sistemas"
+    },
+    {
+      "facilityId": "dc-aaeb84448fbe96e210212aef2673016d",
+      "name": "FEUP Porto - FCCN",
+      "operator": "FCCN Fundação para a Computação Científica Nacional",
+      "country": "Portugal",
+      "city": "Porto",
+      "address": "Rua Dr.Roberto Frias 4000 Porto Portugal",
+      "priority": 714,
+      "operatorGroup": "fccn fundação para a computação científica nacional"
+    },
+    {
+      "facilityId": "dc-b5f7c31eb3ef8c8295758ceec7739f33",
+      "name": "Seixal",
+      "operator": "TATA Communications",
+      "country": "Portugal",
+      "city": "Setúbal",
+      "address": "Avenida Quinta de Valadares Setúbal Portugal",
+      "priority": 715,
+      "operatorGroup": "tata communications"
+    },
+    {
+      "facilityId": "dc-ba6cdadf7aa492511ba208ad36869d91",
+      "name": "Mesaimeer",
+      "operator": "Ooredoo Global Services (OGS)",
+      "country": "Qatar",
+      "city": "Doha",
+      "address": "Mesaimeer Doha Qatar",
+      "priority": 716,
+      "operatorGroup": "ooredoo global services (ogs)"
+    },
+    {
+      "facilityId": "dc-dd70ab4fdc13873ad82405701ac81f83",
+      "name": "M-VAULT 2",
+      "operator": "Meeza",
+      "country": "Qatar",
+      "city": "Ar-Rayyan",
+      "address": "Al Luqta St 5825 Ar-Rayyan Qatar",
+      "priority": 717,
+      "operatorGroup": "meeza"
+    },
+    {
+      "facilityId": "dc-bfc714d9ab45271731cf81c90cf7b1f1",
+      "name": "M-VAULT 3",
+      "operator": "Meeza",
+      "country": "Qatar",
+      "city": null,
+      "address": null,
+      "priority": 718,
+      "operatorGroup": "meeza"
+    },
+    {
+      "facilityId": "dc-36c1f8d96e0d92f6e6d20408493ddf9a",
+      "name": "NXO OI",
+      "operator": "NXO OI",
+      "country": "Reunion",
+      "city": null,
+      "address": null,
+      "priority": 719,
+      "operatorGroup": "nxo oi"
+    },
+    {
+      "facilityId": "dc-0419dfe7ec24c0db71af8e4471ceb4ad",
+      "name": "Cluj-Napoca",
+      "operator": "GTS Telecom SRL",
+      "country": "Romania",
+      "city": "Cluj-Napoca",
+      "address": "Str. Garii nr. 21 400267 Cluj-Napoca Romania",
+      "priority": 720,
+      "operatorGroup": "gts telecom srl"
+    },
+    {
+      "facilityId": "dc-055c8fe537c480fbeb5bbfe7859ea106",
+      "name": "NXDATA-2",
+      "operator": "NxData",
+      "country": "Romania",
+      "city": "București",
+      "address": "Bulevardul Dimitrie Pompeiu 6a 030167 București Romania",
+      "priority": 721,
+      "operatorGroup": "nxdata"
+    },
+    {
+      "facilityId": "dc-1e5bcd624c8020a9eef23053b0e17ab0",
+      "name": "Bucharest",
+      "operator": "iNES",
+      "country": "Romania",
+      "city": "Bucharest",
+      "address": "Virgil Madgearu 2-6 Bucharest Romania",
+      "priority": 722,
+      "operatorGroup": "ines"
+    },
+    {
+      "facilityId": "dc-1f9eb38a94def55420888d67bf05dcad",
+      "name": "Bucharest",
+      "operator": "Appnor",
+      "country": "Romania",
+      "city": "Bucharest",
+      "address": "5 Promoroaca Str. 014013 Bucharest Romania",
+      "priority": 723,
+      "operatorGroup": "appnor"
+    },
+    {
+      "facilityId": "dc-228af4695e2566a36abc5041c7f6033c",
+      "name": "Hosting Data Center Brasov #2",
+      "operator": "Romtelecom Carrier Services",
+      "country": "Romania",
+      "city": "Brasov",
+      "address": "Calea Bucuresti nr. 36 500365 Brasov Romania",
+      "priority": 724,
+      "operatorGroup": "romtelecom carrier services"
+    },
+    {
+      "facilityId": "dc-35e159451aef25f7f6cd59f04cd50544",
+      "name": "BUCH-Facility Bucharest",
+      "operator": "IPSERV",
+      "country": "Romania",
+      "city": "Bucharest",
+      "address": "23-25 Nerva Traian Bucharest Romania",
+      "priority": 725,
+      "operatorGroup": "ipserv"
+    },
+    {
+      "facilityId": "dc-41d8a502cfb9dcc8e9e051b3a1eeba29",
+      "name": "Craiova",
+      "operator": "nixServers",
+      "country": "Romania",
+      "city": "Craiova",
+      "address": "Bulevardul Decebal, Nr 85 200621 Craiova Romania",
+      "priority": 726,
+      "operatorGroup": "nixservers"
+    },
+    {
+      "facilityId": "dc-485a5e8f00bebac5ff6dee8c7778cb43",
+      "name": "Bucharest",
+      "operator": "OMV Petrom",
+      "country": "Romania",
+      "city": "Bucharest",
+      "address": "Petrom City Bucharest Romania",
+      "priority": 727,
+      "operatorGroup": "omv petrom"
+    },
+    {
+      "facilityId": "dc-4aafb816edd99d468c5a1339561604cf",
+      "name": "EdcNet",
+      "operator": "EdcNet",
+      "country": "Romania",
+      "city": "Craiova",
+      "address": "Str. Popoveni Nr 5 Craiova Romania",
+      "priority": 728,
+      "operatorGroup": "edcnet"
+    },
+    {
+      "facilityId": "dc-52344249535a56af4c38f7b106ac1739",
+      "name": "Bucharest",
+      "operator": "Pidgin Host S.R.L.",
+      "country": "Romania",
+      "city": "Bucharest",
+      "address": "Str. Paralutelor 5-7 062082 Bucharest Romania",
+      "priority": 729,
+      "operatorGroup": "pidgin host s.r.l."
+    },
+    {
+      "facilityId": "dc-133e95a6d84ea1072f5fac5637329e2d",
+      "name": "Belgrade",
+      "operator": "Telekom Srbija",
+      "country": "Serbia",
+      "city": "Serbia",
+      "address": "Katićeva 14 Beograd Serbia",
+      "priority": 730,
+      "operatorGroup": "telekom srbija"
+    },
+    {
+      "facilityId": "dc-43341bebfad7a0312292511c07ab7a2a",
+      "name": "IP Technology",
+      "operator": "IP Technology",
+      "country": "Serbia",
+      "city": "Beograd",
+      "address": "Momčila Čedića 5 11200 Beograd Serbia",
+      "priority": 731,
+      "operatorGroup": "ip technology"
+    },
+    {
+      "facilityId": "dc-f49ed3ba372139a9ed86e3dd065774bc",
+      "name": "Ninet Data Centar",
+      "operator": "NiNet doo",
+      "country": "Serbia",
+      "city": "Niš",
+      "address": "Bulevar Nemanjića 25 18000 Niš Serbia",
+      "priority": 732,
+      "operatorGroup": "ninet doo"
+    },
+    {
+      "facilityId": "dc-0360a99388a4737b43129fd793e87f69",
+      "name": "Moscow",
+      "operator": "DataPro",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "tbc Moscow Russia",
+      "priority": 733,
+      "operatorGroup": "datapro"
+    },
+    {
+      "facilityId": "dc-05d81bf699e43edc8fe31ac60cae8a3c",
+      "name": "Contell",
+      "operator": "Contell",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Nauchniy proezd 20, 2 117246 Moscow Russia",
+      "priority": 734,
+      "operatorGroup": "contell"
+    },
+    {
+      "facilityId": "dc-12421b3c3ac7bedc1ea43bf59fc7e478",
+      "name": "Moscow One Datacentre",
+      "operator": "IXcellerate",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Altufevskoya Shosse Moscow Russia",
+      "priority": 735,
+      "operatorGroup": "ixcellerate"
+    },
+    {
+      "facilityId": "dc-16a741a358b21f09ca92e76a3fd28b15",
+      "name": "Ostankino Television Tower",
+      "operator": "Ostankino Television Tower",
+      "country": "Russian Federation",
+      "city": "Moskva",
+      "address": "Akademika Koroleva St, 15 127427 Moskva Russia",
+      "priority": 736,
+      "operatorGroup": "ostankino television tower"
+    },
+    {
+      "facilityId": "dc-176defb5c6804e56c60294e5706bb0d1",
+      "name": "Moscow",
+      "operator": "WebDC",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Nagornaya, 2, Himki 141400 Moscow Russia",
+      "priority": 737,
+      "operatorGroup": "webdc"
+    },
+    {
+      "facilityId": "dc-1a57e38ea6dcb9f88120610afa48e086",
+      "name": "Moscow",
+      "operator": "ColoCAT",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Molodogvardeyskaya st. 52 121609 Moscow Russia",
+      "priority": 738,
+      "operatorGroup": "colocat"
+    },
+    {
+      "facilityId": "dc-25f1c973585021fbbfa6ced80b4656f8",
+      "name": "Moscow",
+      "operator": "Business Sviaz Holding",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Zoologicheskaya str, 2 123242 Moscow Russia",
+      "priority": 739,
+      "operatorGroup": "business sviaz holding"
+    },
+    {
+      "facilityId": "dc-337050fa23be270d148ef2ad2b39ac73",
+      "name": "SYNTERRA DataCenter",
+      "operator": "Synterra",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Michurinsky prospect, 27/5 Moscow Russia",
+      "priority": 740,
+      "operatorGroup": "synterra"
+    },
+    {
+      "facilityId": "dc-38acc347d532f1b6bf21f5cd8aa71230",
+      "name": "Skolkovo technology park",
+      "operator": "Sberbank",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Skolkovo technology park Moscow Russia",
+      "priority": 741,
+      "operatorGroup": "sberbank"
+    },
+    {
+      "facilityId": "dc-468c3396c94e14c51a3f1ee1901f621e",
+      "name": "Data-center OST Borovaya",
+      "operator": "Dataline",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "7, bld. 10, Borovaya Street 111020 Moscow Russia",
+      "priority": 742,
+      "operatorGroup": "dataline"
+    },
+    {
+      "facilityId": "dc-472a73be97d411e4f6f4aa423ed271d4",
+      "name": "Moscow",
+      "operator": "SafeData LLC",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "address": "Ostapovski proezd, 22/16 109316 Moscow Russia",
+      "priority": 743,
+      "operatorGroup": "safedata llc"
+    },
+    {
+      "facilityId": "dc-493ad80935df95bf129b728c4fe380dd",
+      "name": "Moscow",
+      "operator": "Acronis",
+      "country": "Russian Federation",
+      "city": "+(41)526302800",
+      "address": "Moscow Russia +(41)526302800",
+      "priority": 744,
+      "operatorGroup": "acronis"
+    },
+    {
+      "facilityId": "dc-5cd7bb679f2f3bdaea4a4db0749c744a",
+      "name": "Telecom House",
+      "operator": "Rwanda Development Board",
+      "country": "Rwanda",
+      "city": "Rwanda",
+      "address": "8 KG 7 Ave Kigali Rwanda",
+      "priority": 745,
+      "operatorGroup": "rwanda development board"
+    },
+    {
+      "facilityId": "dc-5e879e8ebbfa2eac99d73be68a522c98",
+      "name": "Rwanda",
+      "operator": "Millicom (Tigo)",
+      "country": "Rwanda",
+      "city": "Rwanda",
+      "address": "KG 9 Ave Kigali Rwanda",
+      "priority": 746,
+      "operatorGroup": "millicom (tigo)"
+    },
+    {
+      "facilityId": "dc-232443e2458aa402e0e98d312f1619d2",
+      "name": "Kigali",
+      "operator": "MTN",
+      "country": "Rwanda",
+      "city": null,
+      "address": null,
+      "priority": 747,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-38213ab44acbab09a9f12e74fe0c5fb3",
+      "name": "PAIX Kigali",
+      "operator": "PAIX Data Centres",
+      "country": "Rwanda",
+      "city": null,
+      "address": null,
+      "priority": 748,
+      "operatorGroup": "paix data centres"
+    },
+    {
+      "facilityId": "dc-04d39753424753a414c7706a5b9e8050",
+      "name": "Riyadh 1",
+      "operator": "Saudi Telecom Company (STC)",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "Imam Saud Bin Abdulaziz Bin Mohammed Rd Riyadh Saudi Arabia",
+      "priority": 749,
+      "operatorGroup": "saudi telecom company (stc)"
+    },
+    {
+      "facilityId": "dc-1ff29bf6d268c98b374b2480a85882bc",
+      "name": "Riyadh",
+      "operator": "Nashirnet National Computer Systems Co.",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "Olaya Street 11372 Riyadh Saudi Arabia",
+      "priority": 750,
+      "operatorGroup": "nashirnet national computer systems co."
+    },
+    {
+      "facilityId": "dc-2f634c82cab93413c394761663fc6443",
+      "name": "SABB",
+      "operator": "Saudi British Bank",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "6685 الامير عبدالعزيز بن مساعد بن جلوي 12628 Riyadh Saudi Arabia",
+      "priority": 751,
+      "operatorGroup": "saudi british bank"
+    },
+    {
+      "facilityId": "dc-4f61e15645fd00d4e8cc910775c3a0a0",
+      "name": "Dammam",
+      "operator": "CenterServ",
+      "country": "Saudi Arabia",
+      "city": "Dammam",
+      "address": "King Fahd Road 32232 Dammam Saudi Arabia",
+      "priority": 752,
+      "operatorGroup": "centerserv"
+    },
+    {
+      "facilityId": "dc-6ab6df3bd47e63a9bf2599e89ea1a3ea",
+      "name": "King Abdullah Financial District",
+      "operator": "Al Ra’idah Investment Company",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "King Fahd Rd Riyadh Saudi Arabia",
+      "priority": 753,
+      "operatorGroup": "al ra’idah investment company"
+    },
+    {
+      "facilityId": "dc-6fb51a244bf00298d361dc8b6a6db46c",
+      "name": "Imam Abdulrahman Bin Faisal University",
+      "operator": "Imam Abdulrahman Bin Faisal University",
+      "country": "Saudi Arabia",
+      "city": "Dammam",
+      "address": "2835 King Faisal Road 34212 Dammam Saudi Arabia",
+      "priority": 754,
+      "operatorGroup": "imam abdulrahman bin faisal university"
+    },
+    {
+      "facilityId": "dc-78288192851391f164f8257d0db57714",
+      "name": "Riyahd",
+      "operator": "Gateway Gulf",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "tbc 3199 Riyadh Saudi Arabia",
+      "priority": 755,
+      "operatorGroup": "gateway gulf"
+    },
+    {
+      "facilityId": "dc-8660779204afc9c50025bd90047c0c09",
+      "name": "Riyadh",
+      "operator": "HostGee.Com",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "Olaya Street 11372 Riyadh Saudi Arabia",
+      "priority": 756,
+      "operatorGroup": "hostgee.com"
+    },
+    {
+      "facilityId": "dc-8d3399ab1fca9c33e156fdb9d82487b1",
+      "name": "SAMA Data Center at KAFD",
+      "operator": "Saudi Arabian Monetary Authority",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "King Fahd Rd Riyadh Saudi Arabia",
+      "priority": 757,
+      "operatorGroup": "saudi arabian monetary authority"
+    },
+    {
+      "facilityId": "dc-a8f461a59f952d3676b88e2f42c30e5d",
+      "name": "Riyadh",
+      "operator": "GO (Etihad Atheeb Telecom)",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "address": "King Abdulaziz road 12432-6799 Riyadh Saudi Arabia",
+      "priority": 758,
+      "operatorGroup": "go (etihad atheeb telecom)"
+    },
+    {
+      "facilityId": "dc-d4f362bc7f51cb0388e01919a3c25507",
+      "name": "Jeddah",
+      "operator": "Etihad Etisalat (Mobily)",
+      "country": "Saudi Arabia",
+      "city": "Jeddah",
+      "address": "Al Faiha District Jeddah Saudi Arabia",
+      "priority": 759,
+      "operatorGroup": "etihad etisalat (mobily)"
+    },
+    {
+      "facilityId": "dc-39d0e5462fbfa845668f7359389cbae4",
+      "name": "Sudatel Tower",
+      "operator": "Sudatel Telecom Group",
+      "country": "Sudan",
+      "city": "Sudan",
+      "address": "Sinkat St Khartoum Sudan",
+      "priority": 760,
+      "operatorGroup": "sudatel telecom group"
+    },
+    {
+      "facilityId": "dc-329cf0d9adaeabd3f9fb34ddaba125d5",
+      "name": "Khartoum",
+      "operator": "Sudan Data Center",
+      "country": "Sudan",
+      "city": null,
+      "address": null,
+      "priority": 761,
+      "operatorGroup": "sudan data center"
+    },
+    {
+      "facilityId": "dc-734611231adc9ab48ed1a16a73778113",
+      "name": "Sudatel Data Center",
+      "operator": "Sudatel Telecom Group",
+      "country": "Sudan",
+      "city": null,
+      "address": null,
+      "priority": 762,
+      "operatorGroup": "sudatel telecom group"
+    },
+    {
+      "facilityId": "dc-2526ea3e0db3db84bd7a5a8317edffb0",
+      "name": "Stockholm 1",
+      "operator": "Equinix",
+      "country": "Sweden",
+      "city": "Bromma",
+      "address": "Mariehällsvägen 36 168 65 Bromma Sweden",
+      "priority": 763,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-263e76a7fc5acb16a01a0eb11e0d4db7",
+      "name": "Stockholm 5",
+      "operator": "Interxion",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Vanda 3, Esbogatan 11, Akalla Kista 16774 Stockholm Sweden",
+      "priority": 764,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-3e37bf43e567a4cea03948661948e5b8",
+      "name": "Stockholm 4",
+      "operator": "Interxion",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Vanda 3, Esbogatan 11, Akalla Kista 16774 Stockholm Sweden",
+      "priority": 765,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-6a7094626a27c787ef039a7c35ef5eb9",
+      "name": "Stockholm 1",
+      "operator": "Interxion",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "C/o DN.EX Tryckeriet, Esbogatan 11, Akalla Kista 16774 Stockholm Sweden",
+      "priority": 766,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-80da864c284530b6af6c2016e47e6955",
+      "name": "Stockholm 2",
+      "operator": "Equinix",
+      "country": "Sweden",
+      "city": "Sköndal",
+      "address": "Kvastvägen 25-29 122 33 Sköndal Sweden",
+      "priority": 767,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-b676d39e3303ca76d42fb2abe3faabe5",
+      "name": "Stockholm 2",
+      "operator": "Interxion",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Vanda 3, Esbogatan 11, Akalla Kista 16774 Stockholm Sweden",
+      "priority": 768,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-c6af3d0c974645f99c5f9980bbb88fc6",
+      "name": "Stockholm 3",
+      "operator": "Interxion",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Cessnalaan 50 1119NL Stockholm Sweden",
+      "priority": 769,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-110da13fca7537942fc20675a47258b3",
+      "name": "AWS Eskilstuna",
+      "operator": "Amazon",
+      "country": "Sweden",
+      "city": null,
+      "address": null,
+      "priority": 770,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-035a44982e9c10bb1ebdac9ad2ec7203",
+      "name": "Gothenburg",
+      "operator": "Gotanet - Götalandsnätet AB",
+      "country": "Sweden",
+      "city": "Trollhättan",
+      "address": "Nohabgatan 11H 461 53 Trollhättan Sweden",
+      "priority": 771,
+      "operatorGroup": "gotanet - götalandsnätet ab"
+    },
+    {
+      "facilityId": "dc-06bf1fbab410104c3cb44ee659c5d856",
+      "name": "Mediatec Stockholm",
+      "operator": "Mediatec Solutions",
+      "country": "Sweden",
+      "city": "Bromma",
+      "address": "Ranhammarsvägen 12 168 67 Bromma Sweden",
+      "priority": 772,
+      "operatorGroup": "mediatec solutions"
+    },
+    {
+      "facilityId": "dc-06fd2f3b05dc7d5f8db1241e3824b6a5",
+      "name": "STOKAB Stockholm (Thule)",
+      "operator": "STOKAB",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Kungstensgatan 23B 11357 Stockholm Sweden",
+      "priority": 773,
+      "operatorGroup": "stokab"
+    },
+    {
+      "facilityId": "dc-14451cf9fa882e6357fb3b36c73205d6",
+      "name": "Stockholm Gärdet",
+      "operator": "IP Only",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Sehlstedtsgatan 9 115 28 Stockholm Sweden",
+      "priority": 774,
+      "operatorGroup": "ip only"
+    },
+    {
+      "facilityId": "dc-17201401fd8ed54117b7eb63de83357a",
+      "name": "Stockholm (Finspångsgatan)",
+      "operator": "Verizon",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Finspångsgatan 25-27 16353 Stockholm Sweden",
+      "priority": 775,
+      "operatorGroup": "verizon"
+    },
+    {
+      "facilityId": "dc-1c99469655156222df4919398eeb3f43",
+      "name": "Stockholm Järfälla",
+      "operator": "IP Only",
+      "country": "Sweden",
+      "city": "Järfälla",
+      "address": "Elektronikhöjden 6 175 43 Järfälla Sweden",
+      "priority": 776,
+      "operatorGroup": "ip only"
+    },
+    {
+      "facilityId": "dc-1dc0f18decb1ff48ed1c4f9137df3f27",
+      "name": "STOKAB Stockholm (Kista)",
+      "operator": "STOKAB",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "address": "Borgafjordsgatan 15 16440 Stockholm Sweden",
+      "priority": 777,
+      "operatorGroup": "stokab"
+    },
+    {
+      "facilityId": "dc-1f82580972b168c0858d2e9f43a438da",
+      "name": "Järfälla",
+      "operator": "IP-Only Telecommunication AB",
+      "country": "Sweden",
+      "city": "Järfälla",
+      "address": "Elektronikhöjden 6 175 43 Järfälla Sweden",
+      "priority": 778,
+      "operatorGroup": "ip-only telecommunication ab"
+    },
+    {
+      "facilityId": "dc-0aa1023ed990eb5d76fcacabe358b355",
+      "name": "3 Loyang Way",
+      "operator": "Digital Realty Trust",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "3 Loyang Way 508719 Singapore Singapore",
+      "priority": 779,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-0abc1d9f39326a34a6eb919cfb3171a7",
+      "name": "Serangoon",
+      "operator": "NTT",
+      "country": "Singapore",
+      "city": "Serangoon",
+      "address": "51 Serangoon North Avenue 4 Serangoon Singapore",
+      "priority": 780,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-56da519c5977433523a6476072f122f6",
+      "name": "29A International Parkway",
+      "operator": "Digital Realty Trust",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "29A International Parkway 609923 Singapore Singapore",
+      "priority": 781,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-600fe6c7e562f08f5239f923d090a284",
+      "name": "Singapore 1",
+      "operator": "Equinix",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "20 Ayer Rajah Crescent 139964 Singapore Singapore",
+      "priority": 782,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-665473f770b2d464231679c38d1c903b",
+      "name": "Tai Seng 2",
+      "operator": "NTT",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "Tai Seng Ave Singapore Singapore",
+      "priority": 783,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-8853517f52af48a045711232e4fb8e25",
+      "name": "Singapore",
+      "operator": "Google",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "Jurong West 648195 Singapore Singapore",
+      "priority": 784,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-cd298b065bd0c9c4b795f04ec9c4353d",
+      "name": "Singapore 3",
+      "operator": "Equinix",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "26A Ayer Rajah Crescent 139963 Singapore Singapore",
+      "priority": 785,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-d9ddeab66e3f7cc67f6a198627a91601",
+      "name": "Singapore 2",
+      "operator": "Equinix",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "15 Pioneer Walk, Jurong Industrial Park 627753 Singapore Singapore",
+      "priority": 786,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-ec5a733bdd03fb5e565da1b4dcb24463",
+      "name": "Singapore 2",
+      "operator": "Google",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "tbc Singapore Singapore",
+      "priority": 787,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-01ac8c0a7dfe4c09558c9bf9ca9f00b7",
+      "name": "Telin-3",
+      "operator": "Telin (Telkom Indonesia)",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "8 Sunview Drive 627485 Singapore Singapore",
+      "priority": 788,
+      "operatorGroup": "telin (telkom indonesia)"
+    },
+    {
+      "facilityId": "dc-0430a6663275506e8670223e9f085d68",
+      "name": "Singapore",
+      "operator": "Algolia",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "tbc Singapore Singapore",
+      "priority": 789,
+      "operatorGroup": "algolia"
+    },
+    {
+      "facilityId": "dc-0831aac3d052500427ed2519e387ad02",
+      "name": "Singapore",
+      "operator": "Linode LLC",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "tbc Singapore Singapore",
+      "priority": 790,
+      "operatorGroup": "linode llc"
+    },
+    {
+      "facilityId": "dc-08632f442ff9c681f9066d865ef3f7f0",
+      "name": "Singapore",
+      "operator": "Verizon",
+      "country": "Singapore",
+      "city": "www.verizonenterprise.com",
+      "address": "Singapore Singapore www.verizonenterprise.com",
+      "priority": 791,
+      "operatorGroup": "verizon"
+    },
+    {
+      "facilityId": "dc-094e107f8572bd1415430ae054fc27a5",
+      "name": "Singapore",
+      "operator": "TATA Communications",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "I-Park media hub complex, 35 Tai Seng Street #01-01 534103 Singapore Singapore",
+      "priority": 792,
+      "operatorGroup": "tata communications"
+    },
+    {
+      "facilityId": "dc-10913ce9146e0617fa382eaf6e8c5d56",
+      "name": "Singapore",
+      "operator": "Cyxtera",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "Tai Seng Drive 9 535227 Singapore Singapore",
+      "priority": 793,
+      "operatorGroup": "cyxtera"
+    },
+    {
+      "facilityId": "dc-117f01d2095c6583391c61a7a5056767",
+      "name": "Singapore",
+      "operator": "Oath",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "Jurong Town Hall Rd Singapore Singapore",
+      "priority": 794,
+      "operatorGroup": "oath"
+    },
+    {
+      "facilityId": "dc-1d29b115100e21e2b83779396b4d5f63",
+      "name": "Ljubljana",
+      "operator": "Telemach Sirokopasovne Komunikacije",
+      "country": "Slovenia",
+      "city": "Ljubljana",
+      "address": "Tivolska 50 1000 Ljubljana Slovenia",
+      "priority": 795,
+      "operatorGroup": "telemach sirokopasovne komunikacije"
+    },
+    {
+      "facilityId": "dc-3113b0878e2a297e075b8965da5f8488",
+      "name": "Nova Gorica",
+      "operator": "Sontius d.o.o.",
+      "country": "Slovenia",
+      "city": "Šempeter",
+      "address": "Mednarodni prehod 6 5290 Šempeter pri Gorici Slovenia",
+      "priority": 796,
+      "operatorGroup": "sontius d.o.o."
+    },
+    {
+      "facilityId": "dc-6dea4dd599a45c54c6924c66dadb260b",
+      "name": "IT TEL Ljubljana",
+      "operator": "IT TEL",
+      "country": "Slovenia",
+      "city": "Ljubljana",
+      "address": "Tivolska Cesta 50 1231 Ljubljana Slovenia",
+      "priority": 797,
+      "operatorGroup": "it tel"
+    },
+    {
+      "facilityId": "dc-7fd5fcf060533a0a89046f9540727dea",
+      "name": "Nova Gorica",
+      "operator": "Arctur d.o.o.",
+      "country": "Slovenia",
+      "city": "Nova",
+      "address": "Industrijska cesta 5 5000 Nova Gorica Slovenia",
+      "priority": 798,
+      "operatorGroup": "arctur d.o.o."
+    },
+    {
+      "facilityId": "dc-a7e7f102954908abb458c3b5d20512ca",
+      "name": "SIX SI Jozef Stefan Institute",
+      "operator": "SIX SI",
+      "country": "Slovenia",
+      "city": "Ljubljana",
+      "address": "Jamova cesta 39 1000 Ljubljana Slovenia",
+      "priority": 799,
+      "operatorGroup": "six si"
+    },
+    {
+      "facilityId": "dc-e83d89c47be4a9bb255111bee64fcac1",
+      "name": "TusHosting",
+      "operator": "Tusmobil",
+      "country": "Slovenia",
+      "city": "Ljubljana-Crnuce",
+      "address": "Brnciceva 49 1231 Ljubljana-Crnuce Slovenia",
+      "priority": 800,
+      "operatorGroup": "tusmobil"
+    }
+  ]
+}

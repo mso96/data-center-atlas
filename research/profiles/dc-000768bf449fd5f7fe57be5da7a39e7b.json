@@ -1,0 +1,102 @@
+{
+  "facilityId": "dc-000768bf449fd5f7fe57be5da7a39e7b",
+  "status": "reviewed",
+  "reviewNote": "AM5 at Schepenbergweg 42, Amsterdam matches the imported name, operator and street address.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "AM5 at Schepenbergweg 42, Amsterdam matches the imported name, operator and street address."
+  },
+  "aliases": [
+    "Equinix AM5"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "title": "Equinix AM5 — official facility information",
+      "url": "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/amsterdam-data-centers/am5",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "summary",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Overview",
+      "value": "Equinix AM5 provides colocation and interconnection in Amsterdam. The operator lists private cages and cabinet services, with connections to its exchange and cloud networking products.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "address",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Schepenbergweg 42, 1105 AT Amsterdam, Netherlands",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-0",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation space",
+      "value": "6,000 m²",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-1",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-2",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+2",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "service-0",
+      "section": "overview",
+      "category": "Services",
+      "label": "Private cages",
+      "value": "Private cages",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "service-1",
+      "section": "overview",
+      "category": "Services",
+      "label": "Cabinet colocation",
+      "value": "Cabinet colocation",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

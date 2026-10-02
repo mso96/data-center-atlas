@@ -1,9 +1,19 @@
-# Data Center Atlas — completed application
+# Data Center Atlas — application and research progress
 
 **Current local data: 17,875 imported facilities from Ringmast4r's attributed
 Global-Data-Center-Map snapshot; 6,086 are mapped.** This is a static snapshot, not
 a live feed. Demo mode remains available and is the default for a clean checkout.
 See [source, license, mapping, exclusions and reproduction](docs/sources/RINGMAST4R.md).
+
+## Mapped explorer and separate profiles
+
+The public explorer now shows only the 6,086 geolocated facilities. Its title is
+“Discover data centers”. Each mapped facility has a dedicated Overview / Specs /
+Location page, with safe filter-preserving Back to map navigation and linked sources.
+Migration 002 stores research separately from imported records. The 1,000-candidate
+selection is complete; **official-source research is 4 reviewed/enriched, 996 pending**.
+The requested 1,000-facility research is not complete. See [research workflow and
+progress](docs/RESEARCH.md) and `research/report.json`.
 
 ## Architecture
 
@@ -128,7 +138,7 @@ application code has no map-specific React lint exemptions.
 
 ## Verification results
 
-- 16 automated tests pass: original contracts, SQLite persistence/reopen and migration
+- 20 automated tests pass: original contracts, SQLite persistence/reopen and migration
   repeatability, unit/country/date normalization, GeoJSON order/null geometry,
   invalid-coordinate/URL/date/header reports, repeated imports, dry-run isolation,
   duplicate ambiguity, fixture separation, SQL/demo filter parity and injection-like

@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 10,
+  "candidates": [
+    {
+      "facilityId": "dc-d65b5f809022ea61eecb5fb028a2ab3d",
+      "name": "Project Pyramid",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 901,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-844022028ee3cfde7ce5cccf2903c505",
+      "name": "CyrusOne Freestone Data Center",
+      "operator": "CyrusOne",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 902,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-a0f2eb344554f5672ee0fd4bb515d923",
+      "name": "East Wenatchee Campus",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 903,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-5609b7920b34252662aeb40a47bd3467",
+      "name": "Fairwater 2 - Atlanta",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 904,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-b76b5b95024023f4cfc91e640d8727e4",
+      "name": "Hillcrest Campus",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 905,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-2c38df1e63a8b57f2a4e2414b3cd1fc5",
+      "name": "Imperial Valley AI Data Center",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 906,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-bae50d9965f7576f9ff1d0b068f2c2e3",
+      "name": "Becker Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 907,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-3d6c14c62bfe5cf8ccc6fcbbbfb37d3b",
+      "name": "Project Steamboat - Fulton Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 908,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-46297cb0c94a1ef1e428630cc90556b3",
+      "name": "Council Bluffs Data Center - Campus 2 West",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 909,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-31cbff4cca9fe7c5ea42226c89364ffb",
+      "name": "Ashburn Data Center Campus VA3",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 910,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-ab381d211898895ac57e588942e540b6",
+      "name": "QTS Atlanta 1",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 911,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-1376f147bf8426e27252c485f502f276",
+      "name": "Boyd Farms Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 912,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-241a5259308cf9008d89e17866ff9bc7",
+      "name": "Lyle Creek Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 913,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-c6b5bd96d6ef8dc2374b8c5a1eb3acea",
+      "name": "Stover North Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 914,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-1a68d62ed67495eee211fed563fe59c1",
+      "name": "Southeast Data Center campus",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 915,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-48f1c0e31e9deb49eaafac84898a2f40",
+      "name": "QTS Fayetteville",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 916,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-020ca8d90037ac924d25409eba74a568",
+      "name": "QTS Richmond 3",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 917,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-4ab66b02f6d3d6a45456968519d02b9b",
+      "name": "QTS Richmond 1",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 918,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-a0b1388c8656a32d72f9ad554659009b",
+      "name": "Reno Data Center Campus: NV1",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 919,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-9d695e33cbeea9ce14128d16a1ca66b2",
+      "name": "QTS Phoenix II Campus",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 920,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-f467a363e484c94204387523e20a4a4f",
+      "name": "Microsoft Project Ginger West",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 921,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-ed31e89e5e98e9a155b3985cf001037d",
+      "name": "Ashburn Data Center Campus VA1",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 922,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-14aec68a12f923b20ad587967195f7aa",
+      "name": "EdgeConneX ATL11-13",
+      "operator": "EdgeConneX",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 923,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-7cb4dd53346879b8da5d96c6387766da",
+      "name": "Iron Mountain White Oak Technology Park (RCH1-RCH2-RCH3)",
+      "operator": "Iron Mountain",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 924,
+      "operatorGroup": "Iron Mountain"
+    },
+    {
+      "facilityId": "dc-8b7ed261b2b689d03821a3248426515b",
+      "name": "EdgeConneX Ashville Data Center",
+      "operator": "EdgeConneX",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 925,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-9edda1b5e2b8e47707673cf21626a343",
+      "name": "New Albany Data Center Campus: OH1",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 926,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-b7d36193d878e838bc53877b1b814f07",
+      "name": "Vantage VA4",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 927,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-c7e3cf72057d9087e375d8ae8d02f4c8",
+      "name": "Culpeper Campus Data Center (IAD 5 and IAD6)",
+      "operator": "DataBank",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 928,
+      "operatorGroup": "DataBank"
+    },
+    {
+      "facilityId": "dc-2550aa344b3fcc18cb952fec3ec95217",
+      "name": "QTS Manassas DC1-DC6",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 929,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-14f34c15fb423afdfad2c27399bd4d1e",
+      "name": "IAD 01-04",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 930,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-4f0db56de941e06009387739138b311b",
+      "name": "QTS Hillsboro 2",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 931,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-b10545dbde0267e85318e34542bb8283",
+      "name": "QTS Richmond 2",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 932,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-691400f9e563fe2ab7063b6728eea44f",
+      "name": "Phoenix Data Center Campus: AZ1",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 933,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-ed345f868c5ec2910bc31a1528281b9a",
+      "name": "Northlake Chicago CH1",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 934,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-44e0af0428e4d7a163a0846217d86cfd",
+      "name": "Microsoft Project Osmium",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 935,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-9c637cf941d8a0b011d219d8f67b322b",
+      "name": "Papillion Data Center - Phase 2",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 936,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-ff117cd7409123e2488e7f732a4ad5a4",
+      "name": "New Albany 1",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 937,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-8aba594412f9ad2fa4ef2d11116373ba",
+      "name": "Council Bluffs Data Center - Campus 2 East",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 938,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-d46d28366d1f7db5c041ef1a78b687c8",
+      "name": "EdgeConneX New Albany Campus",
+      "operator": "EdgeConneX",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 939,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-4f85d05d2815e6c233ce3bc1d257ff32",
+      "name": "EdgeConneX PHX11",
+      "operator": "EdgeConneX",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 940,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-a9b90c04c952fb8922d70223e0bfda9a",
+      "name": "Microsoft Project Ruthenium",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 941,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-d8885130a6c55065e9600a32b08df28f",
+      "name": "Papillion Data Center - Phase 1",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 942,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-d8bb1570849eb55d4a40a2ca452ba9db",
+      "name": "Ameresco NAS Lemoore Data Center",
+      "operator": "CyrusOne",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 943,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-8926beeff99300c9c37347ca420bf1c7",
+      "name": "Alviso-Milpitas San Jose Campus",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 944,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-85b553bcb24e459935bfe25812a712d6",
+      "name": "SJDC 04",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 945,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-2cdcc9733e776c1a735a02b2fb701c67",
+      "name": "Ashburn Data Center Campus VA2",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 946,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-705dff4bd5cbf64805e0872c48b7a870",
+      "name": "NTT Ashburn VA11",
+      "operator": "NTT",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 947,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-c5f4d80d6bf153a06933dfc972f62768",
+      "name": "Iron Mountain VA-3",
+      "operator": "Iron Mountain",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 948,
+      "operatorGroup": "Iron Mountain"
+    },
+    {
+      "facilityId": "dc-bc8515dc0d4b795aa6af8e7c9bcdf934",
+      "name": "QTS Chicago (including building 2 expansion)",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 949,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-30d3da93052a3c201de62913071aa18f",
+      "name": "QTS San Antonio",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 950,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-50a988bcca22f183d234091e10e67522",
+      "name": "CyrusOne DFW1",
+      "operator": "CyrusOne",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 951,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-8c425cbf67589e9f0e170902c43fc8f9",
+      "name": "Quincy Data Center Campus: WA1",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 952,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-4d3826f8da859517e0cb1c9b232b5c46",
+      "name": "New Albany 2",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 953,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-41aa5afff3f0936e3006360beec78baa",
+      "name": "Santa Clara Data Center CA1",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 954,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-025c115467aecdfb52b3d2d76b96e5bf",
+      "name": "Santa Clara Data Center CA2",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 955,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-8a1a17bb0664e10e2f65dd1e8c07f4ab",
+      "name": "QTS Ashburn 2 DC1",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 956,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-ea7b2ae9b438e4bedcde7843ee910e8a",
+      "name": "QTS Irving  DFW2-DC1 & 2",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 957,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-d4e1c0e2deaa3a418ce256550b42f469",
+      "name": "Lithia Springs Campus Data Center: ATL6",
+      "operator": "DataBank",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 958,
+      "operatorGroup": "DataBank"
+    },
+    {
+      "facilityId": "dc-d4f4397bc875865f3f18f3b61f1b3b76",
+      "name": "QTS Fort Worth",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 959,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-3cacead7b51153dd74a54c71b78bc3f2",
+      "name": "Latechco Data Center1",
+      "operator": "Latechco",
+      "country": "Uruguay",
+      "city": "Montevideo",
+      "address": "Paraguay 2141 11800 Montevideo Uruguay",
+      "priority": 960,
+      "operatorGroup": "latechco"
+    },
+    {
+      "facilityId": "dc-82eec17374b2c94edf363052fb9aed2c",
+      "name": "Montevideo",
+      "operator": "Neutrona",
+      "country": "Uruguay",
+      "city": "Uruguay",
+      "address": "Plaza Independencia 831 Montevideo Uruguay",
+      "priority": 961,
+      "operatorGroup": "neutrona"
+    },
+    {
+      "facilityId": "dc-9205d1b2114d5818c40aaafa2a1613fe",
+      "name": "Uzcloud",
+      "operator": "Uztelekom",
+      "country": "Uzbekistan",
+      "city": null,
+      "address": null,
+      "priority": 962,
+      "operatorGroup": "uztelekom"
+    },
+    {
+      "facilityId": "dc-7d52991ea939cfb0ac599e34260c1042",
+      "name": "Caracas",
+      "operator": "CenturyLink",
+      "country": "Venezuela",
+      "city": "Venezuela",
+      "address": "Calle 7 Caracas Venezuela",
+      "priority": 963,
+      "operatorGroup": "centurylink"
+    },
+    {
+      "facilityId": "dc-14964f5ae76b62287699b8c077e1a4b4",
+      "name": "Hanoi Tang Long",
+      "operator": "NTT",
+      "country": "Vietnam",
+      "city": null,
+      "address": null,
+      "priority": 964,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-87f30ab79da8597ab242507a92fda555",
+      "name": "Hanoi",
+      "operator": "Telehouse",
+      "country": "Vietnam",
+      "city": "Vietnam",
+      "address": "17 Phố Duy Tân Cầu Giấy Vietnam",
+      "priority": 965,
+      "operatorGroup": "telehouse"
+    },
+    {
+      "facilityId": "dc-c12e8cf078b3d7526969f62c5a961f2e",
+      "name": "Johannesburg 1",
+      "operator": "NTT",
+      "country": "South Africa",
+      "city": "Centurion",
+      "address": "21 Sterling Rd 0187 Centurion South Africa",
+      "priority": 966,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-a86e51bd82ba9db03d2e2edc8304e591",
+      "name": "AWS CPT Atlantic",
+      "operator": "Amazon",
+      "country": "South Africa",
+      "city": null,
+      "address": null,
+      "priority": 967,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-07e52cca2b1121d95b1390f0868db73c",
+      "name": "IS Cape Town (Cape Town Internet Exchange)",
+      "operator": "Internet Solutions (IS)",
+      "country": "South Africa",
+      "city": "Cape",
+      "address": "IDC 4, 6th Floor, The Terraces, 34 Bree street 8001 Cape Town South Africa",
+      "priority": 968,
+      "operatorGroup": "internet solutions (is)"
+    },
+    {
+      "facilityId": "dc-0b873840ec7711b3ff0c4b827b7014a7",
+      "name": "Cape Town",
+      "operator": "CenterServ",
+      "country": "South Africa",
+      "city": "Cape",
+      "address": "Wale St & Burg St 8000 Cape Town South Africa",
+      "priority": 969,
+      "operatorGroup": "centerserv"
+    },
+    {
+      "facilityId": "dc-0ee97fbd4983605e9abb64b059ec248d",
+      "name": "Cape Town",
+      "operator": "Liquid Telecommunications Holdings Limited",
+      "country": "South Africa",
+      "city": "Cape",
+      "address": "112-115 De Waal Rd 7880 Cape Town South Africa",
+      "priority": 970,
+      "operatorGroup": "liquid telecommunications holdings limited"
+    },
+    {
+      "facilityId": "dc-195cb0c2acfead2460f76c502da5b69b",
+      "name": "Rosebank",
+      "operator": "Imagine IPS",
+      "country": "South Africa",
+      "city": "Johannesburg",
+      "address": "158 Jan Smuts 2121 Johannesburg South Africa",
+      "priority": 971,
+      "operatorGroup": "imagine ips"
+    },
+    {
+      "facilityId": "dc-209f704aee0446bc02b7ee99e05e1c87",
+      "name": "Johannesburg",
+      "operator": "RSAWEB",
+      "country": "South Africa",
+      "city": "Sandton",
+      "address": "3 Eglin Rd 2157 Sandton South Africa",
+      "priority": 972,
+      "operatorGroup": "rsaweb"
+    },
+    {
+      "facilityId": "dc-225ca725a5fc2edfcd095aa56d8f0d5f",
+      "name": "Megawatt Park",
+      "operator": "Eskom",
+      "country": "South Africa",
+      "city": "Sandton",
+      "address": "1 Maxwell Dr 2157 Sandton South Africa",
+      "priority": 973,
+      "operatorGroup": "eskom"
+    },
+    {
+      "facilityId": "dc-345ca83322d99c68f271caa318f93d9e",
+      "name": "Cape Town",
+      "operator": "Teraco Data Environments",
+      "country": "South Africa",
+      "city": "Cape",
+      "address": "240 Main Rd 7700 Cape Town South Africa",
+      "priority": 974,
+      "operatorGroup": "teraco data environments"
+    },
+    {
+      "facilityId": "dc-379f579fe82f99f499b426f6e851f2f1",
+      "name": "Cape Town",
+      "operator": "Hetzner (Pty) Ltd",
+      "country": "South Africa",
+      "city": "2000",
+      "address": "7700 Cape Town South Africa +27 21 970 2000",
+      "priority": 975,
+      "operatorGroup": "hetzner (pty) ltd"
+    },
+    {
+      "facilityId": "dc-3df91059f077674896a74c4b6294f118",
+      "name": "CLS Mtunzini",
+      "operator": "SEACOM",
+      "country": "South Africa",
+      "city": "Mtunzini",
+      "address": "12 Valley Drive 3867 Mtunzini South Africa",
+      "priority": 976,
+      "operatorGroup": "seacom"
+    },
+    {
+      "facilityId": "dc-439692531d235012df1d12d4c139b9d4",
+      "name": "Parklands",
+      "operator": "Internet Solutions (IS)",
+      "country": "South Africa",
+      "city": "Johannesburg",
+      "address": "158 Jan Smuts Avenue  2121 Johannesburg South Africa",
+      "priority": 977,
+      "operatorGroup": "internet solutions (is)"
+    },
+    {
+      "facilityId": "dc-4569c6abd96921e4657b86cb15e87e28",
+      "name": "Bellville",
+      "operator": "Internet Solutions (IS)",
+      "country": "South Africa",
+      "city": "Cape",
+      "address": "2 Strand Rd 7530 Cape Town South Africa",
+      "priority": 978,
+      "operatorGroup": "internet solutions (is)"
+    },
+    {
+      "facilityId": "dc-4619e2e5b0ce95c89b02c52174af9345",
+      "name": "Johannesburg (Sivewright)",
+      "operator": "T-Systems International GmbH",
+      "country": "South Africa",
+      "city": "Johannesburg",
+      "address": "141 Sivewright Ave 2094 Johannesburg South Africa",
+      "priority": 979,
+      "operatorGroup": "t-systems international gmbh"
+    },
+    {
+      "facilityId": "dc-56281a8c372c34e7a756b80bdb4b9dcc",
+      "name": "Lusaka",
+      "operator": "Huawei",
+      "country": "Zambia",
+      "city": "Zambia",
+      "address": "Thabo Mbeki Rd Lusaka Zambia",
+      "priority": 980,
+      "operatorGroup": "huawei"
+    },
+    {
+      "facilityId": "dc-61a607e9218c06ce750f10de4562a34a",
+      "name": "NData",
+      "operator": "NetOne IT",
+      "country": "Zambia",
+      "city": "Zambia",
+      "address": "Mulungushi Rd Lusaka Zambia",
+      "priority": 981,
+      "operatorGroup": "netone it"
+    },
+    {
+      "facilityId": "dc-63b719e49988aa83596b2acb7e7e49fb",
+      "name": "Zambia",
+      "operator": "Barclays",
+      "country": "Zambia",
+      "city": "Zambia",
+      "address": "Nasser Rd Lusaka Zambia",
+      "priority": 982,
+      "operatorGroup": "barclays"
+    },
+    {
+      "facilityId": "dc-d3d27a440ae426c75c3585052435e975",
+      "name": "National Data Centre",
+      "operator": "Zambia Information and Communications Technology Authority (ZICTA)",
+      "country": "Zambia",
+      "city": "Zambia",
+      "address": "Independence Ave Lusaka Zambia",
+      "priority": 983,
+      "operatorGroup": "zambia information and communications technology authority (zicta)"
+    },
+    {
+      "facilityId": "dc-20e83b675febaf8ac27c16eaab5e8a5a",
+      "name": "ADC Lusaka",
+      "operator": "Africa Data Centres",
+      "country": "Zambia",
+      "city": null,
+      "address": null,
+      "priority": 984,
+      "operatorGroup": "africa data centres"
+    },
+    {
+      "facilityId": "dc-34aa74ea296eec99fb4d3c2858150f75",
+      "name": "Runhare House",
+      "operator": "TelOne",
+      "country": "Zimbabwe",
+      "city": "Zimbabwe",
+      "address": "Union Ave Harare Zimbabwe",
+      "priority": 985,
+      "operatorGroup": "telone"
+    },
+    {
+      "facilityId": "dc-1fdd6de7e71a3ea3ace0e882f88af1b2",
+      "name": "Mausica",
+      "operator": "Telecommunications Services of Trinidad and Tobago (TSTT)",
+      "country": null,
+      "city": "Tobago",
+      "address": "Mausica Rd D'Abadie Trinidad and Tobago",
+      "priority": 986,
+      "operatorGroup": "telecommunications services of trinidad and tobago (tstt)"
+    },
+    {
+      "facilityId": "dc-219cd141f3e64f28139e46679e7ac7bc",
+      "name": "DC-ESL-SE-CYGRIDS",
+      "operator": "Cygrids Communications AB",
+      "country": null,
+      "city": "Sverige",
+      "address": "Grävmaskinsvägen 241 92 Eslöv Sverige",
+      "priority": 987,
+      "operatorGroup": "cygrids communications ab"
+    },
+    {
+      "facilityId": "dc-28bb90ecd2fae0b91e0078237c73f37e",
+      "name": "FDC 1",
+      "operator": "Keppel Data Centres Germany Holding GmbH",
+      "country": null,
+      "city": "Frankfurt",
+      "address": "Heinrich-Lanz-Allee 47 60437 Frankfurt am Main Deutschland",
+      "priority": 988,
+      "operatorGroup": "keppel data centres germany holding gmbh"
+    },
+    {
+      "facilityId": "dc-297bd832bce6e628bf9e448e3eba1696",
+      "name": "The Powerhouse",
+      "operator": "Sure",
+      "country": null,
+      "city": "Jersey",
+      "address": "Queen's Rd St Helier Jersey",
+      "priority": 989,
+      "operatorGroup": "sure"
+    },
+    {
+      "facilityId": "dc-33a009dc4032f975a650c067244bf523",
+      "name": "Luanda",
+      "operator": "Internet Technologies Angola, S.A. (ITA)",
+      "country": null,
+      "city": "000",
+      "address": "Luanda Angola (+224) 225 286 000",
+      "priority": 990,
+      "operatorGroup": "internet technologies angola, s.a. (ita)"
+    },
+    {
+      "facilityId": "dc-36b43a22df45c518cc16b47cd265a63b",
+      "name": "PRE Park",
+      "operator": "inexio GmbH",
+      "country": null,
+      "city": "Kaiserslautern",
+      "address": "Europaallee 14 67657 Kaiserslautern Deutschland",
+      "priority": 991,
+      "operatorGroup": "inexio gmbh"
+    },
+    {
+      "facilityId": "dc-373b97b6ece604f52d59c6c5d0ce981d",
+      "name": "RZ Astra",
+      "operator": "inexio GmbH",
+      "country": null,
+      "city": "Saarlouis",
+      "address": "Ludwig-Karl-Balzer-Allee 19 66740 Saarlouis Deutschland",
+      "priority": 992,
+      "operatorGroup": "inexio gmbh"
+    },
+    {
+      "facilityId": "dc-3eb3a9358953a7c4405f0d70e04799ed",
+      "name": "DC-LJU-SE-CYGRIDS",
+      "operator": "Cygrids Communications AB",
+      "country": null,
+      "city": "Ljungaverk",
+      "address": "Folkets husvägen 10 84198 Ljungaverk Sverige",
+      "priority": 993,
+      "operatorGroup": "cygrids communications ab"
+    },
+    {
+      "facilityId": "dc-40813758e2c62da028b92cb51587c68d",
+      "name": "Blantyre",
+      "operator": "Airtel Malawi",
+      "country": null,
+      "city": "Malawi",
+      "address": "Kamuzu Hwy Blantyre Malawi",
+      "priority": 994,
+      "operatorGroup": "airtel malawi"
+    },
+    {
+      "facilityId": "dc-49610d5c15929fa4174187225caff460",
+      "name": "Einsiedlerhof",
+      "operator": "inexio GmbH",
+      "country": null,
+      "city": "Kaiserslautern",
+      "address": "Liebigstraße 1 67661 Kaiserslautern Deutschland",
+      "priority": 995,
+      "operatorGroup": "inexio gmbh"
+    },
+    {
+      "facilityId": "dc-4f24a24cfb33efce0fba147408f81125",
+      "name": "Brussels Datacenter",
+      "operator": "Brussels DataCenter",
+      "country": null,
+      "city": "Zaventem",
+      "address": "Excelsiorlaan 1930 Zaventem België",
+      "priority": 996,
+      "operatorGroup": "brussels datacenter"
+    },
+    {
+      "facilityId": "dc-524166ae512d9176252b3917fad5b57f",
+      "name": "Keppel DC FRA1",
+      "operator": "Keppel Data Centres Germany Holding GmbH",
+      "country": null,
+      "city": "Frankfurt",
+      "address": "Heinrich-Lanz-Allee 47 60437 Frankfurt am Main Deutschland",
+      "priority": 997,
+      "operatorGroup": "keppel data centres germany holding gmbh"
+    },
+    {
+      "facilityId": "dc-546f42ac38641d1b45e495845a0d48b3",
+      "name": "Critical Hub DataCenter",
+      "operator": "Critical Hub Networks",
+      "country": null,
+      "city": "Ponce",
+      "address": "1314 Ponce de Leon Ave. San Juan Puerto Rico",
+      "priority": 998,
+      "operatorGroup": "critical hub networks"
+    },
+    {
+      "facilityId": "dc-58bd070ed1ce8d78d5a96d7acb169858",
+      "name": "Keppel DC FRA 1",
+      "operator": "Keppel Data Centres Germany Holding GmbH",
+      "country": null,
+      "city": "Frankfurt",
+      "address": "Heinrich-Lanz-Allee 60437 Frankfurt am Main Deutschland",
+      "priority": 999,
+      "operatorGroup": "keppel data centres germany holding gmbh"
+    },
+    {
+      "facilityId": "dc-5b1e6be294a5cbf891196e93ba27f26f",
+      "name": "Hong Kong",
+      "operator": "INAP (Internap Corporation)",
+      "country": null,
+      "city": "877.843.7627",
+      "address": "Tsuen Wan Hong Kong 877.843.7627",
+      "priority": 1000,
+      "operatorGroup": "inap (internap corporation)"
+    }
+  ]
+}

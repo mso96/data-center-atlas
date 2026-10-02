@@ -1,0 +1,102 @@
+{
+  "facilityId": "dc-2526ea3e0db3db84bd7a5a8317edffb0",
+  "status": "reviewed",
+  "reviewNote": "Stockholm 1 corresponds to SK1; Equinix, Mariehällsvägen/Mariehallsvagen 36 and Bromma match.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Stockholm 1 corresponds to SK1; Equinix, Mariehällsvägen/Mariehallsvagen 36 and Bromma match."
+  },
+  "aliases": [
+    "Equinix SK1"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "title": "Equinix SK1 — official facility information",
+      "url": "https://www.equinix.com/data-centers/europe-colocation/sweden-colocation/stockholm-data-centers/sk1",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "summary",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Overview",
+      "value": "SK1 is an Equinix colocation facility in Bromma, in the Stockholm area. The operator lists private cages, on-site support and network interconnection services.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "address",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Mariehallsvagen 36, 168 65 Bromma, Sweden",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-0",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation space",
+      "value": "3,554 m²",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-1",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-2",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "service-0",
+      "section": "overview",
+      "category": "Services",
+      "label": "Private cages",
+      "value": "Private cages",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "service-1",
+      "section": "overview",
+      "category": "Services",
+      "label": "Smart Hands",
+      "value": "Smart Hands",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 1,
+  "candidates": [
+    {
+      "facilityId": "dc-6eaa49031cbbe50eaca5089012169a2e",
+      "name": "Dubai Silicon Oasis Data Center",
+      "operator": "Dubai Silicon Oasis Authority",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "address": "Nad Al Sheba 6009 Dubai United Arab Emirates",
+      "priority": 1,
+      "operatorGroup": "dubai silicon oasis authority"
+    },
+    {
+      "facilityId": "dc-c43092e1d15c4dc7c8b1854e6b2fc09f",
+      "name": "Federal Network (FedNet)",
+      "operator": "UAE Telecommunications Regulatory Authority (TRA)",
+      "country": "United Arab Emirates",
+      "city": "Emirates",
+      "address": "Al Salam St Dubai United Arab Emirates",
+      "priority": 2,
+      "operatorGroup": "uae telecommunications regulatory authority (tra)"
+    },
+    {
+      "facilityId": "dc-c91a0d538a0388c6e338264b89a826f5",
+      "name": "Injazat Data Center",
+      "operator": "Injazat Data Systems",
+      "country": "United Arab Emirates",
+      "city": "Mohammed",
+      "address": "8230 Mohammed Bin Zayed City Abu Dhabi United Arab Emirates",
+      "priority": 3,
+      "operatorGroup": "injazat data systems"
+    },
+    {
+      "facilityId": "dc-ed8b2b35caeb3e6e741c9045f25ed34e",
+      "name": "Dubai 1 & 2",
+      "operator": "Gulf Data Hub (GDH)",
+      "country": "United Arab Emirates",
+      "city": "Emirates",
+      "address": "Dubai Silicon Oasis Dubai United Arab Emirates",
+      "priority": 4,
+      "operatorGroup": "gulf data hub (gdh)"
+    },
+    {
+      "facilityId": "dc-29d3fe87c718277d1abfd1b1420a674e",
+      "name": "Dubai 1",
+      "operator": "Zenlayer",
+      "country": "United Arab Emirates",
+      "city": null,
+      "address": null,
+      "priority": 5,
+      "operatorGroup": "zenlayer"
+    },
+    {
+      "facilityId": "dc-ce814bd83913116dade1634d14a4d8da",
+      "name": "DC Vault",
+      "operator": "DC Vault",
+      "country": "United Arab Emirates",
+      "city": null,
+      "address": null,
+      "priority": 6,
+      "operatorGroup": "dc vault"
+    },
+    {
+      "facilityId": "dc-68ca1f82d7b61daaee292f4e6ea72797",
+      "name": "ACG Data Center",
+      "operator": "Asia Consultancy Group (ACG)",
+      "country": "Afghanistan",
+      "city": "Afghanistan",
+      "address": "Shash Darak Kabul Afghanistan",
+      "priority": 7,
+      "operatorGroup": "asia consultancy group (acg)"
+    },
+    {
+      "facilityId": "dc-f69d693791852b57c25319b8e05b5b28",
+      "name": "Data Center iHost.al",
+      "operator": "iHost.AL",
+      "country": "Albania",
+      "city": null,
+      "address": null,
+      "priority": 8,
+      "operatorGroup": "ihost.al"
+    },
+    {
+      "facilityId": "dc-0e603618c46e9680c05c4d0f72cf4cdf",
+      "name": "ADC Core Network",
+      "operator": "Armenian Datacom Company (ADC)",
+      "country": "Armenia",
+      "city": "Armenia",
+      "address": "13 1 H. Kochar Yerevan Armenia",
+      "priority": 9,
+      "operatorGroup": "armenian datacom company (adc)"
+    },
+    {
+      "facilityId": "dc-a0de84add5f13c4478369ef8af11b501",
+      "name": "GNC-Alfa Yerevan",
+      "operator": "GNC-Alfa",
+      "country": "Armenia",
+      "city": "Armenia",
+      "address": "Tigran Mets 4 Yerevan Armenia",
+      "priority": 10,
+      "operatorGroup": "gnc-alfa"
+    },
+    {
+      "facilityId": "dc-857c99526a5a50f586efe44f6638660d",
+      "name": "Angonap",
+      "operator": "Angola Cables",
+      "country": "Angola",
+      "city": "Angola",
+      "address": "Av. Pedro de Castro Van-Dúnem Loy Luanda Angola",
+      "priority": 11,
+      "operatorGroup": "angola cables"
+    },
+    {
+      "facilityId": "dc-dd7ebfbb84c8700c78e8425295005b21",
+      "name": "CFIN Atlantico",
+      "operator": "Banco Mellennium Atlantico",
+      "country": "Angola",
+      "city": "Angola",
+      "address": "Av. Talatona Luanda Angola",
+      "priority": 12,
+      "operatorGroup": "banco mellennium atlantico"
+    },
+    {
+      "facilityId": "dc-fd7fd77341a289d9cf37f4ce95ba4674",
+      "name": "Luanda",
+      "operator": "Multipla",
+      "country": "Angola",
+      "city": "Angola",
+      "address": "Estrada de Viana KM 19 Luanda Angola",
+      "priority": 13,
+      "operatorGroup": "multipla"
+    },
+    {
+      "facilityId": "dc-20328789982eb0f827593a0062f93d54",
+      "name": "CLS Luanda",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Angola",
+      "city": null,
+      "address": null,
+      "priority": 14,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-9c85eb038d218340cdfbc7962f42fa8e",
+      "name": "Paratus ITA-DC2",
+      "operator": "Paratus Africa",
+      "country": "Angola",
+      "city": null,
+      "address": null,
+      "priority": 15,
+      "operatorGroup": "paratus africa"
+    },
+    {
+      "facilityId": "dc-a0eac0a442c70b663c1c3707481730db",
+      "name": "CLS Sangano Village",
+      "operator": "WACS (West Africa Cable System)",
+      "country": "Angola",
+      "city": null,
+      "address": null,
+      "priority": 16,
+      "operatorGroup": "wacs (west africa cable system)"
+    },
+    {
+      "facilityId": "dc-36dfb689603562a7b9ad57a5b7baedf8",
+      "name": "Buenos Aires",
+      "operator": "CenturyLink",
+      "country": "Argentina",
+      "city": "Buenos",
+      "address": "Av. del Campo 1301 Buenos Aires Argentina",
+      "priority": 17,
+      "operatorGroup": "centurylink"
+    },
+    {
+      "facilityId": "dc-3e7e9a1155f4cd4edf41b08273034ee8",
+      "name": "Buenos Aires 2",
+      "operator": "Neutrona",
+      "country": "Argentina",
+      "city": "Buenos",
+      "address": "Av. Isabel La Catolica 1324 Buenos Aires Argentina",
+      "priority": 18,
+      "operatorGroup": "neutrona"
+    },
+    {
+      "facilityId": "dc-479e44f8652a703e0f081856dbf1754f",
+      "name": "IFX Networks",
+      "operator": "IFX Networks",
+      "country": "Argentina",
+      "city": "C1093AAQ",
+      "address": "Av. Belgrano 1586 C1093AAQ CABA Argentina",
+      "priority": 19,
+      "operatorGroup": "ifx networks"
+    },
+    {
+      "facilityId": "dc-52bb5e4eea84f2e76d51f8f1bb51a2e7",
+      "name": "VisualHosting 1",
+      "operator": "VisualHosting",
+      "country": "Argentina",
+      "city": "CABA",
+      "address": "Chacabuco 145 C1069AAC CABA Argentina",
+      "priority": 20,
+      "operatorGroup": "visualhosting"
+    },
+    {
+      "facilityId": "dc-5576aa99f00c3871c866104e6b02f3e9",
+      "name": "Buenos Aires",
+      "operator": "Neutrona",
+      "country": "Argentina",
+      "city": "Buenos",
+      "address": "Av. Del Campo 1300 Buenos Aires Argentina",
+      "priority": 21,
+      "operatorGroup": "neutrona"
+    },
+    {
+      "facilityId": "dc-8aea7a8e0e5e606356dd9bcc3956814c",
+      "name": "Ringo DCI",
+      "operator": "Ultrasitios",
+      "country": "Argentina",
+      "city": "C1437",
+      "address": "Los Patos 2948 C1437 CABA Argentina",
+      "priority": 22,
+      "operatorGroup": "ultrasitios"
+    },
+    {
+      "facilityId": "dc-9d1494efc30d91403d0eb97adca16a4c",
+      "name": "Buenos Aires (Avenida Congreso)",
+      "operator": "Telecom Argentina S.A.",
+      "country": "Argentina",
+      "city": "C1430AZH",
+      "address": "Av. Congreso 3684 C1430AZH CABA Argentina",
+      "priority": 23,
+      "operatorGroup": "telecom argentina s.a."
+    },
+    {
+      "facilityId": "dc-9faf60ca1f27cdb2119bd0f7f1ea0fa7",
+      "name": "Vienna 2",
+      "operator": "Interxion",
+      "country": "Austria",
+      "city": "Vienna",
+      "address": "Louis-Häfliger-Gasse 10 1210 Vienna Austria",
+      "priority": 24,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-30e84f5ea22e371e42545e2e90828822",
+      "name": "Vienna University Computer Center (Wien)",
+      "operator": "University of Vienna",
+      "country": "Austria",
+      "city": "Vienna",
+      "address": "Universitatsstrasse 7 1010 Vienna Austria",
+      "priority": 25,
+      "operatorGroup": "university of vienna"
+    },
+    {
+      "facilityId": "dc-345fa8ecb20bbb458550c13557690516",
+      "name": "Klagenfurt Stadtwerke",
+      "operator": "Stadtwerke Klagenfurt AG",
+      "country": "Austria",
+      "city": "Klagenfurt",
+      "address": "Gabelsbergerstrasse 50a 9020 Klagenfurt Austria",
+      "priority": 26,
+      "operatorGroup": "stadtwerke klagenfurt ag"
+    },
+    {
+      "facilityId": "dc-3ed223553b121c34e5ba64d10b655f7b",
+      "name": "Kelag Klagenfurt",
+      "operator": "i3b GmbH",
+      "country": "Austria",
+      "city": "Klagenfurt",
+      "address": "Arnulfplatz 2 9020 Klagenfurt Austria",
+      "priority": 27,
+      "operatorGroup": "i3b gmbh"
+    },
+    {
+      "facilityId": "dc-42a20e84e0c6fe01b5372ec70c86db2a",
+      "name": "ITandTEL Voesendorf/Vienna",
+      "operator": "ITandTEL",
+      "country": "Austria",
+      "city": "Voesendorf",
+      "address": "Ortsstr. 24 Voesendorf Austria",
+      "priority": 28,
+      "operatorGroup": "itandtel"
+    },
+    {
+      "facilityId": "dc-4aed06b23c9c70d7edaead2a370d772f",
+      "name": "Vienna",
+      "operator": "e-shelter services GmbH",
+      "country": "Austria",
+      "city": "Vienna",
+      "address": "Computerstraße 4 1100 Vienna Austria",
+      "priority": 29,
+      "operatorGroup": "e-shelter services gmbh"
+    },
+    {
+      "facilityId": "dc-57659a9b2be96b1e8b5e92d1938eb208",
+      "name": "Salzburg",
+      "operator": "Interoute",
+      "country": "Austria",
+      "city": "Salzburg",
+      "address": "Schillerstrasse 30 5020 Salzburg Austria",
+      "priority": 30,
+      "operatorGroup": "interoute"
+    },
+    {
+      "facilityId": "dc-6ef47c02e872e6f83117c82b11b5d965",
+      "name": "Vienna",
+      "operator": "Datasix",
+      "country": "Austria",
+      "city": "Wien",
+      "address": "Hofmühlgasse 3-5 1060 Wien Austria",
+      "priority": 31,
+      "operatorGroup": "datasix"
+    },
+    {
+      "facilityId": "dc-700c5167478f93b6326d157f624a1416",
+      "name": "OBBTel",
+      "operator": "ÖBB Telekom Service GmbH",
+      "country": "Austria",
+      "city": "Vienna",
+      "address": "Bruennerstrasse 20 1210 Vienna Austria",
+      "priority": 32,
+      "operatorGroup": "öbb telekom service gmbh"
+    },
+    {
+      "facilityId": "dc-7bb835d5fcfdcb484a4a27e17b4ebfe9",
+      "name": "XINON Graz",
+      "operator": "The Xinon Carrier Network",
+      "country": "Austria",
+      "city": "Graz",
+      "address": "Neufeldweg 162 8041 Graz Austria",
+      "priority": 33,
+      "operatorGroup": "the xinon carrier network"
+    },
+    {
+      "facilityId": "dc-6a4cf79f64c736e919ceac2b383ba835",
+      "name": "1-21 Templar Road",
+      "operator": "Digital Realty Trust",
+      "country": "Australia",
+      "city": "Erskine",
+      "address": "1-11 Templar Rd 2759 Erskine Park Australia",
+      "priority": 34,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-8bda9edb94d8ca788a147d6dd014e529",
+      "name": "Melbourne",
+      "operator": "NTT",
+      "country": "Australia",
+      "city": "Melbourne",
+      "address": "3004 Melbourne Australia +81-3-3500-8111",
+      "priority": 35,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-96a3c722a40dbe21a86c48f029e2b0b3",
+      "name": "Sydney 3",
+      "operator": "Equinix",
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "47 Bourke Road, Alexandria Sydney Australia",
+      "priority": 36,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-9ebbbb620fc58d89847bf792ca3ee26a",
+      "name": "98 Radnor Drive",
+      "operator": "Digital Realty Trust",
+      "country": "Australia",
+      "city": "Deer",
+      "address": "Radnor Drive 98 3023 Deer Park Australia",
+      "priority": 37,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-aa53b71153ea00151700b99395ad6819",
+      "name": "Sydney",
+      "operator": "NTT",
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "2000 Sydney Australia +81-3-3500-8111",
+      "priority": 38,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-c9f03c8e6f3e23ba415b53a269de3a93",
+      "name": "Melbourne",
+      "operator": "Equinix",
+      "country": "Australia",
+      "city": "Melbourne",
+      "address": "600 Lorimer Street, Port Melbourne Melbourne Australia",
+      "priority": 39,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-d6e2b4f671e559d17eb51b93e6669140",
+      "name": "72 Radnor Drive",
+      "operator": "Digital Realty Trust",
+      "country": "Australia",
+      "city": "Melbourne",
+      "address": "Radnor Drive 72 3023 Melbourne Australia",
+      "priority": 40,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-0fbbe275f8bd9ecb5167a9cdffe74d44",
+      "name": "AWS 1 William B",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 41,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-1afdb8f84fbbf243f345a3bcf7141400",
+      "name": "AWS 54-80 Ferris Rd",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 42,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-3a0a0d84e51b2e17e90f116f651be4df",
+      "name": "AWS 10 Eastern Creek Dr",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 43,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-53a6a5012988d676fd1c01a1b0fbb57e",
+      "name": "AWS 55 Donnybrook Rd",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 44,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-697807df21bf8a80d6298daa88b19272",
+      "name": "AWS 146 Turner",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 45,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-921f928274af498c97f69e070167f149",
+      "name": "AWS 1 William A",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 46,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-9313e27c677d513242ced70db6d5b8ef",
+      "name": "AWS 11-17 Khartoum Rd",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 47,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-b22847966a8b210ae1e693695e6a459d",
+      "name": "AWS 148 Turner",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 48,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-b89f21ccb8e59b329f22186555914c89",
+      "name": "AWS 22 Delivery Drive",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 49,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-cc541d35c6125a1486b8ccf6d6448b44",
+      "name": "AWS 42A Bluett",
+      "operator": "Amazon",
+      "country": "Australia",
+      "city": null,
+      "address": null,
+      "priority": 50,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-037a872ea77e8ef56b8d9a7887029506",
+      "name": "Sydney",
+      "operator": "Verizon",
+      "country": "Australia",
+      "city": "Pyrmont",
+      "address": "55 Pyrmont Bridge Rd 2009 Pyrmont Australia",
+      "priority": 51,
+      "operatorGroup": "verizon"
+    },
+    {
+      "facilityId": "dc-05d96e9ecad08334caf3fea394949e37",
+      "name": "Sydney",
+      "operator": "Dimension Data",
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "121-127 Harrington St 2000 Sydney Australia",
+      "priority": 52,
+      "operatorGroup": "dimension data"
+    },
+    {
+      "facilityId": "dc-082d0939ef0db752b62135ee16951433",
+      "name": "Richmond (Melbourne)",
+      "operator": "AAPT",
+      "country": "Australia",
+      "city": "Richmond",
+      "address": "180 Burnley St 3043 Richmond Australia",
+      "priority": 53,
+      "operatorGroup": "aapt"
+    },
+    {
+      "facilityId": "dc-0907d37b4f816bbd330c888af73804c1",
+      "name": "North Ryde",
+      "operator": "Fujitsu Australia Limited",
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "North Ryde Sydney Australia",
+      "priority": 54,
+      "operatorGroup": "fujitsu australia limited"
+    },
+    {
+      "facilityId": "dc-0912553d27fbc3978ed9a4884423e41b",
+      "name": "Perth 1",
+      "operator": "Metronode",
+      "country": "Australia",
+      "city": "Perth",
+      "address": "Perth, East Perth Perth Australia",
+      "priority": 55,
+      "operatorGroup": "metronode"
+    },
+    {
+      "facilityId": "dc-09af42ddbd232146d281a2dfa74a4f63",
+      "name": "Sydney",
+      "operator": "Host Virtual",
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "tbc Sydney Australia",
+      "priority": 56,
+      "operatorGroup": "host virtual"
+    },
+    {
+      "facilityId": "dc-0a34b84e3789e2bab28839f66faffa24",
+      "name": "Brisbane",
+      "operator": "PIPE Networks",
+      "country": "Australia",
+      "city": "Brisbane",
+      "address": "127 Creek St, Level 9 4000 Brisbane Australia",
+      "priority": 57,
+      "operatorGroup": "pipe networks"
+    },
+    {
+      "facilityId": "dc-0aacf571e7b6f386474ce70ca78941fa",
+      "name": "Canberra",
+      "operator": "Cyxtera",
+      "country": "Australia",
+      "city": "Canberra",
+      "address": "Battye Street 19 2617 Canberra Australia",
+      "priority": 58,
+      "operatorGroup": "cyxtera"
+    },
+    {
+      "facilityId": "dc-b5c73d2e76dda9be6a8643abc958293d",
+      "name": "Globalhost Data Center",
+      "operator": "Globalhost d.o.o.",
+      "country": "Bosnia and Herzegovina",
+      "city": null,
+      "address": null,
+      "priority": 59,
+      "operatorGroup": "globalhost d.o.o."
+    },
+    {
+      "facilityId": "dc-b4db56e5156b550f87ecda2179836f3a",
+      "name": "National Data Center",
+      "operator": "Bangladesh Computer Council (BCC)",
+      "country": "Bangladesh",
+      "city": "Bangladesh",
+      "address": "ঢাকা - টাঙ্গাইল মহাসড়ক Kaliakair Bangladesh",
+      "priority": 60,
+      "operatorGroup": "bangladesh computer council (bcc)"
+    },
+    {
+      "facilityId": "dc-3658aa8a4228cb442d54e0c961bf11de",
+      "name": "Wolast Technologies",
+      "operator": "Wolast Technologies",
+      "country": "Bangladesh",
+      "city": null,
+      "address": null,
+      "priority": 61,
+      "operatorGroup": "wolast technologies"
+    },
+    {
+      "facilityId": "dc-9bb0f5172324b1a04adcc11c22de8331",
+      "name": "Dutch-Bangla Bank - Dumni Bazar",
+      "operator": "Dutch-Bangla Bank",
+      "country": "Bangladesh",
+      "city": null,
+      "address": null,
+      "priority": 62,
+      "operatorGroup": "dutch-bangla bank"
+    },
+    {
+      "facilityId": "dc-ef8285af6f73e77bda1c665b198ab0b8",
+      "name": "Saint-Ghislain",
+      "operator": "Google",
+      "country": "Belgium",
+      "city": "Saint-Ghislain",
+      "address": "Rue de Ghlin 7331 Saint-Ghislain Belgium",
+      "priority": 63,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-02744c108c2156b56453605f459b8859",
+      "name": "Brussels",
+      "operator": "Smals",
+      "country": "Belgium",
+      "city": "Anderlecht",
+      "address": "Boulevard Industriel 25 1070 Anderlecht Belgium",
+      "priority": 64,
+      "operatorGroup": "smals"
+    },
+    {
+      "facilityId": "dc-076c5b2f5828c7053f938dabb7345e2e",
+      "name": "Brussels",
+      "operator": "Verizon",
+      "country": "Belgium",
+      "city": "Diegem",
+      "address": "Culliganlaan 2E 1831 Diegem Belgium",
+      "priority": 65,
+      "operatorGroup": "verizon"
+    },
+    {
+      "facilityId": "dc-162fef54758a1ee45bcddbd776014647",
+      "name": "Brussels",
+      "operator": "CenturyLink",
+      "country": "Belgium",
+      "city": "Brussels",
+      "address": "Leon Grosjeanlaan 2 1140 Brussels Belgium",
+      "priority": 66,
+      "operatorGroup": "centurylink"
+    },
+    {
+      "facilityId": "dc-18a2e20f84e5da1bcbcdd07a8a555c09",
+      "name": "Brussels",
+      "operator": "Interoute",
+      "country": "Belgium",
+      "city": "Zaventem",
+      "address": "Leuvensesteenweg 573 1930 Zaventem Belgium",
+      "priority": 67,
+      "operatorGroup": "interoute"
+    },
+    {
+      "facilityId": "dc-22f71408787e2fabe6d784a0d2d8b28b",
+      "name": "WDC",
+      "operator": "Warsaw Data Center (WDC)",
+      "country": "Belgium",
+      "city": "Villers-le-Bouillet",
+      "address": "Rue de la Metallurgie 17 4530 Villers-le-Bouillet Belgium",
+      "priority": 68,
+      "operatorGroup": "warsaw data center (wdc)"
+    },
+    {
+      "facilityId": "dc-233e7aeee265d2b1d7bff3886ed497c8",
+      "name": "Netcenter - Evere",
+      "operator": "Proximus",
+      "country": "Belgium",
+      "city": "Evere",
+      "address": "Carlistraat 2B 1140 Evere Belgium",
+      "priority": 69,
+      "operatorGroup": "proximus"
+    },
+    {
+      "facilityId": "dc-388f8d3ad499bc5840117e682b80e040",
+      "name": "Hasselt",
+      "operator": "Datazone",
+      "country": "Belgium",
+      "city": "Hasselt",
+      "address": "Trichterheideweg 2 3500 Hasselt Belgium",
+      "priority": 70,
+      "operatorGroup": "datazone"
+    },
+    {
+      "facilityId": "dc-3c38b9036e9f78ef3dae993eb7a82a8e",
+      "name": "Belgium",
+      "operator": "Sungard",
+      "country": "Belgium",
+      "city": "Machelen",
+      "address": "De Kleetlaan 12b 1831 Machelen Belgium",
+      "priority": 71,
+      "operatorGroup": "sungard"
+    },
+    {
+      "facilityId": "dc-3fada128f3d864e0e9df88b2e0444b78",
+      "name": "Rue du Canon 36",
+      "operator": "BICS SA/NV",
+      "country": "Belgium",
+      "city": "Brussels",
+      "address": "Rue du Canon 36 1000 Brussels Belgium",
+      "priority": 72,
+      "operatorGroup": "bics sa/nv"
+    },
+    {
+      "facilityId": "dc-42f64b1561b6798cd8a7b3c573447951",
+      "name": "Netcenter - Machelen",
+      "operator": "Proximus",
+      "country": "Belgium",
+      "city": "Machelen",
+      "address": "Nieuwbrugstraat 91 1830 Machelen Belgium",
+      "priority": 73,
+      "operatorGroup": "proximus"
+    },
+    {
+      "facilityId": "dc-9694fb994bc0b31a8ad48a29947da2f7",
+      "name": "Virtual CLS Ougadougou",
+      "operator": "MDENP",
+      "country": "Burkina Faso",
+      "city": null,
+      "address": null,
+      "priority": 74,
+      "operatorGroup": "mdenp"
+    },
+    {
+      "facilityId": "dc-013cbb7d2b974c81282e302d34984900",
+      "name": "Colocation BG",
+      "operator": "Colocation.bg",
+      "country": "Bulgaria",
+      "city": "Sofia",
+      "address": "9, Varbitsa str. 1000 Sofia Bulgaria",
+      "priority": 75,
+      "operatorGroup": "colocation.bg"
+    },
+    {
+      "facilityId": "dc-12854978413f9d0357683ffaee18f9df",
+      "name": "Sofia Connect",
+      "operator": "Sofia Connect",
+      "country": "Bulgaria",
+      "city": "Sofia",
+      "address": "19,Vrabcha str. 1504 Sofia Bulgaria",
+      "priority": 76,
+      "operatorGroup": "sofia connect"
+    },
+    {
+      "facilityId": "dc-3b90baf2b6e93abaecd6c1d922e8179f",
+      "name": "Bulgaria SOF-SHI",
+      "operator": "Interoute",
+      "country": "Bulgaria",
+      "city": "Sofia",
+      "address": "63, Shipchenski prohod Blvd. 1574 Sofia Bulgaria",
+      "priority": 77,
+      "operatorGroup": "interoute"
+    },
+    {
+      "facilityId": "dc-50fbf46e236bcb43762e73d8fec606ed",
+      "name": "S3 Data Center",
+      "operator": "Петя Симеонова",
+      "country": "Bulgaria",
+      "city": "Sofia",
+      "address": "63 Shipchenski Prohod Blvd. 1574 Sofia Bulgaria",
+      "priority": 78,
+      "operatorGroup": "петя симеонова"
+    },
+    {
+      "facilityId": "dc-6fa4630e2752e4982416769fdde0e1ee",
+      "name": "Montanta (3-ti Mart)",
+      "operator": "Telepoint Data Center Bulgaria",
+      "country": "Bulgaria",
+      "city": "Montana",
+      "address": "bul. \"3-ti Mart\" 78 3400 Montana Bulgaria",
+      "priority": 79,
+      "operatorGroup": "telepoint data center bulgaria"
+    },
+    {
+      "facilityId": "dc-7b5c776b2f498d9d212ab4e2a8d91495",
+      "name": "Bulgaria SOF003",
+      "operator": "Interoute",
+      "country": "Bulgaria",
+      "city": "Sofia",
+      "address": "122, Ovche Pole 1303 Sofia Bulgaria",
+      "priority": 80,
+      "operatorGroup": "interoute"
+    },
+    {
+      "facilityId": "dc-a65b80165604f0380254df17755f3fbe",
+      "name": "ITD Network SA Core Colocation center #2",
+      "operator": "Cooolbox",
+      "country": "Bulgaria",
+      "city": "Sofia",
+      "address": "63 Shipchenski Prohod Blvd Sofia Bulgaria",
+      "priority": 81,
+      "operatorGroup": "cooolbox"
+    },
+    {
+      "facilityId": "dc-8e6d55092d8dd74eac6d02f6f90bdcf1",
+      "name": "AWS BAH 1440 Road 1429",
+      "operator": "Amazon",
+      "country": "Bahrain",
+      "city": null,
+      "address": null,
+      "priority": 82,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-c02531a721f018126673d6a00e1dc55f",
+      "name": "AWS BAH Zallaq",
+      "operator": "Amazon",
+      "country": "Bahrain",
+      "city": null,
+      "address": null,
+      "priority": 83,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-ed98129fc3e1f4e243f6c85c05ea5b3c",
+      "name": "AWS BAH Askar Road 5156",
+      "operator": "Amazon",
+      "country": "Bahrain",
+      "city": null,
+      "address": null,
+      "priority": 84,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-1449a5c9d25fecb1f5604226a090cf19",
+      "name": "CLS Cotonou",
+      "operator": "SAT-3",
+      "country": "Benin",
+      "city": null,
+      "address": null,
+      "priority": 85,
+      "operatorGroup": "sat-3"
+    },
+    {
+      "facilityId": "dc-34923c5422c63c5f994335d0dca538b6",
+      "name": "Bohicon",
+      "operator": "MTN",
+      "country": "Benin",
+      "city": null,
+      "address": null,
+      "priority": 86,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-5504e08813a7533faac724d746fdbf8f",
+      "name": "Tower of Mercy",
+      "operator": "Isocel Telecom",
+      "country": "Benin",
+      "city": null,
+      "address": null,
+      "priority": 87,
+      "operatorGroup": "isocel telecom"
+    },
+    {
+      "facilityId": "dc-ce66d9c385765bb6134f0b8e34d8df47",
+      "name": "Cotonou",
+      "operator": "Alink Telecom",
+      "country": "Benin",
+      "city": null,
+      "address": null,
+      "priority": 88,
+      "operatorGroup": "alink telecom"
+    },
+    {
+      "facilityId": "dc-fb0cf4c3df51570b13e9a570b6d4f602",
+      "name": "Tigo Bolivia",
+      "operator": "Millicom (Tigo)",
+      "country": "Bolivia",
+      "city": null,
+      "address": null,
+      "priority": 89,
+      "operatorGroup": "millicom (tigo)"
+    },
+    {
+      "facilityId": "dc-26b0bcc2fae09a6501d0d702d70a963f",
+      "name": "Sao Paulo 3",
+      "operator": "Equinix",
+      "country": "Brazil",
+      "city": "Parnaíba",
+      "address": "Av. Marcos Penteado de Ulhôa Rodrigues, 249 Santana de Parnaíba Brazil",
+      "priority": 90,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-42f504662e6210953e58facb944d252b",
+      "name": "Rio de Janeiro",
+      "operator": "Equinix",
+      "country": "Brazil",
+      "city": "Janeiro",
+      "address": "Rua Voluntarios da Patria, 360 Botafogo 22.270-010 Rio de Janeiro Brazil",
+      "priority": 91,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-56e47e84ec30b55149c3eb149753ff6d",
+      "name": "Rio de Janeiro",
+      "operator": "Amazon",
+      "country": "Brazil",
+      "city": "Janeiro",
+      "address": "tbc Rio de Janeiro Brazil",
+      "priority": 92,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-a04c25266381e90276c989515c68b359",
+      "name": "Sao Paulo",
+      "operator": "Equinix",
+      "country": "Brazil",
+      "city": "São",
+      "address": "R. Dr. Miguel Couto, 58 01008-010 São Paulo Brazil",
+      "priority": 93,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-d0d35c6d88c7865df6f9cbf3a9ae0b78",
+      "name": "Sao Paulo 4",
+      "operator": "Equinix",
+      "country": "Brazil",
+      "city": "Barueri",
+      "address": "Avenida Ceci 1900 06460 Barueri Brazil",
+      "priority": 94,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-e6c401c318709c79117667c0792e7206",
+      "name": "São Paulo",
+      "operator": "Microsoft",
+      "country": "Brazil",
+      "city": "Paulo",
+      "address": "tbc São Paulo Brazil",
+      "priority": 95,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-eca59316df964b03a6835380f18bf0d5",
+      "name": "Rio de Janeiro 2",
+      "operator": "Equinix",
+      "country": "Brazil",
+      "city": "Rio",
+      "address": "Estrada Adhemar Bebiano (Estrada Velha da Pavuna), 1380 Del Castilho 1380 Rio de Janeiro Brazil",
+      "priority": 96,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-f12ea6921c50e9e0cd04f3ca216a0cd7",
+      "name": "Sao Paulo 2",
+      "operator": "Equinix",
+      "country": "Brazil",
+      "city": "Tamboré",
+      "address": "Al. Araguaia 3641 Tamboré Barueri Brazil",
+      "priority": 97,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-01135462040bb648eaaa685aa1f3ad15",
+      "name": "Cuiaba",
+      "operator": "Cepromat",
+      "country": "Brazil",
+      "city": "Cuiabá",
+      "address": "Av. Historiador Rubens de Mendonça 78008-000 Cuiabá Brazil",
+      "priority": 98,
+      "operatorGroup": "cepromat"
+    },
+    {
+      "facilityId": "dc-07ffda0ddaa1f599e90e1d67dc432047",
+      "name": "Belo Horizonte",
+      "operator": "GVT",
+      "country": "Brazil",
+      "city": "Belo",
+      "address": "Avenida Barão Homem de Melo, 4324 - Estoril 30450-250 Belo Horizonte Brazil",
+      "priority": 99,
+      "operatorGroup": "gvt"
+    },
+    {
+      "facilityId": "dc-08ddc99657798f21eba9c9b0e764062f",
+      "name": "Sao Paulo",
+      "operator": "Dimension Data",
+      "country": "Brazil",
+      "city": "Sao",
+      "address": "Av. Dr. Chucri Zaidan, 1240 Sao Paulo Brazil",
+      "priority": 100,
+      "operatorGroup": "dimension data"
+    }
+  ]
+}

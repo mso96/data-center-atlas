@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 5,
+  "candidates": [
+    {
+      "facilityId": "dc-07948bc79975344afff62a587c1dd330",
+      "name": "Hong Kong IFC",
+      "operator": "CITIC Telecom International CPC",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "20/F Lincoln House, Taikoo Place, 979 King's Road, Quarry Bay Hong Kong Hong Kong",
+      "priority": 401,
+      "operatorGroup": "citic telecom international cpc"
+    },
+    {
+      "facilityId": "dc-09dc09d920aec5bec1177780f61abb6e",
+      "name": "Hong Kong",
+      "operator": "Criteo",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "tbc Hong Kong Hong Kong",
+      "priority": 402,
+      "operatorGroup": "criteo"
+    },
+    {
+      "facilityId": "dc-1317facf81f02ecd05e12150ff3750f7",
+      "name": "Hong Kong",
+      "operator": "SuneVision",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "tbc Hong Kong Hong Kong",
+      "priority": 403,
+      "operatorGroup": "sunevision"
+    },
+    {
+      "facilityId": "dc-1380b692b394a8f42ad38d4aa045ef4f",
+      "name": "TGT IAC",
+      "operator": "Towngas Telecom Fixed Network Ltd.",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "No.22, Chun Cheong Street, Tseung Kwan O Industrial Estate Hong Kong Hong Kong",
+      "priority": 404,
+      "operatorGroup": "towngas telecom fixed network ltd."
+    },
+    {
+      "facilityId": "dc-1b3a300b0d4c16b7da443e5a8732ca67",
+      "name": "Hong Kong",
+      "operator": "Dimension Data",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "979 King's Rd, 4/F Hong Kong Hong Kong",
+      "priority": 405,
+      "operatorGroup": "dimension data"
+    },
+    {
+      "facilityId": "dc-258496425733c64ac9ab5acfbae5b6cd",
+      "name": "Hong Kong Cloud Computing Complex (CCC)",
+      "operator": "Telehouse",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "2 Chun Yat Street, Tseung Kwan O, New Territories, Hong Kong Hong Kong",
+      "priority": 406,
+      "operatorGroup": "telehouse"
+    },
+    {
+      "facilityId": "dc-26d193e10690457f8fe72b6021abf4d1",
+      "name": "iTech Tower 2",
+      "operator": "Grand Ming Group",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "Kwai Chung Kwai Chung Hong Kong",
+      "priority": 407,
+      "operatorGroup": "grand ming group"
+    },
+    {
+      "facilityId": "dc-4e121fdbdb6521fec73debd39a481f2d",
+      "name": "Data Centre 1",
+      "operator": "Altus Information Technology ltd.",
+      "country": "Croatia",
+      "city": "Zagreb",
+      "address": "Selska cesta 93 10000 Zagreb Croatia",
+      "priority": 408,
+      "operatorGroup": "altus information technology ltd."
+    },
+    {
+      "facilityId": "dc-774ad23de1bb3617855046d656a75da3",
+      "name": "Data centre Markoja",
+      "operator": "Markoja d.o.o.",
+      "country": "Croatia",
+      "city": "Zagreb",
+      "address": "Selska cesta 93 10000 Zagreb Croatia",
+      "priority": 409,
+      "operatorGroup": "markoja d.o.o."
+    },
+    {
+      "facilityId": "dc-d5331e4be146eb5d67bf81f8b260f80a",
+      "name": "Data Centre 2",
+      "operator": "Altus Information Technology ltd.",
+      "country": "Croatia",
+      "city": "Zagreb",
+      "address": "Selska cesta 93 10000 Zagreb Croatia",
+      "priority": 410,
+      "operatorGroup": "altus information technology ltd."
+    },
+    {
+      "facilityId": "dc-ec780ef154f7327f9c38c8c3565191e8",
+      "name": "SRCE",
+      "operator": "Sveu?ilini ra?unski centar Srce (SRCE)",
+      "country": "Croatia",
+      "city": "Croatia",
+      "address": "Josipa Marohnica 5 Zagreb Croatia",
+      "priority": 411,
+      "operatorGroup": "sveu?ilini ra?unski centar srce (srce)"
+    },
+    {
+      "facilityId": "dc-fd9abff45501b7e91fe3891bd6f03689",
+      "name": "Vipnet Zagreb",
+      "operator": "Vipnet",
+      "country": "Croatia",
+      "city": "Croatia",
+      "address": "Vrtni put 1 HR-10000 Zagreb Croatia",
+      "priority": 412,
+      "operatorGroup": "vipnet"
+    },
+    {
+      "facilityId": "dc-285a76a6d3d1aca372ea73d3c071c2ef",
+      "name": "Budapest",
+      "operator": "T-Systems Hungary",
+      "country": "Hungary",
+      "city": "Budapest",
+      "address": "Asztalos Sandor u. 13. 1087 Budapest Hungary",
+      "priority": 413,
+      "operatorGroup": "t-systems hungary"
+    },
+    {
+      "facilityId": "dc-624aef32b553de4874612ee2b073f407",
+      "name": "Kozma DC",
+      "operator": "Invitel",
+      "country": "Hungary",
+      "city": "Budapest",
+      "address": "Kozma u. 2. 1108 Budapest Hungary",
+      "priority": 414,
+      "operatorGroup": "invitel"
+    },
+    {
+      "facilityId": "dc-630fce33ec2b691d483a3078076f43bc",
+      "name": "Budaors",
+      "operator": "Invitel",
+      "country": "Hungary",
+      "city": "Budaörs",
+      "address": "Edison u. 4 2040 Budaörs Hungary",
+      "priority": 415,
+      "operatorGroup": "invitel"
+    },
+    {
+      "facilityId": "dc-643b476ffb037f32cc0f3eba34cec804",
+      "name": "Nyíregyháza",
+      "operator": "Giganet",
+      "country": "Hungary",
+      "city": "Nyíregyháza",
+      "address": "Szarvas u 1-3. 4400 Nyíregyháza Hungary",
+      "priority": 416,
+      "operatorGroup": "giganet"
+    },
+    {
+      "facilityId": "dc-75ac07d5fb4c503bafadc36f91b0c893",
+      "name": "Hauszmann",
+      "operator": "GTS Telecom SRL",
+      "country": "Hungary",
+      "city": "Budapest",
+      "address": "Hauszmann Alajos u. 3 1117 Budapest Hungary",
+      "priority": 417,
+      "operatorGroup": "gts telecom srl"
+    },
+    {
+      "facilityId": "dc-aee749711769c7f74f58ff97f3822e32",
+      "name": "Budaörs",
+      "operator": "GTS Telecom SRL",
+      "country": "Hungary",
+      "city": "Budaörs",
+      "address": "Ipartelep u. 15 2040 Budaörs Hungary",
+      "priority": 418,
+      "operatorGroup": "gts telecom srl"
+    },
+    {
+      "facilityId": "dc-b3cbbf658ec6752eb937547d159717d8",
+      "name": "ISZT (BIX main node)",
+      "operator": "Internet Szolgáltatók Tanácsa",
+      "country": "Hungary",
+      "city": "Budapest",
+      "address": "Victor Hugo u. 18-22. 1132 Budapest Hungary",
+      "priority": 419,
+      "operatorGroup": "internet szolgáltatók tanácsa"
+    },
+    {
+      "facilityId": "dc-f728d61d14d694d48f11419320a0f561",
+      "name": "Jakarta 2",
+      "operator": "NTT",
+      "country": "Indonesia",
+      "city": null,
+      "address": null,
+      "priority": 420,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-2301f88fec84652ee8eb7a5ee8d586c8",
+      "name": "NDC Lampung",
+      "operator": "Nusantara Data Center (Moratelindo)",
+      "country": "Indonesia",
+      "city": "Indonesia",
+      "address": "Jl. Pramuka Kota Bandar Lampung Indonesia",
+      "priority": 421,
+      "operatorGroup": "nusantara data center (moratelindo)"
+    },
+    {
+      "facilityId": "dc-6c2592408f18df1d83348dcb72ac36bc",
+      "name": "Jakarta",
+      "operator": "Dhecyber",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "address": "Kuningan Barat 8 12710 Jakarta Indonesia",
+      "priority": 422,
+      "operatorGroup": "dhecyber"
+    },
+    {
+      "facilityId": "dc-6ccb4f063e9c4eeb93aad4b48c984675",
+      "name": "Surabaya",
+      "operator": "Telkomsigm",
+      "country": "Indonesia",
+      "city": "Indonesia",
+      "address": "Surabaya East Java Indonesia",
+      "priority": 423,
+      "operatorGroup": "telkomsigm"
+    },
+    {
+      "facilityId": "dc-7049f710280b4b3dd0dba7d2ea304265",
+      "name": "Bali",
+      "operator": "Telkomsigma",
+      "country": "Indonesia",
+      "city": "Indonesia",
+      "address": "Kaliasem Kaliasem Indonesia",
+      "priority": 424,
+      "operatorGroup": "telkomsigma"
+    },
+    {
+      "facilityId": "dc-813f69bcf7b5eae211a0ab7b3d1668ac",
+      "name": "Balikpapan",
+      "operator": "Telkomsigma",
+      "country": "Indonesia",
+      "city": "Indonesia",
+      "address": "Balikpapan East Kalimantan Indonesia",
+      "priority": 425,
+      "operatorGroup": "telkomsigma"
+    },
+    {
+      "facilityId": "dc-846b9d469219cf754a9a24fccbc94504",
+      "name": "West Java",
+      "operator": "Telkomsigm",
+      "country": "Indonesia",
+      "city": "Indonesia",
+      "address": "Cikarang West Java Indonesia",
+      "priority": 426,
+      "operatorGroup": "telkomsigm"
+    },
+    {
+      "facilityId": "dc-0de82ea8a7df860bea8a47c583c30712",
+      "name": "Tallaght",
+      "operator": "Amazon",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Belgard Rd Dublin Ireland",
+      "priority": 427,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-1a575663efff83bf8cc9098b97746be2",
+      "name": "Dublin 1",
+      "operator": "Interxion",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Unit 35, Lavery Avenue, Park West Industrial Estate D 12 Dublin Ireland",
+      "priority": 428,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-1b1e8642104575db99f31c4d1ade5f5b",
+      "name": "Blanchardstown Corp Park",
+      "operator": "Digital Realty Trust",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Blanchardstown Corp Park, Unit 9 Dublin Ireland",
+      "priority": 429,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-22befb1e84a0b4a4625e06cda585fcde",
+      "name": "Dublin 3",
+      "operator": "Interxion",
+      "country": "Ireland",
+      "city": "22",
+      "address": "Old Nangor Rd D 12 Dublin 22 Ireland",
+      "priority": 430,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-2b3376da3e8927cff51d1b2f47fee64b",
+      "name": "Dublin",
+      "operator": "Amazon",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Upper Ballymount Road? Greenhills Crescent, Greenhills Industrial Estate 24 Dublin Ireland",
+      "priority": 431,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-4245a0bfe337b2d951cd11b21c64e78b",
+      "name": "Dublin 4",
+      "operator": "Equinix",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Unit 14 Northwest Business Park 15 Dublin Ireland",
+      "priority": 432,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-43c241b80a145e74b3bb06ac0389bc97",
+      "name": "Dublin 2",
+      "operator": "Amazon",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Snugborough Road Dublin Ireland",
+      "priority": 433,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-5ad6bd817ee22af879b17c933319c1e2",
+      "name": "Dublin",
+      "operator": "EdgeConneX",
+      "country": "Ireland",
+      "city": "22",
+      "address": "Old Nangor Rd Dublin 22 Ireland",
+      "priority": 434,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-5e860b4c0930be06c62e94d6b1415fbb",
+      "name": "Dublin 2",
+      "operator": "Microsoft",
+      "country": "Ireland",
+      "city": "22",
+      "address": "Old Nangor Rd Dublin 22 Ireland",
+      "priority": 435,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-81efdf58c0443ddae5a52ddf20a50f4f",
+      "name": "Profile Park",
+      "operator": "Google",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Profile Park, Grange Castle 22 Dublin Ireland",
+      "priority": 436,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-863dec4b4a0af1e8b38c1ca88f0099d3",
+      "name": "Dublin",
+      "operator": "CyrusOne",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Baldonnel Rd Dublin Ireland",
+      "priority": 437,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-8c67e4eae2a7c9955c7ba991d15c9c7c",
+      "name": "Clonshaugh Industrial Estate",
+      "operator": "Digital Realty Trust",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Clonshaugh Industrial Estate Dublin Ireland",
+      "priority": 438,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-b5bdcbe2c323917425d63057c60ceae1",
+      "name": "Dublin",
+      "operator": "Microsoft",
+      "country": "Ireland",
+      "city": "22",
+      "address": "Nangor Rd Dublin 22 Ireland",
+      "priority": 439,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-c202b852a9afd9e805330970c1cea981",
+      "name": "Dublin 3",
+      "operator": "Amazon",
+      "country": "Ireland",
+      "city": "Dublin",
+      "address": "Clonshaugh Rd 17 Dublin Ireland",
+      "priority": 440,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-c7d382e2ff9260aa0517d6a4c58abaad",
+      "name": "Atlantic House",
+      "operator": "Sure",
+      "country": "Isle of Man",
+      "city": null,
+      "address": null,
+      "priority": 441,
+      "operatorGroup": "sure"
+    },
+    {
+      "facilityId": "dc-0b4ea0f0496cfa5861a11ed2325a8b53",
+      "name": "Mumbai",
+      "operator": "NTT",
+      "country": "India",
+      "city": "Mumbai",
+      "address": "tbc Mumbai India",
+      "priority": 442,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-dd866dd106b134261b4e89a786732a87",
+      "name": "Pune",
+      "operator": "Microsoft",
+      "country": "India",
+      "city": "Pune",
+      "address": "tbc Pune India",
+      "priority": 443,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-00ff651487f9a9711416cfecaeece53f",
+      "name": "Mumbai",
+      "operator": "GPX Global Systems",
+      "country": "India",
+      "city": "Mumbai",
+      "address": "Unit A-001, Boomerang, Chandivali Farm Road, Andheri East Mumbai India",
+      "priority": 444,
+      "operatorGroup": "gpx global systems"
+    },
+    {
+      "facilityId": "dc-076af62671843b83ce9bbd039ee73d6b",
+      "name": "Bangalore",
+      "operator": "Dell",
+      "country": "India",
+      "city": "Bangalore",
+      "address": "tbc Bangalore India",
+      "priority": 445,
+      "operatorGroup": "dell"
+    },
+    {
+      "facilityId": "dc-0bbf1f3e64a6d74a3ae764b2ee65c52e",
+      "name": "Mumbai",
+      "operator": "Ricoh India",
+      "country": "India",
+      "city": "Mumbai",
+      "address": "1201, 1st Floor, Bldg no. 12, Solitaire Corporate Park, Andheri-Ghatkopar Link Road 400093 Mumbai India",
+      "priority": 446,
+      "operatorGroup": "ricoh india"
+    },
+    {
+      "facilityId": "dc-11f1daaa65bb78560edee7b9cdeca5f1",
+      "name": "Mumbai",
+      "operator": "Net4",
+      "country": "India",
+      "city": "Mumbai",
+      "address": "614 - 616 Shah & Nahar Indl. Estate Dr. E. Moses Road Worli Naka 400018 Mumbai India",
+      "priority": 447,
+      "operatorGroup": "net4"
+    },
+    {
+      "facilityId": "dc-15c70c95b170688f88e3d37fda869393",
+      "name": "National Data Centre Hyderbad",
+      "operator": "National Informatics Centre (NIC) India",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "Nic Building Collectorate Building, N Pally 500063 Hyderabad India",
+      "priority": 448,
+      "operatorGroup": "national informatics centre (nic) india"
+    },
+    {
+      "facilityId": "dc-1779a103a8f665e7f918cf5db2f12feb",
+      "name": "Reliance Hyderabad IDC",
+      "operator": "Reliance Communications Ltd.",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "Plot No-20, Hitec City Layout, Survay No 64, Madhapur Hyderabad India",
+      "priority": 449,
+      "operatorGroup": "reliance communications ltd."
+    },
+    {
+      "facilityId": "dc-1e7d1257fe3b4f16ae5bc4c343396d8d",
+      "name": "Ahmedabad",
+      "operator": "Reliance Communications Ltd.",
+      "country": "India",
+      "city": "Ahmedabad",
+      "address": "tbc 380009 Ahmedabad India",
+      "priority": 450,
+      "operatorGroup": "reliance communications ltd."
+    },
+    {
+      "facilityId": "dc-1f79692f95d55136d705785672d5d442",
+      "name": "Mumbai",
+      "operator": "NeoSoft Technologies",
+      "country": "India",
+      "city": "Mumbai",
+      "address": "124, SVS Rd 400025 Mumbai India",
+      "priority": 451,
+      "operatorGroup": "neosoft technologies"
+    },
+    {
+      "facilityId": "dc-21d9f064b3e66623c136254a5567b363",
+      "name": "Andhra Pradesh",
+      "operator": "Ensono",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "Sy No. 203/P, Manikonda Village, Rajender Nagar Mandal, R.R. District Hyderabad India",
+      "priority": 452,
+      "operatorGroup": "ensono"
+    },
+    {
+      "facilityId": "dc-27cca300b3cb071184623c27923841b5",
+      "name": "Mumbai",
+      "operator": "Web Werks",
+      "country": "India",
+      "city": "Mumbai",
+      "address": "Unique Industrial Estate, Off VS Marg 400025 Mumbai India",
+      "priority": 453,
+      "operatorGroup": "web werks"
+    },
+    {
+      "facilityId": "dc-2a08b5ba1d0e77ef77b178c703d4397a",
+      "name": "Hyderabad",
+      "operator": "ST Telemedia GDC",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "16 500081 Hyderabad India",
+      "priority": 454,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-2d93311016b2c466ba90235b4cff0e66",
+      "name": "Cherthala",
+      "operator": "Bharat Sanchar Nigam Ltd. (BSNL)",
+      "country": "India",
+      "city": "Cherthala",
+      "address": "Govt. Hospital Rd 688524 Cherthala India",
+      "priority": 455,
+      "operatorGroup": "bharat sanchar nigam ltd. (bsnl)"
+    },
+    {
+      "facilityId": "dc-2d9759aa3379cbe930b126adcf2e9c3d",
+      "name": "Chennai 1",
+      "operator": "ST Telemedia GDC",
+      "country": "India",
+      "city": "Chennai",
+      "address": "4th floor, 2nd block 600 002 Chennai India",
+      "priority": 456,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-2dffb026afdf7c7ac14a9a6b250b2f5a",
+      "name": "Ahmedabad",
+      "operator": "ST Telemedia GDC",
+      "country": "India",
+      "city": "Ahmedabad",
+      "address": "Gujarat International Finance Tec-City 382355 Ahmedabad India",
+      "priority": 457,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-337aa44904090e2751190d87c1293dab",
+      "name": "Pune",
+      "operator": "ST Telemedia GDC",
+      "country": "India",
+      "city": "Pune",
+      "address": "Alandi Rd 411006 Pune India",
+      "priority": 458,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-379eb14a912f2ea9c05c44076dde5e13",
+      "name": "Chennai",
+      "operator": "Nxtra Data",
+      "country": "India",
+      "city": "Chennai",
+      "address": "Nxtra Data Limited, Plot # F-08, SIPCOT IT Park, Siruseri, 603103 Chennai India",
+      "priority": 459,
+      "operatorGroup": "nxtra data"
+    },
+    {
+      "facilityId": "dc-3bfec8447a4dac2f0786d2bfe2c391d0",
+      "name": "Noida",
+      "operator": "NetMagic Solutions Pvt Ltd",
+      "country": "India",
+      "city": "Noida",
+      "address": "Sector 63 201301 Noida India",
+      "priority": 460,
+      "operatorGroup": "netmagic solutions pvt ltd"
+    },
+    {
+      "facilityId": "dc-3c75e1aed2c76d7b72c54d1edd51fa94",
+      "name": "Patancheru",
+      "operator": "Bharat Sanchar Nigam Ltd. (BSNL)",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "502319 Hyderabad India www.bsnl.co.in",
+      "priority": 461,
+      "operatorGroup": "bharat sanchar nigam ltd. (bsnl)"
+    },
+    {
+      "facilityId": "dc-3cb1bac47204d470b34c169cdc1a2359",
+      "name": "Linkdata.com",
+      "operator": "Linkdata.com",
+      "country": "Iraq",
+      "city": null,
+      "address": null,
+      "priority": 462,
+      "operatorGroup": "linkdata.com"
+    },
+    {
+      "facilityId": "dc-d96f31f7fcf45110dd64fb049c4c2bd5",
+      "name": "Thor Data Center",
+      "operator": "Advania Data Centres",
+      "country": "Iceland",
+      "city": "Iceland",
+      "address": "Steinhella 10 221 Hafnarfjordur Iceland",
+      "priority": 463,
+      "operatorGroup": "advania data centres"
+    },
+    {
+      "facilityId": "dc-deec44c2b61c52ed26c6ecbcc64e5599",
+      "name": "Kevlavik",
+      "operator": "Verne Global",
+      "country": "Iceland",
+      "city": "Iceland",
+      "address": "Valhallarbraut 868 235 Reykjanesbær (Ásbrú) Iceland",
+      "priority": 464,
+      "operatorGroup": "verne global"
+    },
+    {
+      "facilityId": "dc-707ba75dbd10dc9954ed9f60a5423a7d",
+      "name": "Milan 2",
+      "operator": "Equinix",
+      "country": "Italy",
+      "city": "Milano",
+      "address": "Via Savona 125 20144 Milano Italy",
+      "priority": 465,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-8f97707734fb1b78d9a1d0d4d2f1206c",
+      "name": "Rome",
+      "operator": "Interxion",
+      "country": "Italy",
+      "city": "Rome",
+      "address": "Via di Tor Cervara 282 00155 Rome Italy",
+      "priority": 466,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-e6fab58e4907b928e3a15f7e1bd2c05b",
+      "name": "Milan 3",
+      "operator": "Equinix",
+      "country": "Italy",
+      "city": "Milano",
+      "address": "Via Francesco Sforza 13 20122 Milano Italy",
+      "priority": 467,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-fd0f0c845a92d1e3194b03888bcfdbc8",
+      "name": "Milan 4",
+      "operator": "Equinix",
+      "country": "Italy",
+      "city": "Milano",
+      "address": "Via Privata Cascia 5 20128 Milano Italy",
+      "priority": 468,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-84b54aca3d453b9070b599e614e384a9",
+      "name": "Bornasco",
+      "operator": "Microsoft",
+      "country": "Italy",
+      "city": null,
+      "address": null,
+      "priority": 469,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-01b10aed5652a1f9a7b3f210c17db025",
+      "name": "Palermo",
+      "operator": "Tiscali",
+      "country": "Italy",
+      "city": "Palermo",
+      "address": "Via Ugo La Malfa 28 Palermo Italy",
+      "priority": 470,
+      "operatorGroup": "tiscali"
+    },
+    {
+      "facilityId": "dc-026653eea671a5f04b817b907c85e02e",
+      "name": "Turin (Corso Svizzera)",
+      "operator": "Tiscali",
+      "country": "Italy",
+      "city": "Torino",
+      "address": "Corso Svizzera, 185A 10149 Torino Italy",
+      "priority": 471,
+      "operatorGroup": "tiscali"
+    },
+    {
+      "facilityId": "dc-03727a34a11c13e5f12f67c0086bceef",
+      "name": "San Gregorio di Catania",
+      "operator": "Sielte",
+      "country": "Italy",
+      "city": "San",
+      "address": "Via Cerza, 4 95027 San Gregorio di Catania Italy",
+      "priority": 472,
+      "operatorGroup": "sielte"
+    },
+    {
+      "facilityId": "dc-05e5c853ec2b6f3d7558795939aa0bc4",
+      "name": "Milan",
+      "operator": "seeweb srl",
+      "country": "Italy",
+      "city": "Milan",
+      "address": "Via Caldera 21, building B 20153 Milan Italy",
+      "priority": 473,
+      "operatorGroup": "seeweb srl"
+    },
+    {
+      "facilityId": "dc-074277e1d19d42bf75b963aa9eef2c9f",
+      "name": "MIX",
+      "operator": "Milan Internet eXchange (MIX-IT)",
+      "country": "Italy",
+      "city": "Milan",
+      "address": "via Caldera 21 Milan Italy",
+      "priority": 474,
+      "operatorGroup": "milan internet exchange (mix-it)"
+    },
+    {
+      "facilityId": "dc-0a9903270fb809696171b5e2ee27c900",
+      "name": "TopneT CIT",
+      "operator": "TopneT Telecomunicazioni S.r.l.",
+      "country": "Italy",
+      "city": "Ascoli",
+      "address": "via Mutilati del lavoro 63100 Ascoli Piceno Italy",
+      "priority": 475,
+      "operatorGroup": "topnet telecomunicazioni s.r.l."
+    },
+    {
+      "facilityId": "dc-0ea13a93ec80995da206c128df21d2bc",
+      "name": "Telnet Caldera Milan",
+      "operator": "Telnet",
+      "country": "Italy",
+      "city": "Milan",
+      "address": "Via Caldera 21 Building F 20153 Milan Italy",
+      "priority": 476,
+      "operatorGroup": "telnet"
+    },
+    {
+      "facilityId": "dc-0feaf250646b9379c1dc9840187a1fb8",
+      "name": "Viterbo",
+      "operator": "Retelit",
+      "country": "Italy",
+      "city": "Viterbo",
+      "address": "via Grispigni, 46 Viterbo Italy",
+      "priority": 477,
+      "operatorGroup": "retelit"
+    },
+    {
+      "facilityId": "dc-10ceccd5090371229c6e7fcc93d44e39",
+      "name": "DC Primario",
+      "operator": "Insiel",
+      "country": "Italy",
+      "city": "Trieste",
+      "address": "Via S. Francesco D'Assisi, 43 34133 Trieste Italy",
+      "priority": 478,
+      "operatorGroup": "insiel"
+    },
+    {
+      "facilityId": "dc-1856220dde59caedcfe8babecfae1e74",
+      "name": "Modena",
+      "operator": "Retelit",
+      "country": "Italy",
+      "city": "Modena",
+      "address": "via Giordano, 46 Modena Italy",
+      "priority": 479,
+      "operatorGroup": "retelit"
+    },
+    {
+      "facilityId": "dc-1c5b63bcfed44bad9850367db386d403",
+      "name": "Bologna",
+      "operator": "Interoute",
+      "country": "Italy",
+      "city": "Bologna",
+      "address": "Via Maserati 20c/20d Bologna Italy",
+      "priority": 480,
+      "operatorGroup": "interoute"
+    },
+    {
+      "facilityId": "dc-1d3090fccf85f753492466ed08e9b7cc",
+      "name": "Verona",
+      "operator": "Retelit",
+      "country": "Italy",
+      "city": "Verona",
+      "address": "via Volta, 4 Verona Italy",
+      "priority": 481,
+      "operatorGroup": "retelit"
+    },
+    {
+      "facilityId": "dc-1e1460289fbf16f35f9ddf0fbcf3ff7f",
+      "name": "Pont Saint Martin",
+      "operator": "Engineering",
+      "country": "Italy",
+      "city": "Pont",
+      "address": "Via Carlo Viola 76 20090 Pont Saint Martin Italy",
+      "priority": 482,
+      "operatorGroup": "engineering"
+    },
+    {
+      "facilityId": "dc-8c332867a8fb5f205994930ffa03eda4",
+      "name": "The Powerhouse",
+      "operator": "Sure",
+      "country": "Jersey",
+      "city": null,
+      "address": null,
+      "priority": 483,
+      "operatorGroup": "sure"
+    },
+    {
+      "facilityId": "dc-991873686e1bb2fc703dbb2c297e5219",
+      "name": "Jersey",
+      "operator": "Continent 8 Technologies",
+      "country": "Jersey",
+      "city": null,
+      "address": null,
+      "priority": 484,
+      "operatorGroup": "continent 8 technologies"
+    },
+    {
+      "facilityId": "dc-6db2920b794dedb3e2420b171c3fe910",
+      "name": "Naitel",
+      "operator": "Naitel",
+      "country": "Jordan",
+      "city": "Jordan",
+      "address": "K. Abdullah St. Aqaba Jordan",
+      "priority": 485,
+      "operatorGroup": "naitel"
+    },
+    {
+      "facilityId": "dc-7cf6b24654a30ced8a42b28fa3140df0",
+      "name": "Kulacom Jordan Data Center",
+      "operator": "Kulacom",
+      "country": "Jordan",
+      "city": "Amman",
+      "address": "300 King Abdullah II street 11181 Amman Jordan",
+      "priority": 486,
+      "operatorGroup": "kulacom"
+    },
+    {
+      "facilityId": "dc-ed75c18cc29be4e9157976a85eb2d610",
+      "name": "Armman",
+      "operator": "iLevant",
+      "country": "Jordan",
+      "city": "Jordan",
+      "address": "Zahran St Amman Jordan",
+      "priority": 487,
+      "operatorGroup": "ilevant"
+    },
+    {
+      "facilityId": "dc-1484c5aa0642c28129bad9e30294bec8",
+      "name": "Tokyo No.5",
+      "operator": "NTT",
+      "country": "Japan",
+      "city": "+81-3-3500-8111",
+      "address": "Tokyo Japan +81-3-3500-8111",
+      "priority": 488,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-1543dbf548b9d3dd6420659e0ccb6aaf",
+      "name": "Tokyo 7",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Shinagawa-ku",
+      "address": "2 Chome-2-43 140-0002 Shinagawa-ku Japan",
+      "priority": 489,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-1709d1139b0b728f58450dd499d7dcd0",
+      "name": "Tokyo 6",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Shinagawa-ku",
+      "address": "2 Chome-2-43 140-0002 Shinagawa-ku Japan",
+      "priority": 490,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-251c4f6057ac8af05b22bc7a61daa953",
+      "name": "Tokyo 1",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "TRC-C Building B Block, 4F 5-1, Heiwajima 6-Chome, Oota-Ku 143-0006 Tokyo Japan",
+      "priority": 491,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-26334d183086e78d4fdec8c8db7abf10",
+      "name": "Tokyo 11",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "Koto 135-0063 Tokyo Japan",
+      "priority": 492,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-28873ae267a49d4fa1c310ab9a394a90",
+      "name": "Tokyo No.9",
+      "operator": "NTT",
+      "country": "Japan",
+      "city": "+81-3-3500-8111",
+      "address": "Tokyo Japan +81-3-3500-8111",
+      "priority": 493,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-359fafc721387ba5125c14f460cad542",
+      "name": "Osaka Prefecture",
+      "operator": "Microsoft",
+      "country": "Japan",
+      "city": "Prefecture",
+      "address": "tbc Osaka Prefecture Japan",
+      "priority": 494,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-40442df7140ed882c59999fcd1edc2f1",
+      "name": "Tokyo 3",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "1-9-20, Edagawa, Koto-ku Tokyo Japan",
+      "priority": 495,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-52f74e84c61c62a1ae623420782c1e98",
+      "name": "Tokyo No.6",
+      "operator": "NTT",
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "tbc Tokyo Japan",
+      "priority": 496,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-53e6c8c2d0c10529e95a0fdcc65f611c",
+      "name": "Osaka 5",
+      "operator": "NTT",
+      "country": "Japan",
+      "city": "Osaka",
+      "address": "tbc Osaka Japan",
+      "priority": 497,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-6852878546f3b9f0c3a69b42cfeec527",
+      "name": "Tokyo",
+      "operator": "Amazon",
+      "country": "Japan",
+      "city": "+1-206-266-1000",
+      "address": "Tokyo Japan +1-206-266-1000",
+      "priority": 498,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-6c4aaffb5767314d8de1ec36330a028f",
+      "name": "Tokyo No.4",
+      "operator": "NTT",
+      "country": "Japan",
+      "city": "+81-3-3500-8111",
+      "address": "Tokyo Japan +81-3-3500-8111",
+      "priority": 499,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-89ac21fdeed3e0fdde933f60219dcc6a",
+      "name": "Osaka",
+      "operator": "Equinix",
+      "country": "Japan",
+      "city": "Osaka",
+      "address": "1-26-1 Shinmachi Nishi-ku Osaka Japan",
+      "priority": 500,
+      "operatorGroup": "Equinix"
+    }
+  ]
+}

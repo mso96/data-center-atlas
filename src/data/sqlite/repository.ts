@@ -8,6 +8,7 @@ export class SqliteDataCenterRepository implements DataCenterRepository {
   constructor(private db: DatabaseSync, private isDemo = false) {}
   private query(filters: DataCenterFilters = {}) {
     const clauses = ["is_demo=?"]; const values: SQLInputValue[] = [Number(this.isDemo)];
+    if (filters.mappedOnly) clauses.push("latitude BETWEEN -90 AND 90 AND longitude BETWEEN -180 AND 180");
     if (norm(filters.search)) { clauses.push("instr(search_text,?)>0"); values.push(norm(filters.search)); }
     for (const [key, column] of [["countryCode","country_code"],["city","city"],["operator","operator"],["status","status"]] as const) {
       if (norm(filters[key])) { clauses.push(`${column}=?`); values.push(norm(filters[key])); }

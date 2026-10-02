@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 4,
+  "candidates": [
+    {
+      "facilityId": "dc-b340d9f2ba3f48757450294bbb064c11",
+      "name": "Helsinki 4",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Vantaa",
+      "address": "Myllynkivenkuja 4b 01620 Vantaa Finland",
+      "priority": 301,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-bc503df26666399cbc3ffc08722e8fe6",
+      "name": "Helsinki 3",
+      "operator": "Equinix",
+      "country": "Finland",
+      "city": "Helsinki",
+      "address": "Parrukatu 2 00540 Helsinki Finland",
+      "priority": 302,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0df87afa2856d601a616ec1f3c6c44ab",
+      "name": "Louhi Datacenter Espoo",
+      "operator": "Louhi Networks Oy",
+      "country": "Finland",
+      "city": "Espoo",
+      "address": "Linnoitustie 4 02600 Espoo Finland",
+      "priority": 303,
+      "operatorGroup": "louhi networks oy"
+    },
+    {
+      "facilityId": "dc-1e7d1acb9e32dbcec4ec3413c617261f",
+      "name": "FICIX 2",
+      "operator": "Finnish Communication and Internet Exchange (FICIX)",
+      "country": "Finland",
+      "city": "Helsinki",
+      "address": "Radiokatu 5 00240 Helsinki Finland",
+      "priority": 304,
+      "operatorGroup": "finnish communication and internet exchange (ficix)"
+    },
+    {
+      "facilityId": "dc-2904dd422c74e5b2da3e4e6d86bded0d",
+      "name": "Tampere",
+      "operator": "Oy Capnova",
+      "country": "Finland",
+      "city": "Tampere",
+      "address": "Pyhäjärvenkatu 5 33200 Tampere Finland",
+      "priority": 305,
+      "operatorGroup": "oy capnova"
+    },
+    {
+      "facilityId": "dc-2caf9218abe910ba9de19e4d427b8e03",
+      "name": "MTV3",
+      "operator": "MTV",
+      "country": "Finland",
+      "city": "Helsingfors",
+      "address": "Ilmalagatan 2 00240 Helsingfors Finland",
+      "priority": 306,
+      "operatorGroup": "mtv"
+    },
+    {
+      "facilityId": "dc-09934f4c860e253ab68360ce69dcc4a1",
+      "name": "Paris 1",
+      "operator": "Equinix",
+      "country": "France",
+      "city": "Roissy",
+      "address": "167 Rue de la Belle Etoile 95081 Roissy France",
+      "priority": 307,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0da91f04a2cc90e937dff45dab2ea1b9",
+      "name": "Marseille 3",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Marseille",
+      "address": "to be confirmed 13226 Marseille France",
+      "priority": 308,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-35aa8d34b7f97674c70d4f384a39c74a",
+      "name": "Paris 4",
+      "operator": "Equinix",
+      "country": "France",
+      "city": "Pantin",
+      "address": "Avenue du Général Leclerc 110 93500 Pantin France",
+      "priority": 309,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-37a46b658d5c0178c99a966b7e446a7e",
+      "name": "Paris 3",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Paris",
+      "address": "7-9 avenue Arts et Métiers, Saint-Denis 93200 Paris France",
+      "priority": 310,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-427bd6acb31bb3dbbc984269806fa36f",
+      "name": "Paris 1",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Paris",
+      "address": "45 Avenue Victor Hugo, Bâtiment n°260, Aubervilliers 93534 Paris France",
+      "priority": 311,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-44eaa5a186105fabb80240785963af94",
+      "name": "Paris 7",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Paris",
+      "address": "3 Rue Rateau, Saint-Denis 93120 Paris France",
+      "priority": 312,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-57f5aeabcac14d376a01b763fa37cd09",
+      "name": "Marseille 1",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Marseille",
+      "address": "45 Avenue Roger Salengro 13003 Marseille France",
+      "priority": 313,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-5e1c60dc679c54de9853590563e8f7b2",
+      "name": "Paris 2",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Aubervilliers",
+      "address": "20 Rue des Gardinoux 93300 Aubervilliers France",
+      "priority": 314,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-73a102c4359a81980795ac365acb0d8d",
+      "name": "Marseille 2",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Marseille",
+      "address": "Port Enclosure Door 4, Ex-submarine Base 13226 Marseille France",
+      "priority": 315,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-80fc68e419a028edb0d3e0b8141706f7",
+      "name": "Paris 5",
+      "operator": "Equinix",
+      "country": "France",
+      "city": "Aubervilliers",
+      "address": "Avenue Victor Hugo 45 93300 Aubervilliers France",
+      "priority": 316,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-894680299ca0f12e05b3bc1025870ec8",
+      "name": "Dusseldorf 1",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Dusseldorf",
+      "address": "In der Steele 25-27a 40599 Dusseldorf France",
+      "priority": 317,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-a2e10649706460df9900f11aed342ae7",
+      "name": "Paris 2",
+      "operator": "NTT",
+      "country": "France",
+      "city": "Paris",
+      "address": "90 Av. des Champs-Élysées 75008 Paris France",
+      "priority": 318,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-aadca736a1e16fa5bae4636a4941ebb3",
+      "name": "Paris 4",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Paris",
+      "address": "21 Rue du Port, Parc de L'Ile-Allee Bleue, Nanterre 92000 Paris France",
+      "priority": 319,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-ad51340f03adc0ad77b64d3448e41d67",
+      "name": "Paris 3",
+      "operator": "Equinix",
+      "country": "France",
+      "city": "Saint",
+      "address": "114 Rue Ambroise Croizat 93200 Saint Denis France",
+      "priority": 320,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-d07d01f3337afd8fe8d83b869159a88a",
+      "name": "Paris 6",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Paris",
+      "address": "11-15 Rue Galilée, Ivry sur Seine 94200 Paris France",
+      "priority": 321,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-d862dca3a75dc755e9f4b4b972dfd756",
+      "name": "Paris 2",
+      "operator": "Equinix",
+      "country": "France",
+      "city": "Saint-Denis",
+      "address": "114 Rue Ambroise Croizat 93200 Saint-Denis France",
+      "priority": 322,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-f0db23395b3a2216ed964b1a4aa19dab",
+      "name": "Paris 7",
+      "operator": "Equinix",
+      "country": "France",
+      "city": "Courbevoie",
+      "address": "Boulevard de Verdun 136 92400 Courbevoie France",
+      "priority": 323,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-f80d63948696c20ccdbac43838f7ed05",
+      "name": "Paris 5",
+      "operator": "Interxion",
+      "country": "France",
+      "city": "Paris",
+      "address": "11-13 Avenue Arts et Métiers, Saint-Denis 93210 Paris France",
+      "priority": 324,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-1b10df59fef63b38d54a73fc94c8bf6f",
+      "name": "Marseille 6",
+      "operator": "Digital Realty Trust",
+      "country": "France",
+      "city": null,
+      "address": null,
+      "priority": 325,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-2d5e692aada02e33bbea33299412d2df",
+      "name": "Châteauroux",
+      "operator": "Google",
+      "country": "France",
+      "city": null,
+      "address": null,
+      "priority": 326,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-2f0acdcb771684e9cfa74ffe038d0338",
+      "name": "CyrusOne PAR1 - Paris",
+      "operator": "CyrusOne",
+      "country": "France",
+      "city": null,
+      "address": null,
+      "priority": 327,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-00de4b9188dcaf961c159a36eca7f2e4",
+      "name": "Alencon",
+      "operator": "AZNetwork",
+      "country": "France",
+      "city": "Alencon",
+      "address": "40 Rue Ampere 61000 Alencon France",
+      "priority": 328,
+      "operatorGroup": "aznetwork"
+    },
+    {
+      "facilityId": "dc-0123094d91593b85b391343f48fdf4e7",
+      "name": "Woippy",
+      "operator": "Arcan Networks",
+      "country": "France",
+      "city": "Metz",
+      "address": "3 Avenue Des Deux Fontaines 57140 Metz France",
+      "priority": 329,
+      "operatorGroup": "arcan networks"
+    },
+    {
+      "facilityId": "dc-019ec274759d7978c0a6694ed6636af0",
+      "name": "La Ciotat",
+      "operator": "ASPSERVEUR",
+      "country": "France",
+      "city": "Ciotat",
+      "address": "785 voie antiope 13600 La Ciotat France",
+      "priority": 330,
+      "operatorGroup": "aspserveur"
+    },
+    {
+      "facilityId": "dc-01e3d86681ff90ce5a936724b326c961",
+      "name": "Strasbourg",
+      "operator": "SFR",
+      "country": "France",
+      "city": "Strasbourg",
+      "address": "1 rue du Havre 67000 Strasbourg France",
+      "priority": 331,
+      "operatorGroup": "sfr"
+    },
+    {
+      "facilityId": "dc-0256d6b1f2843743c606c062909e0205",
+      "name": "Paris Campus",
+      "operator": "DATA4",
+      "country": "France",
+      "city": "Marcoussis",
+      "address": "Route de Nozay 91460 Marcoussis France",
+      "priority": 332,
+      "operatorGroup": "data4"
+    },
+    {
+      "facilityId": "dc-0705113640bd213919b37e6970209cfc",
+      "name": "Paris 1",
+      "operator": "OVH",
+      "country": "France",
+      "city": "Paris",
+      "address": "Paris France 020 7357 6616",
+      "priority": 333,
+      "operatorGroup": "ovh"
+    },
+    {
+      "facilityId": "dc-0725fcd00ad78aad017ed3d129441c36",
+      "name": "Bordeaux Lac",
+      "operator": "Neuf Cegetel",
+      "country": "France",
+      "city": "Bordeaux",
+      "address": "Rue du Dr. Gabriel Peri 33700 Bordeaux Lac France",
+      "priority": 334,
+      "operatorGroup": "neuf cegetel"
+    },
+    {
+      "facilityId": "dc-4534982c385523203c02aee53e9987a6",
+      "name": "CLS Libreville",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Gabon",
+      "city": null,
+      "address": null,
+      "priority": 335,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-540c9b9e710cb81c3706b33a66630f25",
+      "name": "CLS Gabon",
+      "operator": "SAT-3",
+      "country": "Gabon",
+      "city": null,
+      "address": null,
+      "priority": 336,
+      "operatorGroup": "sat-3"
+    },
+    {
+      "facilityId": "dc-0595175b50e7e82d64b73a78a9d25daa",
+      "name": "1 Foxboro Rd",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Redhill",
+      "address": "1 Foxboro Rd RH1 1TD Redhill UK",
+      "priority": 337,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-1b08818dc8ec18fa15cb4cea35ef463c",
+      "name": "London 9",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "Unit 2 Powergate Business Park, Volt Avenue NW10 6PW London United Kingdom",
+      "priority": 338,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-27c266ef1ac248429a8d8843c11278e9",
+      "name": "55-71 City Rd",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "City Road 55 EC1Y 1HQ London United Kingdom",
+      "priority": 339,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-282270f846f94fa463a100d7d868075c",
+      "name": "Bonnington House",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "47 Millharbour E14 9TR London UK",
+      "priority": 340,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-299617f770276f66f5992e66471c41c6",
+      "name": "Phoenix House, Coronation Rd",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Wycombe",
+      "address": "Phoenix House, Coronation Rd HP12 3TA High Wycombe United Kingdom",
+      "priority": 341,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-366827a776d7485f4645c04a0d1441c9",
+      "name": "London 1",
+      "operator": "Interxion",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "11 Hanbury Street E1 6QR London United Kingdom",
+      "priority": 342,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-42156ac1113b1284b4b82bbc10969ce4",
+      "name": "London 4",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Slough",
+      "address": "2 Buckingham Avenue, Slough Trading Estate SL1 4NB Slough United Kingdom",
+      "priority": 343,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-4765091354165f2b4d5f2fdf7a67e116",
+      "name": "Slough 2",
+      "operator": "NTT",
+      "country": "United Kingdom",
+      "city": "Slough",
+      "address": "665 Ajax Ave SL1 Slough UK",
+      "priority": 344,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-4782a9878b39bc208a4b150e71c28866",
+      "name": "London 6",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Slough",
+      "address": "352 Buckingham Avenue, Slough Trading Estate, Slough SL1 4PF Slough United Kingdom",
+      "priority": 345,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-491ff0450304100f1da4147ec4f86e5f",
+      "name": "Manchester 4",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "address": "Unit 4, Synergy House, Manchester Science Park, Guildhall Close M15 6SZ Manchester United Kingdom",
+      "priority": 346,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-54cc6fd7b5cdf63ba9bb67eac68d461b",
+      "name": "Manchester 1",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "address": "Unit 3 Williams House, Lloyd Street M2 5HD Manchester United Kingdom",
+      "priority": 347,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-5b2c94c9344a65d841fdcf28f6a3bcff",
+      "name": "47 Milharbour",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "Bonnington House, Millharbour 47 E14 9TR London United Kingdom",
+      "priority": 348,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-613d9ffb201eb864bbfb42901421daff",
+      "name": "London 1",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "101 Finsburry Pavement EC2A 1 RS London United Kingdom",
+      "priority": 349,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-66fd1183dace05796bd2c105179a6e98",
+      "name": "North Building Digital Realty Campus, Manor Royal",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Crawley",
+      "address": "Unit 1 Power Ave RH10 9BE Crawley UK",
+      "priority": 350,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-6e07f8768c7a27754e206113bdcbe8d2",
+      "name": "London 10",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Slough",
+      "address": "13 Liverpool Rd SL1 4PF Slough UK",
+      "priority": 351,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-77882d92808a4f244cd5b8c654b5ed68",
+      "name": "Slough 1",
+      "operator": "NTT",
+      "country": "United Kingdom",
+      "city": "+81-3-3500-8111",
+      "address": "Slough United Kingdom +81-3-3500-8111",
+      "priority": 352,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-786bd6ea14ac8944725ee620f67e2a4f",
+      "name": "Orkney",
+      "operator": "Microsoft",
+      "country": "United Kingdom",
+      "city": "Orkney",
+      "address": "Back Rd KW16 3AW Orkney UK",
+      "priority": 353,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-90092ca858df8c37bafe0b23d642a414",
+      "name": "London 8",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "9 Harbour Exchange Square E14 9GE London UK",
+      "priority": 354,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-94b2a635daeeeb5271647b957804a0cf",
+      "name": "London",
+      "operator": "Iron Mountain",
+      "country": "United Kingdom",
+      "city": "800-935-6966",
+      "address": "SL1 4PF Slough United Kingdom 800-935-6966",
+      "priority": 355,
+      "operatorGroup": "Iron Mountain"
+    },
+    {
+      "facilityId": "dc-94d4658878b191da2fb6c454158bd2fd",
+      "name": "2 Foxboro Rd",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Redhill",
+      "address": "2 Foxboro Rd RH1 1TD Redhill UK",
+      "priority": 356,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-9e67b76829a6a871a8f82ed28805ac93",
+      "name": "Unit 1 Airport Gate Bath Rd",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Drayton",
+      "address": "Bath Rd UB7 0NA West Drayton UK",
+      "priority": 357,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-9f6081850f320c033e6d8657b0497790",
+      "name": "London 3",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "Unit 11 Matrix, 900 Coronation Road, Park Royal NW10 7PH London United Kingdom",
+      "priority": 358,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-b3149d2c7585ebaccf923a592480770a",
+      "name": "Manchester 3",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Stretford",
+      "address": "76 Trafford Wharf Road M17 1HE Stretford United Kingdom",
+      "priority": 359,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-b709ed7e96d05e17c7c98d922057108d",
+      "name": "Manchester Technopark",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "address": "4 Archway M15 5RN Manchester UK",
+      "priority": 360,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-b7d252a5615e9374b505e1782bd8ecf2",
+      "name": "London 2",
+      "operator": "Interxion",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "11 Hanbury Street E1 6QR London United Kingdom",
+      "priority": 361,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-b964b4974e02dc152d8ff36b74e6d903",
+      "name": "Watford",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "Watford",
+      "address": "Caxton Way 8 WD18 8UA Watford United Kingdom",
+      "priority": 362,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-cc4e9c89f239f277a511e55ae27bfd3c",
+      "name": "London 5",
+      "operator": "Equinix",
+      "country": "United Kingdom",
+      "city": "Slough",
+      "address": "8 Buckingham Avenue, Slough Trading Estate Slough United Kingdom",
+      "priority": 363,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-d4bce1f12f11cf53ff8b9153089e510e",
+      "name": "London 3",
+      "operator": "Interxion",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "11 Hanbury St E1 6QR London United Kingdom",
+      "priority": 364,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-d4f7aad53a0876f198cee0cdaba8a60e",
+      "name": "Woking",
+      "operator": "CyrusOne",
+      "country": "United Kingdom",
+      "city": "Woking",
+      "address": "Kestrel Way GU21 3BA Woking UK",
+      "priority": 365,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-f6a9ac8fd5a9a30d978401c54704c837",
+      "name": "227 Marsh Wall",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "Sovereign House, 227 Marsh Wall E14 9SD London United Kingdom",
+      "priority": 366,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-fa52d43d7922e496c7f321aabc5a21d0",
+      "name": "215 Marsh Wall",
+      "operator": "Digital Realty Trust",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "Memaco House, Meridian Gate, 215 Marsh Wall E14 9FJ London United Kingdom",
+      "priority": 367,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-38e1d9f819c32dac7a47e6eca7e32bf0",
+      "name": "Tbilisi",
+      "operator": "BitFury",
+      "country": "Georgia",
+      "city": "Georgia",
+      "address": "Gldani District Tbilisi Georgia",
+      "priority": 368,
+      "operatorGroup": "bitfury"
+    },
+    {
+      "facilityId": "dc-9d2159af6ec89ae1e436d6753278bc75",
+      "name": "Centenary House",
+      "operator": "Sure",
+      "country": "Guernsey",
+      "city": null,
+      "address": null,
+      "priority": 369,
+      "operatorGroup": "sure"
+    },
+    {
+      "facilityId": "dc-009fb84dccefee1931b4793fb82a30d7",
+      "name": "Accra",
+      "operator": "MainOne",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "17 Aviation Road Accra Ghana",
+      "priority": 370,
+      "operatorGroup": "mainone"
+    },
+    {
+      "facilityId": "dc-10f7853bcaac56db2af8c3b7a7c5c61a",
+      "name": "CLS Accra",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "John Evans Atta Mills High St Accra Ghana",
+      "priority": 371,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-146ee43ddacc39682ff908fd20af7b1c",
+      "name": "Accra",
+      "operator": "MTN",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "Spintex Rd Accra Ghana",
+      "priority": 372,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-3b596e8e1bef57e7c30b91ab4a0a1ac3",
+      "name": "Accra",
+      "operator": "Barclays",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "John Evans Atta Mills High St Accra Ghana",
+      "priority": 373,
+      "operatorGroup": "barclays"
+    },
+    {
+      "facilityId": "dc-4e5d4f34ed919958c258c1d0937462e4",
+      "name": "CLS Accra",
+      "operator": "Globacom Limited",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "Abrebrensem Street 7600 Accra Ghana",
+      "priority": 374,
+      "operatorGroup": "globacom limited"
+    },
+    {
+      "facilityId": "dc-594ff62802f6455c5ac45fc930267ed6",
+      "name": "Kumasi",
+      "operator": "Millicom (Tigo)",
+      "country": "Ghana",
+      "city": "Kumasi",
+      "address": "Harper Rd Kumasi Ghana",
+      "priority": 375,
+      "operatorGroup": "millicom (tigo)"
+    },
+    {
+      "facilityId": "dc-65d9c68af219e80cfa1c95f14d2c8e97",
+      "name": "Etix Accra #1",
+      "operator": "Etix Everywhere",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "R40 Accra Ghana",
+      "priority": 376,
+      "operatorGroup": "etix everywhere"
+    },
+    {
+      "facilityId": "dc-6bbad47d8c7331f255599948bbd3df25",
+      "name": "Accra",
+      "operator": "Fidelity Bank Limited",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "Cruickshank Rd Accra Ghana",
+      "priority": 377,
+      "operatorGroup": "fidelity bank limited"
+    },
+    {
+      "facilityId": "dc-8bba49b92be9547c3ebf8479b73cc832",
+      "name": "CLS Ghana",
+      "operator": "SAT-3",
+      "country": "Ghana",
+      "city": "Accra",
+      "address": "John Evans Atta Mills High St Accra Ghana",
+      "priority": 378,
+      "operatorGroup": "sat-3"
+    },
+    {
+      "facilityId": "dc-17bf7880d5b73b0e31e193c77899cae4",
+      "name": "Europort",
+      "operator": "Sapphire Networks Limited",
+      "country": "Gibraltar",
+      "city": null,
+      "address": null,
+      "priority": 379,
+      "operatorGroup": "sapphire networks limited"
+    },
+    {
+      "facilityId": "dc-8ca7331176fc8d984534765db2308e9a",
+      "name": "Gibraltar",
+      "operator": "Gibtelecom",
+      "country": "Gibraltar",
+      "city": null,
+      "address": null,
+      "priority": 380,
+      "operatorGroup": "gibtelecom"
+    },
+    {
+      "facilityId": "dc-29bc6f854682f1f1bc847ce08abe082e",
+      "name": "Nuuk",
+      "operator": "TELE Greenland",
+      "country": "Greenland",
+      "city": null,
+      "address": null,
+      "priority": 381,
+      "operatorGroup": "tele greenland"
+    },
+    {
+      "facilityId": "dc-47ac12c54e448348f2fc6c3c6f21e330",
+      "name": "CLS Banjul",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Republic of The Gambia",
+      "city": null,
+      "address": null,
+      "priority": 382,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-f7cec473f327385ef0a2891e9ad63576",
+      "name": "CLS Conakry",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Guinea",
+      "city": null,
+      "address": null,
+      "priority": 383,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-fe84d9fd29f2daacd4628e290f2cd4ca",
+      "name": "Conarky",
+      "operator": "MTN",
+      "country": "Guinea",
+      "city": null,
+      "address": null,
+      "priority": 384,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-30f1f8fff7d17db12ee3bd1502c0e0f1",
+      "name": "CLS Bata",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Equatorial Guinea",
+      "city": null,
+      "address": null,
+      "priority": 385,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-5d6be078bea16c69ca7bb97cd775c413",
+      "name": "Methamorphosis",
+      "operator": "Sparkle",
+      "country": "Greece",
+      "city": "Attica",
+      "address": "Ermou 37 14452 Attica Greece",
+      "priority": 386,
+      "operatorGroup": "sparkle"
+    },
+    {
+      "facilityId": "dc-88576708e2f88b1cfb7712859a5d031d",
+      "name": "Chania",
+      "operator": "Sparkle",
+      "country": "Greece",
+      "city": "Crete",
+      "address": "Saridantoni 70A 73100 Crete Greece",
+      "priority": 387,
+      "operatorGroup": "sparkle"
+    },
+    {
+      "facilityId": "dc-748001fcb8cd31c248422b8e6624e8d2",
+      "name": "Hellas Sat",
+      "operator": "Thomas Kalamaris",
+      "country": "Greece",
+      "city": null,
+      "address": null,
+      "priority": 388,
+      "operatorGroup": "thomas kalamaris"
+    },
+    {
+      "facilityId": "dc-91c2eefd58e52e96370bdd68ae6c673b",
+      "name": "MCV Saipan Datacenter",
+      "operator": "MCV Broadband",
+      "country": "Guam",
+      "city": null,
+      "address": null,
+      "priority": 389,
+      "operatorGroup": "mcv broadband"
+    },
+    {
+      "facilityId": "dc-cf74928f99c737ed50aa5f32739344d2",
+      "name": "MCV Guam Datacenter",
+      "operator": "MCV Broadband",
+      "country": "Guam",
+      "city": null,
+      "address": null,
+      "priority": 390,
+      "operatorGroup": "mcv broadband"
+    },
+    {
+      "facilityId": "dc-da34dfd46b1a9ef7ebb51d2229238566",
+      "name": "Piti Landing Station",
+      "operator": "TATA Communications",
+      "country": "Guam",
+      "city": null,
+      "address": null,
+      "priority": 391,
+      "operatorGroup": "tata communications"
+    },
+    {
+      "facilityId": "dc-e11007fc94db6d88e577feb305e2e1b7",
+      "name": "Bissau",
+      "operator": "MTN",
+      "country": "Guinea-Bissau",
+      "city": null,
+      "address": null,
+      "priority": 392,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-455c32686477186b280fb38154841430",
+      "name": "Hong Kong 1",
+      "operator": "Equinix",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "17/F Global Gateway (Hong Kong), No.168 Yeung Uk Road Tsuen Wan Hong Kong",
+      "priority": 393,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-4dc3aaa10d53c9b8b0758e5f3a81b28a",
+      "name": "Tai Po",
+      "operator": "NTT",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "Tai Po Hong Kong Hong Kong",
+      "priority": 394,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-7da69145dcc06749c5295a76f853dae2",
+      "name": "33 Chun Choi Street",
+      "operator": "Digital Realty Trust",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "33 Chun Choi Street, Tseung Kwan O Industrial Estate Hong Kong Hong Kong",
+      "priority": 395,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-bc1cede736b1fa23a0a4809ff91d8c78",
+      "name": "Tseung Kwan O 2 (Financial Data Center)",
+      "operator": "NTT",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "Tseung Kwan O Tseung Kwan O Hong Kong",
+      "priority": 396,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-e30a740359c542180b12cad8774f95d0",
+      "name": "Tseung Kwan O 1 (Financial Data Center)",
+      "operator": "NTT",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "Tseung Kwan O Hong Kong Hong Kong",
+      "priority": 397,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-f63d3b656786ea315311161f12c89f2d",
+      "name": "Hong Kong 2",
+      "operator": "Equinix",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "1/F Kerry Warehouse, 3 Shing Yiu St., Kwai Chung Tsuen Wan Hong Kong",
+      "priority": 398,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0188db1d77086c97343c6db58aafcc24",
+      "name": "Warwick House",
+      "operator": "CITIC Telecom International CPC",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "979 King's Road, Quarry Bay Hong Kong Hong Kong",
+      "priority": 399,
+      "operatorGroup": "citic telecom international cpc"
+    },
+    {
+      "facilityId": "dc-02b2ed1fbaa7a4ba878155930a8f6acb",
+      "name": "Hong Kong",
+      "operator": "CentriLogic",
+      "country": "Hong Kong",
+      "city": "Kong",
+      "address": "tbc Hong Kong Hong Kong",
+      "priority": 400,
+      "operatorGroup": "centrilogic"
+    }
+  ]
+}

@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 2,
+  "candidates": [
+    {
+      "facilityId": "dc-09469dd86a00e8f1eb4fb5f80485520b",
+      "name": "Vitória",
+      "operator": "Voxbras",
+      "country": "Brazil",
+      "city": "Vitória",
+      "address": "Rua Amélia da Cunha Ornelas, 320 29050-320 Vitória Brazil",
+      "priority": 101,
+      "operatorGroup": "voxbras"
+    },
+    {
+      "facilityId": "dc-0e44274522512f55ef86a8cb953e079f",
+      "name": "Salvador",
+      "operator": "Ib Telecom",
+      "country": "Brazil",
+      "city": "Salvador",
+      "address": "Av. Trancredo Neves, 274, Bl A - SL 204 41820-020 Salvador Brazil",
+      "priority": 102,
+      "operatorGroup": "ib telecom"
+    },
+    {
+      "facilityId": "dc-0f384ed6ab59ea6afb0dd0b2f98c0648",
+      "name": "Sao Paulo (Avenida Doutor Timóteo Penteado)",
+      "operator": "Vivo",
+      "country": "Brazil",
+      "city": "Guarulhos",
+      "address": "Av. Dr. Timóteo Penteado, 976 Guarulhos Brazil",
+      "priority": 103,
+      "operatorGroup": "vivo"
+    },
+    {
+      "facilityId": "dc-110ab40cc480d699b59fd5f84968e779",
+      "name": "Uberlândia",
+      "operator": "Algar Technologia",
+      "country": "Brazil",
+      "city": "Uberlândia",
+      "address": "Av. Floriano Peixoto 6500 38405-184 Uberlândia Brazil",
+      "priority": 104,
+      "operatorGroup": "algar technologia"
+    },
+    {
+      "facilityId": "dc-162b461d4aa76915e3ee97d3513c22d1",
+      "name": "Recife",
+      "operator": "RNP",
+      "country": "Brazil",
+      "city": "Recife",
+      "address": "Av. Professor Luiz Freire, 700 Cidade Universitária 50740-540 Recife Brazil",
+      "priority": 105,
+      "operatorGroup": "rnp"
+    },
+    {
+      "facilityId": "dc-171e5e129deed2a007f116ee6568d63f",
+      "name": "Florianópolis",
+      "operator": "RNP",
+      "country": "Brazil",
+      "city": "Florianópolis",
+      "address": "Superintendência de Governança Eletrônica e Tecnologia da Informação e Comunicação 88040-900 Florianópolis Brazil",
+      "priority": 106,
+      "operatorGroup": "rnp"
+    },
+    {
+      "facilityId": "dc-1db37dd95e97eb78361593dce6674af4",
+      "name": "Salvador",
+      "operator": "POP-BA",
+      "country": "Brazil",
+      "city": "Salvador",
+      "address": "Av. Ademar de Barros, s/n, CPD/UFBA 40.170-110 Salvador Brazil",
+      "priority": 107,
+      "operatorGroup": "pop-ba"
+    },
+    {
+      "facilityId": "dc-230cf9f3c308333de4f9983cb5ad3a54",
+      "name": "Rio de Janeiro",
+      "operator": "NetBotanic",
+      "country": "Brazil",
+      "city": "Rio",
+      "address": "Rua Jardim Botanico 674 Cobertura 22461-000 Rio de Janeiro Brazil",
+      "priority": 108,
+      "operatorGroup": "netbotanic"
+    },
+    {
+      "facilityId": "dc-04de3cb9457767aab40e0564c0b5f8dc",
+      "name": "BIH",
+      "operator": "Botswana Innovation Hub",
+      "country": "Botswana",
+      "city": null,
+      "address": null,
+      "priority": 109,
+      "operatorGroup": "botswana innovation hub"
+    },
+    {
+      "facilityId": "dc-9f73882e2acc2e1db19b099971d9fba3",
+      "name": "Mascom",
+      "operator": "Mascom",
+      "country": "Botswana",
+      "city": null,
+      "address": null,
+      "priority": 110,
+      "operatorGroup": "mascom"
+    },
+    {
+      "facilityId": "dc-786c8a22491ed7d28018e7e69eaac8f2",
+      "name": "Beltelecom",
+      "operator": "RUE Beltelecom (Republican Unitary Telecommunications Enterprise Beltelecom)",
+      "country": "Belarus",
+      "city": "Minsk",
+      "address": "Zaharova 55 220034 Minsk Belarus",
+      "priority": 111,
+      "operatorGroup": "rue beltelecom (republican unitary telecommunications enterprise beltelecom)"
+    },
+    {
+      "facilityId": "dc-0d5b4e2f2509efbe777596ef94e6aebb",
+      "name": "371 Gough Road",
+      "operator": "Digital Realty Trust",
+      "country": "Canada",
+      "city": "Markham",
+      "address": "371 Gough Road Markham Canada",
+      "priority": 112,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-1259bb1e2e754ac3bb3d985ce912f0c9",
+      "name": "Toronto",
+      "operator": "EdgeConneX",
+      "country": "Canada",
+      "city": "York",
+      "address": "565 Gordon Baker Rd M2H 3B4 North York Canada",
+      "priority": 113,
+      "operatorGroup": "EdgeConneX"
+    },
+    {
+      "facilityId": "dc-4f85aa9b543d7caf63b2568fd2c606fe",
+      "name": "Toronto",
+      "operator": "Microsoft",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "tbc Toronto Canada",
+      "priority": 114,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-67a1366782999b3a4e539208b39dc74b",
+      "name": "Toronto",
+      "operator": "Equinix",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "151 Front St W M5J 2N1 Toronto Canada",
+      "priority": 115,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-72875b8144f068ffff97b604036f59b0",
+      "name": "Toronto 2",
+      "operator": "Equinix",
+      "country": "Canada",
+      "city": "St",
+      "address": "45 Parliament St ON M5A 0B2 Toronto Canada",
+      "priority": 116,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-0e1de1365386f1300323cc2d22a2197b",
+      "name": "AWS YUL 1790 Lionel-Boulet A",
+      "operator": "Amazon",
+      "country": "Canada",
+      "city": null,
+      "address": null,
+      "priority": 117,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-d72c5cc9b3c90d08ac66a53d723e6f80",
+      "name": "AWS YUL 1790 Lionel-Boulet B",
+      "operator": "Amazon",
+      "country": "Canada",
+      "city": null,
+      "address": null,
+      "priority": 118,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-0098b18f292e5121f9184d7c7d5700ba",
+      "name": "Wolfpaw Vancouver",
+      "operator": "Wolfpaw Services",
+      "country": "Canada",
+      "city": "Vancouver",
+      "address": "to be provided Vancouver Canada",
+      "priority": 119,
+      "operatorGroup": "wolfpaw services"
+    },
+    {
+      "facilityId": "dc-034789e4175340439edb19ebb9ca9c94",
+      "name": "151 Front Street",
+      "operator": "SoftLayer Technologies (IBM Cloud)",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "151 Front Street Toronto Canada",
+      "priority": 120,
+      "operatorGroup": "softlayer technologies (ibm cloud)"
+    },
+    {
+      "facilityId": "dc-09f2379f65590187bf55308dd00d4725",
+      "name": "Vancouver",
+      "operator": "TATA Communications",
+      "country": "Canada",
+      "city": "7070",
+      "address": "Vancouver Canada 6060 7070",
+      "priority": 121,
+      "operatorGroup": "tata communications"
+    },
+    {
+      "facilityId": "dc-0a4e0f68f092c9df413aa961184382ae",
+      "name": "Toronto",
+      "operator": "Dimension Data",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "161 Bay St M5J 2S1 Toronto Canada",
+      "priority": 122,
+      "operatorGroup": "dimension data"
+    },
+    {
+      "facilityId": "dc-0f9c22295a21a79d44536336f07bea56",
+      "name": "Toronto 1",
+      "operator": "Q9",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "100 Wellington St W M5J 2R2 Toronto Canada",
+      "priority": 123,
+      "operatorGroup": "q9"
+    },
+    {
+      "facilityId": "dc-1244ef17e402d346242d16f237e9b452",
+      "name": "CentriLogic Mississauga",
+      "operator": "CentriLogic",
+      "country": "Canada",
+      "city": "Mississauga",
+      "address": "2 Robert Speck Parkway L4Z 1H8 Mississauga Canada",
+      "priority": 124,
+      "operatorGroup": "centrilogic"
+    },
+    {
+      "facilityId": "dc-14f74c03698f6b1d50b4e6386703a383",
+      "name": "360/GT Montreal",
+      "operator": "360 Networks",
+      "country": "Canada",
+      "city": "Montreal",
+      "address": "875 St Antoine St Montreal Canada",
+      "priority": 125,
+      "operatorGroup": "360 networks"
+    },
+    {
+      "facilityId": "dc-1ee7f825f7bdf6b0ca5578e545b268ba",
+      "name": "Toronto (Yonge Street)",
+      "operator": "Cogeco Peer 1",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "1 Yonge M5J 2N1 Toronto Canada",
+      "priority": 126,
+      "operatorGroup": "cogeco peer 1"
+    },
+    {
+      "facilityId": "dc-236e384d3718e6395949f275a4239cde",
+      "name": "Montreal",
+      "operator": "Urbacon Data Centre Solutions",
+      "country": "Canada",
+      "city": "Montréal",
+      "address": "544 Rue de l'Inspecteur H3C 2K9 Montréal Canada",
+      "priority": 127,
+      "operatorGroup": "urbacon data centre solutions"
+    },
+    {
+      "facilityId": "dc-23a67770c32c99909d37abb08e56bebf",
+      "name": "Montréal",
+      "operator": "Fonds immobilier de solidarité FTQ",
+      "country": "Canada",
+      "city": "Montreal",
+      "address": "544 rue de l'Inspecteur Montreal Canada",
+      "priority": 128,
+      "operatorGroup": "fonds immobilier de solidarité ftq"
+    },
+    {
+      "facilityId": "dc-23c918d63bf73fd5fa471959b8f23319",
+      "name": "Calgary 2",
+      "operator": "Q9",
+      "country": "Canada",
+      "city": "Maynard",
+      "address": "1930 Maynard Rd SE T2E 6J8 Calgary Canada",
+      "priority": 129,
+      "operatorGroup": "q9"
+    },
+    {
+      "facilityId": "dc-2571bb196c859a1d491bc7a5b4c2d036",
+      "name": "Kamloops",
+      "operator": "TELUS Communications Company",
+      "country": "Canada",
+      "city": "Kamloops",
+      "address": "McGill Road Kamloops Canada",
+      "priority": 130,
+      "operatorGroup": "telus communications company"
+    },
+    {
+      "facilityId": "dc-277b53445ecfb1a5c67ad57b530fe47e",
+      "name": "Capris Hosting",
+      "operator": "The Capris Group",
+      "country": "Canada",
+      "city": "Mississauga",
+      "address": "215 Traders Blvd. E. L4Z 3K5 Mississauga Canada",
+      "priority": 131,
+      "operatorGroup": "the capris group"
+    },
+    {
+      "facilityId": "dc-286985db7818143734b4b87b13578c2e",
+      "name": "Rigstar Data Center",
+      "operator": "Rigstar Communications Inc.",
+      "country": "Canada",
+      "city": "Calgary",
+      "address": "to be provided T3S 0B6 Calgary Canada",
+      "priority": 132,
+      "operatorGroup": "rigstar communications inc."
+    },
+    {
+      "facilityId": "dc-2932fcb775b50138141d30e7ade90ea0",
+      "name": "Toronto TOR-2330 Workgroup",
+      "operator": "Sungard",
+      "country": "Canada",
+      "city": "Argentia",
+      "address": "2330 Argentia Rd L5N 0B4 Mississauga Canada",
+      "priority": 133,
+      "operatorGroup": "sungard"
+    },
+    {
+      "facilityId": "dc-14b25beb72740d86f4455d338ff40058",
+      "name": "CLS Muanda",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Democratic Republic of the Congo",
+      "city": null,
+      "address": null,
+      "priority": 134,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-3c948bbaf597bdd2dbf4db380adde782",
+      "name": "Raxio DRC",
+      "operator": "Raxio Group",
+      "country": "Democratic Republic of the Congo",
+      "city": null,
+      "address": null,
+      "priority": 135,
+      "operatorGroup": "raxio group"
+    },
+    {
+      "facilityId": "dc-6f32958e92cb4109ee8f0cc9581b6542",
+      "name": "Kinshasa 1",
+      "operator": "Open Access Data Centres (OADC)",
+      "country": "Democratic Republic of the Congo",
+      "city": null,
+      "address": null,
+      "priority": 136,
+      "operatorGroup": "open access data centres (oadc)"
+    },
+    {
+      "facilityId": "dc-478112d0c0d683e663a01304a1d77a81",
+      "name": "CLS Matombi",
+      "operator": "WACS (West Africa Cable System)",
+      "country": "Republic of the Congo",
+      "city": null,
+      "address": null,
+      "priority": 137,
+      "operatorGroup": "wacs (west africa cable system)"
+    },
+    {
+      "facilityId": "dc-75d22b3c204cc81e740eb940c69899bd",
+      "name": "Pointe-Noire",
+      "operator": "MTN",
+      "country": "Republic of the Congo",
+      "city": null,
+      "address": null,
+      "priority": 138,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-950756a95cd7825c24a160a8a7fa59d8",
+      "name": "Brazzaville",
+      "operator": "MTN",
+      "country": "Republic of the Congo",
+      "city": null,
+      "address": null,
+      "priority": 139,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-0887eea7435947fd47ae155b3b65047a",
+      "name": "Geneva 1",
+      "operator": "Equinix",
+      "country": "Switzerland",
+      "city": "Geneva",
+      "address": "Rue de la Confédération 6 1204 Geneva Switzerland",
+      "priority": 140,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-1503447a41271c46d7222cdac2681e95",
+      "name": "Zurich",
+      "operator": "Interxion",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "address": "Sägereistrasse 29, Glattbrugg 8152 Zurich Switzerland",
+      "priority": 141,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-15cf0f0b22f71c5e3496b711bd46fd6d",
+      "name": "Zurich 5",
+      "operator": "Equinix",
+      "country": "Switzerland",
+      "city": "Oberengstringen",
+      "address": "Allmendstrasse 13 8102 Oberengstringen Switzerland",
+      "priority": 142,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-3550f6c6bfc47c1dd556d117fcbe8c75",
+      "name": "Zurich 3",
+      "operator": "Equinix",
+      "country": "Switzerland",
+      "city": "Opfikon",
+      "address": "Sägereistrasse 35 8152 Opfikon Switzerland",
+      "priority": 143,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-3633e9526b6143a756fc375caf261165",
+      "name": "Chemin de l'Epinglier 2",
+      "operator": "Digital Realty Trust",
+      "country": "Switzerland",
+      "city": "Meyrin",
+      "address": "Chemin de l'Epinglier 2 1217 Meyrin Switzerland",
+      "priority": 144,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-8128eedd0ee9edb397e9256666546a9d",
+      "name": "Zurich 1",
+      "operator": "Equinix",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "address": "Hardstrasse 235 8005 Zurich Switzerland",
+      "priority": 145,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-9943fe5ecdc0012ab732b75afc40f15e",
+      "name": "Zurich 2",
+      "operator": "Equinix",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "address": "Josefstrasse 225 8005 Zurich Switzerland",
+      "priority": 146,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-f270c6741fc3a7468c9364347e5ca6cc",
+      "name": "Zurich 4",
+      "operator": "Equinix",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "address": "Josefstrasse 225 8005 Zurich Switzerland",
+      "priority": 147,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-017d8897c1bdd77dd4e82caa897dea43",
+      "name": "Josefstrasse 225",
+      "operator": "ICT Center",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "address": "Josefstrasse 225 8005 Zurich Switzerland",
+      "priority": 148,
+      "operatorGroup": "ict center"
+    },
+    {
+      "facilityId": "dc-05a438df9a9bc254686cb65fb727b014",
+      "name": "Baar",
+      "operator": "datasource schweiz",
+      "country": "Switzerland",
+      "city": "Baar",
+      "address": "lättichstrasse 8 6340 Baar Switzerland",
+      "priority": 149,
+      "operatorGroup": "datasource schweiz"
+    },
+    {
+      "facilityId": "dc-05e8d666013ab448ba1e386e60378a2f",
+      "name": "Zurich",
+      "operator": "Interoute",
+      "country": "Switzerland",
+      "city": "Zürich",
+      "address": "Josefstrasse 225 Zürich Switzerland",
+      "priority": 150,
+      "operatorGroup": "interoute"
+    },
+    {
+      "facilityId": "dc-074fd0cadc4294c3002d0b0e61504982",
+      "name": "Zurich",
+      "operator": "e-shelter services GmbH",
+      "country": "Switzerland",
+      "city": "Rümlang",
+      "address": "Hofwisenstrasse 56 8153 Rümlang Switzerland",
+      "priority": 151,
+      "operatorGroup": "e-shelter services gmbh"
+    },
+    {
+      "facilityId": "dc-0a002f0377ad08298652760cd2032377",
+      "name": "Avenches",
+      "operator": "Safe Host SA",
+      "country": "Switzerland",
+      "city": "Avenches",
+      "address": "Route de l'Estivage 1580 Avenches Switzerland",
+      "priority": 152,
+      "operatorGroup": "safe host sa"
+    },
+    {
+      "facilityId": "dc-0bd7ef1bfef2fb2369b0bd920f660362",
+      "name": "Zurich City 2",
+      "operator": "Green Datacenter AG",
+      "country": "Switzerland",
+      "city": "Schlieren",
+      "address": "Unterrohrstrasse 4 8952 Schlieren Switzerland",
+      "priority": 153,
+      "operatorGroup": "green datacenter ag"
+    },
+    {
+      "facilityId": "dc-1302eaec9dea37fd941fa115961c088f",
+      "name": "Root D4",
+      "operator": "TurnKey Services AG",
+      "country": "Switzerland",
+      "city": "Root",
+      "address": "Platz 4 6039 Root D4 Switzerland",
+      "priority": 154,
+      "operatorGroup": "turnkey services ag"
+    },
+    {
+      "facilityId": "dc-1c50a416b7d0f888e687a6f6674fb7fc",
+      "name": "DataHub Winterthur",
+      "operator": "DataHub (data:hub)",
+      "country": "Switzerland",
+      "city": "Winterthur",
+      "address": "Zürcherstrasse 322 8406 Winterthur Switzerland",
+      "priority": 155,
+      "operatorGroup": "datahub (data:hub)"
+    },
+    {
+      "facilityId": "dc-1cd90574b09e538ae6fa5a6c7f902adf",
+      "name": "DataHub Biel",
+      "operator": "DataHub (data:hub)",
+      "country": "Switzerland",
+      "city": "Biel",
+      "address": "Tennisweg 6 2504 Biel Switzerland",
+      "priority": 156,
+      "operatorGroup": "datahub (data:hub)"
+    },
+    {
+      "facilityId": "dc-25e1837a6e3f465863549da9e815e9b9",
+      "name": "Colobern Süd",
+      "operator": "NTS Workspace",
+      "country": "Switzerland",
+      "city": "Bern",
+      "address": "Chutzenstrasse 28 Bern Switzerland",
+      "priority": 157,
+      "operatorGroup": "nts workspace"
+    },
+    {
+      "facilityId": "dc-2a928159f1c22378a77410039aaab49c",
+      "name": "Badenerstrasse 569",
+      "operator": "Colozueri.ch AG",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "address": "Badenerstrasse 569 8048 Zurich Switzerland",
+      "priority": 158,
+      "operatorGroup": "colozueri.ch ag"
+    },
+    {
+      "facilityId": "dc-416f00c0220112d75dfecf60c68e171d",
+      "name": "CLS Abidjan",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "Avenue Houdaille Abidjan Côte d'Ivoire",
+      "priority": 159,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-628dffe50c8c89e8aacc9e46c17fb385",
+      "name": "CLS Abidjan",
+      "operator": "WACS (West Africa Cable System)",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "Rue Thomas Edison Abidjan Côte d'Ivoire",
+      "priority": 160,
+      "operatorGroup": "wacs (west africa cable system)"
+    },
+    {
+      "facilityId": "dc-76a5f6299c63eb46b817f38bfb0b9404",
+      "name": "CLS Grand-Bassam",
+      "operator": "MainOne",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "VITIB Grand-Bassam Côte d'Ivoire",
+      "priority": 161,
+      "operatorGroup": "mainone"
+    },
+    {
+      "facilityId": "dc-8034e4b9c0d6c1edffe8a71936991cbe",
+      "name": "CLS Abidjan",
+      "operator": "SAT-3",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "Avenue Houdaille Abidjan Côte d'Ivoire",
+      "priority": 162,
+      "operatorGroup": "sat-3"
+    },
+    {
+      "facilityId": "dc-8dbbbb72371c2adcbbeccc58a74f3cb0",
+      "name": "Abidjan",
+      "operator": "CenterServ",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "Avenue Noguès 01 Abidjan Côte d'Ivoire",
+      "priority": 163,
+      "operatorGroup": "centerserv"
+    },
+    {
+      "facilityId": "dc-b2df8180af9355dfb3a15f60d30e6a97",
+      "name": "Abidjan",
+      "operator": "Orange",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "VITIB Grand-Bassam Côte d'Ivoire",
+      "priority": 164,
+      "operatorGroup": "orange"
+    },
+    {
+      "facilityId": "dc-dda5926f86be22dc09b1df4781ab2cf3",
+      "name": "Abidjan",
+      "operator": "Alink Telecom",
+      "country": "Cote d'Ivoire",
+      "city": "d'Ivoire",
+      "address": "Boulevard Valéry Giscard d'Estaing Abidjan Côte d'Ivoire",
+      "priority": 165,
+      "operatorGroup": "alink telecom"
+    },
+    {
+      "facilityId": "dc-c639c84a6d2181c0dc928eb9358151c8",
+      "name": "Quilicura",
+      "operator": "Google",
+      "country": "Chile",
+      "city": "Quilicura",
+      "address": "El Molino Quilicura Chile",
+      "priority": 166,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-2e30034ed4c9945ff7c0efadd62bdff2",
+      "name": "GTD Internet",
+      "operator": "Gtd Group",
+      "country": "Chile",
+      "city": "Santiago",
+      "address": "Moneda 920 8320330 Santiago Chile",
+      "priority": 167,
+      "operatorGroup": "gtd group"
+    },
+    {
+      "facilityId": "dc-4a2e6c8e9f081d3f1150539b97fccddc",
+      "name": "Santiago",
+      "operator": "CenturyLink",
+      "country": "Chile",
+      "city": "Huechuraba",
+      "address": "Av. Sta. Marta de Huechuraba 6951 Huechuraba Chile",
+      "priority": 168,
+      "operatorGroup": "centurylink"
+    },
+    {
+      "facilityId": "dc-95095e3efed7a96b354b9f2ee4f3b84a",
+      "name": "Santiago Data Center",
+      "operator": "Sonda IT",
+      "country": "Chile",
+      "city": "Santiago",
+      "address": "Quilicura Santiago Chile",
+      "priority": 169,
+      "operatorGroup": "sonda it"
+    },
+    {
+      "facilityId": "dc-3a858b649699a770db4dbae083f2129d",
+      "name": "Douala",
+      "operator": "MTN",
+      "country": "Cameroon",
+      "city": "Cameroon",
+      "address": "Rue Drouot Douala Cameroon",
+      "priority": 170,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-5d8f0b3f781f479187b80c9aa7b8c281",
+      "name": "Yaoundé",
+      "operator": "AVS Telecom",
+      "country": "Cameroon",
+      "city": "Yaounde",
+      "address": "Ave du 27 Août 1940 Yaounde Cameroon",
+      "priority": 171,
+      "operatorGroup": "avs telecom"
+    },
+    {
+      "facilityId": "dc-c4490b8e3a792e3cbdd8c4a9908ce6b6",
+      "name": "Douala",
+      "operator": "Orange",
+      "country": "Cameroon",
+      "city": "Cameroon",
+      "address": "Boulevard de la Liberté Douala Cameroon",
+      "priority": 172,
+      "operatorGroup": "orange"
+    },
+    {
+      "facilityId": "dc-31cc7c8f0775326278bd64a26c8fd9a1",
+      "name": "Garoua",
+      "operator": "MTN",
+      "country": "Cameroon",
+      "city": null,
+      "address": null,
+      "priority": 173,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-8a477482280462af4a386c6ae032d746",
+      "name": "CLS Douala",
+      "operator": "SAT-3",
+      "country": "Cameroon",
+      "city": null,
+      "address": null,
+      "priority": 174,
+      "operatorGroup": "sat-3"
+    },
+    {
+      "facilityId": "dc-bebef965092f2f50fdbd753ad82acafb",
+      "name": "CLS Limbe",
+      "operator": "WACS (West Africa Cable System)",
+      "country": "Cameroon",
+      "city": null,
+      "address": null,
+      "priority": 175,
+      "operatorGroup": "wacs (west africa cable system)"
+    },
+    {
+      "facilityId": "dc-c695e481520683182f183a49a895d969",
+      "name": "Camtel NBN 2",
+      "operator": "Camtel",
+      "country": "Cameroon",
+      "city": null,
+      "address": null,
+      "priority": 176,
+      "operatorGroup": "camtel"
+    },
+    {
+      "facilityId": "dc-587d68d16c2724424c0ce95d4ec08f54",
+      "name": "Shanghai 3",
+      "operator": "Equinix",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "address": "Building No.3, 700 Jinyu Road 201206 Shanghai China",
+      "priority": 177,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-9fc6db82d258c1517cff73b8dd04801b",
+      "name": "Shanghai 2",
+      "operator": "Equinix",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "address": "Building No. 4, 700 Jinyu Road 201206 Shanghai China",
+      "priority": 178,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-acd10c668d3f368d84306c3180257fa9",
+      "name": "Ningxia",
+      "operator": "Amazon",
+      "country": "People's Republic of China",
+      "city": "City",
+      "address": "Ningxia Hui Autonomous Region Zhongwei City China",
+      "priority": 179,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-c62e41c11a9b76dd1aaa5f9c2ba2df4f",
+      "name": "Beijing",
+      "operator": "Amazon",
+      "country": "People's Republic of China",
+      "city": "Beijing",
+      "address": "tbc Beijing China",
+      "priority": 180,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-e6b504d2f4e3cad1a14ad58b91de324f",
+      "name": "Shanghai 5",
+      "operator": "Equinix",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "address": "Building No. 9 No. 619, Longchang Road 200090 Shanghai China",
+      "priority": 181,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-f92d03d670a77cf72101d9f627c44564",
+      "name": "Shanghai Pudong",
+      "operator": "NTT",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "address": "PuDong Shanghai China",
+      "priority": 182,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-0179cd881b2f8fe79648e35cbf72bde8",
+      "name": "Shanghai",
+      "operator": "Epiq Systems",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "address": "tbc Shanghai China",
+      "priority": 183,
+      "operatorGroup": "epiq systems"
+    },
+    {
+      "facilityId": "dc-027de17f5a3fafe3ee6aeb494ad603c6",
+      "name": "Beijing",
+      "operator": "IXTech Limited",
+      "country": "People's Republic of China",
+      "city": "Beijing",
+      "address": "Chang-hua Building, No.97, Fu Xing Men Nei Da Jie, Xi-chen District Beijing China",
+      "priority": 184,
+      "operatorGroup": "ixtech limited"
+    },
+    {
+      "facilityId": "dc-0489ba367fbfd0362e7aa93744ed1237",
+      "name": "Guangdong Zhaoqing Huangtang",
+      "operator": "21Vianet Group, Inc.",
+      "country": "People's Republic of China",
+      "city": "Shi",
+      "address": "Huang Tang Lu Zhaoqing Shi China",
+      "priority": 185,
+      "operatorGroup": "21vianet group, inc."
+    },
+    {
+      "facilityId": "dc-0adae3b96fade1d1cc33a8e9d4880b59",
+      "name": "ACME Cloud Centre",
+      "operator": "ACME Universal Communications",
+      "country": "People's Republic of China",
+      "city": "Shenzhen",
+      "address": "5/F, GDC Building, 9 Gaoxin Central Avenue 3rd, Nanshan District Shenzhen China",
+      "priority": 186,
+      "operatorGroup": "acme universal communications"
+    },
+    {
+      "facilityId": "dc-1287327903ec5f84edf21e4615859418",
+      "name": "Shanghai Baoshan Ji Yun",
+      "operator": "21Vianet Group, Inc.",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "address": "Baoshan District Shanghai China",
+      "priority": 187,
+      "operatorGroup": "21vianet group, inc."
+    },
+    {
+      "facilityId": "dc-1740f9fd233514a276aa4ec2c21ca326",
+      "name": "GDS Guangjidian DC",
+      "operator": "GDS Services",
+      "country": "People's Republic of China",
+      "city": "Beijing",
+      "address": "Jiachuang Road, Tongzhou District Beijing China",
+      "priority": 188,
+      "operatorGroup": "gds services"
+    },
+    {
+      "facilityId": "dc-183b2e43a761e8e35fcf1394e9f72232",
+      "name": "Chongqing 1",
+      "operator": "Zenlayer",
+      "country": "People's Republic of China",
+      "city": "Yubei",
+      "address": "32 Baotong Rd 401120 Yubei Qu China",
+      "priority": 189,
+      "operatorGroup": "zenlayer"
+    },
+    {
+      "facilityId": "dc-2032ccda5eaff3dc742776153c932861",
+      "name": "Beijing",
+      "operator": "Alibaba Group",
+      "country": "People's Republic of China",
+      "city": "Beijing",
+      "address": "tbc Beijing China",
+      "priority": 190,
+      "operatorGroup": "alibaba group"
+    },
+    {
+      "facilityId": "dc-21ba04c5a7e670884abf0c1794a5af3c",
+      "name": "Shenzhen",
+      "operator": "Alibaba Group",
+      "country": "People's Republic of China",
+      "city": "Shenzhen",
+      "address": "tbc Shenzhen China",
+      "priority": 191,
+      "operatorGroup": "alibaba group"
+    },
+    {
+      "facilityId": "dc-23a17f177e6ed3b30bd009964ebdb344",
+      "name": "GDS Shenzhen Futian DC",
+      "operator": "GDS Services",
+      "country": "People's Republic of China",
+      "city": "Shenzhen",
+      "address": "Futian Free Trade Zone, Shenzhen city, Guangdong Province Shenzhen China",
+      "priority": 192,
+      "operatorGroup": "gds services"
+    },
+    {
+      "facilityId": "dc-253ad4c84f0e45469e9d50a15972c086",
+      "name": "Shanghai 2",
+      "operator": "Zenlayer",
+      "country": "People's Republic of China",
+      "city": "Qu",
+      "address": "Ji Yu Lu Minhang Qu China",
+      "priority": 193,
+      "operatorGroup": "zenlayer"
+    },
+    {
+      "facilityId": "dc-482a42ebcc0a5c9130089a517226aece",
+      "name": "Bogota",
+      "operator": "Equinix",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "address": "Cl. 106 #15a-25 110111 Bogotá Colombia",
+      "priority": 194,
+      "operatorGroup": "Equinix"
+    },
+    {
+      "facilityId": "dc-5c9b7051c1e743c78d57aaf5c2754f34",
+      "name": "NAP de las Americas Colombia",
+      "operator": "Terremark",
+      "country": "Colombia",
+      "city": "Bogota",
+      "address": "15A-25 Zona Franca de Bogotá Bogota Colombia",
+      "priority": 195,
+      "operatorGroup": "terremark"
+    },
+    {
+      "facilityId": "dc-a9f6bb259463526c6d098b67f1d8528d",
+      "name": "Colombia",
+      "operator": "ETB S.A. ESP",
+      "country": "Colombia",
+      "city": "tbc",
+      "address": "tbc tbc Colombia",
+      "priority": 196,
+      "operatorGroup": "etb s.a. esp"
+    },
+    {
+      "facilityId": "dc-0aef8b6bf036ad75c15e971b36853209",
+      "name": "Technology Park",
+      "operator": "Codisa",
+      "country": "Costa Rica",
+      "city": "Rica",
+      "address": "Av. 45 Tibás Costa Rica",
+      "priority": 197,
+      "operatorGroup": "codisa"
+    },
+    {
+      "facilityId": "dc-4950b31947cd684dc7d05be8a2e2aa8e",
+      "name": "Critical Colocation, S.A.",
+      "operator": "Critical Colocation",
+      "country": "Costa Rica",
+      "city": "San",
+      "address": "Av. 10, Calles 13 y 15 10101 San Jose Costa Rica",
+      "priority": 198,
+      "operatorGroup": "critical colocation"
+    },
+    {
+      "facilityId": "dc-aa88c76853d40277ccbcac8cf41fd3d5",
+      "name": "Itech Datacenter",
+      "operator": "DataCenter Itech",
+      "country": "Costa Rica",
+      "city": "Rica",
+      "address": "San Jose San Jose Costa Rica",
+      "priority": 199,
+      "operatorGroup": "datacenter itech"
+    },
+    {
+      "facilityId": "dc-e5c5fd7c4ab2554810f375ac8e2635e0",
+      "name": "Rack Lodge Data Center",
+      "operator": "Rack Lodge",
+      "country": "Costa Rica",
+      "city": "Rica",
+      "address": "Centro Colon Building, Suite 217 San Jose Costa Rica",
+      "priority": 200,
+      "operatorGroup": "rack lodge"
+    }
+  ]
+}

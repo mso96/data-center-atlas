@@ -104,8 +104,8 @@ runnable examples. They describe fictional headers, **not** the provider's schem
   Coordinates are **[longitude, latitude]**, with optional third altitude discarded.
   Non-Point geometry, legacy CRS, nonnumeric and out-of-range coordinates are invalid.
   Latitude/longitude property mappings are forbidden for GeoJSON to avoid conflict.
-- Missing or partial coordinates stay nullable. Such records remain searchable
-  and selectable, but never generate a map point. No geocoding or location invention.
+- Missing or partial coordinates stay nullable. Such records remain available to administrative repository queries, but are
+  excluded from the public mapped explorer and detail routes. No geocoding or location invention.
 
 ## Upserts, duplicates, reporting
 

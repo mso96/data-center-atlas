@@ -75,17 +75,17 @@ export function AppShell({ initial }: { initial: ExplorerResult }) {
         <div id="explorer-content" className="explorer-content" aria-busy={pending}>
           {error && <ErrorState message={error} onRetry={() => setRetry(value => value+1)} />}
           <div className="results-view" hidden={detailsOpen}>
-            <div className="explorer-intro"><p className="eyebrow">EXPLORE THE ATLAS</p><h1 id="results-heading" tabIndex={-1}>Find your next connection.</h1><p>Discover the places powering our digital world.</p></div>
+            <div className="explorer-intro"><p className="eyebrow">EXPLORE THE ATLAS</p><h1 id="results-heading" tabIndex={-1}>Discover data centers</h1><p>Explore data center locations, operators, and infrastructure worldwide.</p></div>
             <FilterControls value={query.filters} options={result.options} onChange={changeFilters} />
             <ActiveFilterTags value={query.filters} onRemove={key => changeFilters({...query.filters,[key]:null,...(key === "countryCode" ? {city:null} : {})})} />
-            {Object.values(query.filters).some(Boolean) && <button className="clear-filters" onClick={() => changeFilters({})}>Clear all filters</button>}
+            {Object.entries(query.filters).some(([key,value]) => key !== "mappedOnly" && Boolean(value)) && <button className="clear-filters" onClick={() => changeFilters({})}>Clear all filters</button>}
             <ResultCount total={result.page.total} mapped={result.features.features.length} />
             {!!result.features.missingCoordinatesCount && <p className="unmapped-count">{result.features.missingCoordinatesCount} {result.features.missingCoordinatesCount === 1 ? "facility has" : "facilities have"} no valid coordinates and {result.features.missingCoordinatesCount === 1 ? "is" : "are"} not mapped.</p>}
-            <div className="results-scroll" inert={pending || !!error}>{pending && <LoadingState message="Updating results…" />}<FacilityList facilities={result.page.items} selectedId={query.selectedId} onSelect={select} /></div>
+            <div className="results-scroll" inert={pending || !!error}>{pending && <LoadingState message="Updating results…" />}<FacilityList facilities={result.page.items} selectedId={query.selectedId} returnQuery={queryKey} /></div>
             {result.page.totalPages > 1 && <nav className="pagination" aria-label="Results pages"><Button variant="outline" size="sm" disabled={pending || result.page.page === 1} onClick={() => update(current => ({...current,page:current.page-1}))}>Previous</Button><span>Page {result.page.page} of {result.page.totalPages}</span><Button variant="outline" size="sm" disabled={pending || result.page.page >= result.page.totalPages} onClick={() => update(current => ({...current,page:current.page+1}))}>Next</Button></nav>}
             <footer className="explorer-footer"><span className="tiny-dot" />{result.mode === "demo" ? "Illustrative locations. Fictional facilities." : "Imported dataset. See each facility’s source."}</footer>
           </div>
-          {detailsOpen && selected && <div className="details-scroll">{pending && <LoadingState message="Updating facility…" />}<FacilityDetails facility={selected} onBack={back} /></div>}
+          {detailsOpen && selected && <div className="details-scroll">{pending && <LoadingState message="Updating facility…" />}<FacilityDetails facility={selected} onBack={back} returnQuery={queryKey} /></div>}
         </div>
       </aside>
       <main className="map-region" aria-label="Data center world map"><WorldMap features={result.features} selected={selected} onSelect={select} mode={result.mode} dataset={result.dataset} />{(pending || error) && <div className="map-pending" aria-live="polite">{error ? "Map shows the last successful results" : "Updating list and map…"}</div>}</main>

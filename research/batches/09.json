@@ -1,0 +1,1007 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "batch": 9,
+  "candidates": [
+    {
+      "facilityId": "dc-080b069fd64e7c6858eb937ba9c1efc7",
+      "name": "Bratislava",
+      "operator": "VNET a.s.",
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "address": "Nám. Hraniciarov 39 85103 Bratislava Slovakia",
+      "priority": 801,
+      "operatorGroup": "vnet a.s."
+    },
+    {
+      "facilityId": "dc-2a9beb9e7afebd7ec8dbdc264a38636f",
+      "name": "Bratislava",
+      "operator": "BENESTRA",
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "address": "Údernícka 15 85101 Bratislava Slovakia",
+      "priority": 802,
+      "operatorGroup": "benestra"
+    },
+    {
+      "facilityId": "dc-2d38a873175097f243f2046dac5374c6",
+      "name": "DC Tajov",
+      "operator": "Slovak Telekom, a.s.",
+      "country": "Slovakia",
+      "city": "Slovakia",
+      "address": "Tajov Tajov Slovakia",
+      "priority": 803,
+      "operatorGroup": "slovak telekom, a.s."
+    },
+    {
+      "facilityId": "dc-3f28577342d26639a3735b449ef0dbf1",
+      "name": "Bratislava 2",
+      "operator": "VNET a.s.",
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "address": "Kocelová 9 82108 Bratislava Slovakia",
+      "priority": 804,
+      "operatorGroup": "vnet a.s."
+    },
+    {
+      "facilityId": "dc-5db209ebdfa4f1ad730d766db2ab5b2a",
+      "name": "Bratislava 2",
+      "operator": "Sitel",
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "address": "Kopcianska 18 85101 Bratislava Slovakia",
+      "priority": 805,
+      "operatorGroup": "sitel"
+    },
+    {
+      "facilityId": "dc-6e3066ba1e875e541cdd4c5f557f32b4",
+      "name": "DC Bzenov",
+      "operator": "Slovak Telekom, a.s.",
+      "country": "Slovakia",
+      "city": "Slovakia",
+      "address": "Bzenov Bzenov Slovakia",
+      "priority": 806,
+      "operatorGroup": "slovak telekom, a.s."
+    },
+    {
+      "facilityId": "dc-7b86208eec2d02216d6edefbeb067c2f",
+      "name": "Bratislava",
+      "operator": "CNC",
+      "country": "Slovakia",
+      "city": "Slovakia",
+      "address": "Istrijská 26, Devínska Nová Ves Bratislava Slovakia",
+      "priority": 807,
+      "operatorGroup": "cnc"
+    },
+    {
+      "facilityId": "dc-9c3461829605e539de1d0ad1bffe59e4",
+      "name": "Košice",
+      "operator": "Sitel",
+      "country": "Slovakia",
+      "city": "040",
+      "address": "Zemplínska 1107/6 040 01 Košice Slovakia",
+      "priority": 808,
+      "operatorGroup": "sitel"
+    },
+    {
+      "facilityId": "dc-09a97c6f8bddf53637df1b4d8c696ae0",
+      "name": "CLS Freetown",
+      "operator": "ACE (African Coast to Europe)",
+      "country": "Sierra Leone",
+      "city": null,
+      "address": null,
+      "priority": 809,
+      "operatorGroup": "ace (african coast to europe)"
+    },
+    {
+      "facilityId": "dc-c07416aa01e1abeae8ba985def0cdfa7",
+      "name": "Medina",
+      "operator": "Orange",
+      "country": "Senegal",
+      "city": "Senegal",
+      "address": "Avenue Malick Sy Dakar Senegal",
+      "priority": 810,
+      "operatorGroup": "orange"
+    },
+    {
+      "facilityId": "dc-123f61cd440e3271022fb6c5a2b27530",
+      "name": "PAIX Dakar",
+      "operator": "PAIX Data Centres",
+      "country": "Senegal",
+      "city": null,
+      "address": null,
+      "priority": 811,
+      "operatorGroup": "paix data centres"
+    },
+    {
+      "facilityId": "dc-85432267c31fc609b2ce089650cf8460",
+      "name": "Rufisque",
+      "operator": "Sonatel",
+      "country": "Senegal",
+      "city": null,
+      "address": null,
+      "priority": 812,
+      "operatorGroup": "sonatel"
+    },
+    {
+      "facilityId": "dc-bce5e5fdf891cee60f3f64084224539e",
+      "name": "Dakar Diamniadio",
+      "operator": "STELLARIX",
+      "country": "Senegal",
+      "city": null,
+      "address": null,
+      "priority": 813,
+      "operatorGroup": "stellarix"
+    },
+    {
+      "facilityId": "dc-e1b9cf409f3107cca084f14c1ee9a8e7",
+      "name": "Dakar",
+      "operator": "Onix Data Centres",
+      "country": "Senegal",
+      "city": null,
+      "address": null,
+      "priority": 814,
+      "operatorGroup": "onix data centres"
+    },
+    {
+      "facilityId": "dc-dc50efc38bc3ff3071230e7f944d1861",
+      "name": "Juba",
+      "operator": "MTN",
+      "country": "South Sudan",
+      "city": null,
+      "address": null,
+      "priority": 815,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-ae3bccfb220955de1370979d3c7267b8",
+      "name": "Lome",
+      "operator": "Cafe Informatique",
+      "country": "Togo",
+      "city": null,
+      "address": null,
+      "priority": 816,
+      "operatorGroup": "cafe informatique"
+    },
+    {
+      "facilityId": "dc-ca58716013db5f2fa507de79e9cd88cd",
+      "name": "CLS Lome",
+      "operator": "WACS (West Africa Cable System)",
+      "country": "Togo",
+      "city": null,
+      "address": null,
+      "priority": 817,
+      "operatorGroup": "wacs (west africa cable system)"
+    },
+    {
+      "facilityId": "dc-1b8c1918b27b96bff0eaee4570925388",
+      "name": "Bangkok 1",
+      "operator": "NTT",
+      "country": "Thailand",
+      "city": null,
+      "address": null,
+      "priority": 818,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-8dcad793da97b4f3cfa3c4722117ab89",
+      "name": "Bangkok 2",
+      "operator": "NTT",
+      "country": "Thailand",
+      "city": null,
+      "address": null,
+      "priority": 819,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-23ec2787b9056ebee88848934e72ec12",
+      "name": "STT GDC - Bangkok 3",
+      "operator": "ST Telemedia GDC",
+      "country": "Thailand",
+      "city": "Khet",
+      "address": "183 Witthayu Rd, Lumphini 10330 Khet Pathum Wan Thailand",
+      "priority": 820,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-318946d59f09f8886148e7adce2ce43e",
+      "name": "CS LoxInfo",
+      "operator": "CS LoxInfo Plc.",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "address": "Cyber World Tower A 10310 Bangkok Thailand",
+      "priority": 821,
+      "operatorGroup": "cs loxinfo plc."
+    },
+    {
+      "facilityId": "dc-93224f294b90cf11016fefb271ba5e62",
+      "name": "Amata Nakorn",
+      "operator": "TCC Technology Co., Ltd",
+      "country": "Thailand",
+      "city": "อำเภอเมือง",
+      "address": "ถนนบางนา-ตราด 20000 อำเภอเมือง Thailand",
+      "priority": 822,
+      "operatorGroup": "tcc technology co., ltd"
+    },
+    {
+      "facilityId": "dc-2e0b3736e7a2b5ec5eebee3d490fdf5e",
+      "name": "STT GDC Thailand - STT Bangkok 2",
+      "operator": "ST Telemedia GDC",
+      "country": "Thailand",
+      "city": null,
+      "address": null,
+      "priority": 823,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-3f2fcb31679f6292da32d90ca346e247",
+      "name": "STT GDC Thailand - STT Bangkok 3",
+      "operator": "ST Telemedia GDC",
+      "country": "Thailand",
+      "city": null,
+      "address": null,
+      "priority": 824,
+      "operatorGroup": "st telemedia gdc"
+    },
+    {
+      "facilityId": "dc-1f49f4c68daf8793bb19f93aa89039d3",
+      "name": "Carthage Data Center",
+      "operator": "Tunisie Telecom",
+      "country": "Tunisia",
+      "city": "Tunisia",
+      "address": "Avenue De Carthage Tunis Tunisia",
+      "priority": 825,
+      "operatorGroup": "tunisie telecom"
+    },
+    {
+      "facilityId": "dc-3e3d91c6f59ed59187e74e8016631de7",
+      "name": "Tunis",
+      "operator": "GlobalNet",
+      "country": "Tunisia",
+      "city": "Tunisia",
+      "address": "53 Rue des Minéraux Tunis Tunisia",
+      "priority": 826,
+      "operatorGroup": "globalnet"
+    },
+    {
+      "facilityId": "dc-da18fc0cd4bf727712622e251f476c94",
+      "name": "Beja",
+      "operator": "HexaByte",
+      "country": "Tunisia",
+      "city": "Tunisia",
+      "address": "Avenue Habib Bourguiba Beja Tunisia",
+      "priority": 827,
+      "operatorGroup": "hexabyte"
+    },
+    {
+      "facilityId": "dc-2a1ccef57f64c7776db98b2c4aabb63d",
+      "name": "Charguia",
+      "operator": "Ooredoo Global Services (OGS)",
+      "country": "Tunisia",
+      "city": null,
+      "address": null,
+      "priority": 828,
+      "operatorGroup": "ooredoo global services (ogs)"
+    },
+    {
+      "facilityId": "dc-05dffc1c1899804dad6e20cef51078b9",
+      "name": "TTIDC Ankara",
+      "operator": "Türk Telekom",
+      "country": "Türkiye",
+      "city": "Ankara",
+      "address": "8 Cad 06530 Ankara Turkey",
+      "priority": 829,
+      "operatorGroup": "türk telekom"
+    },
+    {
+      "facilityId": "dc-19dc3a59d1a761a5ed0a161c82e7305b",
+      "name": "EDGNEX Istanbul",
+      "operator": "EDGNEX",
+      "country": "Türkiye",
+      "city": "Arnavutköy",
+      "address": "Yassıören 34285 Arnavutköy / İstanbul Turkey",
+      "priority": 830,
+      "operatorGroup": "edgnex"
+    },
+    {
+      "facilityId": "dc-72ada500f95a207e38e1dd25968f6743",
+      "name": "Hostigger",
+      "operator": "Hostigger, Inc.",
+      "country": "Türkiye",
+      "city": "Dudullu",
+      "address": "3. Cd. 34775 Dudullu Osb/Ümraniye Turkey",
+      "priority": 831,
+      "operatorGroup": "hostigger, inc."
+    },
+    {
+      "facilityId": "dc-7e97c71eeeb409b5d15fad187d43ffb3",
+      "name": "Istanbul",
+      "operator": "Teknotel Telekomünikasyon",
+      "country": "Türkiye",
+      "city": "Istanbul",
+      "address": "Saniye Ermutlu Sok. No.10 34742 Istanbul Turkey",
+      "priority": 832,
+      "operatorGroup": "teknotel telekomünikasyon"
+    },
+    {
+      "facilityId": "dc-acbdbebe0fc0b0b6bb5ecde58eb9d771",
+      "name": "Istanbul",
+      "operator": "Vodafone Group Plc",
+      "country": "Türkiye",
+      "city": "Turkey",
+      "address": "Buyukdere Caddesi 112 Istanbul Turkey",
+      "priority": 833,
+      "operatorGroup": "vodafone group plc"
+    },
+    {
+      "facilityId": "dc-b177c64ba8f8f3cdd67d61d73e42b9f4",
+      "name": "Istanbul",
+      "operator": "Telehouse",
+      "country": "Türkiye",
+      "city": "Kozyatagi",
+      "address": "Saniye Ermutlu Sok no. 1034742, Kozyatagi Istanbul Turkey",
+      "priority": 834,
+      "operatorGroup": "telehouse"
+    },
+    {
+      "facilityId": "dc-e500fc5924541e0890f851957e3ac9e0",
+      "name": "Ankara",
+      "operator": "Global ?leti?im Hizmetleri A.?.",
+      "country": "Türkiye",
+      "city": "Turkey",
+      "address": "100 Yil Bulvari No:101, Ostim Ankara Turkey",
+      "priority": 835,
+      "operatorGroup": "global ?leti?im hizmetleri a.?."
+    },
+    {
+      "facilityId": "dc-14dadc1a41f0e320a0a17fd45d7d51c8",
+      "name": "Charleville",
+      "operator": "Informatics Engineering Services Limited",
+      "country": "Trinidad and Tobago",
+      "city": null,
+      "address": null,
+      "priority": 836,
+      "operatorGroup": "informatics engineering services limited"
+    },
+    {
+      "facilityId": "dc-909ba3b2dec8d98732beb75d45a9383e",
+      "name": "Mausica",
+      "operator": "Telecommunications Services of Trinidad and Tobago (TSTT)",
+      "country": "Trinidad and Tobago",
+      "city": null,
+      "address": null,
+      "priority": 837,
+      "operatorGroup": "telecommunications services of trinidad and tobago (tstt)"
+    },
+    {
+      "facilityId": "dc-ec6946cdcdaaff115bf1d8337ebf39ef",
+      "name": "Port of Spain",
+      "operator": "Caribbean IXP",
+      "country": "Trinidad and Tobago",
+      "city": null,
+      "address": null,
+      "priority": 838,
+      "operatorGroup": "caribbean ixp"
+    },
+    {
+      "facilityId": "dc-b9725f1b623d045c5fcca527fc13132f",
+      "name": "Changhua",
+      "operator": "Google",
+      "country": "Taiwan, Province of China",
+      "city": "Taiwan",
+      "address": "Zhangbin West 2nd Road 507 Xianxi Township Taiwan",
+      "priority": 839,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-5b829080b9776c8fa5192bd14d67d3fa",
+      "name": "Taipei 3",
+      "operator": "NTT",
+      "country": "Taiwan, Province of China",
+      "city": null,
+      "address": null,
+      "priority": 840,
+      "operatorGroup": "NTT"
+    },
+    {
+      "facilityId": "dc-ba87a408a26d8f20bff656ab05cb07d6",
+      "name": "Taipei 1",
+      "operator": "Zenlayer",
+      "country": "Taiwan, Province of China",
+      "city": "Taiwan",
+      "address": "No.8, Guoqing Rd 220 Banqiao District Taiwan",
+      "priority": 841,
+      "operatorGroup": "zenlayer"
+    },
+    {
+      "facilityId": "dc-d73e47307707e244975132c73d129faf",
+      "name": "Chief LY Building Taipei",
+      "operator": "Chief Telecom",
+      "country": "Taiwan, Province of China",
+      "city": "Taiwan",
+      "address": "250, Yang-Guang St., Nei-hu Taipei Taiwan",
+      "priority": 842,
+      "operatorGroup": "chief telecom"
+    },
+    {
+      "facilityId": "dc-46f2825bc0228971c0e5b0c70f8240ea",
+      "name": "Taiwan",
+      "operator": "Continent 8 Technologies",
+      "country": "Taiwan, Province of China",
+      "city": null,
+      "address": null,
+      "priority": 843,
+      "operatorGroup": "continent 8 technologies"
+    },
+    {
+      "facilityId": "dc-1be1fa8b4d77dc54179dd21a0424644b",
+      "name": "CLS Dar Es Salaam",
+      "operator": "SEACOM",
+      "country": "United Republic of Tanzania",
+      "city": "Tanzania",
+      "address": "Kunduchi Dar es Salaam Tanzania",
+      "priority": 844,
+      "operatorGroup": "seacom"
+    },
+    {
+      "facilityId": "dc-1f8cfe8bcc70fda8f7631826fa39ce0e",
+      "name": "Dar es Salaam",
+      "operator": "Viettel Tanzania Ltd (Halotel)",
+      "country": "United Republic of Tanzania",
+      "city": "Tanzania",
+      "address": "Lukuledi St Dar es Salaam Tanzania",
+      "priority": 845,
+      "operatorGroup": "viettel tanzania ltd (halotel)"
+    },
+    {
+      "facilityId": "dc-39b188d4b421fb43c3ac0a76b4711108",
+      "name": "Dar es Salaam",
+      "operator": "Raha",
+      "country": "United Republic of Tanzania",
+      "city": "Tanzania",
+      "address": "Ohio St Dar es Salaam Tanzania",
+      "priority": 846,
+      "operatorGroup": "raha"
+    },
+    {
+      "facilityId": "dc-53d34635e3d74e2fe3f400608a7d2cc2",
+      "name": "Dar es Salaam",
+      "operator": "Millicom (Tigo)",
+      "country": "United Republic of Tanzania",
+      "city": "Tanzania",
+      "address": "Mombo St Dar es Salaam Tanzania",
+      "priority": 847,
+      "operatorGroup": "millicom (tigo)"
+    },
+    {
+      "facilityId": "dc-9ffc2ad1b5e6c21de2b314d29ea96875",
+      "name": "Dar es Salaam",
+      "operator": "Simply Connect",
+      "country": "United Republic of Tanzania",
+      "city": "Dar",
+      "address": "Makunganya St 22775 Dar es Salaam Tanzania",
+      "priority": 848,
+      "operatorGroup": "simply connect"
+    },
+    {
+      "facilityId": "dc-b34b895c7509fc6b82aaa93a86c1ec69",
+      "name": "Tanzania Internet eXchange",
+      "operator": "Tanzania Internet eXchange (TIX)",
+      "country": "United Republic of Tanzania",
+      "city": "Tanzania",
+      "address": "Upanga Rd Dar es Salaam Tanzania",
+      "priority": 849,
+      "operatorGroup": "tanzania internet exchange (tix)"
+    },
+    {
+      "facilityId": "dc-d26aeb6fe71925d261c6410041c15c39",
+      "name": "Dar es Salaam",
+      "operator": "Vodacom Business",
+      "country": "United Republic of Tanzania",
+      "city": "Tanzania",
+      "address": "Laibon Road Dar es Salaam Tanzania",
+      "priority": 850,
+      "operatorGroup": "vodacom business"
+    },
+    {
+      "facilityId": "dc-fdd7f67eb30958a7c5b97306e298c8de",
+      "name": "Dar es Salaam",
+      "operator": "Aptus Solutions",
+      "country": "United Republic of Tanzania",
+      "city": "Dar",
+      "address": "759/10 Azikiwe St 11104 Dar es Salaam Tanzania",
+      "priority": 851,
+      "operatorGroup": "aptus solutions"
+    },
+    {
+      "facilityId": "dc-33f8160d53c6fd7ba6f46e04871778a3",
+      "name": "Odesa",
+      "operator": "Vega Telecom",
+      "country": "Ukraine",
+      "city": "Odesa",
+      "address": "Astashkina St, 29/1 65000 Odesa Ukraine",
+      "priority": 852,
+      "operatorGroup": "vega telecom"
+    },
+    {
+      "facilityId": "dc-bd3470efd343b50f0b8f23e4abdda5c0",
+      "name": "NewTelco Kiev",
+      "operator": "NewTelco Ukraine Ltd.",
+      "country": "Ukraine",
+      "city": "Kiev",
+      "address": "Gaydara 50 Str. 1033 Kiev Ukraine",
+      "priority": 853,
+      "operatorGroup": "newtelco ukraine ltd."
+    },
+    {
+      "facilityId": "dc-bf5ddf56930611157032bc62d693c134",
+      "name": "Kiev",
+      "operator": "Vega Telecom",
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "address": "Leontovycha St, B. 9/3 02000 Kyiv Ukraine",
+      "priority": 854,
+      "operatorGroup": "vega telecom"
+    },
+    {
+      "facilityId": "dc-eac87de08c9fa56a3d08df65ef8a713e",
+      "name": "Data-Center I Volia",
+      "operator": "Volia",
+      "country": "Ukraine",
+      "city": "Kiev",
+      "address": "Kikvidze st. 1/2 01103 Kiev Ukraine",
+      "priority": 855,
+      "operatorGroup": "volia"
+    },
+    {
+      "facilityId": "dc-09c1f01ae2ac5ed052b94519fc5bba7c",
+      "name": "Kampala",
+      "operator": "Research and Education Network for Uganda (RENU)",
+      "country": "Uganda",
+      "city": "University",
+      "address": "P.O.Box 7062 University Rd Kampala Uganda",
+      "priority": 856,
+      "operatorGroup": "research and education network for uganda (renu)"
+    },
+    {
+      "facilityId": "dc-48e6a5814e1238fe5ed78d02bbcf8b12",
+      "name": "National Data Centre",
+      "operator": "National Information Technology Authority-Uganda (NITA-U)",
+      "country": "Uganda",
+      "city": "Uganda",
+      "address": "Palm Courts, Lugogo By-Pass Kampala Uganda",
+      "priority": 857,
+      "operatorGroup": "national information technology authority-uganda (nita-u)"
+    },
+    {
+      "facilityId": "dc-8a37dfbaff9a459883cd5b058f84d0f5",
+      "name": "Kampala",
+      "operator": "Barclays",
+      "country": "Uganda",
+      "city": "Uganda",
+      "address": "Hannington Road Kampala Uganda",
+      "priority": 858,
+      "operatorGroup": "barclays"
+    },
+    {
+      "facilityId": "dc-ba7e8defb02d1ce91931d75b930e5ad1",
+      "name": "Uganda Telecom Mengo Exchange",
+      "operator": "Uganda Telecom",
+      "country": "Uganda",
+      "city": "Uganda",
+      "address": "Hamu Mukasa Road Kampala Uganda",
+      "priority": 859,
+      "operatorGroup": "uganda telecom"
+    },
+    {
+      "facilityId": "dc-cb08b84a64a1f895485d3059fde81050",
+      "name": "Uganda",
+      "operator": "Stanbic Bank Uganda",
+      "country": "Uganda",
+      "city": "Uganda",
+      "address": "Hannington Road Kampala Uganda",
+      "priority": 860,
+      "operatorGroup": "stanbic bank uganda"
+    },
+    {
+      "facilityId": "dc-2079ec2d5bc195a18bf7975e15d8e25c",
+      "name": "Mutundwe",
+      "operator": "MTN",
+      "country": "Uganda",
+      "city": null,
+      "address": null,
+      "priority": 861,
+      "operatorGroup": "mtn"
+    },
+    {
+      "facilityId": "dc-0bb05c22d2a6af514a79e893b15a18e8",
+      "name": "Gainseville Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 862,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-22c9d4a1933670a2b74f0faa88418408",
+      "name": "North Creek Tech Campus",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 863,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-f9b03d5efa23fb8d61abf7e228b15b96",
+      "name": "Microsoft Pecos Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 864,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-e51778f0ab97364297a19accb1905f5a",
+      "name": "AWS Hobart",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 865,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-a1983e20e54b2c4e668752e26b537dcb",
+      "name": "Birchwood AWS",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 866,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-c514389e42a89f52b1d2d39581da682d",
+      "name": "AWS New Carlisle - Expansion",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 867,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-3697a547d7235bcb7098222dd04712e5",
+      "name": "Wilderness Crossing",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 868,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-5ba012d2745cadd1edba47c37e90e026",
+      "name": "Digital Gateway (QTS)",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 869,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-9e49c56c72b252e89c1a2b154acd05d7",
+      "name": "Fairwater 1 - Mount Pleasant",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 870,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-5b8e50afa9e46c1c3f939db33250ccce",
+      "name": "Stargate - Frontier",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 871,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-ce7f87e5cc389b7bc183050c962e04b2",
+      "name": "Project Zodiac - Phase 2",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 872,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-e6d9f1f494c5d56b2756b3d930fc78cd",
+      "name": "Google Monrovia Data Center",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 873,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-491370693d2e636c42ac9251323ce40c",
+      "name": "Madison Data Centers",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 874,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-017e64fe0666f9ba4ec845e82cb9de9a",
+      "name": "Microsoft Granger Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 875,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-4a3efd259175f0a01f799a0c9e616194",
+      "name": "Western Lands",
+      "operator": "Digital Realty",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 876,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-b87db6b7880751a03bbf4f64a34fea29",
+      "name": "Project Cannoli",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 877,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-b405d1c11c0206ef40c99f185ed8b028",
+      "name": "AWS Susquehanna Data Center",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 878,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-3724d54b2fd34529145bbc3c03bdc797",
+      "name": "Hansen Farm Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 879,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-2318a7cf1c676a0b1508ef9f28889ba9",
+      "name": "Stargate - Lighthouse",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 880,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-403eaa946d3d49b63e6fb2b584f42828",
+      "name": "Google Wilbarger County Data Center",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 881,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-49194a2b376df25dba57d4baf0b20c80",
+      "name": "Meitner Data Center",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 882,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-9307abae69bcf41b93eebd774b4f7144",
+      "name": "Vantage Millersport Campus",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 883,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-9b1b0ab88fcdbcbe73b8e442ec612aad",
+      "name": "Mattameade Tech Campus",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 884,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-2389653370bd669890fe3d8e99507933",
+      "name": "QTS Phoenix 3 Campus",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 885,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-1831a42281f5d69f4baee874db8b942c",
+      "name": "CyrusOne Springfield Data Center",
+      "operator": "CyrusOne",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 886,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-89b6c987912b44d13faef0bd6b811b12",
+      "name": "QTS: Big Cedar Industrial Center",
+      "operator": "QTS",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 887,
+      "operatorGroup": "QTS"
+    },
+    {
+      "facilityId": "dc-141baf1cc6a8fd0e8eca12a8b77c9b65",
+      "name": "CyrusOne Yorkville Campus Phase 1",
+      "operator": "CyrusOne",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 888,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-143664dff530287dd151d1b1f6c01c3d",
+      "name": "AWS Comanche Peak Campus",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 889,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-628f0a7859f5ea26d18e542b6af44c3d",
+      "name": "Cedar Rapids Data Center",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 890,
+      "operatorGroup": "Google"
+    },
+    {
+      "facilityId": "dc-734fc3ee9ef82120832b322df825ecd5",
+      "name": "Vantage IN Data Center",
+      "operator": "Vantage Data Centers",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 891,
+      "operatorGroup": "Vantage"
+    },
+    {
+      "facilityId": "dc-94be667643e817a8cb34186ef50d4f0a",
+      "name": "Project Spectrum",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 892,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-9f06f909a122efa4fa93bec6fe51b915",
+      "name": "La Porte Data Center",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 893,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-f34c1d6c8e8253427ffc78242d7d9dd0",
+      "name": "AWS New Carlisle - Phase 1",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 894,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-0b0f20fcee6857b9a440047216ec085c",
+      "name": "Cosner Tech Campus",
+      "operator": "Amazon",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 895,
+      "operatorGroup": "Amazon"
+    },
+    {
+      "facilityId": "dc-5eac0a730c5dfc1609b4055ac0062736",
+      "name": "Microsoft Project Ginger East",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 896,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-54a6b27299ad5de32a1b99a476586e82",
+      "name": "Microsoft Van Meter",
+      "operator": "Microsoft",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 897,
+      "operatorGroup": "Microsoft"
+    },
+    {
+      "facilityId": "dc-0c4a293caf9d0d7fd3383b983b2cefad",
+      "name": "CyrusOne DFW10",
+      "operator": "CyrusOne",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 898,
+      "operatorGroup": "CyrusOne"
+    },
+    {
+      "facilityId": "dc-475346a878404273eaf626b25c72cf49",
+      "name": "Digital Realty Charlotte Campus",
+      "operator": "Digital Realty",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 899,
+      "operatorGroup": "Digital Realty"
+    },
+    {
+      "facilityId": "dc-aae8aad67f7b5d731e5d68f6475f6cf6",
+      "name": "Project Zodiac - Phase 1",
+      "operator": "Google",
+      "country": "United States of America",
+      "city": null,
+      "address": null,
+      "priority": 900,
+      "operatorGroup": "Google"
+    }
+  ]
+}

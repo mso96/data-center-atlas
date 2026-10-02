@@ -37,6 +37,8 @@ export interface DataCenter {
 
 /** Omitted, null, or blank filters mean unrestricted. Fields combine with AND. */
 export interface DataCenterFilters {
+  /** Server-enforced by the public explorer; imports retain ungeolocated records. */
+  mappedOnly?: boolean;
   search?: string | null;
   countryCode?: string | null;
   city?: string | null;

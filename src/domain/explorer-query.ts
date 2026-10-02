@@ -1,4 +1,4 @@
-import type { DataCenter, DataCenterFilters, FacilityStatus } from "./data-center";
+import { hasValidCoordinates, type DataCenter, type DataCenterFilters, type FacilityStatus } from "./data-center";
 export interface ExplorerQuery { filters: DataCenterFilters; page: number; selectedId: string | null }
 const fields = ["search","countryCode","city","operator","status"] as const;
 export function parseQuery(params: URLSearchParams): ExplorerQuery {
@@ -22,7 +22,7 @@ export function serializeQuery(query: ExplorerQuery): string {
 export function matchesFilters(record: DataCenter, filters: DataCenterFilters) {
   const norm = (value: string | null | undefined) => value?.trim().toLowerCase() ?? "";
   const search = norm(filters.search);
-  return (!search || [record.name,record.operator,record.countryCode,record.country,record.city,record.address,record.description].some(value => norm(value).includes(search)))
+  return (!filters.mappedOnly || hasValidCoordinates(record)) && (!search || [record.name,record.operator,record.countryCode,record.country,record.city,record.address,record.description].some(value => norm(value).includes(search)))
     && (!norm(filters.countryCode) || norm(record.countryCode) === norm(filters.countryCode))
     && (!norm(filters.city) || norm(record.city) === norm(filters.city))
     && (!norm(filters.operator) || norm(record.operator) === norm(filters.operator))

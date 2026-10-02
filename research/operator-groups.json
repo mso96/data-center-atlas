@@ -1,0 +1,14 @@
+{
+ "Equinix": ["Equinix", "Equinix, Inc."],
+ "Digital Realty": ["Digital Realty", "Digital Realty Trust", "Interxion", "Digital Realty / Interxion"],
+ "Amazon": ["Amazon", "Amazon AWS", "Amazon Web Services", "AWS"],
+ "Google": ["Google", "Google Inc.", "Google LLC"],
+ "Microsoft": ["Microsoft", "Microsoft Corporation"],
+ "NTT": ["NTT", "NTT Global Data Centers", "NTT Global Data Centers Americas", "NTT Communications"],
+ "DataBank": ["DataBank", "DataBank Ltd."],
+ "Vantage": ["Vantage", "Vantage Data Centers"],
+ "QTS": ["QTS", "QTS Data Centers", "QTS Realty Trust"],
+ "CyrusOne": ["CyrusOne"],
+ "EdgeConneX": ["EdgeConneX"],
+ "Iron Mountain": ["Iron Mountain", "Iron Mountain Data Centers"]
+}

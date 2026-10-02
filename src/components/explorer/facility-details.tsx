@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { detailHref } from "@/domain/detail-navigation";
 import { ArrowLeft, ExternalLink, MapPinOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { hasValidCoordinates, type DataCenter } from "@/domain/data-center";
@@ -6,7 +8,7 @@ import { facilityName } from "./facility-list";
 const quantity = (value: number | null, unit: string) => value === null ? null : `${value.toLocaleString("en-US")} ${unit}`;
 const statusLabels = { planned: "Planned", "under-construction": "Under construction", operational: "Operational", closed: "Closed" };
 
-export function FacilityDetails({ facility, onBack }: { facility: DataCenter; onBack: () => void }) {
+export function FacilityDetails({ facility, onBack, returnQuery }: { facility: DataCenter; onBack: () => void; returnQuery: string }) {
   const isRingmast4r = Boolean(facility.sourceUrl?.startsWith("https://github.com/Ringmast4r/Global-Data-Center-Map/"));
   const location = [facility.city, facility.country].filter(Boolean).join(", ");
   // The Ringmast4r adapter's description is provenance, not a facility biography.
@@ -30,6 +32,7 @@ export function FacilityDetails({ facility, onBack }: { facility: DataCenter; on
         {facility.isDemo && <span className="demo-pill">Fictional demo facility</span>}
       </div>
     </div>
+    <Link className="detail-cta" href={detailHref(facility.id,returnQuery)}>View details <ExternalLink size={14} /></Link>
     {fields.length > 0 && <dl className="detail-fields">{fields.map(([label, value]) => <div key={String(label)}><dt>{label}</dt><dd>{value}</dd></div>)}</dl>}
     {description && <section className="detail-section"><h3>About this facility</h3><p>{description}</p></section>}
     {!hasValidCoordinates(facility) && <p className="location-notice"><MapPinOff size={16} />No map location provided.</p>}
