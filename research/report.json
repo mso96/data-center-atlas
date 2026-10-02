@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:26:37.253Z",
+  "generatedAt": "2026-10-02T22:27:19.039Z",
   "selected": 1000,
   "states": [
     {
@@ -8,11 +8,11 @@
     },
     {
       "status": "pending",
-      "count": 981
+      "count": 980
     },
     {
       "status": "reviewed",
-      "count": 17
+      "count": 18
     }
   ],
   "enriched": 15,
@@ -25,12 +25,12 @@
     {
       "batch": 1,
       "status": "pending",
-      "count": 96
+      "count": 95
     },
     {
       "batch": 1,
       "status": "reviewed",
-      "count": 2
+      "count": 3
     },
     {
       "batch": 2,
@@ -121,8 +121,8 @@
     },
     {
       "facility_id": "dc-29d3fe87c718277d1abfd1b1420a674e",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Zenlayer's official Dubai location page identifies a Dubai DXB1 data center at Equinix, Units F88;92, Dubai Production City, Sheikh Mohammed Bin Zayed Road. The imported row has no address, so this source is retained for identity context but no facility-specific technical values are promoted without a direct address match."
     },
     {
       "facility_id": "dc-ce814bd83913116dade1634d14a4d8da",

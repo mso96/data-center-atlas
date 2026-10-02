@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-29d3fe87c718277d1abfd1b1420a674e",
+  "status": "reviewed",
+  "reviewNote": "Zenlayer's official Dubai location page identifies a Dubai DXB1 data center at Equinix, Units F88;92, Dubai Production City, Sheikh Mohammed Bin Zayed Road. The imported row has no address, so this source is retained for identity context but no facility-specific technical values are promoted without a direct address match.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The official page's DXB1 code aligns with the imported Dubai 1 name; the source address cannot be matched because the imported address is null."
+  },
+  "aliases": ["Zenlayer DXB1"],
+  "sources": [
+    {
+      "id": "operator-dubai",
+      "title": "Zenlayer Dubai — official DXB1 location",
+      "url": "https://www.zenlayer.com/lp/city/dubai",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
