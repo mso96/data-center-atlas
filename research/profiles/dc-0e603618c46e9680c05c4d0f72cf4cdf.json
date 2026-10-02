@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-0e603618c46e9680c05c4d0f72cf4cdf",
+  "status": "in-progress",
+  "reviewNote": "The operator's company profile identifies Armenian Datacom Company at 13/1 H. Kochar, Yerevan and describes a redundant city-wide fiber network and hosting services. ADC's own website was unavailable during review, and no operator source identifies a facility called Core Network or publishes facility-specific capacity, Tier, PUE, cooling or security values.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The imported operator and 13/1 H. Kochar Yerevan address match the operator's published company location; the facility-specific Core Network identity remains unconfirmed."
+  },
+  "aliases": ["Armenian Datacom Company Core Network", "ADC Core Network"],
+  "sources": [
+    {
+      "id": "operator-profile",
+      "title": "Armenian Datacom Company — company profile and location",
+      "url": "https://am.linkedin.com/company/armenian-datacom-company-adc",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-domain",
+      "title": "Armenian Datacom Company — official website",
+      "url": "https://www.adc.am/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

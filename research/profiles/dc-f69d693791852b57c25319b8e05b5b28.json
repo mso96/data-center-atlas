@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-f69d693791852b57c25319b8e05b5b28",
+  "status": "reviewed",
+  "reviewNote": "Host.al's official colocation page identifies its HS1 facility in Albania and publishes A+B redundant power, dual UPS systems, N+1 power infrastructure, ANIX connectivity and BGP announcements. The imported record has no city or address, so those facility facts cannot be safely attached to this record until the source identity is address-matched.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The imported name and operator align with Host.al's HS1 data-center page, but the imported row has no location fields and the source page does not provide a facility street address for matching."
+  },
+  "aliases": ["Host.al HS1", "Datacenter Albania HS1"],
+  "sources": [
+    {
+      "id": "operator-facility",
+      "title": "Host.al — Colocation Datacenter in Albania",
+      "url": "https://host.al/colocation-datacenter-in-albania/?lang=en",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-contact",
+      "title": "Host.al — official contact address",
+      "url": "https://host.al/contact/?lang=en",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

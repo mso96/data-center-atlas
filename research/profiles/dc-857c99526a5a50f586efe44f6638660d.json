@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-857c99526a5a50f586efe44f6638660d",
+  "status": "reviewed",
+  "reviewNote": "Angola Cables' official data-center page identifies AngoNAP I in Luanda and publishes expandable hosting space up to 1,000 racks, 45U rack dimensions and Novec/HSSD fire protection. The imported row's Av. Pedro de Castro Van-Dúnem Loy address is not repeated on the official facility page, so these facts are not promoted without a direct address match.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Angonap/AngoNAP I and Angola Cables align by name and operator; the official page confirms Luanda but not the imported street address."
+  },
+  "aliases": ["AngoNAP I", "AngoNAP Luanda", "Angola Cables AngoNAP"],
+  "sources": [
+    {
+      "id": "operator-facility",
+      "title": "Angola Cables — official AngoNAP data centers",
+      "url": "https://www.angolacables.co.ao/datacenter",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-home",
+      "title": "Angola Cables — official network and data-center presence",
+      "url": "https://angolacables.com/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

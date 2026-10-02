@@ -1,0 +1,48 @@
+{
+  "facilityId": "dc-dd7ebfbb84c8700c78e8425295005b21",
+  "status": "reviewed",
+  "reviewNote": "The Uptime Institute facility record identifies CFIN ATLANTICO Data Center in Talatona, Luanda, and the bank's official location page confirms the operator's Talatona address. Only identity and location facts are published because the reviewed pages do not expose a readable Tier level or other technical specification values.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "CFIN ATLANTICO, Banco Millennium Atlantico and the Talatona/Luanda location match the imported record's facility name, operator and address at district level."
+  },
+  "aliases": ["CFIN ATLANTICO Data Center", "CFIN Atlantico"],
+  "sources": [
+    {
+      "id": "uptime-record",
+      "title": "Uptime Institute — CFIN ATLANTICO Data Center",
+      "url": "https://uptimeinstitute.com/uptime-institute-awards/datacenter/cfin-atlantico-data-center/773",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-location",
+      "title": "Banco Millennium ATLANTICO — official locations",
+      "url": "https://beta.atlantico.ao/pt/institucional/onde-estamos/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-0",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "CFIN ATLANTICO Data Center",
+      "sourceIds": ["uptime-record"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Published location",
+      "value": "Talatona, Luanda, Angola",
+      "sourceIds": ["uptime-record", "operator-location"],
+      "status": "verified"
+    }
+  ]
+}

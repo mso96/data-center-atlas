@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-a0de84add5f13c4478369ef8af11b501",
+  "status": "reviewed",
+  "reviewNote": "Armenia's Ministry of High-Tech Industry identifies a GNC-Alfa data-processing center under construction in Abovyan. This official facility location does not match the imported row's 4 Tigran Mets Avenue, Yerevan address, so the Abovyan project cannot be merged into this Yerevan record and no technical facts are promoted.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The operator and data-center name align with the official government announcement, but the published Abovyan location conflicts with the imported Yerevan address."
+  },
+  "aliases": ["GNC-Alfa data processing center", "GNC-Alfa Abovyan data center"],
+  "sources": [
+    {
+      "id": "government-project",
+      "title": "Armenia Ministry of High-Tech Industry — GNC-Alfa data processing center in Abovyan",
+      "url": "https://hightech.gov.am/en/tegekatvakan-kentron/ayl/norutyunner/naxarar-robert-xacatryan-canotacel-e-abovyanum-karucvog-tvyalneri-msakman-nor-kentroni-sinararakan-asxatanknerin",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-certificate",
+      "title": "GNC-Alfa data center certificate",
+      "url": "https://ovio.am/storage/assets/pdf/Z2uq0dytSRnzR0MgOKGrlr5xFq6E78f5UsBC6wn9.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

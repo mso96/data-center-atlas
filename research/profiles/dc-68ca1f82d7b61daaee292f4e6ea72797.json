@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-68ca1f82d7b61daaee292f4e6ea72797",
+  "status": "in-progress",
+  "reviewNote": "ACG's official contact page confirms Asia Consultancy Group at Power Station Street, Shashdarak, Kabul, Afghanistan. The imported record names an ACG Data Center in Shash Darak Kabul, but no operator page identifies the data-center building or publishes facility-specific technical details, so no unverified DCM values are promoted.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The operator and Shashdarak district align at a broad level; the exact data-center building address is not published by the operator and cannot be matched to the imported row."
+  },
+  "aliases": ["ACG Data Center", "Asia Consultancy Group Data Center"],
+  "sources": [
+    {
+      "id": "operator-contact",
+      "title": "Asia Consultancy Group — official contact",
+      "url": "https://www.acgtelasia.com/contact",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
