@@ -1,7 +1,10 @@
 import { AppShell } from "@/components/layout/app-shell";
 import { dataCenterRepository } from "@/data";
-
 export default async function Home() {
-  const { total } = await dataCenterRepository.list();
-  return <AppShell demoCount={total} />;
+  const [page, options, features] = await Promise.all([
+    dataCenterRepository.list({}, { pageSize: 100 }),
+    dataCenterRepository.getFilterOptions(),
+    dataCenterRepository.getMapFeatures(),
+  ]);
+  return <AppShell facilities={page.items} options={options} features={features} />;
 }

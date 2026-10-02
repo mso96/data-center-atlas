@@ -1,23 +1,48 @@
-export function AppShell({ demoCount }: { demoCount: number }) {
-  return (
-    <div className="flex min-h-dvh flex-col bg-background text-foreground">
-      <header className="flex min-h-14 flex-wrap items-center justify-between gap-3 border-b border-border px-5 py-3">
-        <h1 className="text-base font-semibold">Data Center Atlas</h1>
-        <span className="rounded border border-border bg-elevated px-2 py-1 text-xs text-accent">Demo data</span>
-      </header>
-      <div className="grid flex-1 grid-cols-1 md:grid-cols-[20rem_minmax(0,1fr)]">
-        <aside aria-labelledby="sidebar-title" className="border-b border-border bg-sidebar p-5 md:border-r md:border-b-0">
-          <h2 id="sidebar-title" className="text-sm font-medium">Facility explorer</h2>
-          <p className="mt-3 text-sm text-secondary-text">Search, filters, and facility information will appear here.</p>
-          <p className="mt-6 text-xs text-secondary-text">{demoCount} fictional demo facilities available.</p>
-        </aside>
-        <main aria-labelledby="map-title" className="flex min-h-80 items-center justify-center p-6">
-          <div className="text-center">
-            <h2 id="map-title" className="text-sm font-medium">World map</h2>
-            <p className="mt-2 text-sm text-secondary-text">Map placeholder · Phase 2</p>
+"use client";
+import dynamic from "next/dynamic";
+import Link from "next/link";
+import { useCallback, useState } from "react";
+import { ChevronDown, ChevronUp, Globe2 } from "lucide-react";
+import type { DataCenter, DataCenterFilters } from "@/domain/data-center";
+import type { FilterOptions, MapFeatures } from "@/data/repository";
+import { FilterControls, ActiveFilterTags } from "@/components/explorer/filters";
+import { FacilityList, ResultCount } from "@/components/explorer/facility-list";
+import { FacilityDetails } from "@/components/explorer/facility-details";
+import { LoadingState } from "@/components/explorer/states";
+const WorldMap = dynamic(() => import("@/components/map/world-map"), { ssr: false, loading: () => <LoadingState message="Preparing the map…" /> });
+
+export function AppShell({ facilities, options, features }: { facilities: DataCenter[]; options: FilterOptions; features: MapFeatures }) {
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState(true);
+  const [filters, setFilters] = useState<DataCenterFilters>({});
+  const selected = facilities.find(facility => facility.id === selectedId) ?? null;
+  const select = useCallback((id: string) => {
+    setSelectedId(id); setExpanded(true);
+    requestAnimationFrame(() => document.getElementById("detail-title")?.focus({ preventScroll: true }));
+  }, []);
+  function back() {
+    const previous = selectedId; setSelectedId(null);
+    requestAnimationFrame(() => document.getElementById(`facility-${previous}`)?.focus({ preventScroll: true }));
+  }
+  return <div className="atlas-shell">
+    <header className="atlas-header"><Link className="wordmark" href="/" aria-label="Data Center Atlas home"><Globe2 size={20} strokeWidth={1.4} /><span>Data Center <strong>Atlas</strong></span></Link><div className="header-meta"><span className="header-subtitle">A world of infrastructure</span><span className="demo-pill"><span />Demo data</span></div></header>
+    <div className={`atlas-workspace ${expanded ? "sheet-expanded" : "sheet-collapsed"}`}>
+      <aside className="explorer" aria-label="Facility explorer">
+        <button className="sheet-toggle" aria-expanded={expanded} aria-controls="explorer-content" onClick={() => setExpanded(value => !value)}><span className="sheet-grip" /><span>{selected ? "Facility details" : `${facilities.length} demo facilities`}</span>{expanded ? <ChevronDown size={16} /> : <ChevronUp size={16} />}</button>
+        <div id="explorer-content" className="explorer-content">
+          <div className="results-view" hidden={selected !== null}>
+            <div className="explorer-intro"><p className="eyebrow">EXPLORE THE ATLAS</p><h1>Find your next connection.</h1><p>Discover the places powering our digital world.</p></div>
+            <FilterControls value={filters} options={options} onChange={setFilters} disabled />
+            <ActiveFilterTags value={filters} onRemove={key => setFilters(current => ({ ...current, [key]: null }))} />
+            <ResultCount total={facilities.length} mapped={features.features.length} />
+            <div className="results-scroll"><FacilityList facilities={facilities} selectedId={selectedId} onSelect={select} /></div>
+            <footer className="explorer-footer"><span className="tiny-dot" />Illustrative locations. Fictional facilities.</footer>
           </div>
-        </main>
-      </div>
+          {selected && <div className="details-scroll"><FacilityDetails facility={selected} onBack={back} /></div>}
+        </div>
+      </aside>
+      <main className="map-region" aria-label="Data center world map"><WorldMap features={features} selected={selected} onSelect={select} /></main>
     </div>
-  );
+    <span className="sr-only" role="status" aria-live="polite">{selected ? `${selected.name} selected` : "Showing all demo facilities"}</span>
+  </div>;
 }

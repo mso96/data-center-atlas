@@ -1,29 +1,36 @@
 # Data Center Atlas
 
-Phase 1 foundation only. All four facilities and operators are fictional demo data.
+Phases 1 and 2 complete. Phase 3 has not started. All four facilities and operators
+remain fictional demo data; only basemap tiles are fetched from an external service.
 
-## Architecture
+## Architecture and directories
 
 Next.js 16 App Router, React 19, strict TypeScript, Tailwind CSS 4, shadcn/ui,
-and npm with a committed `package-lock.json`. Node 22+ is required; this workspace
-was validated with Node 26.8.1 and npm 11.19.0. System fonts avoid build-time font downloads.
+MapLibre GL JS 6.11.2, npm, and the committed dependency lockfile. Node 22+ required;
+validated here with Node 26.8.1 / npm 11.19.0. System fonts avoid build-time downloads.
 
 ```text
-src/app/                         Server-rendered home page, metadata, theme tokens
-src/components/layout/           Minimal full-height application shell
-src/components/ui/               Installed shadcn button and Creative Tim map source
-src/domain/data-center.ts        Facility/filter contracts and coordinate validation
-src/data/repository.ts           Async repository interface and response contracts
-src/data/index.ts                Adapter selection / composition boundary
-src/data/demo/                   Fictional fixtures and in-memory repository
-src/lib/utils.ts                 shadcn class-name utility
-tests/repository.test.ts        Repository contract tests
+src/app/                        Server page, loading/error boundaries, theme/CSS
+src/components/layout/          Client shell; single selected-facility ID; mobile sheet
+src/components/explorer/        Typed disabled filters, tags, count, list, details, states
+src/components/map/             Direct client-side MapLibre integration
+src/components/ui/              Shared shadcn button (preserved)
+src/domain/data-center.ts       Shared data/filter contracts and coordinate validation
+src/data/repository.ts          Async repository interface and response types
+src/data/index.ts               Adapter selection / composition boundary
+src/data/demo/                  Fictional fixtures and in-memory adapter
+scripts/copy-maplibre-worker.mjs Build/dev worker asset preparation
+public/maplibre/                Generated worker + shared module (ignored by Git/lint)
+tests/repository.test.ts        Seven repository contract tests
 ```
 
-The home Server Component reads only the repository interface and passes a count
-to the shell. Presentation never imports fixtures. Replace the adapter in
-`src/data/index.ts` when persistence is introduced; no database, HTTP API,
-ingestion, or map requests are active in Phase 1.
+The Server Component retrieves the demo list, options, and map features through the
+repository. The client shell owns one selected ID for list/details/map. MapLibre
+loads through a client-only dynamic import with SSR disabled. Presentation does
+not import fixtures. Persistence will replace the adapter in `src/data/index.ts`.
+No production data API or imports exist. The Creative Tim wrapper and its lint
+exceptions were removed in Phase 2. No Creative Tim package was present in the
+manifest; MapLibre, Lucide, and the unrelated shared shadcn dependencies remain in use.
 
 ## Data contract
 
@@ -66,83 +73,109 @@ callers cannot mutate repository state. No UI filtering is implemented yet.
 
 ## Commands
 
-Run these from this project directory:
-
 ```sh
 npm ci
-npm run dev                 # http://localhost:3000
-npm run typecheck
+npm run dev         # http://localhost:3000; prepares worker files automatically
 npm run lint
+npm run typecheck
 npm test
-npm run build
-npm start                   # production server after build
-npm run validate            # lint, type checking, tests, production build
+npm run build       # prepares workers, then builds production assets
+npm start           # production server after build
+npm run validate    # lint + types + tests + production build
 ```
 
-The dev/build scripts use the supported Webpack bundler because Turbopack CSS
-processing cannot bind its worker port in this workspace.
-Restricted environments must permit Next.js to spawn local processes and bind
-local ports. No application environment variables or API credentials are needed
-for Phase 1.
+Dev/build use supported Webpack mode because this workspace restricts the local
+worker port used by Turbopack CSS processing. Next.js must be allowed to start
+local processes/ports. No API keys or application environment variables are needed.
 
 ## Completed Phase 1
 
-- New application and dependency lockfile; shared nullable data/filter contracts.
-- Replaceable typed repository and four explicitly fictional facilities, one
-  without coordinates; tests for filtering, pagination, provenance, coordinate
-  boundaries, map/list synchronization, options, and mutation isolation.
-- Compact header, sidebar placeholder, map placeholder, visible Demo data label.
-- Reusable theme tokens: background #050505, sidebar #0B0B0B, elevated #141414,
-  border #262626, primary text #F5F5F5, secondary text #A3A3A3, accent #F97316.
-- Creative Tim map installed with `npx @creative-tim/ui@0.4.2 add map --yes`.
-  Its `use client` boundary and MapLibre CSS are present. The module is neither
-  imported nor mounted by the shell, so no map rendering/tile fetching occurs.
+Typed nullable model, filter and repository contracts; four fictional fixtures
+including one without coordinates; contract tests; theme tokens and initial shell.
+Theme tokens remain #050505 background, #0B0B0B sidebar, #141414 surfaces,
+#262626 borders, #F5F5F5 text, #A3A3A3 secondary text, and #F97316 accent.
 
-## Phase 2 — visual interface and map (not started)
+## Completed Phase 2
 
-Use the layout reference to design the detailed explorer and responsive map.
-The referenced screenshot was not available in this session; obtain it before
-matching its details. Add accessible search/filter controls and facility cards,
-then connect list and map to one shared filter state. Mount the map through a
-client component; use `next/dynamic` with `ssr: false` inside that client boundary
-if necessary. Include map loading/error states, valid-coordinate markers and
-an explanation for unmapped results. Validate keyboard and mobile behavior.
+- Compact header, 380 px desktop sidebar, independently scrolling results/details,
+  and a mobile collapsible bottom sheet that leaves the map and attribution visible.
+- Reusable search/country/city/operator controls and active-filter tags with typed
+  callbacks. Search and filters are visibly disabled with a Phase 3 explanation.
+- Four selectable demo facilities; three map points. Details use “Not available”
+  for unknown values; source URL/update date appear only when supplied. A facility
+  without coordinates opens details without moving the camera to a guessed location.
+- One selected ID synchronizes marker/list selection, detail view, and camera focus.
+  Back restores the list and focus to its originating item. Map selections focus
+  the detail heading. Native buttons and visible focus styles support keyboard use.
+- Direct MapLibre integration with the official, unmodified OpenFreeMap Dark style:
+  `https://tiles.openfreemap.org/styles/dark`. The endpoint was obtained from the
+  official example's Dark button and style-selection module, then verified HTTP 200
+  with a version 8 style, 47 geographic layers, vector/raster sources and glyph URL.
+- Globe projection uses `map.setProjection({ type: "globe" })` after `style.load`,
+  verified against MapLibre's installed types and official globe example. A guarded
+  Mercator fallback reports globe unavailability; the tested setup renders globe.
+- GeoJSON source `atlas-facilities` and independent `atlas-points` / `atlas-selected`
+  circle layers. White base markers and orange selection leave basemap styling and
+  labels intact. Clustering is deliberately off; the source can support it in Phase 3.
+- Map instance survives selection/data renders; source updates use `setData`,
+  selection updates a layer filter. Initialization, load timeout, resource/WebGL
+  errors, retry, ResizeObserver, popup cleanup, worker and map teardown are handled.
+- Hover tooltip uses text nodes (no HTML interpolation). Zoom, compass, fullscreen,
+  reset and fly-to are supported. Camera animation is nonessential and uses zero
+  duration when reduced motion is requested; CSS also disables transitions.
+- MapLibre CSS is included globally. Current MapLibre 6 documentation explicitly
+  requires **both** worker and shared module in Next.js, even with Webpack. The
+  predev/prebuild script copies both from the installed version; `setWorkerUrl`
+  points to the same-origin worker. Do not replace this with Vite's worker import.
+- Expanded, readable OpenFreeMap/OpenMapTiles/OpenStreetMap attribution is retained.
 
-Installed upstream map notes: the default MapLibre import was changed to a
-namespace import for MapLibre 6 compatibility, and popup text now reads the hex
-foreground token directly. The upstream imperative ref/portal implementation
-triggers `react-hooks/refs` and `react-hooks/exhaustive-deps`; those rules are
-exempted **only for the installed map file** in ESLint. Review/refactor its
-lifecycle and portal readiness before mounting it. It is type-checked now but
-has intentionally not been exercised as a live map during Phase 1.
+## Phase 2 verification and limitations
+
+- Lint passes without React rule exceptions; type checking, all seven repository
+  tests, and the optimized production build pass.
+- Production preview starts. Browser verification covered actual Dark tiles and
+  labels, globe view, selected orange marker, list-to-map focus, marker-to-details,
+  back/focus restoration, keyboard activation of the coordinate-less record,
+  zoom/drag/compass/reset, fullscreen entry/exit, and 1280 px desktop / 390 px mobile.
+- Mobile sheet expanded/collapsed and desktop resizing render without blank map
+  regions; attribution remains visible. Disabled controls and the demo label are
+  exposed in the accessibility tree. No application console errors were observed.
+- Reduced-motion logic was reviewed against MapLibre's installed camera source
+  (which uses prefers-reduced-motion for nonessential animations). OS preference
+  switching was not simulated. Hover handling is implemented; automated pointer
+  tooling did not provide an isolated hover operation.
+- **Upstream style limitation:** the official Dark style references `circle-11`
+  for some city/town symbols, but the official `ofm_f384/ofm.json` sprite manifest
+  does not contain it. MapLibre emits a missing-image warning at some zooms. The
+  basemap and labels otherwise render. No substitute icon/style was injected, to
+  preserve the requested official geographic style. Recheck upstream before launch.
+- The referenced composition screenshot was not attached in this session; the
+  provided written layout requirements guided the implementation.
+- WebGL and network access to OpenFreeMap are required. Error/timeout UI is present;
+  forced offline and GPU-loss scenarios were not browser-simulated.
 
 ## Phase 3 — persistent data and complete flows (not started)
 
-Select persistence, implement the repository adapter, and obtain an authorized
-dataset with usage/redistribution rights. Plan validation, source attribution,
-deduplication, idempotent imports, source-vs-import timestamps, and update handling.
-Complete search, selection, map/list synchronization, facility detail, pagination,
-empty/error/loading states, and end-to-end tests against the persistent adapter.
-Do not turn fictional Tier, power, or other demo metrics into real claims.
+Retain **OpenFreeMap Dark + direct MapLibre**, the client-only boundary, worker
+preparation, globe projection, attribution, and separate facility layers. Do not
+restore Creative Tim. Connect search/filter callbacks to a shared typed filter
+state and query both repository list/map methods with that same state. Add robust
+pagination, dependent filter options, cluster layers as dataset size requires,
+selection consistency across changing results, and end-to-end tests.
+
+Choose persistence, implement the repository adapter, and obtain an authorized
+dataset with usage/redistribution rights. Design validation, deduplication,
+idempotent imports, source attribution, and separate source/import timestamps.
+Finish persistent loading/error/empty states and full interaction flows. Never
+promote fictional demo metrics or Tier claims into real data.
 
 ## External requirements and references
 
-- [Creative Tim Map documentation](https://www.creative-tim.com/ui/docs/components/map)
-  reviewed for installation, client-side MapLibre usage, coordinates, and attribution.
-  Future tile rendering requires network access, browser WebGL support, and
-  retention of required map/tile/data attribution. Review provider terms before launch.
-- [Data Center Map](https://www.datacentermap.com/) is the proposed primary source.
-  An API is **not assumed**. Obtain explicit authorization and a suitable licensed
-  export/feed or other approved access method. No records were scraped or imported.
-- No Phase 1 external-data credentials are required. Real data acquisition and
-  any commercial tile arrangements remain future requirements.
-
-## Phase 1 validation results
-
-`npm run validate` passed: ESLint (with the documented upstream map exceptions),
-TypeScript, all 7 repository contract tests, and the optimized production build.
-`npm start -- --hostname 127.0.0.1 --port 3000` started successfully. The production
-page was inspected in the browser: shell regions and four-record demo count
-rendered; no captured browser warnings or errors. Narrow layout stacks the regions;
-desktop layout places the sidebar on the left. Live map behavior remains untested
-and intentionally deferred. No Phase 1 blocker remains.
+- [OpenFreeMap quick start](https://openfreemap.org/quick_start/) and
+  [OpenFreeMap](https://openfreemap.org/): official style selection and attribution.
+- [MapLibre installation](https://maplibre.org/maplibre-gl-js/docs/): Next.js worker
+  setup, stylesheets, WebGL and CSP requirements.
+- [MapLibre globe example](https://maplibre.org/maplibre-gl-js/docs/examples/display-a-globe-with-a-vector-map/): projection API.
+- [Data Center Map](https://www.datacentermap.com/) remains the proposed facility
+  source. No API is assumed. Obtain permission and an authorized export/feed or
+  other approved access method. No records were scraped or imported.
