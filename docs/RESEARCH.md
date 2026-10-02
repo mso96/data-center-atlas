@@ -8,8 +8,8 @@ future correction; they do not contribute to public filters, lists, counts or ma
 All mapped records have Overview, Specs and Location pages with available data.
 
 The research queue contains **1,000 candidates in 140 countries**, arranged in ten
-batches of 100. **Seventeen have been reviewed and fifteen enriched from official sources;
-981 remain pending.** Selecting a candidate is not research completion. Do not
+batches of 100. **Eighteen have been reviewed and fifteen enriched from official sources;
+980 remain pending.** Selecting a candidate is not research completion. Do not
 advertise the queue as 1,000 verified profiles, or as a definitive global ranking.
 Machine-readable progress and all outstanding IDs: `research/report.json`.
 

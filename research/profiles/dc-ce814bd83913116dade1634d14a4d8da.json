@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-ce814bd83913116dade1634d14a4d8da",
+  "status": "reviewed",
+  "reviewNote": "The operator's official DCVaults site confirms a UAE data-center and cloud-services provider with colocation, private cloud, managed services, Tier-certified infrastructure and 24/7 NOC support. It does not publish a physical facility address, and the imported row has no city or address, so no facility-specific facts are promoted.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Operator name aligns with the official DCVaults site; no imported or official physical address was available for matching."
+  },
+  "aliases": ["DCVaults", "Data Center Vault"],
+  "sources": [
+    {
+      "id": "operator-home",
+      "title": "DCVaults — official company and facility overview",
+      "url": "https://dcvaults.com/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:27:19.039Z",
+  "generatedAt": "2026-10-02T22:27:51.290Z",
   "selected": 1000,
   "states": [
     {
@@ -8,11 +8,11 @@
     },
     {
       "status": "pending",
-      "count": 980
+      "count": 979
     },
     {
       "status": "reviewed",
-      "count": 18
+      "count": 19
     }
   ],
   "enriched": 15,
@@ -25,12 +25,12 @@
     {
       "batch": 1,
       "status": "pending",
-      "count": 95
+      "count": 94
     },
     {
       "batch": 1,
       "status": "reviewed",
-      "count": 3
+      "count": 4
     },
     {
       "batch": 2,
@@ -126,8 +126,8 @@
     },
     {
       "facility_id": "dc-ce814bd83913116dade1634d14a4d8da",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The operator's official DCVaults site confirms a UAE data-center and cloud-services provider with colocation, private cloud, managed services, Tier-certified infrastructure and 24/7 NOC support. It does not publish a physical facility address, and the imported row has no city or address, so no facility-specific facts are promoted."
     },
     {
       "facility_id": "dc-68ca1f82d7b61daaee292f4e6ea72797",
