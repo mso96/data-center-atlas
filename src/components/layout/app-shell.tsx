@@ -88,7 +88,7 @@ export function AppShell({ initial }: { initial: ExplorerResult }) {
           {detailsOpen && selected && <div className="details-scroll">{pending && <LoadingState message="Updating facility…" />}<FacilityDetails facility={selected} onBack={back} /></div>}
         </div>
       </aside>
-      <main className="map-region" aria-label="Data center world map"><WorldMap features={result.features} selected={selected} onSelect={select} mode={result.mode} />{(pending || error) && <div className="map-pending" aria-live="polite">{error ? "Map shows the last successful results" : "Updating list and map…"}</div>}</main>
+      <main className="map-region" aria-label="Data center world map"><WorldMap features={result.features} selected={selected} onSelect={select} mode={result.mode} dataset={result.dataset} />{(pending || error) && <div className="map-pending" aria-live="polite">{error ? "Map shows the last successful results" : "Updating list and map…"}</div>}</main>
     </div>
     <span className="sr-only" role="status" aria-live="polite">{selected ? `${selected.name} selected` : `${result.page.total} matching facilities`}</span>
   </div>;

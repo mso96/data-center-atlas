@@ -1,8 +1,9 @@
 # Authorized data imports
 
-The application currently uses **four fictional demo records**. No Data Center Map
-facility records have been copied or imported. The included CSV/GeoJSON files are
-fictional test fixtures, not samples from Data Center Map.
+The local application currently uses **17,875 imported Ringmast4r records** under
+its attribution license. See [the source-specific guide](sources/RINGMAST4R.md).
+No datacentermap.com records have been scraped. The included `fixtures/` CSV/GeoJSON
+files remain fictional test data, separate from the imported dataset.
 
 ## Obtain permission first
 

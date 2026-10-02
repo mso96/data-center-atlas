@@ -180,3 +180,8 @@ input:disabled, select:disabled { cursor: not-allowed; opacity: .5; }
 .map-pending { position:absolute; inset:0; z-index:4; padding:18px; background:#05050540; display:flex; align-items:flex-end; justify-content:center; padding-bottom:70px; color:var(--foreground); font-size:12px; }
 .filter-grid label:last-child { grid-column: auto; }
 @media (max-width:767px) { .filter-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+
+.dataset-credit { position: absolute; bottom: 88px; left: 28px; max-width: 340px; padding: 10px 12px; border: 1px solid var(--border); background: rgba(11,11,11,.92); border-radius: 4px; font-size: 10px; line-height: 1.5; color: var(--secondary-text); z-index: 2; }
+.dataset-credit a { display: block; color: var(--primary-text); text-decoration: underline; text-underline-offset: 3px; }
+.dataset-credit span { display: block; margin-top: 3px; }
+@media (max-width: 767px) { .dataset-credit { bottom: 70px; left: 12px; right: 54px; max-width: 300px; padding: 6px 8px; font-size: 9px; } }

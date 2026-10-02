@@ -12,9 +12,15 @@ newer is suitable; validated here on Node 26.8.1. Older supported Node releases 
 print an experimental SQLite warning. The default `ATLAS_DATA_MODE=demo` uses
 only the four fictional records. No database or credentials are required for demo.
 
+This local installation has `.env.local` set to imported Ringmast4r mode. To run
+the fictional demo explicitly, use `ATLAS_DATA_MODE=demo npm run dev`. A clean
+checkout does not include the local database or `.env.local`.
+
 ## Imported mode
 
-After obtaining an authorized dataset, follow [DATA_IMPORT.md](DATA_IMPORT.md).
+For the supplied Ringmast4r dataset, follow [its reproduction guide](sources/RINGMAST4R.md)
+and keep `ATLAS_DATASET=ringmast4r` for attribution. For another authorized dataset,
+follow [DATA_IMPORT.md](DATA_IMPORT.md).
 Then start with an absolute persistent database path:
 
 ```sh

@@ -1,8 +1,9 @@
 # Data Center Atlas — completed application
 
-**Current data: four fictional demo facilities, not a live or licensed Data Center
-Map feed.** No authorized source dataset was supplied. Phases 1–3 are implemented;
-obtaining and licensing real data remains an external dependency.
+**Current local data: 17,875 imported facilities from Ringmast4r's attributed
+Global-Data-Center-Map snapshot; 6,086 are mapped.** This is a static snapshot, not
+a live feed. Demo mode remains available and is the default for a clean checkout.
+See [source, license, mapping, exclusions and reproduction](docs/sources/RINGMAST4R.md).
 
 ## Architecture
 
@@ -127,7 +128,7 @@ application code has no map-specific React lint exemptions.
 
 ## Verification results
 
-- 15 automated tests pass: original contracts, SQLite persistence/reopen and migration
+- 16 automated tests pass: original contracts, SQLite persistence/reopen and migration
   repeatability, unit/country/date normalization, GeoJSON order/null geometry,
   invalid-coordinate/URL/date/header reports, repeated imports, dry-run isolation,
   duplicate ambiguity, fixture separation, SQL/demo filter parity and injection-like
@@ -144,12 +145,16 @@ application code has no map-specific React lint exemptions.
 - Read-API checks verified filter/selection data, fixture exclusion from imported
   mode, HTTP 405 for POST, and HTTP 503 with no demo fallback when the database is unavailable.
 - Lint, TypeScript, and production build pass. No application browser errors were
-  observed during the tested flows. Full large-dataset browser/load testing awaits
-  an authorized dataset; pagination is covered with 45 synthetic records in tests.
+  observed during the tested flows. The imported snapshot was also checked in the
+  browser for cluster expansion and combined filters; production load testing remains
+  a deployment task. Pagination is additionally covered with 45 synthetic records.
 
 ## External dependencies and limitations
 
-- **Dataset/license:** [Data Center Map exports](https://www.datacentermap.com/research/)
+- **Current snapshot:** Ringmast4r grants attributed reuse; its license and import
+  report are retained under `docs/sources/`. Coordinates and place names are not
+  independently verified. Future source updates require identity and rejection review.
+- **Alternative source/license:** [Data Center Map exports](https://www.datacentermap.com/research/)
   currently lists CSV/GeoJSON and other export formats; API access is described as
   forthcoming. Its [Terms of Use](https://www.datacentermap.com/legal/terms/) restrict
   automated retrieval, external database reuse and redistribution without permission.

@@ -1,0 +1,1383 @@
+{
+  "attribution": "Data centers (c) Ringmast4r - Global-Data-Center-Map",
+  "source": "https://github.com/Ringmast4r/Global-Data-Center-Map",
+  "revision": "7c1c6f3abcc6e25f0b4b8eeb291e434ddc42ee05",
+  "sha256": "bf8aca571405081c5e27035d4569066a65645b106fb6e471f3ccdbe84e279696",
+  "totals": {
+    "dryRun": false,
+    "inserted": 17875,
+    "updated": 0,
+    "skipped": 7,
+    "invalid": 228
+  },
+  "reviewRows": [
+    {
+      "row": 1,
+      "sourceId": "derived-c20c1486f8909703dd6a660521993b296d399422af68f463bbc2b3a10e040cc6",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 21,
+      "sourceId": "derived-fc0e30c28a5672c725ba36089dd9bc0b03dc8a4525646e121725ed38326f0828",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 22,
+      "sourceId": "derived-c94501ac425d3e2f1c12a481cc15ed672bc25a8446369ad6bb69f3edf3c85f9d",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 1801,
+      "sourceId": "derived-973c0f6a7bd27f74259868e2064bcfac6a27762ee436d5c02ff4b1b9ee2e2bc3",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 1802,
+      "sourceId": "derived-61c4e4e7390cc5170bda0838894449305a9edb7a540aeab1996e2abd7324c022",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 1910,
+      "sourceId": "derived-747ecc0bfbba61c9ab21349db6c8a9835cc7b07a1d66390a4f00144d0262bb76",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 1911,
+      "sourceId": "derived-5db291065153ad46f8545262f520804336d62846a567a1ccd257509775b1bfad",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2300,
+      "sourceId": "derived-c3f4b68b574c3bcd79e2c4a066d971b3ce6e28081d82fb03c87dddd4e88bcad0",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2304,
+      "sourceId": "derived-e488211dfc1a410540fd82b319e93c0c3895f6b5aa4f097f0053dc8940d666c8",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2365,
+      "sourceId": "derived-743f3a80a2826cd33e52493cdb24005de83d626d4d74000a971d2485895d2f89",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2366,
+      "sourceId": "derived-f2081e3650e9d8e081b7c76562eeb3f9dcf37bf6e2536f447589f0d390fe030e",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2457,
+      "sourceId": "derived-e7b8966e9b18ea544862c4d936a2af315f3c0aaa8811eeeb2f2ff1b0d9c26b97",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2458,
+      "sourceId": "derived-923c6a94c1a479bc7be3e50e462a1b3756848613d481c3de04c9d027516f1477",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2563,
+      "sourceId": "derived-8d4df1030a8187f2fd2cb876cf2ec6b75993a55d616056c9818b4188cdaeaff3",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2564,
+      "sourceId": "derived-9ff6ee7c141866e9e6c389638d4917797d099d66ca19b7101caff7046a70b7d2",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2921,
+      "sourceId": "derived-5fe8a9fd4bc6c4a38524facefa676da0c8535d34a043c581829286048e161eff",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 2922,
+      "sourceId": "derived-2e8b76edfd948ce436dde67acf5e4eed3461c947f3eaefb03e530a4f56546224",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 3148,
+      "sourceId": "derived-5e815b8f46972d1f61f680d03e3d44d1977005c86ea4bb3cc5738aa253b645e6",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 3150,
+      "sourceId": "derived-09de23a16513b69ea9d8e912b251485bfd1ccc0981be61134363aab4ba20070d",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 3706,
+      "sourceId": "derived-13ce0e224ad4b698cb3c45c037e040a9af79dd5873e69fb2d9f3d2768132f81c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Moldova; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 3956,
+      "sourceId": "derived-e4efa12c3c6c4e2185839691c7cf2e6850c5a53b5aa097010e8d2c72f783fbd5",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 4700,
+      "sourceId": "derived-1b79ed356c7ff5be3e70d9c1d16301a8cd6f5261f860efedf3af6f216eda682e",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 4701,
+      "sourceId": "derived-7751002ef62184a520ac6d34e6763134319d173e1829cfbe793665264b027ea8",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 4715,
+      "sourceId": "derived-b4593c9a55c49789e6eb3841e7872586b0ae5fcb96d8c5612ba932af4025475f",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 4716,
+      "sourceId": "derived-84dbe978ed33b137bc5cf0c8f66ed56138a7e15b265eef41a2cbaa9829091403",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 5219,
+      "sourceId": "derived-4b3bdf100385ad6343ee690cde4b821da503b75774fbc2ed61a22535b7c551b5",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 5223,
+      "sourceId": "derived-ea3ba3562feba387a6657ee0e134985050a7ae130864e9108399c01f98ae8c3a",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 5379,
+      "sourceId": "derived-314fdf838d993035cdcb7b7ab7606eec5d2d3ad289cc98c8313abbab46c77d68",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 5380,
+      "sourceId": "derived-52a27076eccecacb9b068892d5db0bd862bc6ec12447d124e2064277614ef4d5",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 9430,
+      "sourceId": "derived-951e4284d09174edf01e08a39db69a0f56e035426f178db349086550cc2e9bd6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Serbia and Montenegro; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9431,
+      "sourceId": "derived-ad81e68a4236335ef9470ee608debba231f11f1ab535ef85ba19ae4289c23d70",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Serbia and Montenegro; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9475,
+      "sourceId": "derived-8ad5b54596f9c3c9f1cff21586e0dec15169c04311b8518c72ea37ebdc7f979b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Netherlands Antilles; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9476,
+      "sourceId": "derived-a11f53b38c6853050c596b99ba59dea318cd5d62d8cca25ecc67abef71fc7d79",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Netherlands Antilles; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9477,
+      "sourceId": "derived-5a0afac1ce329c7a8b24e75707f5eb17c42d578d4ee5272cd663f328a5996894",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Netherlands Antilles; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9478,
+      "sourceId": "derived-60a0abaa47ffd85520b2b732355a92d71ee4394d64668db00af0eff9513671b5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Netherlands Antilles; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9493,
+      "sourceId": "derived-b2cf338f8e69d983988e1d242b41db4490b318f38a841421e4c2d42167a7a4c4",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 9494,
+      "sourceId": "derived-98b595e0a9a3ebca52a8fbd5f869dd3818b43a53a7fe4dc52879ee4869b16444",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 9527,
+      "sourceId": "derived-29bf71b65afab66838aefebbcd895541cb7883424898f5aed41f98b66ccbccca",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Swaziland; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9528,
+      "sourceId": "derived-3c8ed578412871c8aae1958845df8f6c1979b832b13c69a35e7f9c34b3431485",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Swaziland; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9593,
+      "sourceId": "derived-6ab249efd54e9496adc22a40a7a8ddc5ad5c1bf7277822cb34f9d0813c6ff910",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: S\u00e3o Tom\u00e9 and Pr\u00edncipe; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9684,
+      "sourceId": "derived-0c010335ec4265ebc58debadec8eb6ef09fd6ce7bbe66d0b16dbad4194416e15",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Myanmar (Burma); supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9706,
+      "sourceId": "derived-3050deb0f9246e1fa2a86054c4527f78b5bdd2bfbf9eae99654a72a9151c3d6f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Cabo Verde; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 9736,
+      "sourceId": "derived-4004948f4d6169260e61e0dc7784211ecb7c6770f3428f6dfd2ca4d28323e00c",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 9737,
+      "sourceId": "derived-bf0b9bc1da7e191dceb24810d774254481b42854ce052975fe5c8594e5cfcd1b",
+      "status": "invalid",
+      "reason": "Ambiguous duplicate: same name/operator/country/city has another identifier; review source IDs"
+    },
+    {
+      "row": 10975,
+      "sourceId": "derived-eaada8c1a4c095839ac57bb502d4fd145ec41eb8a40505d2a9f66b67db823605",
+      "status": "invalid",
+      "reason": "sourceId and name must be nonempty"
+    },
+    {
+      "row": 11210,
+      "sourceId": "derived-df124dc26c40de3b316cdfb7c62c2e9903de965aaa30e30b704b7ca790785de4",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 627753; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13439,
+      "sourceId": "derived-4fd5bd02c1ff13b637b8ffe8a8e3b7f71841d25595f83b002d28462de346a32f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200090; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13451,
+      "sourceId": "derived-c94f395aee177802976fbe4d474f153c42fe920417638e5c0fa3e9d8ddbc3978",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u6f6e\u67ab\u8def; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13462,
+      "sourceId": "derived-386703ad279829823312cbeef35c135ce524de63f7e724432e7eeba4e62e0d44",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 755006; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13472,
+      "sourceId": "derived-84c43cacbd064c09025a329e8ea10bf0b14c79c16ecce3416f8b750affebf746",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u6052\u751f\u94f6\u884c\u5927\u53a6; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13481,
+      "sourceId": "derived-d3055b7eed0bdf5bd29b459ee5db9322e64f0e851aa3dfdb8eb03a0bfa6350f9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u79d1\u6280\u56ed\u5c0f\u533a \u90ae\u653f\u7f16\u7801: 518057; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13488,
+      "sourceId": "derived-3058de860253f0c2afda03770b43186edac8ea1c98ea830a13f45b855ec23726",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 511462; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13489,
+      "sourceId": "derived-f12568428e00c544ef22ea2876ed89eca6a9430f4f748c22daba565c8dd69a85",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 511462; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13497,
+      "sourceId": "derived-2fa72e088cb15faa2fbe013459594d1b10edd7a0972241d9120451c6668e74f4",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 518118; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13500,
+      "sourceId": "derived-8e1b714ad6958c48f132b36c722fc5ce9869b5d9dc00d75089b0dfc0e54f6417",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 518125; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13501,
+      "sourceId": "derived-f4a67cd67e944f527c4a887aef46a150083d9a40f5f8996227e7eae1ffdaaa53",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u534e\u5357\u65b0\u6750\u6599\u521b\u65b0\u56ed; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13502,
+      "sourceId": "derived-bdc743823083dcca7a2160f69bff0c24f3b148fe6beed37ded0b511cc52d178e",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 511462; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13505,
+      "sourceId": "derived-ac1f0ad5d885368117c23cddbfba5a18b575adbeb6682e21e898b1a7f399b9ad",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 519020; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13509,
+      "sourceId": "derived-48fd987266793679a42592d68537cf72693f5ba999e39917f32dcf443cf4e552",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u57ce\u533a\u57ce\u533a\u653f\u5e9c\u56ed\u6797\u5bbf\u820d\u533a; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13513,
+      "sourceId": "derived-da02fb658b691661f4f812592bebe79cfacc764539d40cbd6133c50e23dc0b68",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 518107; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13522,
+      "sourceId": "derived-a5e1ac6a6185dc0fc2b8d3d03c4ba8c52e37ea7b4a748f67b2ceca61c3e04c4f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 528253; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13525,
+      "sourceId": "derived-805bc9879e98f45fa7e083309536a9f890d480905f3eece95aa87f75c9c56725",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 528226; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13580,
+      "sourceId": "derived-f6746c6264586d5be088b3c2d04ca1c95c92a476e2366fc4b4da5aa196102f12",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 519085; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13581,
+      "sourceId": "derived-db72e93ef9062e2bf5261ea01565117ca9d905922a947609361f8ba967026002",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u9999\u534e\u8def210\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13583,
+      "sourceId": "derived-8d6e1befdc815147613cbe8f551988794f968600fedef1a8e1211fca90f9afa0",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 516226; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13585,
+      "sourceId": "derived-23c5eb6c8605033235f968c493bf07085769c0ff01b4299f35cd1be0ea693b2f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 523455; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13596,
+      "sourceId": "derived-e3e21d4589a68e097755417ef2d5623ca747810f8a7bee7962ec93c377ce2150",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 529566; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13597,
+      "sourceId": "derived-bfdcd794e9e92de76bc7f725e21c1bb9394c66cc8dfce2d5f0438dcacd46bb75",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5174\u4e91\u897f\u8def90\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13600,
+      "sourceId": "derived-201cd5d9805d0109a7776c15a42d2018c0d8832745c27b40307ba22dc9466188",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5f20\u5bb6\u6d5c; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13611,
+      "sourceId": "derived-bd855f541c19a813c933eab6cd7e7fe85a559aebc470d62dbd43b2ae3fc52a0e",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200443; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13616,
+      "sourceId": "derived-dacc1d295ebd575cc9ddd9c46484e65fe4466b3391e722af3af802e6dbb9da58",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 314211; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13622,
+      "sourceId": "derived-fb9bbba12c1f4adb7cb4b51e8cdfe9b1f5dff30c69b5714a42e0f5a5dd631d83",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 201205; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13626,
+      "sourceId": "derived-46a087278b8cdfce463c1e66e7fc65adae7715230d231a32bed0f9b53bb82def",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u57ce\u897f\u8def3\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13631,
+      "sourceId": "derived-17c74562258a4b8850a27c9f968d191f312b8f63877d20c3bfe728462736c2ca",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u91d1\u6865\u8def1493\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13638,
+      "sourceId": "derived-70191ccec1cea513127b3b835cc5cc5bcc124afbf60a673a762f2348bb8c91c5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200032; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13641,
+      "sourceId": "derived-ed1c1cae7f124d35224c5663eb5a36c623bfbf803eccf2dbf78476b6401e8afb",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 201907; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13642,
+      "sourceId": "derived-f5235292759300dc5886c16bc239e4d4ef85f34519329450cae74e3d7203d06a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200123; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13643,
+      "sourceId": "derived-a619d6d922c3250c364e2e534d01ca40abe8b96369763d294f61dfdb3ba3a32c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13644,
+      "sourceId": "derived-47c3e8330e34cc12b11f95a0b9c9484ee7e13e767445acac2285d38513365d68",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200240; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13647,
+      "sourceId": "derived-8b10d831412f423858b10a9f13e7ff95e04d28e33a60e225bcfff659e6420d47",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200123; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13648,
+      "sourceId": "derived-fbf93ff5dee76ba23558dfe9d0139f8091fa19b558748dfb5659872fc49a31c5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13649,
+      "sourceId": "derived-1f3a083d3def7f18289d62afa8ed85a8f52815b64ef07afadb1ac7c265ab6df6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200131; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13650,
+      "sourceId": "derived-8d0a89c32061cc9157a28ce08e4b6bfb6c9ad68978d87c86e2bd795090a31455",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13651,
+      "sourceId": "derived-3e0f7dd8a371a9c46990eb6bae179d730e2b8009ad33826eee901e41f347c549",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 201210; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13652,
+      "sourceId": "derived-ca872f9266f046e286ddbcb441828f85de5113f85b74d1743de46faaf6abd5b5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200128; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13653,
+      "sourceId": "derived-82509ae742a0d3f39bab58c10ab49162bbf1086853212d88e8195672761d8413",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 201210; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13654,
+      "sourceId": "derived-f78c1644f58dbb1661bb5f1dc5eff3d0b932710c94cf40475cd2fd30f6a8a8a6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200123; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13660,
+      "sourceId": "derived-21da23da31faa9ad1e446c31b23068c6a867d4762524e62883cacd98885fc664",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 100054; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13661,
+      "sourceId": "derived-4f728996070327913ecfb14e01c070622ddcf48ef5d21da8732a36fc19891b0c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 101111; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13662,
+      "sourceId": "derived-9113d98bf3e5245da3b93b243564f959463a763015065563ba535de42faa30b4",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 100102; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13663,
+      "sourceId": "derived-e0a78094b7adb9d809ee2afeaaf07694b8e719281215dbb070ee6f39e17d7e7c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 100070; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13666,
+      "sourceId": "derived-b45c461e1f3af5dec6baa27bd4f50b87537fefce917b1b853e00dfa9fb58d81b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 102676; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13668,
+      "sourceId": "derived-4618038406a1f35c94173893e420538df01a5893ab8106aa100b076481d95bae",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 101106; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13670,
+      "sourceId": "derived-ac98a2843a17cbb6f623f5a3b4f99928bdd79d6c08cec40568c34eb3941109db",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 101106; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13678,
+      "sourceId": "derived-b5c414310e12dac855cd6a072f41dd844f842b6d70440b0ea00c57ddda9de5d6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 100015; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13680,
+      "sourceId": "derived-e677d2974bee95ff257ee86e4a15299a726f2e801ddce8001953b55fe6804e44",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 100054; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13688,
+      "sourceId": "derived-b38af13d59dda012236666ffc2ac673e7dfc058735d0babade1e1315c71feb9c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 100016; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13692,
+      "sourceId": "derived-35b83050d73d524cc5fbeb4940cd42af8f2070be2bc1a9f809ce599299109a46",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 101111; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13697,
+      "sourceId": "derived-60b67b9bc0a34d714574fc19b26127750ae6a39acdf3041056af26b87447fada",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200131; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13701,
+      "sourceId": "derived-9ca86a07185bca3ce9ff26e659ee31339f5b18d9f2b4bc820363614a084d9bf6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200128; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13702,
+      "sourceId": "derived-e3379feb531b7358572b48f12db825047854a5608c5a4ef3e04e2ca85d10d724",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13703,
+      "sourceId": "derived-e556ae2ceeabc8b040513581d89692d96710b5dd0a1596329f0d96e85d5817a2",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13704,
+      "sourceId": "derived-bdd80d6b64826d2b509fe302576a2d01278077d7fb1078fc25055e0cc815fbf1",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200083; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13707,
+      "sourceId": "derived-9d046eb5d40cbaa9e9ebb8a41ee8411dfaa8ab8faac5971ea4d77ee576a157f9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 201210; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13713,
+      "sourceId": "derived-c66d48a772fef50c472a02fceb5665267768de2a5a90caeaa1f080dc48faa920",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13714,
+      "sourceId": "derived-08155a29fbc770af17deab73ee54d17edead3e74f642ef031d140496e13d064b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 200137; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13728,
+      "sourceId": "derived-8b1c359ee0cd3015b617d23108d5c5b8154aba45b638596e13b28c3d57d1938e",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 213311; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13731,
+      "sourceId": "derived-668657986cd774b344a834e19a69c93dd5006ed928026edc0a651a9251148752",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u957f\u6c5f\u8def\u522b\u5885\u533a\u505c\u8f66\u573a; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13732,
+      "sourceId": "derived-d831639d04aa5ccdbd64638b2d99a97d6ce75fa046dea70d43faab1aa3a365be",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Apple Store; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13746,
+      "sourceId": "derived-d8579eda54af338353e98e44e7f5e6fa49b0825a6b09a687b0a166bc02762a21",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u4e2d\u767e\u4e00\u5e97; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13749,
+      "sourceId": "derived-18a1819544298beb254528bd01fee084550f32c63c568bbf3645239a81913876",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u7535\u529b\u8def2\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13757,
+      "sourceId": "derived-ac1f6e01de89a26864115c29a467e557ff731370cd9cb0bc4277815a90aad045",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5de5\u519c\u8def131\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13767,
+      "sourceId": "derived-680cb43bcd9528ec29c9ec8ca72ba4e473171a56cd1fe2fed7484ff3dc2e9f96",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 226009; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13768,
+      "sourceId": "derived-12cd1cac812fa0d108ab145ca0870a54203d5ef3a4532a326ed8c8e3fed814b9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 226007; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13785,
+      "sourceId": "derived-c2eeaa42eeb7b8992ca41da67d861e771a7add3ec1284fe9e640662c7fd97ca3",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 101199; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13788,
+      "sourceId": "derived-a3bc7bf69599f7d714fefdea8f1a0a4a9fd09343de8cbf66a2d68960323356b6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u4ea6\u5e84\u9547 \u90ae\u653f\u7f16\u7801: 102676; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13830,
+      "sourceId": "derived-11f88f97eecc673eea04772bde850da6166cd88492227b67cbcc14f316eb83f6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 310009; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13831,
+      "sourceId": "derived-bdf44bed1def8f99f0937fc336acae0014b23dbb455f34d2194967311fe090d1",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 310012; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13836,
+      "sourceId": "derived-e8873fa99fa58a992be0e8dbaaa3011088bb9365dfb2892c156667bce2afc5ad",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 610011; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13844,
+      "sourceId": "derived-c16ed9d3d8623bbd75e5a7738e3a70aad11b46e658541964e191a2675b7c0eab",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5927\u5c71\u576a\u8def\u5317\u6bb5; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13846,
+      "sourceId": "derived-edd1e3f8e3d05c96cae05c94797f48cde8986ee9a0bd1b028aec9830452a3d07",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u897f\u6797\u5927\u9053; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13849,
+      "sourceId": "derived-474dd04ab1fa9385dc1e2fe70475400b29ac7470ef5f271c76404c0434701c66",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 641304; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13852,
+      "sourceId": "derived-ed92f9ed9eae05e86eb2820c1cd23fdbdd4e5e59163a02390b15e2725a57e777",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 644000; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13855,
+      "sourceId": "derived-ee9822a104fc0512b1e72230c04d90df86c613a7cfeb8e11f7698b4175755047",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 065014; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13856,
+      "sourceId": "derived-0ff3b5d53286436b86117952c8ed5c798dbc6666005a195256f3757b7cefc072",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 518038; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13857,
+      "sourceId": "derived-fec814ba8f4d56e46677c7b3c286c4c46de7c5a02725ab6aa8757390e0cd351f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 215513; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13858,
+      "sourceId": "derived-746f7ddd6b0e887d458a429f54f2d19c1ad5910830d3543c9f51d52a4881c13f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 076471; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13859,
+      "sourceId": "derived-605f0e8d4af9885231cca51c43db850b2b440f340b5ac9bbdb2261a0d91e8cce",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 215101; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13860,
+      "sourceId": "derived-40746bd4ad39b983fe8cacf0b04e9a238c251279c329c3ca50b537092ae9c9b7",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 076471; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13861,
+      "sourceId": "derived-5e2214360193b1c841f206165b748cc50658b7357e8aec8623fe35ee6241eddf",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 076471; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13862,
+      "sourceId": "derived-c6f4e1af698c4ce17126d5f018e2b04c9e2b50033865070ac9e932af6289f545",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 076471; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13863,
+      "sourceId": "derived-a63067499964699197c84316fe9799979052948a31e4042adfe9da03dd8007f8",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 065014; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13864,
+      "sourceId": "derived-f7271a24afeb485114151fe95f7a7366895319443a41b2b0ccb6a9945f1d3419",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 076471; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13867,
+      "sourceId": "derived-a955f615140dd339c6592a80b9f124689a976f81272284729b45659358bf92d5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u65bd\u5dde\u5927\u9053; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13868,
+      "sourceId": "derived-a5165805e8443fa7de97dc6210a81e70bf5080af531620501cbe51ded92f1307",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u90ae\u7535\u885712\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13880,
+      "sourceId": "derived-7ffc2e5259b93f57949463f9cfc9db04d4d62d89270df7dbaf91c8e0fcaea03a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 430072; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13895,
+      "sourceId": "derived-bc4a936e373bd59df9d7f714dcbbff08f0445062b520ff4c336ff6ddc46b5863",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 330038; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13908,
+      "sourceId": "derived-76bb2126818cf2b2db80e2168471de16ad08572c3a24e404d57aa8a4a6a15d7d",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u523a\u6850\u5357\u8def\u9633\u5149\u66fc\u54c8\u987f; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13919,
+      "sourceId": "derived-9600e0ef8b0801a420247eab2b654f03760a31649c32c9ee74bf7d9d97d7294b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u897f\u4e09\u9053; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13921,
+      "sourceId": "derived-8c0242562d84794921fa7d7de40b7ce1ba1eabde1a1895aed3e114a9fd832e5e",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 107\u56fd\u9053; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13924,
+      "sourceId": "derived-f3853ffec6217896cade4c1260ebd12913468da3fdf33b8de483e23e90cedb54",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u9ec4\u6cb3\u5357\u8def493\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13925,
+      "sourceId": "derived-f53089ac497998f216f4a9df9d720e62816d1dc6cb7ffb96c7e1654a1698eebb",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5efa\u8bbe\u4e2d\u8def29-30\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13927,
+      "sourceId": "derived-285e12188dc3fa49482140dcee0b8370954c30a6428d05fd0bfb8f89c8b3a4ed",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 561113; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13935,
+      "sourceId": "derived-08bdb74b67ae41e4509fb5f60251d18fd801b1be313f03128510f02a40fe440a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u73e0\u5c71\u897f\u8def3\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13938,
+      "sourceId": "derived-970a3d3ccf887ddcaaf370ba468dff21b8bac901bfbf2990929d178d4882048b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 313300; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13943,
+      "sourceId": "derived-2965368111f9d44a07de717784195786d54892e83902efa53df9cc2a70fe6886",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 400714; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13956,
+      "sourceId": "derived-25c5a02280fb822387db4897f7cf3c03eddd64d624763006d44a194df30ecbb9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 250021; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13962,
+      "sourceId": "derived-e53e8151b2f6aa6d2f4a0574b03341914097d4098bbbfbde950c7f2692490927",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 030400; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 13968,
+      "sourceId": "derived-1493db3853d8ec5af409dec2f05e321a4decd9be66992197054bda1aa8d5b6c9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5f20\u5bb6\u5821 \u90ae\u653f\u7f16\u7801: 710018; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15242,
+      "sourceId": "derived-c1666d6190688ac8eaa347790b923c3a782510864f2bd60525dc6877ec81440b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Higashi-Shinagawa3 Chome\u22128\u221221 \u4fe1\u5dde\u540d\u9244\u54c1\u5ddd\u30d3\u30eb; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15246,
+      "sourceId": "derived-2dffbb1971412ff0e8ec24363357eb1c45b4e452422a03488eb5b35807c7702c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u30c1\u30d0\u30b1\u30f3\u30c9\u30a64\u30b4\u30a6; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15249,
+      "sourceId": "derived-19664ddb6789b62a6a81ea9ce27c5fb46e2b31e7fadf05d5fe55f1b3a3d5cafc",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: maruo osaka \u30d3\u30eb\u30c7\u30a3\u30f3\u30b0; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15256,
+      "sourceId": "derived-d3256404329abc7f10f5f9da57c4d7513bce603e18ec2aacebb16ff458bd71b4",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 2 Chome\u2212\uff16\u22121; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15261,
+      "sourceId": "derived-948801b63cd4c51b39fa9b73dae6590385dbc458ad6d204f5e8b1849c6c475ed",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 1 Chome\u22128\u221216 \u5927\u962a\u8a3c\u5238\u53d6\u5f15\u6240\u30d3\u30eb; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15265,
+      "sourceId": "derived-c63a94b0420269f3ee11451aa5b016ea4cad7f45287d9bacadc8648686b52519",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 1-9-5; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15269,
+      "sourceId": "derived-e5c649940186284dbe4c10f3b0e702382baaf7375b3d6af78782af7024c27bd6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 1\u22121 \u65e5\u672c\u30e9\u30a4\u30d5\u30e9\u30a4\u30f3\u682a\u5f0f\u4f1a\u793e \u591a\u6469\u55b6\u696d\u6240; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15286,
+      "sourceId": "derived-f5a029ac376b45e6ca20669bcc43d0062ac26744e98eea64a16b3d6d5de62b07",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Yushima\uff12\u22127 JUNO COURT TOKYO; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15288,
+      "sourceId": "derived-adb7c8ee096865c3f6fc2bf112e04ea9ec87a324f8f5087477d69ac3eabb3021",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 2 Chome\u22123\u22123 \uff13; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15289,
+      "sourceId": "derived-8105353fedeec0d9347189f3b18f988531e218044a1f4c9198cdd8db44162fd7",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 6 Chome\u22121\u22121 \u5927\u5cf6\uff16\u4e01\u76ee\u56e3\u5730\uff11\u53f7\u68df; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15300,
+      "sourceId": "derived-5602675c7ee18fe99ae4ac0924c76fc645a84748f470d925ef68e491354fb7c2",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Heiwajima6 Chome\u22125\u22121 \u6771\u4eac\u6d41\u901a\u30bb\u30f3\u30bf\u30fc\u7269\u6d41\u30d3\u30eb\uff23\u68df; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15326,
+      "sourceId": "derived-f69268d100757f22f0a612a93739ec8a6d02a5ee200861514159b3deb977161b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 1 Chome\u2212\uff12\uff16\u22123 \u4eac\u962a\u795e\u897f\u5fc3\u658e\u6a4b\u30d3\u30eb; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15337,
+      "sourceId": "derived-1ad3633a2e1834b04a0b18d890e074132f192c32b5b89df110ab934f06b95921",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 3 Chome\u2212\uff12 YAHATA corporation Osaka; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15352,
+      "sourceId": "derived-5ba405e1b8e82750883d3ce58306f38ad4796ae320efc4a9942ad5865a60ccad",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 7 Chome\u2212\uff14\u22125; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15353,
+      "sourceId": "derived-1dfeaa9bb68e25c83468c90520cd6ec7ae8a35993e88c0c34d6e720abeb30fed",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 7 Chome\u2212\uff14\u22125; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15358,
+      "sourceId": "derived-8eddf44acfd0e8fc0322caa61322e3c86356b8485074300f56bad78d39df4937",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Prefectura de ChibaInzai\u7267\u306e\u53f0; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15367,
+      "sourceId": "derived-22ea68e8918913d21243fa7160df1358bd8f3ed3c45f9c916ec664a49fb76838",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Saga2 Chome\u22129\u22128 Msc\u6df1\u5ddd\u30d3\u30eb2\u53f7\u9928; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15381,
+      "sourceId": "derived-5ee193b04b55872ed466973f1e33fdc5606594ba2b3016c46982d27105c6383b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 1\u22121 \u4f0a\u85e4\u5fe0\u30c6\u30af\u30ce\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u30ba; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15391,
+      "sourceId": "derived-c26e615aa1f064f4d05dae69cc24b37fb43fbc3eabad1193ba6717661f0dd2a2",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 436 \u6c38\u548c\u5fa1\u6c60\u30ac\u30ec\u30fc\u30b8; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15414,
+      "sourceId": "derived-b47fdd1c91480dde4112fcff6b6af7ea2f7a2967daab2b0f70002eae737bade8",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u5317\u9675\u753a; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15416,
+      "sourceId": "derived-52de19c16a6304a6b867c26794a54f48ba8d83ade95eb1d83a824215d7f57075",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u56fd\u905311\u53f7; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15419,
+      "sourceId": "derived-884b2782710f7fa178d35919e39ede62df513e4c5225584e1a4ca38edfd30233",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \uff11\uff13 \u770c\u9053147\u53f7\u7dda; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 15627,
+      "sourceId": "derived-959fa3afce80e71ba87d6fb2c423406b171c5a0e86880f062977cbf084e37694",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Maharashtra 400701; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16538,
+      "sourceId": "derived-210a6a9ee3fd6a3f7fdbac9e0fec424f72d2f2447f95362cf7a2d159ee51a78a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 534103; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16547,
+      "sourceId": "derived-7f0ec97af5dc84ace069daeaa99e2b2a926eff10c4b23fbb0925db334f38fb20",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 409057; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16553,
+      "sourceId": "derived-3421f7f393e4728bf48b8a714d5dbd94f64c12f6034943ee089727b73dad73e8",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 627485; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16555,
+      "sourceId": "derived-eb48cd705145580120be19418663f994a57daa466692c99ab22b27220928c0d5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 139963; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16556,
+      "sourceId": "derived-e1e65b6661bc7e672024659423bd36c1e1817b5b75cd3cf2b8e7860ca3849acc",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 139964; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16579,
+      "sourceId": "derived-71486dee27e2f43ef985282dbc7113559073e6bba56e5173930c22d4626c7fe6",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 018936; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16611,
+      "sourceId": "derived-74693e4ad531df2ee3b451cf6ae557e651bb909d3462a1105a42c6500a07714b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Central Business Information Limited \u6ed9\u83ef\u5546\u696d\u8cc7\u8a0a\u6709\u9650\u516c\u53f8; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16625,
+      "sourceId": "derived-80e0643f46549700b5c977ac316010380417b8e119c003d8d240328632956b01",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 125412; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16628,
+      "sourceId": "derived-20bf94fc947d2bcd9598e6c6daa4e0b101facdca6778ec1b4f1f67bea92e5717",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 197375; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16629,
+      "sourceId": "derived-ca9c208c27fa4af3d596a0fd72ebc0fb5c8513a4bb65a3e5198fc6ffc25693c9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 127410; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16631,
+      "sourceId": "derived-1cf2bab9b66c839de090e8a7f26be1266bba3bf8d9afae32db90fd3cefeb229b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 195043; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16632,
+      "sourceId": "derived-eb5b5d51455d213a6556c0cfcc01d4dd12ea0f291d66ea6fa2ec990602672186",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 127018; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16634,
+      "sourceId": "derived-94d8370bc87c1dd552653060e70876ef276c0d536be5baf73485fa567092ad04",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 115404; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16637,
+      "sourceId": "derived-54d24cd8de05148b59dd626d574025fda9f3e0e5399f77dc9fbdf91e4b6819aa",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 127410; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16638,
+      "sourceId": "derived-6c214e4ece52bbb8199b6dcecbe452ec338778b935f9bd324909b4e981713e29",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 111024; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16644,
+      "sourceId": "derived-5f4c38d04eb6f947643e97beabd06ca67c686a0fa899a75e7d6ebdfa1a9e0779",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 191014; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16668,
+      "sourceId": "derived-b06acc858956c02c4eb41de02bb53e6fa02eff7b24d6d9c3e7e802b26cd6ab96",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 111033; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16670,
+      "sourceId": "derived-aa95acea3a5d9f20afb5b931ba3163a1d232378065ad0e87716d9322727e92cf",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 115088; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16676,
+      "sourceId": "derived-add48f84ab85e5c018cb8f900cbfd87c027ea8e66bc26cbf24af5f846a86651c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 111033; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16685,
+      "sourceId": "derived-b076395ae3df4263a103a6aba28b86983d6a631b7d3d978e3653c6517927d383",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 127410; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16687,
+      "sourceId": "derived-f000529a3950bc07d9f6bd5c482fea0a8038294298cc04f0175195fc17123580",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 117587; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16691,
+      "sourceId": "derived-cfcff837b4c28b0c00231175a0e4413e0511dbe26e90e3f47e6b10934bee1250",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 127083; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16695,
+      "sourceId": "derived-294bce8d22a4e89f684e161a06856929ce0a2ba4e210033a12c0b70d89d1cf13",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 127299; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16699,
+      "sourceId": "derived-c6b1fd0197d670d53559c73b8db867d0aa0300eb1c22f666ddbbe42ecd2829b2",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: 142290; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16702,
+      "sourceId": "derived-8c8da1d6f5326e048470215bb78497c4608d063f9fe47c44d9f9b340275c07f0",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u0423\u043b\u0438\u0446\u0430 \u0423\u0431\u043e\u0440\u0435\u0432\u0438\u0447\u0430 8; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 16704,
+      "sourceId": "derived-46c4190d747c1d360c3b2f2b408b4136937fd724aa7a796843d13a19e839e87b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: \u0423\u043b\u0438\u0446\u0430 \u0417\u0430\u0445\u0430\u0440\u043e\u0432\u0430 55; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17073,
+      "sourceId": "derived-0cffd03b62a382656502e39db636132f29cb784a5a3d0b6b93784cb941f119bf",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 627485; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17077,
+      "sourceId": "derived-89cc6b936090755eb5f35180ce76241dadeb3865415f1ce74cd920e765ac8c1a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 627753; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17079,
+      "sourceId": "derived-d301b0edf496596594f4b89ae9c0f99f2a0fef1e46acc4a9cdd5a37123dd4796",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Singapore 609934; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17120,
+      "sourceId": "derived-824b5bfbb79b78b8132b5f4893702f16040b0fec3131f131b60f0456ea4011f5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: gasan digital center; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17451,
+      "sourceId": "derived-949f4dd0a70221a4278851d3ffbb27c4f7643d1af0245037361053a438909d79",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Al Samieh Farms - Abu Dhabi - United Arab Emirates; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17569,
+      "sourceId": "derived-04fd700e142ba55a24be8dfa59f648804baceb9746827bd634d674223fe1b47e",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Petah Tikva; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17630,
+      "sourceId": "derived-b8fb5372952d87e42ad034b4b044cf8f69fd09750350e90b2facf73f99dbd96f",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 507; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17632,
+      "sourceId": "derived-e3ab6996c1f446e020dd87299b2c39c2c467d1402c4dcbb107e5c094cb683b13",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 110; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17633,
+      "sourceId": "derived-a53a5ff3a65ae89a2eaae1e174c9b447b80bbb84778409a0532df69f44b5417c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 220; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17636,
+      "sourceId": "derived-b4e6f95b5b172ab7f49166508bf3224005f91132d29f93fb5e5ae8112a1c4648",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 106; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17637,
+      "sourceId": "derived-bead353865abe3cb95d3267af8598629e781d302d699c1b19f4666c10b829a85",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 242; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17638,
+      "sourceId": "derived-21cabbad13fae13c9d99185cfd268e029862b026cb6204aab5c3b0890af821c0",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 220; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17639,
+      "sourceId": "derived-0ce249eda88523a5b0f55c459827771bf81bf43354b98fa0efc5e320524e268a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 114; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17640,
+      "sourceId": "derived-3bf4a0928fdd95a7dfde6cec7353468470f236e7f0fa64a355743266bb58253a",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 114; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17641,
+      "sourceId": "derived-931951ffa102075fa721f7cd14095611b2012798939d1a3c02254fd2f7d38c5c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 251; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17643,
+      "sourceId": "derived-c09fbaddfbf9d0fd3147ec42e106b826899bb05f11df089e9c8a5c82d0ac6a4b",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 320; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17645,
+      "sourceId": "derived-4d48b2b84b8ee528248c7fbc0af36170b373716147770cf81eae87df2fb21ba8",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 408; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17647,
+      "sourceId": "derived-0e8b7c80f0943aa6ef60349a041bee3d2b7ba08c80d4f3bbd007e182588fe7fa",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 220; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17650,
+      "sourceId": "derived-5fa5c9152c6633fb52966c8b435f92eff8e708e10c3cd3cb5bfd6c949be9af51",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 110; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17651,
+      "sourceId": "derived-ac94c5e23dc38bdf955e6cd0814fd6aef15458745bb4468f35882bad496e006c",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiw\u00e1n 114; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17653,
+      "sourceId": "derived-b6987b053f41ce6a532e21216b8e464e3a0f56069bea015adf3acb76c40c8bd5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 710; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17654,
+      "sourceId": "derived-6692d476cd778c79a2c30b03cf0269417f8e6c5ec80dfac4e82fba58b43cb4de",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 700; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17655,
+      "sourceId": "derived-11aaf84cfb4bca6320dc69a72c283967f198e92b140d5311bb44ff748b63ffe9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 330; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17657,
+      "sourceId": "derived-eb7330b26d0afac05963e1445217ccd639a80c2fc834379ff429ca736171bd71",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 241; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17661,
+      "sourceId": "derived-84d94d42922bb11a17581301a3dedc636beae20dfd0c61d805e1ff205a98c6b5",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 800; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17662,
+      "sourceId": "derived-e8ca54c0af328cd728e78c606a65ae78034a65af62f76b27161190d48f33e124",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiw\u00e1n 114; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17663,
+      "sourceId": "derived-8c413ba7c29f4033566aa6d9b05473afe56e1b6a0c37906fbb68ba07e711ad25",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 800; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17664,
+      "sourceId": "derived-21887aceb69a90d33abd015c509542e8cdeb9f430e4b2e6caa9ebaf7857c9884",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiwan 114; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17667,
+      "sourceId": "derived-c604780bb45ecc34bbeaa32c2a53270f8c79abbe9675de9ebeb5a1d90d60e4a9",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiw\u00e1n 114; supply an ISO alpha-2 code"
+    },
+    {
+      "row": 17670,
+      "sourceId": "derived-88cdb5110ee1621ada9ee154ad029dd4d7f49fca32b3e6749a822ee0dc00bcc8",
+      "status": "invalid",
+      "reason": "Unknown or ambiguous country: Taiw\u00e1n 114; supply an ISO alpha-2 code"
+    }
+  ]
+}

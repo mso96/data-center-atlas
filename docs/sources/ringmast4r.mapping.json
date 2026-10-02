@@ -1,0 +1,18 @@
+{
+  "columns": {
+    "sourceId": "sourceId", "name": "name", "operator": "operator",
+    "country": "country", "city": "city", "address": "address",
+    "latitude": "latitude", "longitude": "longitude", "description": "description",
+    "powerCapacityMw": "powerCapacityMw", "status": "status", "sourceUrl": "sourceUrl"
+  },
+  "units": {"power": "MW", "area": "m2"},
+  "countryAliases": {
+    "België":"BE", "Bélgica":"BE", "Canadá":"CA", "Chipre":"CY", "Danmark":"DK",
+    "Duitsland":"DE", "España":"ES", "Finlandia":"FI", "Grecia":"GR", "Japón":"JP",
+    "La Réunion":"RE", "Macedonia":"MK", "Malasia":"MY", "Moldávia":"MD", "México":"MX",
+    "Nederland":"NL", "Niederlande":"NL", "Noorwegen":"NO", "Norge":"NO", "Países Bajos":"NL",
+    "Polska":"PL", "República Dominicana":"DO", "România":"RO", "Rumanía":"RO", "Sudáfrica":"ZA",
+    "Suomi":"FI", "Sverige":"SE", "Svizzera":"CH", "Tailandia":"TH", "Taiwán":"TW",
+    "Turquía":"TR", "Türkiye":"TR", "Việt Nam":"VN", "България":"BG", "Россия":"RU", "香港":"HK"
+  }
+}
