@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-479e44f8652a703e0f081856dbf1754f",
+  "status": "reviewed",
+  "reviewNote": "The official IPXON Buenos Aires facility page matches Av. Belgrano 1586 and lists IFX as an available carrier, while IFX's own announcement describes a Tier III data-center rollout in Argentina without tying it to this street address. The sources do not establish IFX as the operator of the IPXON facility, so the records are not merged and no technical facts are promoted.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "The imported street address matches the IPXON Buenos Aires facility; IFX is listed as a carrier at that site rather than as the facility operator."
+  },
+  "aliases": ["IFX Networks Buenos Aires", "IFX Argentina Av. Belgrano"],
+  "sources": [
+    {
+      "id": "facility-host",
+      "title": "IPXON — official Buenos Aires data center",
+      "url": "https://cdn.ipxon.com/en-us/dc-buenos-aires-argentina",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-news",
+      "title": "IFX Networks — official Argentina Tier III data-center announcement",
+      "url": "https://ifxnetworks.com/noticias/ifx-refuerza-su-infraestructura-cloud-en-argentina-con-un-data-center-tier-iii",
+      "accessedAt": "2026-10-02",
+      "publishedAt": "2025-09-19"
+    }
+  ],
+  "facts": []
+}
