@@ -1,0 +1,165 @@
+{
+  "facilityId": "dc-36dfb689603562a7b9ad57a5b7baedf8",
+  "status": "reviewed",
+  "reviewNote": "Cirion's official BUE1 page and technical specification sheet match the imported Av. del Campo 1301 address. The imported operator name is CenturyLink, the former brand for this facility; current operator materials identify it as Cirion BUE1. Published figures are kept with their stated units and scope.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Buenos Aires / BUE1 and Av. del Campo 1301 match. Cirion is recorded as the current operator source while CenturyLink is preserved as the imported legacy operator name."
+  },
+  "aliases": ["Cirion BUE1", "Buenos Aires Data Center BUE1", "CenturyLink Buenos Aires", "Buenos Aires/Artigas"],
+  "sources": [
+    {
+      "id": "operator-page",
+      "title": "Cirion — Buenos Aires Data Center (BUE1)",
+      "url": "https://www.ciriontechnologies.com/en/data-center/our-data-centers/buenos-aires-1/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    },
+    {
+      "id": "operator-specs",
+      "title": "Cirion — BUE1 technical specification sheet",
+      "url": "https://lp.ciriontechnologies.com/hubfs/Other%20Files/Downloadable%20Assets/data-sheet-web/cirion-technologies-data-center-spec-sheet-bue1-eng.pdf",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-0",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "Av. del Campo 1301, Chacarita, Buenos Aires, Argentina",
+      "sourceIds": ["operator-page", "operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility profile",
+      "value": "Carrier-neutral interconnection hub with colocation, bare metal, private cloud, managed hosting and interconnection services",
+      "sourceIds": ["operator-page", "operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Power",
+      "value": "7 MW installed",
+      "sourceIds": ["operator-page", "operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Total area",
+      "value": "5,198 m²",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Floor area",
+      "value": "9,788 m²",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation space",
+      "value": "2,541 m²",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Rack capacity",
+      "value": "815 rack positions",
+      "sourceIds": ["operator-page", "operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Power",
+      "label": "Power redundancy",
+      "value": "N+N (2N) UPS and standby power redundancy",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Power",
+      "label": "Generators",
+      "value": "1×1250 kVA + 3×1100 kVA, 4×650 kVA and 2×1875 kVA diesel generators",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1 cooling with CRAC units",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-10",
+      "section": "specs",
+      "category": "Security",
+      "label": "Physical security",
+      "value": "Mantrap entry, card and biometric readers, CCTV with 90-day retention, motion detection and 24/7 onsite security",
+      "sourceIds": ["operator-page", "operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-11",
+      "section": "specs",
+      "category": "Security",
+      "label": "Fire protection",
+      "value": "FM200 fire suppression",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-12",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Certifications",
+      "value": "ISO 9001, ISO 27001, ISO 27017, ISO 27018, ISAE3402 SOC 1 and PCI-DSS 4.0",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-13",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Interconnection",
+      "value": "100+ network providers, thousands of cross-connects and cloud on-ramps including AWS, Google and Oracle",
+      "sourceIds": ["operator-page", "operator-specs"],
+      "status": "verified"
+    },
+    {
+      "id": "fact-14",
+      "section": "specs",
+      "category": "Power",
+      "label": "Renewable energy",
+      "value": "25% hydroelectric energy",
+      "sourceIds": ["operator-specs"],
+      "status": "verified"
+    }
+  ]
+}

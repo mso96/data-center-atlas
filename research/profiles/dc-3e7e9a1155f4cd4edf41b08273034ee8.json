@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-3e7e9a1155f4cd4edf41b08273034ee8",
+  "status": "reviewed",
+  "reviewNote": "The imported Neutrona Buenos Aires 2 record uses Av. Isabel La Catolica 1324, but the available facility listings associate that address with a Telxius Barracas POP. Telxius' official colocation materials describe its services and Argentina coverage but do not identify a Neutrona facility at this address. The operators are not merged and no facts are promoted.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The imported Neutrona identity could not be matched to an official operator facility page; the address appears associated with a different operator in non-authoritative listings."
+  },
+  "aliases": ["Neutrona Buenos Aires 2"],
+  "sources": [
+    {
+      "id": "telxius-colocation",
+      "title": "Telxius — official colocation service and Argentina coverage",
+      "url": "https://telxius.com/en/our-solutions/infraestructura/colocation/",
+      "accessedAt": "2026-10-02",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
