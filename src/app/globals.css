@@ -1,26 +1,48 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --background: #050505;
+  --sidebar: #0B0B0B;
+  --elevated: #141414;
+  --border: #262626;
+  --foreground: #F5F5F5;
+  --secondary-text: #A3A3A3;
+  --accent: #F97316;
+  --radius: 0.375rem;
 }
-
 @theme inline {
   --color-background: var(--background);
+  --color-sidebar: var(--sidebar);
+  --color-elevated: var(--elevated);
+  --color-card: var(--elevated);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--elevated);
+  --color-popover-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-input: var(--border);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-secondary-text: var(--secondary-text);
+  --color-muted: var(--elevated);
+  --color-muted-foreground: var(--secondary-text);
+  --color-secondary: var(--elevated);
+  --color-secondary-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--background);
+  --color-primary: var(--accent);
+  --color-primary-foreground: var(--background);
+  --color-ring: var(--accent);
+  --color-destructive: #ef4444;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --radius-sm: calc(var(--radius) * 0.75);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) * 1.5);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * { @apply border-border; }
+  body { @apply m-0 bg-background text-foreground font-sans antialiased; }
 }
