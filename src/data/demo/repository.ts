@@ -32,7 +32,8 @@ export class DemoDataCenterRepository implements DataCenterRepository {
     }
     return {
       countries: [...countries].map(([code, name]) => ({ code, name })).sort((a, b) => a.name.localeCompare(b.name)),
-      cities: distinct(records.map(record => record.city)),
+      // Numeric source fragments and phone numbers are not city choices.
+      cities: distinct(records.map(record => record.city)).filter(city => /\p{L}/u.test(city) && !/^[+#]/.test(city.trim())),
       operators: distinct(records.map(record => record.operator)),
       statuses: [...new Set(records.flatMap(record => record.status ? [record.status] : []))].sort(),
     };

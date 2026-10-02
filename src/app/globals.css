@@ -185,3 +185,10 @@ input:disabled, select:disabled { cursor: not-allowed; opacity: .5; }
 .dataset-credit a { display: block; color: var(--primary-text); text-decoration: underline; text-underline-offset: 3px; }
 .dataset-credit span { display: block; margin-top: 3px; }
 @media (max-width: 767px) { .dataset-credit { bottom: 70px; left: 12px; right: 54px; max-width: 300px; padding: 6px 8px; font-size: 9px; } }
+
+.detail-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+.detail-badges:empty { display: none; }
+.detail-fields > div:first-child { border-top: 0; }
+.detail-source { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); }
+.detail-source .source-link { margin-top: 0; }
+.detail-source p { margin-top: 8px; font-size: 11px; line-height: 1.6; color: var(--secondary-text); }

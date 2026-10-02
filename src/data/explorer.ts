@@ -11,7 +11,7 @@ export async function loadExplorer(repository: DataCenterRepository, query: Expl
   const globalOptions = await repository.getFilterOptions();
   const scopedOptions = query.filters.countryCode ? await repository.getFilterOptions({countryCode:query.filters.countryCode}) : globalOptions;
   const filters = {...query.filters};
-  if (filters.city && filters.countryCode && !scopedOptions.cities.some(city => city.toLowerCase() === filters.city!.toLowerCase())) delete filters.city;
+  if (filters.city && !scopedOptions.cities.some(city => city.toLowerCase() === filters.city!.toLowerCase())) delete filters.city;
   let page = await repository.list(filters,{page:query.page,pageSize:20});
   if(page.page > Math.max(1,page.totalPages)) page = await repository.list(filters,{page:Math.max(1,page.totalPages),pageSize:20});
   const features = await repository.getMapFeatures(filters);
