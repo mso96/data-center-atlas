@@ -7,7 +7,7 @@ export async function GET(request: Request) {
   try {
     const context = openRepository();
     try {
-      const result = await loadExplorer(context.repository,parseQuery(new URL(request.url).searchParams),context.mode);
+      const result = await loadExplorer(context.repository,parseQuery(new URL(request.url).searchParams),context.mode,context.dataset);
       return Response.json(result,{headers:{"Cache-Control":"no-store"}});
     } finally { context.close(); }
   } catch(error) {

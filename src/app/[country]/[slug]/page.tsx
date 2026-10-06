@@ -20,7 +20,7 @@ const loadFacility = cache(async (country:string,slug:string) => {
  try {
   const facility=await context.repository.getByPath(`/${country}/${slug}`);
   if(!facility || !hasValidCoordinates(facility)) notFound();
-  return {facility,profile:context.getResearch(facility.id)};
+  return {facility,profile:await context.getResearch(facility.id)};
  } finally { context.close(); }
 });
 export async function generateMetadata({params}:Props):Promise<Metadata> {

@@ -46,3 +46,8 @@ next-env.d.ts
 /data/
 *.sqlite
 *.sqlite-*
+
+# Cloudflare build output, local bindings and credentials
+.open-next/
+.wrangler/
+.dev.vars*

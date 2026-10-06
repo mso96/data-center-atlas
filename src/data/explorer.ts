@@ -6,7 +6,7 @@ export interface ExplorerResult {
   query: ExplorerQuery; page: FacilityPage; options: FilterOptions; features: MapFeatures;
   selected: PublicFacility | null; mode: "demo" | "imported";
 }
-export async function loadExplorer(repository: DataCenterRepository, query: ExplorerQuery, mode: "demo"|"imported"): Promise<ExplorerResult> {
+export async function loadExplorer(repository: DataCenterRepository, query: ExplorerQuery, mode: "demo"|"imported", dataset = process.env.ATLAS_DATASET): Promise<ExplorerResult> {
   const globalOptions = await repository.getFilterOptions({mappedOnly:true});
   const scopedOptions = query.filters.countryCode ? await repository.getFilterOptions({countryCode:query.filters.countryCode,mappedOnly:true}) : globalOptions;
   const filters = {...query.filters,mappedOnly:true};
@@ -16,6 +16,6 @@ export async function loadExplorer(repository: DataCenterRepository, query: Expl
   const features = await repository.getMapFeatures(filters);
   const candidate = query.selectedId ? await repository.getById(query.selectedId) : null;
   const selected = candidate && matchesFilters(candidate,filters) ? candidate : null;
-  return { dataset: mode === "imported" && process.env.ATLAS_DATASET === "ringmast4r" ? { label:"Data centers (c) Ringmast4r — Global-Data-Center-Map", url:"https://github.com/Ringmast4r/Global-Data-Center-Map", notice:"Locations are approximate and may be city or regional centroids." } : null, query:{filters,page:page.page,selectedId:selected?.id ?? null},page,features,selected,mode,
+  return { dataset: mode === "imported" && dataset === "ringmast4r" ? { label:"Data centers (c) Ringmast4r — Global-Data-Center-Map", url:"https://github.com/Ringmast4r/Global-Data-Center-Map", notice:"Locations are approximate and may be city or regional centroids." } : null, query:{filters,page:page.page,selectedId:selected?.id ?? null},page,features,selected,mode,
     options:{...globalOptions,cities:scopedOptions.cities} };
 }

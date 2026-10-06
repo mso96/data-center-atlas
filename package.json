@@ -14,7 +14,16 @@
     "prebuild": "node scripts/copy-maplibre-worker.mjs",
     "db:migrate": "node --import tsx scripts/migrate.ts",
     "import": "node --import tsx scripts/import.ts",
-    "research": "node --import tsx scripts/research.ts"
+    "research": "node --import tsx scripts/research.ts",
+    "cf:types": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts --include-runtime=false",
+    "cf:build": "ATLAS_RUNTIME=cloudflare opennextjs-cloudflare build && node scripts/check-cloudflare-bundle.mjs",
+    "cf:preview": "opennextjs-cloudflare preview --port 3002",
+    "cf:deploy": "node scripts/check-cloudflare-deploy.mjs && npm run cf:build && opennextjs-cloudflare deploy",
+    "cf:db:migrate:local": "wrangler d1 migrations apply atlas --local",
+    "cf:db:migrate:remote": "wrangler d1 migrations apply atlas --remote",
+    "cf:db:export": "node --import tsx scripts/export-d1.ts",
+    "cf:db:import:local": "wrangler d1 execute atlas --local --file data/d1-snapshot.sql",
+    "cf:db:import:remote": "wrangler d1 execute atlas --remote --file data/d1-snapshot.sql"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
@@ -33,6 +42,8 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261006.1",
+    "@opennextjs/cloudflare": "^1.20.8",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.19.1",
     "@types/react": "^19",
@@ -41,7 +52,8 @@
     "eslint-config-next": "16.3.8",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.147.0"
   },
   "engines": {
     "node": ">=22.13.0"

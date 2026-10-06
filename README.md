@@ -2,7 +2,7 @@
 
 Completed three-phase application: a black facility explorer with OpenFreeMap Dark,
 MapLibre globe/clusters, synchronized URL selection, search and filters, and a
-replaceable demo/SQLite repository.
+replaceable demo/SQLite/D1 repository.
 
 **The public explorer shows 6,086 mapped Ringmast4r facilities.**
 All have separate Overview, Specs and Location pages. Unmapped records remain in
@@ -18,9 +18,10 @@ npm run dev
 ```
 
 Open http://localhost:3000. Requires Node >=22.13. Map worker assets are generated
-before dev/build. Run `npm run validate` for lint, type checking, 24 tests, and build.
+before dev/build. Run `npm run validate` for lint, type checking, 25 tests, and build.
 
 - [Project plan and verification](PROJECT_PLAN.md)
+- [Cloudflare Workers + D1 setup](CLOUDFLARE.md)
 - [SQLite setup and deployment](docs/DEPLOYMENT.md)
 - [Authorized CSV/GeoJSON imports and column mappings](docs/DATA_IMPORT.md)
 

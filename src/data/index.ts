@@ -5,11 +5,11 @@ import { DemoDataCenterRepository } from "./demo/repository";
 import { SqliteDataCenterRepository } from "./sqlite/repository";
 import { openDatabase, defaultDatabasePath } from "./sqlite/database";
 import type { DataCenterRepository } from "./repository";
-export function openRepository(): { repository: DataCenterRepository; mode: "demo" | "imported"; close: () => void; getResearch: (id:string) => ResearchProfile | null } {
+export function openRepository(): { repository: DataCenterRepository; mode: "demo" | "imported"; dataset: string | undefined; close: () => void; getResearch: (id:string) => ResearchProfile | null | Promise<ResearchProfile | null> } {
   const mode = process.env.ATLAS_DATA_MODE ?? "demo";
-  if (mode === "demo") return { repository: new DemoDataCenterRepository(), mode, getResearch:()=>null, close() {} };
+  if (mode === "demo") return { repository: new DemoDataCenterRepository(), mode, dataset: process.env.ATLAS_DATASET, getResearch:()=>null, close() {} };
   if (mode !== "imported") throw new Error("ATLAS_DATA_MODE must be demo or imported");
   const db = openDatabase(defaultDatabasePath(), true);
   db.exec("BEGIN"); // One consistent read snapshot across list, counts, and map.
-  return { repository: new SqliteDataCenterRepository(db), mode, getResearch:id=>getProfile(db,id), close: () => db.close() };
+  return { repository: new SqliteDataCenterRepository(db), mode, dataset: process.env.ATLAS_DATASET, getResearch:id=>getProfile(db,id), close: () => db.close() };
 }

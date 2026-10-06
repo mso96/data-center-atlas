@@ -176,9 +176,9 @@ application code has no map-specific React lint exemptions.
   automated retrieval, external database reuse and redistribution without permission.
   Obtain a licensed export and confirm this application's audience/display/API rights.
   No website facility records were scraped and no live integration is claimed.
-- **Hosting:** imported mode needs persistent local storage, migrations, backups and
-  an appropriate Node runtime. SQLite WAL is not suitable for ephemeral/serverless
-  disk or a shared network filesystem. Larger deployments can replace the adapter.
+- **Hosting:** Node hosting uses persistent SQLite storage. Cloudflare Workers uses
+  the D1 adapter described in [CLOUDFLARE.md](CLOUDFLARE.md); SQLite is never bundled
+  into the Worker. Remote account setup and the first remote data import remain deployment steps.
 - **Map service:** WebGL and access to OpenFreeMap are required. Its official Dark
   style references `circle-11`, absent from its published sprite; this can emit a
   nonfatal upstream warning. Geographic styling has not been altered to hide it.
@@ -216,3 +216,26 @@ application code has no map-specific React lint exemptions.
   22 reviewed without publishable facility facts, and six still in progress.
   See [the progress report](docs/RESEARCH_2026-10-06.md) and its evidence limitations.
   No claim is made that all 50 reviews, or the full 1,000, are complete.
+
+
+## Cloudflare preparation (October 6)
+
+- OpenNext 1.20.8 packages the existing Next.js 16.3.8 app for Workers. Node/SQLite
+  development and administrative imports remain available. Cloudflare builds replace
+  only the server repository entry point; a bundle check rejects native SQLite leakage.
+- D1 implements list/search/filter/pagination, verified-first ordering, map features,
+  stable country URLs and research/website lookup. Bindings are obtained per request;
+  D1 sessions provide sequential consistency. Publish new immutable database snapshots
+  rather than editing the live database during multi-query reads.
+- All three migrations work in D1. The local snapshot contains 17,875 stored facilities,
+  6,086 mapped facilities, 17,875 routes, 1,000 queue entries, 190 research profiles,
+  184 source entries and 422 facts. Profile count includes pending/in-progress records;
+  it does not mean 190 verified/enriched facilities.
+- Export produces ignored SQL plus a SHA-256/count manifest. Repeatable upserts retain
+  IDs, links and research and never delete absent records. No public write route was added.
+- D1 round-trip/parity test passes alongside all 24 existing tests (25 total), covering
+  combined filters, pagination, source verification, missing coordinates, hidden demo
+  records, profile/website preservation, repeated imports and unavailable storage.
+- Cloudflare production packaging and local D1 preview are verified. This is deployment
+  preparation, **not a live Cloudflare deployment**. Set a real D1 ID and public site URL,
+  import/verify the remote snapshot, then deploy using [CLOUDFLARE.md](CLOUDFLARE.md).
