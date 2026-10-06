@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-e6c401c318709c79117667c0792e7206",
+  "status": "reviewed",
+  "reviewNote": "Microsoft documents Brazil cloud-region investment, but the imported São Paulo address is a placeholder. Region launch dates and investment totals do not identify a single data centre or its capacity.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Microsoft documents Brazil cloud-region investment, but the imported São Paulo address is a placeholder. Region launch dates and investment totals do not identify a single data centre or its capacity."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/",
+      "title": "Microsoft — Brazil cloud and AI investment",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2024-09-26"
+    }
+  ],
+  "facts": []
+}

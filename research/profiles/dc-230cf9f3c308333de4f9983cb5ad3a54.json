@@ -1,0 +1,15 @@
+{
+  "facilityId": "dc-230cf9f3c308333de4f9983cb5ad3a54",
+  "status": "in-progress",
+  "reviewNote": "Primary site was not readable; third-party suite listings do not verify the imported rooftop address. Research remains in progress; no published facts. Checked/attempted: https://www.nbtelecom.com.br/",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Primary site was not readable; third-party suite listings do not verify the imported rooftop address. Research remains in progress; no published facts. Checked/attempted: https://www.nbtelecom.com.br/"
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

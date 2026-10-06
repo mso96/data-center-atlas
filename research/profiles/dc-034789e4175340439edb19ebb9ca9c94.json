@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-034789e4175340439edb19ebb9ca9c94",
+  "status": "reviewed",
+  "reviewNote": "IBM’s 2014 earnings remarks confirm a Toronto cloud opening without a street address. This does not bind the imported SoftLayer record at the multi-tenant 151 Front building to that facility. Host-building and other tenants’ specifications were excluded.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "IBM’s 2014 earnings remarks confirm a Toronto cloud opening without a street address. This does not bind the imported SoftLayer record at the multi-tenant 151 Front building to that facility. Host-building and other tenants’ specifications were excluded."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.ibm.com/investor/att/pdf/3Q14-Prepared-Remarks.pdf",
+      "title": "IBM — third-quarter 2014 prepared remarks",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

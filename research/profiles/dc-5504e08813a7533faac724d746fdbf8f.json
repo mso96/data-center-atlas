@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-5504e08813a7533faac724d746fdbf8f",
+  "status": "reviewed",
+  "reviewNote": "ISOCEL’s 2020 procurement notice identifies company headquarters on the seventh floor of Tour Notre Dame de la Miséricorde, Avenue Clozel. This supports an office at the named tower, but does not establish data-centre use or technical specifications. No verified facility facts published.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "ISOCEL’s 2020 procurement notice identifies company headquarters on the seventh floor of Tour Notre Dame de la Miséricorde, Avenue Clozel. This supports an office at the named tower, but does not establish data-centre use or technical specifications. No verified facility facts published."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://isoceltelecom.com/wp-content/uploads/2020/02/AMI_ISOCEL_2020.pdf",
+      "title": "ISOCEL — 2020 procurement notice",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

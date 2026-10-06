@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-22f71408787e2fabe6d784a0d2d8b28b",
+  "status": "reviewed",
+  "reviewNote": "The official operating site is Wallonie Data Center at Rue de la Métallurgie 17, Villers-le-Bouillet. The imported operator 'Warsaw Data Center' is inconsistent with this Belgian legal entity. Flagged as an operator-identity error; no Wallonie specifications are attached to a Warsaw-labelled record without an explicit base-data correction.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "The official operating site is Wallonie Data Center at Rue de la Métallurgie 17, Villers-le-Bouillet. The imported operator 'Warsaw Data Center' is inconsistent with this Belgian legal entity. Flagged as an operator-identity error; no Wallonie specifications are attached to a Warsaw-labelled record without an explicit base-data correction."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.waldc.be/fr/mentions-legales",
+      "title": "Wallonie Data Center legal identity",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.waldc.be/en",
+      "title": "Wallonie Data Center facility",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

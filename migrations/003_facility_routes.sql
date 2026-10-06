@@ -1,0 +1,4 @@
+CREATE TABLE facility_routes (
+  facility_id TEXT PRIMARY KEY REFERENCES facilities(id) ON DELETE CASCADE,
+  path TEXT NOT NULL UNIQUE
+) STRICT;

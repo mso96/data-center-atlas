@@ -1,0 +1,151 @@
+{
+  "facilityId": "dc-04de3cb9457767aab40e0564c0b5f8dc",
+  "status": "reviewed",
+  "reviewNote": "Matched the named BIH campus and operator. Official contact-page map centres near the imported campus point; Plot 69184 supplies the previously missing address. Campus identity is verified, not the precise data-hall position. Tier III is an operator compliance claim, not an independently checked certification.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "BIH name and operator match the BDIH campus. Official embedded map centre is -24.588363, 25.908803, approximately 200 m from the imported point (-24.5884854, 25.9068847). The official campus address is Plot 69184, Block 8. This does not validate building-level coordinates."
+  },
+  "website": {
+    "url": "https://www.bih.co.bw/bdih-data-centre/",
+    "label": "BDIH Data Centre",
+    "kind": "facility",
+    "sourceIds": [
+      "operator",
+      "location"
+    ]
+  },
+  "aliases": [
+    "Botswana Digital & Innovation Hub Data Centre"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.bih.co.bw/bdih-data-centre/",
+      "title": "BDIH Data Centre — official facility specification",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    },
+    {
+      "id": "location",
+      "url": "https://www.bih.co.bw/contact-us/",
+      "title": "BDIH — campus address and embedded location map",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "The Botswana Digital & Innovation Hub provides colocation at its Gaborone Science and Technology Park campus.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "Services",
+      "label": "Colocation options",
+      "value": "Full, half and quarter racks",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Rack capacity",
+      "value": "80 racks",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Power infrastructure",
+      "value": "Two independent circuits, UPS and two backup generators",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling resilience",
+      "value": "Redundant cooling; no numeric redundancy rating published",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Network access",
+      "value": "Carrier-neutral; Bofinet, VBN and BTC listed, with redundant fibre and a meet-me room",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access and monitoring",
+      "value": "Guards, electric fencing, biometric access and 24-hour CCTV",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Tier statement",
+      "value": "Operator describes Tier III compliance; independent certification not confirmed",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "location",
+      "category": "Location",
+      "label": "Published campus address",
+      "value": "Plot 69184, Block 8, Science and Technology Park, Gaborone, Botswana",
+      "sourceIds": [
+        "location"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-10",
+      "section": "location",
+      "category": "Location",
+      "label": "Location scope",
+      "value": "Campus location only; the exact data-hall position has not been verified.",
+      "sourceIds": [
+        "location"
+      ],
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "facilityId": "dc-6a4cf79f64c736e919ceac2b383ba835",
+  "status": "reviewed",
+  "reviewNote": "Historical operator supplement names 1-11 Templar Road, matching the imported street address; current SYD10 page uses 1-12. The imported name 1-21 is retained as a legacy label, not treated as a separate campus. Current technical facts are withheld because the street range changed.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Historical operator supplement names 1-11 Templar Road, matching the imported street address; current SYD10 page uses 1-12. The imported name 1-21 is retained as a legacy label, not treated as a separate campus. Current technical facts are withheld because the street range changed."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.digitalrealty.com/data-centers/asia-pacific/sydney/syd10",
+      "title": "Digital Realty SYD10",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://investor.digitalrealty.com/static-files/3ebb6f07-8955-45c2-96fa-1c9d14bdb8b7",
+      "title": "Digital Realty 3Q17 financial supplement",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Historical operator address",
+      "value": "1–11 Templar Road, Erskine Park, Australia (2017 operator portfolio)",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "History",
+      "label": "Address discrepancy",
+      "value": "Current SYD10 page uses 1–12 Templar Road; the imported street range requires reconciliation.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ]
+}

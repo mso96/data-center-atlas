@@ -1,0 +1,89 @@
+{
+  "facilityId": "dc-d6e2b4f671e559d17eb51b93e6669140",
+  "status": "reviewed",
+  "reviewNote": "72 Radnor Drive and Digital Realty match the current MEL11 operator page. Building size is not colocation white space.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "72 Radnor Drive and Digital Realty match the current MEL11 operator page. Building size is not colocation white space."
+  },
+  "aliases": [
+    "MEL11",
+    "Digital Realty MEL11"
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.digitalrealty.com/data-centers/asia-pacific/melbourne/mel11",
+      "title": "Digital Realty MEL11",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "MEL11 is Digital Realty's single-storey data center at Deer Park in metropolitan Melbourne.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "location",
+      "category": "Location",
+      "label": "Address",
+      "value": "72 Radnor Drive, Deer Park, VIC 3023, Australia",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Total building size",
+      "value": "8,700 m²",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "2N",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.digitalrealty.com/data-centers/asia-pacific/melbourne/mel11",
+    "label": "Digital Realty MEL11",
+    "kind": "facility",
+    "sourceIds": [
+      "source-1"
+    ]
+  }
+}

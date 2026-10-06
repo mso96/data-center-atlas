@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-700c5167478f93b6326d157f624a1416",
+  "status": "reviewed",
+  "reviewNote": "The official archived provider list identifies ÖBB Telekom Service GmbH at Brünnerstraße 20. This confirms a historical company address only, not a current data-center operation, capacity or colocation offering. No facility specifications published.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The official archived provider list identifies ÖBB Telekom Service GmbH at Brünnerstraße 20. This confirms a historical company address only, not a current data-center operation, capacity or colocation offering. No facility specifications published."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.parlament.gv.at/dokument/XXV/AB/2466/imfname_375178.pdf",
+      "title": "Austrian Parliament archived provider list",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

@@ -1,0 +1,198 @@
+{
+  "facilityId": "dc-0aacf571e7b6f386474ce70ca78941fa",
+  "status": "reviewed",
+  "reviewNote": "The operator-authored September 2019 handbook (printed page 11 / PDF page 12) identifies CBR1-A at 19 Battye Street as a third-party location with minimum density of 150 W/ft². NEXTDC’s official Canberra page matches this address to C1. C1 building-level specifications are included only with explicit host-building labels and a scope note; no building totals are assigned to Cyxtera. Current tenancy, Cyxtera allocation and service availability remain unverified.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The operator-authored September 2019 handbook (printed page 11 / PDF page 12) identifies CBR1-A at 19 Battye Street as a third-party location with minimum density of 150 W/ft². NEXTDC’s official Canberra page matches this address to C1. C1 building-level specifications are included only with explicit host-building labels and a scope note; no building totals are assigned to Cyxtera. Current tenancy, Cyxtera allocation and service availability remain unverified."
+  },
+  "aliases": [
+    "CBR1-A"
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.arrow.com/globalecs-media/immix-group-files/manual/28C_GS-35F-0511T_Cyxtera%20Customer-Guide-Handbook.pdf",
+      "title": "Cyxtera customer handbook v10.13 (operator-authored, hosted by Arrow)",
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2019-09-05"
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.nextdc.com/contact",
+      "title": "NEXTDC facility addresses",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "nextdc-c1",
+      "url": "https://www.nextdc.com/data-centres/canberra-data-centres/c1-canberra",
+      "title": "NEXTDC C1 Canberra — facility specifications",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "nextdc-canberra-specs",
+      "url": "https://www.nextdc.com/data-centres/canberra-data-centres-colocation",
+      "title": "NEXTDC Canberra — C1 address and technical specifications",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Historical service address",
+      "value": "19 Battye Street, Bruce, ACT 2617, Australia",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "History",
+      "label": "Service presence",
+      "value": "Cyxtera's September 2019 handbook lists CBR1-A as a third-party location. This identifies a service presence, not a separate Cyxtera-owned building.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spec-scope",
+      "section": "specs",
+      "category": "Summary",
+      "label": "Specification scope",
+      "value": "This record describes Cyxtera’s historical CBR1-A service presence at 19 Battye Street. NEXTDC identifies the building as C1 Canberra. Host-building figures below describe NEXTDC C1, not Cyxtera’s allocated space or power. Current Cyxtera tenancy and service availability have not been verified.",
+      "sourceIds": [
+        "source-1",
+        "nextdc-canberra-specs"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "historical-power-density",
+      "section": "specs",
+      "category": "Power",
+      "label": "CBR1-A minimum power density (2019)",
+      "value": "150 W/ft², listed in Cyxtera’s September 2019 handbook; historical specification, not a current service commitment.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-it-load",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Host building — target IT capacity",
+      "value": "NEXTDC C1: approximately 4.4 MW across the facility.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-technical-space",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Host building — technical space",
+      "value": "NEXTDC C1: 2,260 m²; not Cyxtera’s leased area.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-racks",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Host building — rack capacity",
+      "value": "NEXTDC C1: 1,000 racks.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-power-redundancy",
+      "section": "specs",
+      "category": "Power",
+      "label": "Host building — power redundancy",
+      "value": "NEXTDC C1: minimum N+1 supply redundancy; N+N final distribution to racks.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-fuel",
+      "section": "specs",
+      "category": "Power",
+      "label": "Host building — onsite fuel",
+      "value": "NEXTDC C1: minimum 24-hour fuel reserve.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-pue",
+      "section": "specs",
+      "category": "Power",
+      "label": "Host building — target PUE",
+      "value": "NEXTDC C1: 1.4 design target; not a measured current result.",
+      "sourceIds": [
+        "nextdc-canberra-specs"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-cooling",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Host building — cooling redundancy",
+      "value": "NEXTDC C1: N+1 water-cooled chillers, cooling towers and pumps; N+2 CRAC units per data hall.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-connectivity",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Host building — connectivity",
+      "value": "NEXTDC C1: diverse underground pathways, dedicated interconnect rooms and ICON Fibre access.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "host-security",
+      "section": "specs",
+      "category": "Security",
+      "label": "Host building — physical security",
+      "value": "NEXTDC C1: onsite security around the clock, biometric access and motion-sensitive CCTV.",
+      "sourceIds": [
+        "nextdc-c1"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.nextdc.com/data-centres/canberra-data-centres/c1-canberra",
+    "label": "NEXTDC C1 Canberra",
+    "kind": "host-facility",
+    "sourceIds": [
+      "nextdc-c1"
+    ]
+  }
+}

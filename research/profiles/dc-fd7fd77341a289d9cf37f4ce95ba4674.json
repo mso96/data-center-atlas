@@ -8,7 +8,11 @@
     "addressMatched": true,
     "notes": "Multipla Data Center / AZCloud, Multipla and Estrada de Viana KM 19, Luanda match the imported record."
   },
-  "aliases": ["Multipla Data Center", "AZCloud Data Centre", "Datacenter MULTIPLA"],
+  "aliases": [
+    "Multipla Data Center",
+    "AZCloud Data Centre",
+    "Datacenter MULTIPLA"
+  ],
   "sources": [
     {
       "id": "operator-contact",
@@ -39,7 +43,9 @@
       "category": "Location",
       "label": "Operator-published address",
       "value": "Estrada de Viana KM 19, Luanda, Angola",
-      "sourceIds": ["operator-contact"],
+      "sourceIds": [
+        "operator-contact"
+      ],
       "status": "verified"
     },
     {
@@ -48,7 +54,9 @@
       "category": "Summary",
       "label": "Facility role",
       "value": "Main site or disaster-recovery site for customer equipment and applications",
-      "sourceIds": ["operator-colocation"],
+      "sourceIds": [
+        "operator-colocation"
+      ],
       "status": "verified"
     },
     {
@@ -57,7 +65,9 @@
       "category": "Power",
       "label": "Available power",
       "value": "1 MW",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -66,7 +76,9 @@
       "category": "Cooling",
       "label": "Cooling",
       "value": "Distributed InRow cooling technology",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -75,7 +87,9 @@
       "category": "Cooling",
       "label": "Maintainability",
       "value": "Designed to permit concurrent maintenance",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -84,7 +98,9 @@
       "category": "Security",
       "label": "Physical security",
       "value": "Six security barriers and CCTV",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -93,7 +109,9 @@
       "category": "Security",
       "label": "Environmental protection",
       "value": "Fire and flood protection",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -102,7 +120,10 @@
       "category": "Security",
       "label": "Monitoring",
       "value": "24/7 monitoring",
-      "sourceIds": ["operator-specs", "operator-colocation"],
+      "sourceIds": [
+        "operator-specs",
+        "operator-colocation"
+      ],
       "status": "verified"
     },
     {
@@ -111,7 +132,9 @@
       "category": "Connectivity",
       "label": "Carrier and network connectivity",
       "value": "Carrier-neutral facility with 9 ISPs, 2 international carriers and connections to national Internet Exchange Points",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -120,8 +143,18 @@
       "category": "Services",
       "label": "Services",
       "value": "Colocation, cloud, NOC, storage and backup services",
-      "sourceIds": ["operator-colocation"],
+      "sourceIds": [
+        "operator-colocation"
+      ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://multipla.co.ao/service/colocation/",
+    "label": "Múltipla",
+    "kind": "operator",
+    "sourceIds": [
+      "operator-colocation"
+    ]
+  }
 }

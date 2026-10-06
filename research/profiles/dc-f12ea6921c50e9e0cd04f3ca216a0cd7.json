@@ -1,44 +1,110 @@
 {
   "facilityId": "dc-f12ea6921c50e9e0cd04f3ca216a0cd7",
   "status": "reviewed",
-  "reviewNote": "The official Equinix IBX Sustainability Quick Reference Guide was checked for the Sao Paulo 2 metro and address. The imported operator, metro and address are retained as the facility identity. The public reference does not provide a facility-specific capacity, Tier, PUE, cooling or security value for this record, so those fields remain undisclosed rather than inferred.",
+  "reviewNote": "Individually checked the operator facility page and matched the imported operator, facility and street address. Published only site-specific claims; no coordinates changed.",
   "identity": {
     "nameMatched": true,
     "operatorMatched": true,
     "addressMatched": true,
-    "notes": "Equinix facility in Tamboré, Brazil; imported address retained verbatim for traceability."
+    "notes": "Imported Sao Paulo 2 (Equinix) at Al. Araguaia 3641 Tamboré Barueri Brazil matches Equinix SP2 at Alameda Araguaia, 3641, Alphaville, Barueri 06455-000, Brazil."
   },
   "aliases": [
-    "Sao Paulo 2",
-    "Sao Paulo 2 Equinix IBX"
+    "Equinix SP2"
   ],
   "sources": [
     {
-      "id": "equinix-sustainability-qrg-2025",
-      "title": "Equinix — IBX Sustainability Quick Reference Guide",
-      "url": "https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf",
-      "accessedAt": "2026-10-03",
-      "publishedAt": null
-    },
-    {
-      "id": "equinix-data-centers",
-      "title": "Equinix — official data center portfolio",
-      "url": "https://www.equinix.com/data-centers",
-      "accessedAt": "2026-10-03",
+      "id": "operator",
+      "url": "https://www.equinix.com/data-centers/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp2",
+      "title": "Equinix SP2 — official facility information",
+      "accessedAt": "2026-10-06",
       "publishedAt": null
     }
   ],
   "facts": [
     {
-      "id": "fact-location-0",
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "Equinix SP2 provides colocation at Alameda Araguaia, 3641, Alphaville, Barueri 06455-000, Brazil. The published space refers to colocation area, not the entire building.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation area",
+      "value": "3,200 m²",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "Minimum cabinet density",
+      "value": "4 kVA (apparent power)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "2N",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+20%",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Fire suppression",
+      "value": "Novec",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
       "section": "location",
       "category": "Location",
-      "label": "Operator location reference",
-      "value": "Al. Araguaia 3641 Tamboré Barueri Brazil",
+      "label": "Published address",
+      "value": "Alameda Araguaia, 3641, Alphaville, Barueri 06455-000, Brazil",
       "sourceIds": [
-        "equinix-sustainability-qrg-2025"
+        "operator"
       ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://www.equinix.com/data-centers/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp2",
+    "label": "Equinix SP2",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
 }

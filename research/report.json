@@ -1,41 +1,46 @@
 {
-  "generatedAt": "2026-10-02T22:27:51.290Z",
+  "generatedAt": "2026-10-06T11:31:08.464Z",
   "selected": 1000,
   "states": [
     {
       "status": "in-progress",
-      "count": 2
+      "count": 11
     },
     {
       "status": "pending",
-      "count": 979
+      "count": 858
     },
     {
       "status": "reviewed",
-      "count": 19
+      "count": 131
     }
   ],
-  "enriched": 15,
+  "enriched": 57,
   "batches": [
     {
       "batch": 1,
       "status": "in-progress",
-      "count": 2
-    },
-    {
-      "batch": 1,
-      "status": "pending",
-      "count": 94
+      "count": 6
     },
     {
       "batch": 1,
       "status": "reviewed",
-      "count": 4
+      "count": 94
+    },
+    {
+      "batch": 2,
+      "status": "in-progress",
+      "count": 5
     },
     {
       "batch": 2,
       "status": "pending",
-      "count": 100
+      "count": 73
+    },
+    {
+      "batch": 2,
+      "status": "reviewed",
+      "count": 22
     },
     {
       "batch": 3,
@@ -131,608 +136,398 @@
     },
     {
       "facility_id": "dc-68ca1f82d7b61daaee292f4e6ea72797",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "ACG's official contact page confirms Asia Consultancy Group at Power Station Street, Shashdarak, Kabul, Afghanistan. The imported record names an ACG Data Center in Shash Darak Kabul, but no operator page identifies the data-center building or publishes facility-specific technical details, so no unverified DCM values are promoted."
     },
     {
       "facility_id": "dc-f69d693791852b57c25319b8e05b5b28",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Host.al's official colocation page identifies its HS1 facility in Albania and publishes A+B redundant power, dual UPS systems, N+1 power infrastructure, ANIX connectivity and BGP announcements. The imported record has no city or address, so those facility facts cannot be safely attached to this record until the source identity is address-matched."
     },
     {
       "facility_id": "dc-0e603618c46e9680c05c4d0f72cf4cdf",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "The operator's company profile identifies Armenian Datacom Company at 13/1 H. Kochar, Yerevan and describes a redundant city-wide fiber network and hosting services. ADC's own website was unavailable during review, and no operator source identifies a facility called Core Network or publishes facility-specific capacity, Tier, PUE, cooling or security values."
     },
     {
       "facility_id": "dc-a0de84add5f13c4478369ef8af11b501",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Armenia's Ministry of High-Tech Industry identifies a GNC-Alfa data-processing center under construction in Abovyan. This official facility location does not match the imported row's 4 Tigran Mets Avenue, Yerevan address, so the Abovyan project cannot be merged into this Yerevan record and no technical facts are promoted."
     },
     {
       "facility_id": "dc-857c99526a5a50f586efe44f6638660d",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-dd7ebfbb84c8700c78e8425295005b21",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-fd7fd77341a289d9cf37f4ce95ba4674",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Angola Cables' official data-center page identifies AngoNAP I in Luanda and publishes expandable hosting space up to 1,000 racks, 45U rack dimensions and Novec/HSSD fire protection. The imported row's Av. Pedro de Castro Van-Dúnem Loy address is not repeated on the official facility page, so these facts are not promoted without a direct address match."
     },
     {
       "facility_id": "dc-20328789982eb0f827593a0062f93d54",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "ACE's official submarine-cable page documents the Africa Coast to Europe system and its published landing-station list, which does not include Luanda. The imported CLS Luanda record has no city or address, so no facility-specific identity or technical facts can be safely assigned."
     },
     {
       "facility_id": "dc-9c85eb038d218340cdfbc7962f42fa8e",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Paratus' official Angola data-center page identifies Data Center 2 at the Patriota facility in Luanda, inaugurated in 2019 with capacity for more than 7,000 servers. The official fact sheet adds the Patriota/Talatona location and infrastructure details, but the imported record has no city or address, so no facility-specific facts are promoted until the source identity is address-matched."
     },
     {
       "facility_id": "dc-a0eac0a442c70b663c1c3707481730db",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-36dfb689603562a7b9ad57a5b7baedf8",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The WACS consortium's official site confirms the West Africa Cable System as a 16,000 km submarine cable with 15 terminal stations. It does not identify a Sangano facility in the published page, and the imported record has no city or address, so no location or infrastructure facts are promoted from third-party landing-point listings."
     },
     {
       "facility_id": "dc-3e7e9a1155f4cd4edf41b08273034ee8",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The imported Neutrona Buenos Aires 2 record uses Av. Isabel La Catolica 1324, but the available facility listings associate that address with a Telxius Barracas POP. Telxius' official colocation materials describe its services and Argentina coverage but do not identify a Neutrona facility at this address. The operators are not merged and no facts are promoted."
     },
     {
       "facility_id": "dc-479e44f8652a703e0f081856dbf1754f",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-52bb5e4eea84f2e76d51f8f1bb51a2e7",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The official IPXON Buenos Aires facility page matches Av. Belgrano 1586 and lists IFX as an available carrier, while IFX's own announcement describes a Tier III data-center rollout in Argentina without tying it to this street address. The sources do not establish IFX as the operator of the IPXON facility, so the records are not merged and no technical facts are promoted."
     },
     {
       "facility_id": "dc-5576aa99f00c3871c866104e6b02f3e9",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The imported Neutrona record uses Av. del Campo 1300, while the official Cirion BUE1 facility page identifies a different operator and address at Av. del Campo 1301. No official Neutrona facility page was found to establish that this record is a separate building or an operator presence at 1300, so the facilities are not merged and no facts are promoted."
     },
     {
       "facility_id": "dc-8aea7a8e0e5e606356dd9bcc3956814c",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "iPlan's official Ringo DCI documents match Los Patos 2948/2954 in Parque Patricios, Buenos Aires and publish Tier III design, rack, power and facility details. The imported operator is Ultrasitios while the official facility operator is iPlan, so the operator identities are not merged and no technical facts are promoted to this record."
     },
     {
       "facility_id": "dc-9d1494efc30d91403d0eb97adca16a4c",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-9faf60ca1f27cdb2119bd0f7f1ea0fa7",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Telecom Argentina's official integrated report confirms that the company operates five proprietary data centers, but it does not identify a facility at Av. Congreso 3684 or match that address to this named record. No facility-specific facts are promoted without an official address match."
     },
     {
       "facility_id": "dc-30e84f5ea22e371e42545e2e90828822",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-345fa8ecb20bbb458550c13557690516",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The University of Vienna's official ZID pages confirm the Vienna University Computer Center at Universitätsstraße 7, 1010 Vienna and describe it as the university's coordinated ICT service unit. The sources do not identify a public data-center facility at this address or publish facility-specific power, cooling, Tier or colocation values, so no technical facts are promoted."
     },
     {
       "facility_id": "dc-3ed223553b121c34e5ba64d10b655f7b",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "PeeringDB's current facility record matches the imported Kelag Klagenfurt name, i3b/Oja.at operator listing and Arnulfplatz 2 address. No operator-published public capacity, Tier, PUE, cooling or security values were found, so no technical facts are inferred."
     },
     {
       "facility_id": "dc-42a20e84e0c6fe01b5372ec70c86db2a",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-4aed06b23c9c70d7edaead2a370d772f",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The operator explicitly lists Vösendorf and its overview sheet lists 400 m², 120 cabinets and 460 kW for that location. Neither primary source establishes Ortsstr. 24 as this building; those specifications are withheld until the street-address match is established."
     },
     {
       "facility_id": "dc-57659a9b2be96b1e8b5e92d1938eb208",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-6ef47c02e872e6f83117c82b11b5d965",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Searched the legacy Interoute Salzburg listing and EXA successor portfolio for Schillerstrasse 30. The official network sheet includes Salzburg but does not identify this street address or building. Network-wide specifications cannot be assigned to this record."
     },
     {
       "facility_id": "dc-700c5167478f93b6326d157f624a1416",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The official archived provider list identifies ÖBB Telekom Service GmbH at Brünnerstraße 20. This confirms a historical company address only, not a current data-center operation, capacity or colocation offering. No facility specifications published."
     },
     {
       "facility_id": "dc-7bb835d5fcfdcb484a4a27e17b4ebfe9",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-6a4cf79f64c736e919ceac2b383ba835",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The operator confirms Graz, Raaba and Kalsdorf colocation locations. Its official pages do not match Neufeldweg 162 to the imported Graz record. Portfolio-wide security and power claims are withheld pending a building-level match."
     },
     {
       "facility_id": "dc-8bda9edb94d8ca788a147d6dd014e529",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-96a3c722a40dbe21a86c48f029e2b0b3",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-9ebbbb620fc58d89847bf792ca3ee26a",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "NTT's brochure describes Melbourne 1, including a Tier III design claim, but does not supply a street address. The imported record contains postcode 3004 and a Japanese telephone number rather than a building address. Cannot bind Melbourne 1 specifications to this generic record."
     },
     {
       "facility_id": "dc-aa53b71153ea00151700b99395ad6819",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-c9f03c8e6f3e23ba415b53a269de3a93",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-d6e2b4f671e559d17eb51b93e6669140",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "NTT describes Sydney 1 in its Australia brochure, but no street address connects it to the generic imported Sydney record. That record contains postcode 2000 and a Japanese telephone number. Carrier-neutral and power specifications cannot safely be attached to a specific building."
     },
     {
       "facility_id": "dc-0fbbe275f8bd9ecb5167a9cdffe74d44",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-1afdb8f84fbbf243f345a3bcf7141400",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Individually searched 1 William B and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. The A/B building distinction is not identified. No building-level claims are published; a region or Availability Zone is not a facility."
     },
     {
       "facility_id": "dc-3a0a0d84e51b2e17e90f116f651be4df",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Planning application SPP19-00013 confirms a data-center development at 10 Eastern Creek Drive, approved 6 May 2020, but does not establish Amazon as its operator. The separate 35 MW Echidna submission is not assigned to AWS without an operator identity match."
     },
     {
       "facility_id": "dc-53a6a5012988d676fd1c01a1b0fbb57e",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Individually searched 55 Donnybrook Road and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. Land-development reports do not establish an AWS building. No building-level claims are published; a region or Availability Zone is not a facility."
     },
     {
       "facility_id": "dc-697807df21bf8a80d6298daa88b19272",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Individually searched 146 Turner and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. No exact operator-issued address match was found. No building-level claims are published; a region or Availability Zone is not a facility."
     },
     {
       "facility_id": "dc-921f928274af498c97f69e070167f149",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Individually searched 1 William A and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. The A/B building distinction is not identified. No building-level claims are published; a region or Availability Zone is not a facility."
     },
     {
       "facility_id": "dc-9313e27c677d513242ced70db6d5b8ef",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The official project and SSD-10467 visual-impact assessment identify a Stockland development at 11–17 Khartoum Road and 33–39 Talavera Road. Amazon's operation of this particular building was not verified. Do not convert development specifications into AWS facility facts."
     },
     {
       "facility_id": "dc-b22847966a8b210ae1e693695e6a459d",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Individually searched 148 Turner and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. No exact operator-issued address match was found. No building-level claims are published; a region or Availability Zone is not a facility."
     },
     {
       "facility_id": "dc-b89f21ccb8e59b329f22186555914c89",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-cc541d35c6125a1486b8ccf6d6448b44",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Individually searched 22 Delivery Drive and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. No exact operator-issued address match was found. No building-level claims are published; a region or Availability Zone is not a facility."
     },
     {
       "facility_id": "dc-037a872ea77e8ef56b8d9a7887029506",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The current 5G Networks facility page matches 55 Pyrmont Bridge Road, but no primary source establishes the imported Verizon tenancy or its relationship to that operator. A matching multi-tenant address alone is insufficient; 5GN's 1.5 MW specification is not assigned to Verizon."
     },
     {
       "facility_id": "dc-05d96e9ecad08334caf3fea394949e37",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Dimension Data's brochure gives Level 6, 121–127 Harrington Street as a company contact address. It does not establish that address as a data-center building. No facility specifications inferred from office contact information."
     },
     {
       "facility_id": "dc-082d0939ef0db752b62135ee16951433",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Searched AAPT/Vocus and 180 Burnley Street individually. AAPT now redirects to Vocus, but the reviewed primary page does not identify the Richmond facility. Historical network-registration contact addresses do not prove data-center space. Imported postcode 3043 also requires correction; no facility facts published."
     },
     {
       "facility_id": "dc-0907d37b4f816bbd330c888af73804c1",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The operator has a named North Ryde facility sheet, but the imported address is only a locality. The 118 Talavera Road contact block is a company office, not an established facility address. Old sheets also differ in MVA/MW labels. No street-level match or conversion to IT capacity is asserted."
     },
     {
       "facility_id": "dc-0912553d27fbc3978ed9a4884423e41b",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The current PE1 page identifies a Perth 6004 facility, but does not explicitly link the imported Metronode Perth 1 record, whose address is only East Perth, to a specific building. Metronode acquisition at portfolio level is not enough to verify the site mapping."
     },
     {
       "facility_id": "dc-09af42ddbd232146d281a2dfa74a4f63",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "NetActuate/legacy Host Virtual has a Sydney facility page but no street address resolves the imported 'tbc' location. Its published imperial and metric building areas are inconsistent (74,000 ft² versus 18,000 m²). No size conversion or site specifications are published without identity resolution."
     },
     {
       "facility_id": "dc-0a34b84e3789e2bab28839f66faffa24",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-0aacf571e7b6f386474ce70ca78941fa",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "PIPE Networks correspondence identifies a company office at Level 17, 127 Creek Street. The imported record says Level 9. Neither this corporate letter nor an address-only listing establishes the claimed data-center space; no technical facts published."
     },
     {
       "facility_id": "dc-b5c73d2e76dda9be6a8643abc958293d",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Globalhost describes its own Bosnia and Herzegovina facility and redundancy, but the imported record has no address and the reviewed facility page does not establish a street location. The site specifications are withheld until the building can be matched."
     },
     {
       "facility_id": "dc-b4db56e5156b550f87ecda2179836f3a",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-3658aa8a4228cb442d54e0c961bf11de",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-9bb0f5172324b1a04adcc11c22de8331",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-ef8285af6f73e77bda1c665b198ab0b8",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The BCC hosting page describes a National Data Center established in 2011. BDCCL separately publishes information for the Kaliakoir national facility. The imported BCC operator and Kaliakair Highway label do not establish which organization/building the record represents. Tier IV and BDCCL rack specifications are withheld until that ambiguity is resolved."
     },
     {
       "facility_id": "dc-02744c108c2156b56453605f459b8859",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Smals lists Boulevard Industriel 25 as the Anderlecht IN site. This is an organizational location; the reviewed page and HVAC maintenance notice do not confirm a data center at that address. No office specifications are republished as facility facts."
     },
     {
       "facility_id": "dc-076c5b2f5828c7053f938dabb7345e2e",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-162fef54758a1ee45bcddbd776014647",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Verizon's corporate rules list its Belgian entities at Culliganlaan 2E. This proves a registered/company address, not a data-center operation or specifications."
     },
     {
       "facility_id": "dc-18a2e20f84e5da1bcbcdd07a8a555c09",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Searched Interoute/EXA and Leuvensesteenweg 573. EXA's primary colocation page describes its portfolio but does not establish this building. Third-party directory matches are not used as proof, and portfolio-wide specifications remain unpublished."
     },
     {
       "facility_id": "dc-22f71408787e2fabe6d784a0d2d8b28b",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The official operating site is Wallonie Data Center at Rue de la Métallurgie 17, Villers-le-Bouillet. The imported operator 'Warsaw Data Center' is inconsistent with this Belgian legal entity. Flagged as an operator-identity error; no Wallonie specifications are attached to a Warsaw-labelled record without an explicit base-data correction."
     },
     {
       "facility_id": "dc-233e7aeee265d2b1d7bff3886ed497c8",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Proximus identifies Netcenter Evere at Rue Carli 2, while the imported record says Carlistraat 2B. The group sale closed 28 February 2025, but the specific building suffix is not reconciled. Avoid assigning present-day Datacenter United capacity to an unidentified sub-building."
     },
     {
       "facility_id": "dc-388f8d3ad499bc5840117e682b80e040",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The certificate names DC Hasselt 2 at Trichterheideweg 2. A primary-source bridge from the imported Datazone operator was not located; historic directories also disagree between numbers 2 and 4. The current location list emphasizes Hasselt 1. No capacity or current certification claim is assigned to the legacy record."
     },
     {
       "facility_id": "dc-3c38b9036e9f78ef3dae993eb7a82a8e",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-3fada128f3d864e0e9df88b2e0444b78",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Sungard's website redirects to 11:11 Systems. The property owner's site confirms an office building at De Kleetlaan 12 A/B, not a data-center operation. No primary source located confirming that Sungard still operates this facility or its technical characteristics."
     },
     {
       "facility_id": "dc-42f64b1561b6798cd8a7b3c573447951",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The acquisition is verified at business level, but no primary document matches Nieuwbrugstraat 91 to the currently listed Machelen building. An alternate Rittwegerlaan address in directories is not treated as the same entrance/building without evidence. Technical claims withheld."
     },
     {
       "facility_id": "dc-9694fb994bc0b31a8ad48a29947da2f7",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The project completion report confirms an operational Ouagadougou V-CLS and IXP, and creation of a special-purpose management vehicle. It does not establish the imported ministry as the current facility operator or supply a building address. No technical specifications or street coordinates inferred."
     },
     {
       "facility_id": "dc-013cbb7d2b974c81282e302d34984900",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "Searched Colocation BG / ColocationBG with 9 Varbitsa and Bulgarian spelling. No accessible primary operator document was located. The colocation.bg access attempt failed; similarly named Colocate.bg describes Neterra at a different site and is not this operator. Identity verification remains open, with no facts published."
     },
     {
       "facility_id": "dc-12854978413f9d0357683ffaee18f9df",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Current operator information places its Sofia network at Equinix and Telepoint facilities. It does not verify the legacy 19 Vrabcha address as a current data center. Current PoP services are not applied to the historical street record."
     },
     {
       "facility_id": "dc-3b90baf2b6e93abaecd6c1d922e8179f",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "EXA's network map confirms Sofia network coverage but not the imported Interoute SOF-SHI building at Shipchenski Prohod 63. S3 Company currently identifies that address. This is a potential shared-site/legacy relationship with priority 78, not evidence that the records should be merged or assigned identical specifications."
     },
     {
       "facility_id": "dc-50fbf46e236bcb43762e73d8fec606ed",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-6fa4630e2752e4982416769fdde0e1ee",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "S3 Company's data-center site and Shipchenski Prohod 63 match the facility name/address, but the imported operator is an individual's name (Петя Симеонова). Flagged for operator correction; do not publish S3 engineering specifications under an unverified person's operator identity. Priority 77 has the same street address and needs shared-site/duplicate review."
     },
     {
       "facility_id": "dc-7b5c776b2f498d9d212ab4e2a8d91495",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Telepoint identifies its Sofia Center at the imported street and number. No primary evidence established Interoute SOF003 tenancy there. Host-building specifications were not assigned to the imported tenant."
     },
     {
       "facility_id": "dc-a65b80165604f0380254df17755f3fbe",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Cooolbox confirms succession from ITD Network and operation in Sofia, but the checked official pages do not identify Core Colocation Center #2 at 63 Shipchenski Prohod. General network features are not building specifications."
     },
     {
       "facility_id": "dc-8e6d55092d8dd74eac6d02f6f90bdcf1",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Reviewed the AWS Bahrain announcement against imported AWS BAH 1440 Road 1429. It documents a region with three availability zones, without linking this named street/site to an individual building. An availability zone is not treated as one facility; no regional specifications assigned."
     },
     {
       "facility_id": "dc-c02531a721f018126673d6a00e1dc55f",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Reviewed the AWS Bahrain announcement against imported AWS BAH Zallaq. It documents a region with three availability zones, without linking this named street/site to an individual building. An availability zone is not treated as one facility; no regional specifications assigned."
     },
     {
       "facility_id": "dc-ed98129fc3e1f4e243f6c85c05ea5b3c",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Reviewed the AWS Bahrain announcement against imported AWS BAH Askar Road 5156. It documents a region with three availability zones, without linking this named street/site to an individual building. An availability zone is not treated as one facility; no regional specifications assigned."
     },
     {
       "facility_id": "dc-1449a5c9d25fecb1f5604226a090cf19",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The regulator’s SBIN catalogue documents SAT-3 network/landing connectivity. SAT-3 is a cable-system label, not sufficient operator or building identity for this address-less CLS Cotonou record. No facility specifications or precise location published."
     },
     {
       "facility_id": "dc-34923c5422c63c5f994335d0dca538b6",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The official Bohicon entry describes an MTN retail agency, not a data centre. The colocation product page could not be read. No evidence ties a specific Bohicon data hall to the imported coordinate; agency details were not substituted."
     },
     {
       "facility_id": "dc-5504e08813a7533faac724d746fdbf8f",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "ISOCEL’s 2020 procurement notice identifies company headquarters on the seventh floor of Tour Notre Dame de la Miséricorde, Avenue Clozel. This supports an office at the named tower, but does not establish data-centre use or technical specifications. No verified facility facts published."
     },
     {
       "facility_id": "dc-ce66d9c385765bb6134f0b8e34d8df47",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "Operator sites were not retrievable. The historical country presence does not supply an identifiable Cotonou facility or address. Research remains in progress; no published facts. Checked/attempted: https://alinktelecom.net/; https://www.alinktelecom.bj/"
     },
     {
       "facility_id": "dc-fb0cf4c3df51570b13e9a570b6d4f602",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-26b0bcc2fae09a6501d0d702d70a963f",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-42f504662e6210953e58facb944d252b",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Tigo publishes data-centre services and a Santa Cruz facility announcement, but no street-level match was established for this address-less imported record. The advertised rack/Tier figures are withheld until the individual site identity can be bound to this record."
     },
     {
       "facility_id": "dc-56e47e84ec30b55149c3eb149753ff6d",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-a04c25266381e90276c989515c68b359",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-d0d35c6d88c7865df6f9cbf3a9ae0b78",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The imported address is a placeholder. AWS discusses Rio as a Local Zone market in a regional announcement, without identifying this individual building. No city-level cloud infrastructure claims were published as site specifications."
     },
     {
       "facility_id": "dc-e6c401c318709c79117667c0792e7206",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-eca59316df964b03a6835380f18bf0d5",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-f12ea6921c50e9e0cd04f3ca216a0cd7",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Microsoft documents Brazil cloud-region investment, but the imported São Paulo address is a placeholder. Region launch dates and investment totals do not identify a single data centre or its capacity."
     },
     {
       "facility_id": "dc-01135462040bb648eaaa685aa1f3ad15",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-07ffda0ddaa1f599e90e1d67dc432047",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "MTI procurement documentation distinguishes installations at Palácio Paiaguás and SEFAZ on Rubens de Mendonça 3415. The imported record has only a street and inconsistent postcode, without a building number. No specific site or electrical bill was converted into facility capacity."
     },
     {
       "facility_id": "dc-08ddc99657798f21eba9c9b0e764062f",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The official corporate registry was checked for the imported Chucri Zaidan address. It does not establish that this company address is a data centre. No NTT/Dimension Data campus specifications were transferred to it."
     },
     {
       "facility_id": "dc-09469dd86a00e8f1eb4fb5f80485520b",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "Operator page failed to load; exact street searches returned third-party corporate listings, not facility evidence. Research remains in progress; no published facts. Checked/attempted: https://www.voxbras.com.br/"
     },
     {
       "facility_id": "dc-0e44274522512f55ef86a8cb953e079f",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-0f384ed6ab59ea6afb0dd0b2f98c0648",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "Operator page could not be read. Old mailing-list signatures describe an office suite, not an independently identified data hall. Research remains in progress; no published facts. Checked/attempted: https://www.ibtelecom.net.br/"
     },
     {
       "facility_id": "dc-110ab40cc480d699b59fd5f84968e779",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-162b461d4aa76915e3ee97d3513c22d1",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-171e5e129deed2a007f116ee6568d63f",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-1db37dd95e97eb78361593dce6674af4",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "The indexed Algar Tech sustainability article concerns Uberlândia infrastructure, but its live URL now redirects to Callink. No reliable match to the imported Floriano Peixoto 6500 building was established. Portfolio energy or certification claims are not published for this site."
     },
     {
       "facility_id": "dc-230cf9f3c308333de4f9983cb5ad3a54",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-04de3cb9457767aab40e0564c0b5f8dc",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "Primary site was not readable; third-party suite listings do not verify the imported rooftop address. Research remains in progress; no published facts. Checked/attempted: https://www.nbtelecom.com.br/"
     },
     {
       "facility_id": "dc-9f73882e2acc2e1db19b099971d9fba3",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Mascom describes its Innovation Centre in Phakalane, while its certificate lists several locations. The imported record has no address and only the generic name Mascom. Individual site identity remains unresolved; group telecom certifications were not labelled as data-centre certifications."
     },
     {
       "facility_id": "dc-786c8a22491ed7d28018e7e69eaac8f2",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-0d5b4e2f2509efbe777596ef94e6aebb",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-1259bb1e2e754ac3bb3d985ce912f0c9",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Beltelecom’s colocation page describes a service across national and regional network nodes, without naming the imported Zakharova 55 building. A separate Minsk centre announcement could not be retrieved. Generic UPS/cooling statements were not attributed to this individual site."
     },
     {
       "facility_id": "dc-4f85aa9b543d7caf63b2568fd2c606fe",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-67a1366782999b3a4e539208b39dc74b",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-72875b8144f068ffff97b604036f59b0",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Microsoft’s Canada community page describes multiple regional projects; the imported Toronto address is a placeholder. No individual facility identity was established, and newer Ontario project specifications were not assigned to this generic record."
     },
     {
       "facility_id": "dc-0e1de1365386f1300323cc2d22a2197b",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Reviewed Montoni’s Varennes projects against imported AWS YUL 1790 Lionel-Boulet A. The contractor does not disclose a customer, street address or the imported A/B distinction. Its separate 40 MW and 50 MW project figures cannot safely be assigned to either record. Records were not merged."
     },
     {
       "facility_id": "dc-d72c5cc9b3c90d08ac66a53d723e6f80",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Reviewed Montoni’s Varennes projects against imported AWS YUL 1790 Lionel-Boulet B. The contractor does not disclose a customer, street address or the imported A/B distinction. Its separate 40 MW and 50 MW project figures cannot safely be assigned to either record. Records were not merged."
     },
     {
       "facility_id": "dc-0098b18f292e5121f9184d7c7d5700ba",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Current Wolfpaw facility information identifies EDM1 in Edmonton. The imported Vancouver address is a placeholder; legacy Vancouver PoP references do not establish an individually identifiable data centre. Edmonton specifications were not assigned to Vancouver."
     },
     {
       "facility_id": "dc-034789e4175340439edb19ebb9ca9c94",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "IBM’s 2014 earnings remarks confirm a Toronto cloud opening without a street address. This does not bind the imported SoftLayer record at the multi-tenant 151 Front building to that facility. Host-building and other tenants’ specifications were excluded."
     },
     {
       "facility_id": "dc-09f2379f65590187bf55308dd00d4725",
-      "status": "pending",
-      "review_note": null
+      "status": "reviewed",
+      "review_note": "Tata’s cloud-network material names Vancouver as a connectivity location, not a specific building. The imported address is malformed. No Microsoft/host-facility specifications or precise coordinates were inferred from a city-level network presence."
     },
     {
       "facility_id": "dc-0a4e0f68f092c9df413aa961184382ae",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-0f9c22295a21a79d44536336f07bea56",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-1244ef17e402d346242d16f237e9b452",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "No primary facility page bound the imported office-tower address to a data centre. Research remains in progress; no published facts. Checked/attempted: site:dimensiondata.com \"161 Bay\"; site:nttdata.com \"161 Bay\""
     },
     {
       "facility_id": "dc-14f74c03698f6b1d50b4e6386703a383",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-1ee7f825f7bdf6b0ca5578e545b268ba",
-      "status": "pending",
-      "review_note": null
-    },
-    {
-      "facility_id": "dc-236e384d3718e6395949f275a4239cde",
-      "status": "pending",
-      "review_note": null
+      "status": "in-progress",
+      "review_note": "No operator facility document identified the imported building. Corporate acquisition history alone is insufficient. Research remains in progress; no published facts. Checked/attempted: site:zayo.com \"875\" \"Antoine\"; \"360 Networks\" \"875 St Antoine\""
     },
     {
       "facility_id": "dc-23a67770c32c99909d37abb08e56bebf",
@@ -797,7 +592,7 @@
     {
       "facility_id": "dc-0887eea7435947fd47ae155b3b65047a",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-1503447a41271c46d7222cdac2681e95",
@@ -807,12 +602,12 @@
     {
       "facility_id": "dc-15cf0f0b22f71c5e3496b711bd46fd6d",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-3550f6c6bfc47c1dd556d117fcbe8c75",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-3633e9526b6143a756fc375caf261165",
@@ -822,17 +617,17 @@
     {
       "facility_id": "dc-8128eedd0ee9edb397e9256666546a9d",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-9943fe5ecdc0012ab732b75afc40f15e",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-f270c6741fc3a7468c9364347e5ca6cc",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-017d8897c1bdd77dd4e82caa897dea43",
@@ -982,12 +777,12 @@
     {
       "facility_id": "dc-587d68d16c2724424c0ce95d4ec08f54",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-9fc6db82d258c1517cff73b8dd04801b",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-acd10c668d3f368d84306c3180257fa9",
@@ -1002,7 +797,7 @@
     {
       "facility_id": "dc-e6b504d2f4e3cad1a14ad58b91de324f",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-f92d03d670a77cf72101d9f627c44564",
@@ -1067,7 +862,7 @@
     {
       "facility_id": "dc-482a42ebcc0a5c9130089a517226aece",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-5c9b7051c1e743c78d57aaf5c2754f34",
@@ -1197,7 +992,7 @@
     {
       "facility_id": "dc-077d2e01563a9c057ddc9aab40bb8e37",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-094de89227e06f9440eba2faba11cc88",
@@ -1207,7 +1002,7 @@
     {
       "facility_id": "dc-15a5ccb926057cd7f841a4dca646f642",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-2ac6c9515bcfaee42e73dab19b69c0c1",
@@ -1232,12 +1027,12 @@
     {
       "facility_id": "dc-40fe446013d8f2adb2fbe6e695e00c2f",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-54bf2b0d4acac502283325b05eeb4b61",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-5803ffca1c552c686092d41fd672c9a9",
@@ -1252,7 +1047,7 @@
     {
       "facility_id": "dc-5baffcd75de47e0d25979ef5b8e36bac",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-65a8ee87e4c73b8671b4110838ffa2fe",
@@ -1262,7 +1057,7 @@
     {
       "facility_id": "dc-67712995d11d48ad8103b014aa4d23d5",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-6ac9d064558764582ab2435708f5a9da",
@@ -1282,17 +1077,17 @@
     {
       "facility_id": "dc-a6781f7bf11a9584c3e61c70eb138947",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-a75865bf935e77eed64b058edca33740",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-a8e5892d50278533d464641f645a94b2",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-b2c5caa38463108e57f14e7bada9fc3a",
@@ -1327,12 +1122,12 @@
     {
       "facility_id": "dc-efbbd92d8d8d5a4907c43f8fdec48401",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-f2d96788fb85970dfd9540509d894a8b",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-3802dc95badb9428dfc0028328b2637e",
@@ -1487,7 +1282,7 @@
     {
       "facility_id": "dc-0aaa61fafcb49cf34b93ebeb71e3d26b",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-0f875cd62ef3e76f46ef9215bbaf328b",
@@ -1497,12 +1292,12 @@
     {
       "facility_id": "dc-380e8c7cf560edfc295b53f2af647675",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-48fb337491f7e88723af2080323edb8f",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-a297ad090accc73fb80a48a6d0f988d4",
@@ -1572,7 +1367,7 @@
     {
       "facility_id": "dc-0ebee441837412451cd850e4c2e235b0",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-1b0e16049e30308643ad98522e830ccb",
@@ -1582,12 +1377,12 @@
     {
       "facility_id": "dc-9d18aeaae251ee5d052757a96f3e54bb",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-a48658ed167348604c3f3024e1818069",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-0df87afa2856d601a616ec1f3c6c44ab",
@@ -1612,7 +1407,7 @@
     {
       "facility_id": "dc-09934f4c860e253ab68360ce69dcc4a1",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-0da91f04a2cc90e937dff45dab2ea1b9",
@@ -1622,7 +1417,7 @@
     {
       "facility_id": "dc-35aa8d34b7f97674c70d4f384a39c74a",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-37a46b658d5c0178c99a966b7e446a7e",
@@ -1657,7 +1452,7 @@
     {
       "facility_id": "dc-80fc68e419a028edb0d3e0b8141706f7",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-894680299ca0f12e05b3bc1025870ec8",
@@ -1677,7 +1472,7 @@
     {
       "facility_id": "dc-ad51340f03adc0ad77b64d3448e41d67",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-d07d01f3337afd8fe8d83b869159a88a",
@@ -1687,12 +1482,12 @@
     {
       "facility_id": "dc-d862dca3a75dc755e9f4b4b972dfd756",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-f0db23395b3a2216ed964b1a4aa19dab",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-f80d63948696c20ccdbac43838f7ed05",
@@ -1767,7 +1562,7 @@
     {
       "facility_id": "dc-1b08818dc8ec18fa15cb4cea35ef463c",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-27c266ef1ac248429a8d8843c11278e9",
@@ -1792,7 +1587,7 @@
     {
       "facility_id": "dc-42156ac1113b1284b4b82bbc10969ce4",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-4765091354165f2b4d5f2fdf7a67e116",
@@ -1802,17 +1597,17 @@
     {
       "facility_id": "dc-4782a9878b39bc208a4b150e71c28866",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-491ff0450304100f1da4147ec4f86e5f",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-54cc6fd7b5cdf63ba9bb67eac68d461b",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-5b2c94c9344a65d841fdcf28f6a3bcff",
@@ -1822,7 +1617,7 @@
     {
       "facility_id": "dc-613d9ffb201eb864bbfb42901421daff",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-66fd1183dace05796bd2c105179a6e98",
@@ -1832,7 +1627,7 @@
     {
       "facility_id": "dc-6e07f8768c7a27754e206113bdcbe8d2",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-77882d92808a4f244cd5b8c654b5ed68",
@@ -1847,7 +1642,7 @@
     {
       "facility_id": "dc-90092ca858df8c37bafe0b23d642a414",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-94b2a635daeeeb5271647b957804a0cf",
@@ -1867,12 +1662,12 @@
     {
       "facility_id": "dc-9f6081850f320c033e6d8657b0497790",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-b3149d2c7585ebaccf923a592480770a",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-b709ed7e96d05e17c7c98d922057108d",
@@ -1892,7 +1687,7 @@
     {
       "facility_id": "dc-cc4e9c89f239f277a511e55ae27bfd3c",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-d4bce1f12f11cf53ff8b9153089e510e",
@@ -2042,7 +1837,7 @@
     {
       "facility_id": "dc-455c32686477186b280fb38154841430",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-4dc3aaa10d53c9b8b0758e5f3a81b28a",
@@ -2067,7 +1862,7 @@
     {
       "facility_id": "dc-f63d3b656786ea315311161f12c89f2d",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-0188db1d77086c97343c6db58aafcc24",
@@ -2237,7 +2032,7 @@
     {
       "facility_id": "dc-4245a0bfe337b2d951cd11b21c64e78b",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-43c241b80a145e74b3bb06ac0389bc97",
@@ -2402,7 +2197,7 @@
     {
       "facility_id": "dc-707ba75dbd10dc9954ed9f60a5423a7d",
       "status": "pending",
-      "review_note": null
+      "review_note": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
     },
     {
       "facility_id": "dc-8f97707734fb1b78d9a1d0d4d2f1206c",

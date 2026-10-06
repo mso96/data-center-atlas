@@ -1,0 +1,77 @@
+{
+  "facilityId": "dc-0f384ed6ab59ea6afb0dd0b2f98c0648",
+  "status": "reviewed",
+  "reviewNote": "Historical GVT site matched by street and number. Vivo/Telefónica succession is documented separately; no current availability inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Street, number and Guarulhos match. Source uses Rua; import uses Avenida. GVT succession is separately sourced."
+  },
+  "website": null,
+  "aliases": [
+    "GVT Guarulhos interconnection point"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://legado.vivo.com.br/Portal%20VIVO/Atendimento/Area%20Aberta/Documentos/Oferta%20de%20Interconexao/GVT_poi-ppi-22-06-2012.pdf",
+      "title": "GVT interconnection points — June 2012",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2012-06-22"
+    },
+    {
+      "id": "succession",
+      "url": "https://www.telefonica.com/en/communication-room/press-room/telefonica-closes-the-acquisition-of-gvt-and-becomes-the-leading-brazilian-integrated-operator/amp/",
+      "title": "Telefónica closes GVT acquisition",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2015-05-29"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "History",
+      "label": "Operator history",
+      "value": "Telefónica Brasil acquired GVT in May 2015.",
+      "sourceIds": [
+        "succession"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Interconnection — 2012",
+      "value": "GVT listed fibre interfaces: 2M / STM-1 / STM-4 / STM-16. Historical, not a current offer.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Switching — 2012",
+      "value": "Nortel DMS-100 SNSE; local and transit switching.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "location",
+      "category": "Location",
+      "label": "Historical address",
+      "value": "Dr. Timóteo Penteado, 976, Guarulhos, Brazil (2012).",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

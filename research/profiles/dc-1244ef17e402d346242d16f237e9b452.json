@@ -1,0 +1,139 @@
+{
+  "facilityId": "dc-1244ef17e402d346242d16f237e9b452",
+  "status": "reviewed",
+  "reviewNote": "Individually checked the operator facility page and matched the imported operator, facility and street address. Published only site-specific claims; no coordinates changed.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Imported CentriLogic Mississauga (CentriLogic) at 2 Robert Speck Parkway L4Z 1H8 Mississauga Canada matches Centrilogic Mississauga South at 2 Robert Speck Parkway, Suite 500, Mississauga, Ontario L4Z 1H8, Canada. The location page links directly to the separately named Mississauga South specification page."
+  },
+  "aliases": [
+    "Centrilogic Mississauga South"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.centrilogic.com/mississauga-ontario-south-data-center/",
+      "title": "Centrilogic Mississauga South — facility specifications",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    },
+    {
+      "id": "address",
+      "url": "https://www.centrilogic.com/location/mississauga-ontario-south/",
+      "title": "Centrilogic Mississauga South — address and linked specification",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "Centrilogic identifies Mississauga South as a facility for managed hosting, cloud and colocation.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "Services",
+      "label": "Hosting services",
+      "value": "Managed hosting, cloud computing and colocation",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Published facility area",
+      "value": "Approximately 987 m² (10,627 ft²; converted at 0.09290304 m²/ft²)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Power resilience",
+      "value": "Separate utility grids, A+B distribution, N+1 UPS and standby diesel generation",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling resilience",
+      "value": "N+1 independent units; hot/cold aisles and environmental monitoring",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Network access",
+      "value": "Multiple Tier 1 carriers, multihomed bandwidth and inter-facility links",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access and surveillance",
+      "value": "24/7 security, card plus biometric authentication and monitored CCTV",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Security",
+      "label": "Fire protection",
+      "value": "Smoke/particle detection and pre-action suppression",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "2 Robert Speck Parkway, Suite 500, Mississauga, Ontario L4Z 1H8, Canada",
+      "sourceIds": [
+        "address"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.centrilogic.com/mississauga-ontario-south-data-center/",
+    "label": "Centrilogic Mississauga South",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
+}

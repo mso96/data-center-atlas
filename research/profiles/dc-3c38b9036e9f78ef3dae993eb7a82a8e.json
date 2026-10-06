@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-3c38b9036e9f78ef3dae993eb7a82a8e",
+  "status": "reviewed",
+  "reviewNote": "Sungard's website redirects to 11:11 Systems. The property owner's site confirms an office building at De Kleetlaan 12 A/B, not a data-center operation. No primary source located confirming that Sungard still operates this facility or its technical characteristics.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "Sungard's website redirects to 11:11 Systems. The property owner's site confirms an office building at De Kleetlaan 12 A/B, not a data-center operation. No primary source located confirming that Sungard still operates this facility or its technical characteristics."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://1111systems.com/",
+      "title": "11:11 Systems (redirect from Sungard Availability Services)",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.pegasuspark.be/the-park/",
+      "title": "Pegasus Park buildings",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

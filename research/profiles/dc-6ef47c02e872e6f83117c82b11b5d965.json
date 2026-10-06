@@ -1,0 +1,144 @@
+{
+  "facilityId": "dc-6ef47c02e872e6f83117c82b11b5d965",
+  "status": "reviewed",
+  "reviewNote": "Operator and Hofmühlgasse 3-5 match. The regulatory facility disclosure distinguishes 378 m² white space from the site's broader over-500 m² description, and identifies 712 kW as UPS nominal rating rather than IT load. The certificate scopes data-center operations at the same address.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Operator and Hofmühlgasse 3-5 match. The regulatory facility disclosure distinguishes 378 m² white space from the site's broader over-500 m² description, and identifies 712 kW as UPS nominal rating rather than IT load. The certificate scopes data-center operations at the same address."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://datasix.at/de/rechenzentrum",
+      "title": "DATASIX Vienna data center",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://datasix.at/de/impressum",
+      "title": "DATASIX legal notice",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-3",
+      "url": "https://datasix.at/fileadmin/user_upload/ZERHG_0001158_2709_en.pdf",
+      "title": "DATASIX privacy management certificate",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "DATASIX operates a carrier-neutral colocation facility in Vienna's sixth district.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "Services",
+      "label": "Colocation",
+      "value": "Individual cages and quarter, half or full racks",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "location",
+      "category": "Location",
+      "label": "Address",
+      "value": "Hofmühlgasse 3–5, 1060 Vienna, Austria",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "White space",
+      "value": "378 m²",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS nominal rating",
+      "value": "712 kW (0.712 MW); not IT capacity",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Power",
+      "label": "Reported PUE",
+      "value": "1.6; reporting period not stated on the page",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Power",
+      "label": "Power supply",
+      "value": "Two electricity networks; UPS-backed A or A+B feed according to customer choice",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Security",
+      "label": "Protection",
+      "value": "Contactless and biometric access, CCTV, VESDA detection and gas fire suppression",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "overview",
+      "category": "History",
+      "label": "Current operator began operations",
+      "value": "1 January 2012",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://datasix.at/de/rechenzentrum",
+    "label": "DATASIX",
+    "kind": "facility",
+    "sourceIds": [
+      "source-1"
+    ]
+  }
+}

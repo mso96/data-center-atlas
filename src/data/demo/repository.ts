@@ -1,3 +1,6 @@
+import { allocateFacilityPath } from "../../domain/facility-path";
+import { presentFacility } from "../../domain/facility-presentation";
+import type { PublicFacility } from "../repository";
 import { matchesFilters } from "../../domain/explorer-query";
 import { hasValidCoordinates, type DataCenter, type DataCenterFilters } from "../../domain/data-center";
 import type { DataCenterRepository, Pagination, MapFeature } from "../repository";
@@ -6,9 +9,10 @@ import { demoFacilities } from "./facilities";
 const distinct = (values: (string | null)[]) => [...new Set(values.filter((v): v is string => v !== null))].sort();
 
 export class DemoDataCenterRepository implements DataCenterRepository {
-  private readonly records: DataCenter[];
+  private readonly records: PublicFacility[];
   constructor(records: readonly DataCenter[] = demoFacilities) {
-    this.records = structuredClone([...records]).sort((a, b) => a.id.localeCompare(b.id));
+    const used=new Set<string>();
+    this.records = structuredClone([...records]).sort((a, b) => a.id.localeCompare(b.id)).map(record=>({...presentFacility(record),detailPath:(record as PublicFacility).detailPath ?? allocateFacilityPath(record,used)}));
   }
   private matching(filters: DataCenterFilters = {}) {
     return this.records.filter(record => matchesFilters(record, filters));
@@ -24,6 +28,7 @@ export class DemoDataCenterRepository implements DataCenterRepository {
   async getById(id: string) {
     return structuredClone(this.records.find(record => record.id === id) ?? null);
   }
+  async getByPath(path: string) { return structuredClone(this.records.find(record=>record.detailPath===path) ?? null); }
   async getFilterOptions(filters: DataCenterFilters = {}) {
     const records = this.matching(filters);
     const countries = new Map<string, string>();

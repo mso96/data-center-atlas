@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-02744c108c2156b56453605f459b8859",
+  "status": "reviewed",
+  "reviewNote": "Smals lists Boulevard Industriel 25 as the Anderlecht IN site. This is an organizational location; the reviewed page and HVAC maintenance notice do not confirm a data center at that address. No office specifications are republished as facility facts.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Smals lists Boulevard Industriel 25 as the Anderlecht IN site. This is an organizational location; the reviewed page and HVAC maintenance notice do not confirm a data center at that address. No office specifications are republished as facility facts."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.smals.be/fr/qui-sommes-nous/organisation/nos-sites",
+      "title": "Smals operating locations",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

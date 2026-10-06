@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-ed98129fc3e1f4e243f6c85c05ea5b3c",
+  "status": "reviewed",
+  "reviewNote": "Reviewed the AWS Bahrain announcement against imported AWS BAH Askar Road 5156. It documents a region with three availability zones, without linking this named street/site to an individual building. An availability zone is not treated as one facility; no regional specifications assigned.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Reviewed the AWS Bahrain announcement against imported AWS BAH Askar Road 5156. It documents a region with three availability zones, without linking this named street/site to an individual building. An availability zone is not treated as one facility; no regional specifications assigned."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://aws.amazon.com/blogs/aws/now-open-aws-middle-east-bahrain/",
+      "title": "AWS — Bahrain region launch",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2019-07-30"
+    }
+  ],
+  "facts": []
+}

@@ -1,0 +1,15 @@
+{
+  "facilityId": "dc-ce66d9c385765bb6134f0b8e34d8df47",
+  "status": "in-progress",
+  "reviewNote": "Operator sites were not retrievable. The historical country presence does not supply an identifiable Cotonou facility or address. Research remains in progress; no published facts. Checked/attempted: https://alinktelecom.net/; https://www.alinktelecom.bj/",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Operator sites were not retrievable. The historical country presence does not supply an identifiable Cotonou facility or address. Research remains in progress; no published facts. Checked/attempted: https://alinktelecom.net/; https://www.alinktelecom.bj/"
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

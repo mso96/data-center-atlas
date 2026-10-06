@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-42a20e84e0c6fe01b5372ec70c86db2a",
+  "status": "reviewed",
+  "reviewNote": "The operator explicitly lists Vösendorf and its overview sheet lists 400 m², 120 cabinets and 460 kW for that location. Neither primary source establishes Ortsstr. 24 as this building; those specifications are withheld until the street-address match is established.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The operator explicitly lists Vösendorf and its overview sheet lists 400 m², 120 cabinets and 460 kW for that location. Neither primary source establishes Ortsstr. 24 as this building; those specifications are withheld until the street-address match is established."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.eww.at/business/itandtel/rechenzentren",
+      "title": "ITandTEL data centers",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.eww.at/fileadmin/user_upload/downloads/itandtel/datenblaetter/ITandTEL-Uebersicht-Rechenzentren.pdf",
+      "title": "ITandTEL location overview",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

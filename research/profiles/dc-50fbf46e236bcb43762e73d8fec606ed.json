@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-50fbf46e236bcb43762e73d8fec606ed",
+  "status": "reviewed",
+  "reviewNote": "S3 Company's data-center site and Shipchenski Prohod 63 match the facility name/address, but the imported operator is an individual's name (Петя Симеонова). Flagged for operator correction; do not publish S3 engineering specifications under an unverified person's operator identity. Priority 77 has the same street address and needs shared-site/duplicate review.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "S3 Company's data-center site and Shipchenski Prohod 63 match the facility name/address, but the imported operator is an individual's name (Петя Симеонова). Flagged for operator correction; do not publish S3 engineering specifications under an unverified person's operator identity. Priority 77 has the same street address and needs shared-site/duplicate review."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.s3c.bg/data-center-services",
+      "title": "S3 data-center services",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.s3c.bg/contacts",
+      "title": "S3 Company official contact address",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-01135462040bb648eaaa685aa1f3ad15",
+  "status": "reviewed",
+  "reviewNote": "MTI procurement documentation distinguishes installations at Palácio Paiaguás and SEFAZ on Rubens de Mendonça 3415. The imported record has only a street and inconsistent postcode, without a building number. No specific site or electrical bill was converted into facility capacity.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "MTI procurement documentation distinguishes installations at Palácio Paiaguás and SEFAZ on Rubens de Mendonça 3415. The imported record has only a street and inconsistent postcode, without a building number. No specific site or electrical bill was converted into facility capacity."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.mti.mt.gov.br/documents/2458894/2891747/EDITAL%2B-%2BCHAMAMENTO%2BP%C3%9ABLICO%2B001.2021%2B-%2BEMC%2BBROCADE%2B-%2B12.02.21.pdf/1756d603-c7e0-5d1b-399b-9706bc6bc0df",
+      "title": "MTI — storage and network maintenance locations, 2021",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

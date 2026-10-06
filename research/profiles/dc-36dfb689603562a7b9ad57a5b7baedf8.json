@@ -8,7 +8,12 @@
     "addressMatched": true,
     "notes": "Buenos Aires / BUE1 and Av. del Campo 1301 match. Cirion is recorded as the current operator source while CenturyLink is preserved as the imported legacy operator name."
   },
-  "aliases": ["Cirion BUE1", "Buenos Aires Data Center BUE1", "CenturyLink Buenos Aires", "Buenos Aires/Artigas"],
+  "aliases": [
+    "Cirion BUE1",
+    "Buenos Aires Data Center BUE1",
+    "CenturyLink Buenos Aires",
+    "Buenos Aires/Artigas"
+  ],
   "sources": [
     {
       "id": "operator-page",
@@ -32,7 +37,10 @@
       "category": "Location",
       "label": "Operator-published address",
       "value": "Av. del Campo 1301, Chacarita, Buenos Aires, Argentina",
-      "sourceIds": ["operator-page", "operator-specs"],
+      "sourceIds": [
+        "operator-page",
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -41,7 +49,10 @@
       "category": "Summary",
       "label": "Facility profile",
       "value": "Carrier-neutral interconnection hub with colocation, bare metal, private cloud, managed hosting and interconnection services",
-      "sourceIds": ["operator-page", "operator-specs"],
+      "sourceIds": [
+        "operator-page",
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -50,7 +61,10 @@
       "category": "Capacity",
       "label": "Power",
       "value": "7 MW installed",
-      "sourceIds": ["operator-page", "operator-specs"],
+      "sourceIds": [
+        "operator-page",
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -59,7 +73,9 @@
       "category": "Capacity",
       "label": "Total area",
       "value": "5,198 m²",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -68,7 +84,9 @@
       "category": "Capacity",
       "label": "Floor area",
       "value": "9,788 m²",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -77,7 +95,9 @@
       "category": "Capacity",
       "label": "Colocation space",
       "value": "2,541 m²",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -86,7 +106,10 @@
       "category": "Capacity",
       "label": "Rack capacity",
       "value": "815 rack positions",
-      "sourceIds": ["operator-page", "operator-specs"],
+      "sourceIds": [
+        "operator-page",
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -95,7 +118,9 @@
       "category": "Power",
       "label": "Power redundancy",
       "value": "N+N (2N) UPS and standby power redundancy",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -104,7 +129,9 @@
       "category": "Power",
       "label": "Generators",
       "value": "1×1250 kVA + 3×1100 kVA, 4×650 kVA and 2×1875 kVA diesel generators",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -113,7 +140,9 @@
       "category": "Cooling",
       "label": "Cooling redundancy",
       "value": "N+1 cooling with CRAC units",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -122,7 +151,10 @@
       "category": "Security",
       "label": "Physical security",
       "value": "Mantrap entry, card and biometric readers, CCTV with 90-day retention, motion detection and 24/7 onsite security",
-      "sourceIds": ["operator-page", "operator-specs"],
+      "sourceIds": [
+        "operator-page",
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -131,7 +163,9 @@
       "category": "Security",
       "label": "Fire protection",
       "value": "FM200 fire suppression",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -140,7 +174,9 @@
       "category": "Compliance",
       "label": "Certifications",
       "value": "ISO 9001, ISO 27001, ISO 27017, ISO 27018, ISAE3402 SOC 1 and PCI-DSS 4.0",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -149,7 +185,10 @@
       "category": "Connectivity",
       "label": "Interconnection",
       "value": "100+ network providers, thousands of cross-connects and cloud on-ramps including AWS, Google and Oracle",
-      "sourceIds": ["operator-page", "operator-specs"],
+      "sourceIds": [
+        "operator-page",
+        "operator-specs"
+      ],
       "status": "verified"
     },
     {
@@ -158,8 +197,18 @@
       "category": "Power",
       "label": "Renewable energy",
       "value": "25% hydroelectric energy",
-      "sourceIds": ["operator-specs"],
+      "sourceIds": [
+        "operator-specs"
+      ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://www.ciriontechnologies.com/en/data-center/our-data-centers/buenos-aires-1/",
+    "label": "Cirion BUE1",
+    "kind": "facility",
+    "sourceIds": [
+      "operator-page"
+    ]
+  }
 }

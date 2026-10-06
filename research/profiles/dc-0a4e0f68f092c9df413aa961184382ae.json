@@ -1,0 +1,15 @@
+{
+  "facilityId": "dc-0a4e0f68f092c9df413aa961184382ae",
+  "status": "in-progress",
+  "reviewNote": "No primary facility page bound the imported office-tower address to a data centre. Research remains in progress; no published facts. Checked/attempted: site:dimensiondata.com \"161 Bay\"; site:nttdata.com \"161 Bay\"",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "No primary facility page bound the imported office-tower address to a data centre. Research remains in progress; no published facts. Checked/attempted: site:dimensiondata.com \"161 Bay\"; site:nttdata.com \"161 Bay\""
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

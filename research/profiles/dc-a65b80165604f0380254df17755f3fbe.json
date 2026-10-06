@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-a65b80165604f0380254df17755f3fbe",
+  "status": "reviewed",
+  "reviewNote": "Cooolbox confirms succession from ITD Network and operation in Sofia, but the checked official pages do not identify Core Colocation Center #2 at 63 Shipchenski Prohod. General network features are not building specifications.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Cooolbox confirms succession from ITD Network and operation in Sofia, but the checked official pages do not identify Core Colocation Center #2 at 63 Shipchenski Prohod. General network features are not building specifications."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.cooolbox.bg/about-us/",
+      "title": "Cooolbox — company history",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

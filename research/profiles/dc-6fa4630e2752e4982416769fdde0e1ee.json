@@ -1,0 +1,82 @@
+{
+  "facilityId": "dc-6fa4630e2752e4982416769fdde0e1ee",
+  "status": "reviewed",
+  "reviewNote": "Montana facility and 78 Treti Mart Boulevard match the operator's location and contact pages. Tier 3 is an operator design-class statement, not independently verified Uptime certification. Portfolio-wide area and Sofia infrastructure were excluded. Possible alternate imported Montana labels should be reviewed before any merge.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Montana facility and 78 Treti Mart Boulevard match the operator's location and contact pages. Tier 3 is an operator design-class statement, not independently verified Uptime certification. Portfolio-wide area and Sofia infrastructure were excluded. Possible alternate imported Montana labels should be reviewed before any merge."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://telepoint.bg/locations.story/Montana/more/84",
+      "title": "Telepoint Montana facility",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.telepoint.bg/contacts",
+      "title": "Telepoint facility addresses",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "Telepoint's Montana data center is located in the city center and provides redundant infrastructure.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "78 Treti Mart Boulevard, 3400 Montana, Bulgaria",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "Redundancy class",
+      "value": "N+1 infrastructure, as stated on the Montana facility page; individual subsystem capacities are not disclosed.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Design class",
+      "value": "Tier 3 class claimed by the operator; independent certification not verified.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://telepoint.bg/locations.story/Montana/more/84",
+    "label": "Telepoint Montana",
+    "kind": "facility",
+    "sourceIds": [
+      "source-1"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "facilityId": "dc-3658aa8a4228cb442d54e0c961bf11de",
+  "status": "reviewed",
+  "reviewNote": "The operator's Bangladesh facility section supplies the previously missing address in Mohammadpur, Dhaka. Match is to its explicitly named Bangladesh facility; coordinates were not verified or changed. Repeated portfolio boilerplate and Tier 3 certification implications are excluded.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The operator's Bangladesh facility section supplies the previously missing address in Mohammadpur, Dhaka. Match is to its explicitly named Bangladesh facility; coordinates were not verified or changed. Repeated portfolio boilerplate and Tier 3 certification implications are excluded."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://wolast.com/datacenters/",
+      "title": "Wolast Technologies: Dhaka facility section",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "Wolast lists a Dhaka colocation location in Mohammadpur, with network transit and dedicated-server services.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "location",
+      "category": "Location",
+      "label": "Operator-published address",
+      "value": "2nd floor, 1/2 Asad Avenue, Asad Gate, Mohammadpur, Dhaka 1207, Bangladesh",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "overview",
+      "category": "Services",
+      "label": "Colocation",
+      "value": "Individual servers, half cabinets and full cabinets",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Power redundancy",
+      "value": "N+N, as stated specifically in the Dhaka section",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Network",
+      "value": "Operator reports a redundant 10 Gbps network with links to multiple IIGs and internet exchanges.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access protection",
+      "value": "Staffed security and combined keycard/biometric access, according to the operator",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://wolast.com/datacenters/",
+    "label": "Wolast Technologies",
+    "kind": "operator",
+    "sourceIds": [
+      "source-1"
+    ]
+  }
+}

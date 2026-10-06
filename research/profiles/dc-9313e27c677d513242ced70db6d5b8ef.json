@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-9313e27c677d513242ced70db6d5b8ef",
+  "status": "reviewed",
+  "reviewNote": "The official project and SSD-10467 visual-impact assessment identify a Stockland development at 11–17 Khartoum Road and 33–39 Talavera Road. Amazon's operation of this particular building was not verified. Do not convert development specifications into AWS facility facts.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "The official project and SSD-10467 visual-impact assessment identify a Stockland development at 11–17 Khartoum Road and 33–39 Talavera Road. Amazon's operation of this particular building was not verified. Do not convert development specifications into AWS facility facts."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.planningportal.nsw.gov.au/planning-panel/11-17-khartoum-road-amended-concept-approval",
+      "title": "NSW planning: 11–17 Khartoum Road",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

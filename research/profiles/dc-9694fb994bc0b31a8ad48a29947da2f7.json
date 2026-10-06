@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-9694fb994bc0b31a8ad48a29947da2f7",
+  "status": "reviewed",
+  "reviewNote": "The project completion report confirms an operational Ouagadougou V-CLS and IXP, and creation of a special-purpose management vehicle. It does not establish the imported ministry as the current facility operator or supply a building address. No technical specifications or street coordinates inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The project completion report confirms an operational Ouagadougou V-CLS and IXP, and creation of a special-purpose management vehicle. It does not establish the imported ministry as the current facility operator or supply a building address. No technical specifications or street coordinates inferred."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://documents1.worldbank.org/curated/en/920521646421347997/pdf/Western-Africa-Regional-Communications-Infrastructure-Project.pdf",
+      "title": "World Bank WARCIP Burkina Faso completion report",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

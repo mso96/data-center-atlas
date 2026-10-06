@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-388f8d3ad499bc5840117e682b80e040",
+  "status": "reviewed",
+  "reviewNote": "The certificate names DC Hasselt 2 at Trichterheideweg 2. A primary-source bridge from the imported Datazone operator was not located; historic directories also disagree between numbers 2 and 4. The current location list emphasizes Hasselt 1. No capacity or current certification claim is assigned to the legacy record.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "The certificate names DC Hasselt 2 at Trichterheideweg 2. A primary-source bridge from the imported Datazone operator was not located; historic directories also disagree between numbers 2 and 4. The current location list emphasizes Hasselt 1. No capacity or current certification claim is assigned to the legacy record."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://datacenterunited.com/media/uploads/pdf/1/9/19_iso-9001-eng-c671505-1-20250815.pdf",
+      "title": "Datacenter United ISO 9001 certificate site schedule",
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2025-08-15"
+    },
+    {
+      "id": "source-2",
+      "url": "https://datacenterunited.com/en/our-datacenters/",
+      "title": "Datacenter United current locations",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

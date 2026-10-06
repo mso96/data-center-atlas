@@ -1,14 +1,17 @@
 {
   "facilityId": "dc-dd7ebfbb84c8700c78e8425295005b21",
   "status": "reviewed",
-  "reviewNote": "The Uptime Institute facility record identifies CFIN ATLANTICO Data Center in Talatona, Luanda, and the bank's official location page confirms the operator's Talatona address. Only identity and location facts are published because the reviewed pages do not expose a readable Tier level or other technical specification values.",
+  "reviewNote": "Facility identity and district-level location were checked against Uptime Institute and the operator. On 5 October 2026 the indexed official Angola awards listing explicitly associates CFIN ATLANTICO with Tier III Design Documents and Constructed Facility awards. The individual detail page renders awards as images; the direct country-list fetch returned 403, while the official indexed listing exposed the award names. No capacity, PUE, cooling or operational certification is inferred.",
   "identity": {
     "nameMatched": true,
     "operatorMatched": true,
     "addressMatched": true,
     "notes": "CFIN ATLANTICO, Banco Millennium Atlantico and the Talatona/Luanda location match the imported record's facility name, operator and address at district level."
   },
-  "aliases": ["CFIN ATLANTICO Data Center", "CFIN Atlantico"],
+  "aliases": [
+    "CFIN ATLANTICO Data Center",
+    "CFIN Atlantico"
+  ],
   "sources": [
     {
       "id": "uptime-record",
@@ -23,6 +26,13 @@
       "url": "https://beta.atlantico.ao/pt/institucional/onde-estamos/",
       "accessedAt": "2026-10-02",
       "publishedAt": null
+    },
+    {
+      "id": "uptime-angola-awards",
+      "title": "Uptime Institute — Angola awards list",
+      "url": "https://uptimeinstitute.com/uptime-institute-awards/country/id/AO",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
     }
   ],
   "facts": [
@@ -32,7 +42,9 @@
       "category": "Summary",
       "label": "Facility",
       "value": "CFIN ATLANTICO Data Center",
-      "sourceIds": ["uptime-record"],
+      "sourceIds": [
+        "uptime-record"
+      ],
       "status": "verified"
     },
     {
@@ -41,8 +53,41 @@
       "category": "Location",
       "label": "Published location",
       "value": "Talatona, Luanda, Angola",
-      "sourceIds": ["uptime-record", "operator-location"],
+      "sourceIds": [
+        "uptime-record",
+        "operator-location"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "tier-design",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Design certification",
+      "value": "Uptime Institute Tier III — Design Documents",
+      "sourceIds": [
+        "uptime-angola-awards"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "tier-construction",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Constructed facility certification",
+      "value": "Uptime Institute Tier III — Constructed Facility",
+      "sourceIds": [
+        "uptime-angola-awards"
+      ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://beta.atlantico.ao/pt/institucional/onde-estamos/",
+    "label": "Banco Millennium ATLANTICO",
+    "kind": "operator",
+    "sourceIds": [
+      "operator-location"
+    ]
+  }
 }

@@ -1,0 +1,70 @@
+{
+  "facilityId": "dc-07ffda0ddaa1f599e90e1d67dc432047",
+  "status": "reviewed",
+  "reviewNote": "Historical evidence only. Street and number match; neighbourhood differs (import: Estoril; source: Buritis). Current service availability is unverified.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "GVT and the imported street/number match the 2012 Belo Horizonte row; neighbourhood discrepancy retained."
+  },
+  "website": null,
+  "aliases": [
+    "GVT Belo Horizonte interconnection point"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://legado.vivo.com.br/Portal%20VIVO/Atendimento/Area%20Aberta/Documentos/Oferta%20de%20Interconexao/GVT_poi-ppi-22-06-2012.pdf",
+      "title": "GVT interconnection points — June 2012",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2012-06-22"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "History",
+      "label": "Historical network site",
+      "value": "GVT listed this address as an interconnection point in 2012.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Interconnection — 2012",
+      "value": "Fibre; 2M / STM-1 / STM-4 / STM-16. Historical interfaces only.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Switching — 2012",
+      "value": "Nortel DMS-100; local and transit switching.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "location",
+      "category": "Location",
+      "label": "Historical address",
+      "value": "Av. Barão Homem de Melo, 4324, ground floor, Belo Horizonte, Brazil (2012).",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

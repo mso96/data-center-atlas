@@ -1,44 +1,14 @@
 {
   "facilityId": "dc-15cf0f0b22f71c5e3496b711bd46fd6d",
-  "status": "reviewed",
-  "reviewNote": "The official Equinix IBX Sustainability Quick Reference Guide was checked for the Zurich 5 metro and address. The imported operator, metro and address are retained as the facility identity. The public reference does not provide a facility-specific capacity, Tier, PUE, cooling or security value for this record, so those fields remain undisclosed rather than inferred.",
+  "status": "pending",
+  "reviewNote": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved.",
   "identity": {
-    "nameMatched": true,
-    "operatorMatched": true,
-    "addressMatched": true,
-    "notes": "Equinix facility in Oberengstringen, Switzerland; imported address retained verbatim for traceability."
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Audit 2026-10-05: previous reviewed status and location fact were generated from the imported address by scripts, without recorded facility-specific primary-source evidence. Review and enrichment withdrawn; individual operator-page and address verification is required. The base imported record is preserved."
   },
-  "aliases": [
-    "Zurich 5",
-    "Zurich 5 Equinix IBX"
-  ],
-  "sources": [
-    {
-      "id": "equinix-sustainability-qrg-2025",
-      "title": "Equinix — IBX Sustainability Quick Reference Guide",
-      "url": "https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf",
-      "accessedAt": "2026-10-03",
-      "publishedAt": null
-    },
-    {
-      "id": "equinix-data-centers",
-      "title": "Equinix — official data center portfolio",
-      "url": "https://www.equinix.com/data-centers",
-      "accessedAt": "2026-10-03",
-      "publishedAt": null
-    }
-  ],
-  "facts": [
-    {
-      "id": "fact-location-0",
-      "section": "location",
-      "category": "Location",
-      "label": "Operator location reference",
-      "value": "Allmendstrasse 13 8102 Oberengstringen Switzerland",
-      "sourceIds": [
-        "equinix-sustainability-qrg-2025"
-      ],
-      "status": "verified"
-    }
-  ]
+  "aliases": [],
+  "sources": [],
+  "facts": []
 }

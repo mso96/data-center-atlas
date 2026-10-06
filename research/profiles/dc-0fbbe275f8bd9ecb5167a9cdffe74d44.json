@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-0fbbe275f8bd9ecb5167a9cdffe74d44",
+  "status": "reviewed",
+  "reviewNote": "Individually searched 1 William B and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. The A/B building distinction is not identified. No building-level claims are published; a region or Availability Zone is not a facility.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Individually searched 1 William B and AWS/government planning sources. AWS's public regional overview does not disclose this facility address. The A/B building distinction is not identified. No building-level claims are published; a region or Availability Zone is not a facility."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+      "title": "AWS Regions and Availability Zones",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

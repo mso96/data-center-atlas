@@ -1,0 +1,142 @@
+{
+  "facilityId": "dc-162fef54758a1ee45bcddbd776014647",
+  "status": "reviewed",
+  "reviewNote": "CenturyLink's rebranding and the exact Avenue Léon Grosjean 2 address establish the historical facility match. Specifications are from a ©2021 brochure, not a statement of current operator/certification. 4 MVA is apparent site power and must not be converted to 4 MW.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "CenturyLink's rebranding and the exact Avenue Léon Grosjean 2 address establish the historical facility match. Specifications are from a ©2021 brochure, not a statement of current operator/certification. 4 MVA is apparent site power and must not be converted to 4 MW."
+  },
+  "aliases": [
+    "Lumen Brussels (historical)"
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://assets.lumen.com/is/content/Lumen/len-1230-data-centre-colocation-brussels-uk-web",
+      "title": "Lumen Brussels data-center brochure (©2021)",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://ir.lumen.com/news/news-details/2020/CenturyLink-Transforms-Rebrands-as-Lumen/default.aspx",
+      "title": "CenturyLink rebrands as Lumen",
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2020-09-14"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "The Lumen brochure describes a Brussels colocation facility with technical space over two floors. These specifications reflect the ©2021 document.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "location",
+      "category": "Location",
+      "label": "Documented address",
+      "value": "Avenue Léon Grosjean 2, 1140 Evere, Brussels, Belgium",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "overview",
+      "category": "History",
+      "label": "Operating since",
+      "value": "February 2000, according to the operator's ©2021 brochure",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Total size (2021 brochure)",
+      "value": "5,842 m²",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Fitted colocation space (2021 brochure)",
+      "value": "1,343 m²",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Power",
+      "label": "Maximum site power (2021 brochure)",
+      "value": "4 MVA apparent power; MW/IT load not disclosed",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS (2021 brochure)",
+      "value": "Three 500 kVA modules: 1,000 kVA output with N+1 redundancy; 15-minute battery autonomy per module",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling (2021 brochure)",
+      "value": "Average 750 W/m² across gross space; regulated below 26°C",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Cable entry (2021 brochure)",
+      "value": "Three independent fiber entry points",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-10",
+      "section": "specs",
+      "category": "Security",
+      "label": "Security (2021 brochure)",
+      "value": "Biometric colocation access, card/PIN controls and CCTV monitoring",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ]
+}

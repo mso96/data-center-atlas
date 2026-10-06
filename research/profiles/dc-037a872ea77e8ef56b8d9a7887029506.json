@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-037a872ea77e8ef56b8d9a7887029506",
+  "status": "reviewed",
+  "reviewNote": "The current 5G Networks facility page matches 55 Pyrmont Bridge Road, but no primary source establishes the imported Verizon tenancy or its relationship to that operator. A matching multi-tenant address alone is insufficient; 5GN's 1.5 MW specification is not assigned to Verizon.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "The current 5G Networks facility page matches 55 Pyrmont Bridge Road, but no primary source establishes the imported Verizon tenancy or its relationship to that operator. A matching multi-tenant address alone is insufficient; 5GN's 1.5 MW specification is not assigned to Verizon."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://wholesale.5gnetworks.au/data-centres/sydney",
+      "title": "5G Networks Sydney data center",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

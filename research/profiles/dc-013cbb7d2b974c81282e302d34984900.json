@@ -1,0 +1,14 @@
+{
+  "facilityId": "dc-013cbb7d2b974c81282e302d34984900",
+  "status": "in-progress",
+  "reviewNote": "Searched Colocation BG / ColocationBG with 9 Varbitsa and Bulgarian spelling. No accessible primary operator document was located. The colocation.bg access attempt failed; similarly named Colocate.bg describes Neterra at a different site and is not this operator. Identity verification remains open, with no facts published.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Searched Colocation BG / ColocationBG with 9 Varbitsa and Bulgarian spelling. No accessible primary operator document was located. The colocation.bg access attempt failed; similarly named Colocate.bg describes Neterra at a different site and is not this operator. Identity verification remains open, with no facts published."
+  },
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

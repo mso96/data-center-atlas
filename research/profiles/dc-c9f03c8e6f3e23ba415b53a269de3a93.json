@@ -1,44 +1,122 @@
 {
   "facilityId": "dc-c9f03c8e6f3e23ba415b53a269de3a93",
   "status": "reviewed",
-  "reviewNote": "The official Equinix IBX Sustainability Quick Reference Guide was checked for the Melbourne metro and address. The imported operator, metro and address are retained as the facility identity. The public reference does not provide a facility-specific capacity, Tier, PUE, cooling or security value for this record, so those fields remain undisclosed rather than inferred.",
+  "reviewNote": "Historical identity verified against Equinix-authored 2016 ME1 sheet hosted by OrionVM. Current operator page has a different street number. Only explicitly dated historical specifications published; no current capacity, location correction or current facility website assigned.",
   "identity": {
     "nameMatched": true,
     "operatorMatched": true,
     "addressMatched": true,
-    "notes": "Equinix facility in Melbourne, Australia; imported address retained verbatim for traceability."
+    "notes": "Imported Melbourne (Equinix) at 600 Lorimer Street, Port Melbourne Melbourne Australia matches Equinix ME1 at 600 Lorimer Street, Port Melbourne, Victoria 3207, Australia (2016 specification)."
   },
   "aliases": [
-    "Melbourne",
-    "Melbourne Equinix IBX"
+    "Equinix ME1"
   ],
   "sources": [
     {
-      "id": "equinix-sustainability-qrg-2025",
-      "title": "Equinix — IBX Sustainability Quick Reference Guide",
-      "url": "https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf",
-      "accessedAt": "2026-10-03",
+      "id": "operator",
+      "url": "https://www.orionvm.com/wp-content/uploads/2017/09/me1.pdf",
+      "title": "Equinix ME1 technical specification, 2016 (operator-authored PDF hosted by OrionVM)",
+      "accessedAt": "2026-10-06",
       "publishedAt": null
     },
     {
-      "id": "equinix-data-centers",
-      "title": "Equinix — official data center portfolio",
-      "url": "https://www.equinix.com/data-centers",
-      "accessedAt": "2026-10-03",
+      "id": "current-me1",
+      "url": "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/melbourne-data-centers/me1",
+      "title": "Equinix ME1 — current address listing",
+      "accessedAt": "2026-10-06",
       "publishedAt": null
     }
   ],
   "facts": [
     {
-      "id": "fact-location-0",
+      "id": "fact-1",
+      "section": "overview",
+      "category": "History",
+      "label": "Historical facility identity",
+      "value": "Equinix’s 2016 ME1 specification identifies this imported address. The current ME1 page lists 578 Lorimer Street; the address change has not been independently reconciled.",
+      "sourceIds": [
+        "operator",
+        "current-me1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation area — 2016",
+      "value": "1,656 m²; historical specification, not current capacity",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS and standby redundancy — 2016",
+      "value": "N+1 for each system",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Average cabinet density — 2016",
+      "value": "2.5–4.5 kVA (apparent power)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling — 2016",
+      "value": "Indirect evaporative cooling; N+1 redundancy",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Security — 2016",
+      "value": "24/7 guards, mantrap entry, biometric / PIN / card access and recorded CCTV",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
       "section": "location",
       "category": "Location",
-      "label": "Operator location reference",
-      "value": "600 Lorimer Street, Port Melbourne Melbourne Australia",
+      "label": "Current operator listing",
+      "value": "578 Lorimer Street. Relationship to the historical 600 address remains unresolved.",
       "sourceIds": [
-        "equinix-sustainability-qrg-2025"
+        "current-me1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "600 Lorimer Street, Port Melbourne, Victoria 3207, Australia (2016 specification)",
+      "sourceIds": [
+        "operator"
       ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": null
 }

@@ -142,5 +142,13 @@
       ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/amsterdam-data-centers/am4",
+    "label": "Equinix facility website",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "facilityId": "dc-14f74c03698f6b1d50b4e6386703a383",
+  "status": "in-progress",
+  "reviewNote": "No operator facility document identified the imported building. Corporate acquisition history alone is insufficient. Research remains in progress; no published facts. Checked/attempted: site:zayo.com \"875\" \"Antoine\"; \"360 Networks\" \"875 St Antoine\"",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "No operator facility document identified the imported building. Corporate acquisition history alone is insufficient. Research remains in progress; no published facts. Checked/attempted: site:zayo.com \"875\" \"Antoine\"; \"360 Networks\" \"875 St Antoine\""
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

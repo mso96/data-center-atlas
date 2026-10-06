@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-3a0a0d84e51b2e17e90f116f651be4df",
+  "status": "reviewed",
+  "reviewNote": "Planning application SPP19-00013 confirms a data-center development at 10 Eastern Creek Drive, approved 6 May 2020, but does not establish Amazon as its operator. The separate 35 MW Echidna submission is not assigned to AWS without an operator identity match.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "Planning application SPP19-00013 confirms a data-center development at 10 Eastern Creek Drive, approved 6 May 2020, but does not establish Amazon as its operator. The separate 35 MW Echidna submission is not assigned to AWS without an operator identity match."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.planningportal.nsw.gov.au/planning-panel/2-stage-industrial-development-data-centre",
+      "title": "NSW planning determination: 10 Eastern Creek Drive",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

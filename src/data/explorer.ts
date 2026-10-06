@@ -1,11 +1,10 @@
-import type { DataCenterRepository, FacilityPage, FilterOptions, MapFeatures } from "./repository";
+import type { DataCenterRepository, PublicFacility, FacilityPage, FilterOptions, MapFeatures } from "./repository";
 import { matchesFilters, type ExplorerQuery } from "../domain/explorer-query";
-import type { DataCenter } from "../domain/data-center";
 export interface DatasetCredit { label: string; url: string; notice: string }
 export interface ExplorerResult {
   dataset: DatasetCredit | null;
   query: ExplorerQuery; page: FacilityPage; options: FilterOptions; features: MapFeatures;
-  selected: DataCenter | null; mode: "demo" | "imported";
+  selected: PublicFacility | null; mode: "demo" | "imported";
 }
 export async function loadExplorer(repository: DataCenterRepository, query: ExplorerQuery, mode: "demo"|"imported"): Promise<ExplorerResult> {
   const globalOptions = await repository.getFilterOptions({mappedOnly:true});

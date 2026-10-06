@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronDown, ChevronUp, Globe2 } from "lucide-react";
 import type { DataCenterFilters } from "@/domain/data-center";
-import type { ExplorerResult } from "@/data/explorer";
+import type { DatasetCredit, ExplorerResult } from "@/data/explorer";
 import { parseQuery,serializeQuery,type ExplorerQuery } from "@/domain/explorer-query";
 import { FilterControls,ActiveFilterTags } from "@/components/explorer/filters";
 import { FacilityList,ResultCount } from "@/components/explorer/facility-list";
@@ -68,7 +68,7 @@ export function AppShell({ initial }: { initial: ExplorerResult }) {
   const selected = result.selected;
   const detailsOpen = showDetails && selected !== null;
   return <div className="atlas-shell">
-    <header className="atlas-header"><Link className="wordmark" href="/" aria-label="Data Center Atlas home"><Globe2 size={20} strokeWidth={1.4} /><span>Data Center <strong>Atlas</strong></span></Link><div className="header-meta"><span className="header-subtitle">A world of infrastructure</span><span className="demo-pill"><span />{result.mode === "demo" ? "Demo data" : "Imported data"}</span></div></header>
+    <header className="atlas-header"><Link className="wordmark" href="/" aria-label="Data Center Atlas home"><Globe2 size={20} strokeWidth={1.4} /><span>Data Center <strong>Atlas</strong></span></Link>{result.mode === "demo" && <span className="demo-pill"><span />Demo data</span>}</header>
     <div className={`atlas-workspace ${expanded ? "sheet-expanded" : "sheet-collapsed"}`}>
       <aside className="explorer" aria-label="Facility explorer">
         <button className="sheet-toggle" aria-expanded={expanded} aria-controls="explorer-content" onClick={() => setExpanded(value => !value)}><span className="sheet-grip" /><span>{detailsOpen ? "Facility details" : `${result.page.total} ${result.page.total === 1 ? "facility" : "facilities"}`}</span>{expanded ? <ChevronDown size={16} /> : <ChevronUp size={16} />}</button>
@@ -83,13 +83,20 @@ export function AppShell({ initial }: { initial: ExplorerResult }) {
             {!!result.features.missingCoordinatesCount && <p className="unmapped-count">{result.features.missingCoordinatesCount} {result.features.missingCoordinatesCount === 1 ? "facility has" : "facilities have"} no valid coordinates and {result.features.missingCoordinatesCount === 1 ? "is" : "are"} not mapped.</p>}
             <div className="results-scroll" inert={pending || !!error}>{pending && <LoadingState message="Updating results…" />}<FacilityList facilities={result.page.items} selectedId={query.selectedId} returnQuery={queryKey} /></div>
             {result.page.totalPages > 1 && <nav className="pagination" aria-label="Results pages"><Button variant="outline" size="sm" disabled={pending || result.page.page === 1} onClick={() => update(current => ({...current,page:current.page-1}))}>Previous</Button><span>Page {result.page.page} of {result.page.totalPages}</span><Button variant="outline" size="sm" disabled={pending || result.page.page >= result.page.totalPages} onClick={() => update(current => ({...current,page:current.page+1}))}>Next</Button></nav>}
-            <footer className="explorer-footer"><span className="tiny-dot" />{result.mode === "demo" ? "Illustrative locations. Fictional facilities." : "Imported dataset. See each facility’s source."}</footer>
+            <ExplorerFooter dataset={result.dataset} mode={result.mode} />
           </div>
-          {detailsOpen && selected && <div className="details-scroll">{pending && <LoadingState message="Updating facility…" />}<FacilityDetails facility={selected} onBack={back} returnQuery={queryKey} /></div>}
+          {detailsOpen && selected && <div className="details-scroll">{pending && <LoadingState message="Updating facility…" />}<FacilityDetails facility={selected} onBack={back} returnQuery={queryKey} /><ExplorerFooter dataset={result.dataset} mode={result.mode} /></div>}
         </div>
       </aside>
-      <main className="map-region" aria-label="Data center world map"><WorldMap features={result.features} selected={selected} onSelect={select} mode={result.mode} dataset={result.dataset} />{(pending || error) && <div className="map-pending" aria-live="polite">{error ? "Map shows the last successful results" : "Updating list and map…"}</div>}</main>
+      <main className="map-region" aria-label="Data center world map"><WorldMap features={result.features} selected={selected} onSelect={select} />{(pending || error) && <div className="map-pending" aria-live="polite">{error ? "Map shows the last successful results" : "Updating list and map…"}</div>}</main>
     </div>
     <span className="sr-only" role="status" aria-live="polite">{selected ? `${selected.name} selected` : `${result.page.total} matching facilities`}</span>
   </div>;
+}
+
+function ExplorerFooter({ dataset, mode }: { dataset: DatasetCredit | null; mode: ExplorerResult["mode"] }) {
+  return <footer className="explorer-footer">
+    {dataset ? <div className="dataset-credit"><a href={dataset.url} target="_blank" rel="noreferrer">{dataset.label}</a><p>{dataset.notice}</p></div> : <p>{mode === "demo" ? "Illustrative locations. Fictional facilities." : "See each facility’s source."}</p>}
+    <p className="builder-credit">Built by <a href="https://twitter.com/msefaoruc" target="_blank" rel="noreferrer">Sefa Oruc</a><span aria-hidden="true"> · </span>marketing engineer &amp; indie app builder<span aria-hidden="true"> · </span><a href="https://sefaoruc.com/" target="_blank" rel="noreferrer">sefaoruc.com</a></p>
+  </footer>;
 }

@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-7bb835d5fcfdcb484a4a27e17b4ebfe9",
+  "status": "reviewed",
+  "reviewNote": "The operator confirms Graz, Raaba and Kalsdorf colocation locations. Its official pages do not match Neufeldweg 162 to the imported Graz record. Portfolio-wide security and power claims are withheld pending a building-level match.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The operator confirms Graz, Raaba and Kalsdorf colocation locations. Its official pages do not match Neufeldweg 162 to the imported Graz record. Portfolio-wide security and power claims are withheld pending a building-level match."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.xinon.at/colocation/",
+      "title": "XINON colocation",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://xinon.international/network.html",
+      "title": "XINON network locations",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

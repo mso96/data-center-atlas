@@ -1,44 +1,121 @@
 {
   "facilityId": "dc-eca59316df964b03a6835380f18bf0d5",
   "status": "reviewed",
-  "reviewNote": "The official Equinix IBX Sustainability Quick Reference Guide was checked for the Rio de Janeiro 2 metro and address. The imported operator, metro and address are retained as the facility identity. The public reference does not provide a facility-specific capacity, Tier, PUE, cooling or security value for this record, so those fields remain undisclosed rather than inferred.",
+  "reviewNote": "Individually checked the operator facility page and matched the imported operator, facility and street address. Published only site-specific claims; no coordinates changed.",
   "identity": {
     "nameMatched": true,
     "operatorMatched": true,
     "addressMatched": true,
-    "notes": "Equinix facility in Rio, Brazil; imported address retained verbatim for traceability."
+    "notes": "Imported Rio de Janeiro 2 (Equinix) at Estrada Adhemar Bebiano (Estrada Velha da Pavuna), 1380 Del Castilho 1380 Rio de Janeiro Brazil matches Equinix RJ2 at Estrada Adhemar Bebiano, 1380, Del Castilho, Rio de Janeiro 21051-070, Brazil."
   },
   "aliases": [
-    "Rio de Janeiro 2",
-    "Rio de Janeiro 2 Equinix IBX"
+    "Equinix RJ2"
   ],
   "sources": [
     {
-      "id": "equinix-sustainability-qrg-2025",
-      "title": "Equinix — IBX Sustainability Quick Reference Guide",
-      "url": "https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf",
-      "accessedAt": "2026-10-03",
-      "publishedAt": null
-    },
-    {
-      "id": "equinix-data-centers",
-      "title": "Equinix — official data center portfolio",
-      "url": "https://www.equinix.com/data-centers",
-      "accessedAt": "2026-10-03",
+      "id": "operator",
+      "url": "https://www.equinix.com/data-centers/americas-colocation/brazil-colocation/rio-de-janeiro-data-centers/rj2",
+      "title": "Equinix RJ2 — official facility information",
+      "accessedAt": "2026-10-06",
       "publishedAt": null
     }
   ],
   "facts": [
     {
-      "id": "fact-location-0",
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "Equinix RJ2 provides colocation at Estrada Adhemar Bebiano, 1380, Del Castilho, Rio de Janeiro 21051-070, Brazil. The published space refers to colocation area, not the entire building.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Colocation area",
+      "value": "3,811 m²",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "Minimum cabinet density",
+      "value": "5 kVA (apparent power)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Generator redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+20%",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Fire suppression",
+      "value": "FM-200",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access controls",
+      "value": "On-site guards and entrance mantraps",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
       "section": "location",
       "category": "Location",
-      "label": "Operator location reference",
-      "value": "Estrada Adhemar Bebiano (Estrada Velha da Pavuna), 1380 Del Castilho 1380 Rio de Janeiro Brazil",
+      "label": "Published address",
+      "value": "Estrada Adhemar Bebiano, 1380, Del Castilho, Rio de Janeiro 21051-070, Brazil",
       "sourceIds": [
-        "equinix-sustainability-qrg-2025"
+        "operator"
       ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://www.equinix.com/data-centers/americas-colocation/brazil-colocation/rio-de-janeiro-data-centers/rj2",
+    "label": "Equinix RJ2",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
 }

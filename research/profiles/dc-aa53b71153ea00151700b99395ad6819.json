@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-aa53b71153ea00151700b99395ad6819",
+  "status": "reviewed",
+  "reviewNote": "NTT describes Sydney 1 in its Australia brochure, but no street address connects it to the generic imported Sydney record. That record contains postcode 2000 and a Japanese telephone number. Carrier-neutral and power specifications cannot safely be attached to a specific building.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "NTT describes Sydney 1 in its Australia brochure, but no street address connects it to the generic imported Sydney record. That record contains postcode 2000 and a Japanese telephone number. Carrier-neutral and power specifications cannot safely be attached to a specific building."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://services.global.ntt/-/media/ntt/global/products-and-services/data-centers/colocation/brochure_data-center-locations_australia.pdf",
+      "title": "NTT Australia data center brochure",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

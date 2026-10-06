@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-786c8a22491ed7d28018e7e69eaac8f2",
+  "status": "reviewed",
+  "reviewNote": "Beltelecom’s colocation page describes a service across national and regional network nodes, without naming the imported Zakharova 55 building. A separate Minsk centre announcement could not be retrieved. Generic UPS/cooling statements were not attributed to this individual site.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Beltelecom’s colocation page describes a service across national and regional network nodes, without naming the imported Zakharova 55 building. A separate Minsk centre announcement could not be retrieved. Generic UPS/cooling statements were not attributed to this individual site."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://beltelecom.by/en/private/hosting/razmeschenie-oborudovaniya-colocation",
+      "title": "Beltelecom — network-wide colocation service",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

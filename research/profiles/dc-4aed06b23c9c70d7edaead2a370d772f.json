@@ -1,0 +1,125 @@
+{
+  "facilityId": "dc-4aed06b23c9c70d7edaead2a370d772f",
+  "status": "reviewed",
+  "reviewNote": "Vienna 1 at Computerstrasse 4 matches the imported Vienna facility. NTT is the current operator and e-shelter is the legacy label. Operator page reports 8,500 m² server space whereas the REIT reports 8,317 m² data floor space; these potentially different scopes are not combined. Tier III-equivalent is not certification.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Vienna 1 at Computerstrasse 4 matches the imported Vienna facility. NTT is the current operator and e-shelter is the legacy label. Operator page reports 8,500 m² server space whereas the REIT reports 8,317 m² data floor space; these potentially different scopes are not combined. Tier III-equivalent is not certification."
+  },
+  "aliases": [
+    "NTT Vienna 1",
+    "VIE1"
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/emea/vienna-1-data-center",
+      "title": "NTT Vienna 1",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.nttdcreit.com/portfolio/vienna/",
+      "title": "NTT DC REIT Vienna asset",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-3",
+      "url": "https://services.global.ntt/de-de/newsroom/ntt-ltd-launches-new-global-data-centers-division",
+      "title": "NTT integration of e-shelter",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility",
+      "value": "NTT Vienna 1 is a carrier-neutral data center in Vienna's Favoriten district.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "location",
+      "category": "Location",
+      "label": "Address",
+      "value": "Computerstrasse 4, 1100 Vienna, Austria",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Maximum IT load",
+      "value": "15.4 MW",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "2N, separate A and B systems",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1 (REIT asset specification)",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Power",
+      "label": "Design PUE",
+      "value": "1.24; design value, not measured operating PUE",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Connectivity",
+      "value": "VIX access and redundant carrier meet-me rooms",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/emea/vienna-1-data-center",
+    "label": "NTT Vienna 1",
+    "kind": "facility",
+    "sourceIds": [
+      "source-1"
+    ]
+  }
+}

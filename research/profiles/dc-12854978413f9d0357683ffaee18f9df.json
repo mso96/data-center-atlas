@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-12854978413f9d0357683ffaee18f9df",
+  "status": "reviewed",
+  "reviewNote": "Current operator information places its Sofia network at Equinix and Telepoint facilities. It does not verify the legacy 19 Vrabcha address as a current data center. Current PoP services are not applied to the historical street record.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Current operator information places its Sofia network at Equinix and Telepoint facilities. It does not verify the legacy 19 Vrabcha address as a current data center. Current PoP services are not applied to the historical street record."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.sofia-connect.net/locations/sofia/",
+      "title": "Sofia Connect current Sofia presence",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.sofia-connect.net/about/",
+      "title": "Sofia Connect operator profile",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

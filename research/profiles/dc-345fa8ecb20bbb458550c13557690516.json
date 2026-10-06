@@ -8,14 +8,17 @@
     "addressMatched": true,
     "notes": "The certificate names Stadtwerke Klagenfurt AG, two Klagenfurt data centers and Gabelsbergerstraße 50a."
   },
-  "aliases": ["Stadtwerke Klagenfurt Data Center", "STW Klagenfurt Rechenzentrum"],
+  "aliases": [
+    "Stadtwerke Klagenfurt Data Center",
+    "STW Klagenfurt Rechenzentrum"
+  ],
   "sources": [
     {
       "id": "operator-certificate",
       "title": "Stadtwerke Klagenfurt — official ISO/IEC 27001 certificate",
       "url": "https://www.stw.at/wp-content/uploads/2025/10/zertifikat-isms_stw_klgf_10_2025de_signed.pdf",
-      "accessedAt": "2026-10-03",
-      "publishedAt": null
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2025-10-07"
     },
     {
       "id": "operator-home",
@@ -32,17 +35,29 @@
       "category": "Location",
       "label": "Certified site",
       "value": "Gabelsbergerstraße 50a, 9020 Klagenfurt, Austria",
-      "sourceIds": ["operator-certificate"],
+      "sourceIds": [
+        "operator-certificate"
+      ],
       "status": "verified"
     },
     {
       "id": "fact-1",
-      "section": "overview",
+      "section": "specs",
       "category": "Compliance",
       "label": "Information security certification",
       "value": "ISO/IEC 27001:2022 certification scope includes the two Klagenfurt data centers and secure operation of the utility control, monitoring and process-control technology systems",
-      "sourceIds": ["operator-certificate"],
+      "sourceIds": [
+        "operator-certificate"
+      ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://www.stw.at/",
+    "label": "Stadtwerke Klagenfurt",
+    "kind": "operator",
+    "sourceIds": [
+      "operator-home"
+    ]
+  }
 }

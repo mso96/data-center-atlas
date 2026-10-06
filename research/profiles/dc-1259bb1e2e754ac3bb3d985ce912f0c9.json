@@ -1,0 +1,165 @@
+{
+  "facilityId": "dc-1259bb1e2e754ac3bb3d985ce912f0c9",
+  "status": "reviewed",
+  "reviewNote": "Individually matched name, operator and full street address in indexed official Toronto data sheet (2024 URL); Q1-update PDF confirms site specifications. Direct PDF requests returned 403; indexed official text was readable. Power expansion remains planned. No uptime, Tier certification or availability inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Imported Toronto (EdgeConneX) at 565 Gordon Baker Rd M2H 3B4 North York Canada matches EdgeConneX TOR01 at 565 Gordon Baker Road, North York, Ontario M2H 3B4, Canada."
+  },
+  "aliases": [
+    "EdgeConneX TOR01"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.edgeconnex.com/wp-content/uploads/2026/03/Toronto-Data-Sheet-Q1-update.pdf",
+      "title": "EdgeConneX TOR01 — Q1 update technical sheet (indexed official text)",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    },
+    {
+      "id": "address",
+      "url": "https://www.edgeconnex.com/wp-content/uploads/2024/09/Toronto-Data-Sheet.pdf",
+      "title": "EdgeConneX TOR01 — address and specifications (indexed official text)",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "EdgeConneX TOR01 serves the Toronto market from North York. Its data sheet separates a 1 MW configuration from a planned 3 MW expansion.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Published power",
+      "value": "1 MW; 3 MW described as planned, not confirmed operational",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Facility area",
+      "value": "Approximately 3,614 m² (38,900 ft²)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Raised floor for tenant racks",
+      "value": "Approximately 1,672 m² (18,000 ft²)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Power",
+      "label": "Electrical redundancy",
+      "value": "At least N+1 across PDUs, UPS and generators",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Power",
+      "label": "Cabinet capability",
+      "value": "20+ kW per cabinet",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling system",
+      "value": "N+1 CRACs with underfloor air delivery",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Network resilience",
+      "value": "Diverse building entries and physically separate meet-me rooms",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-9",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access and fire protection",
+      "value": "PIN/video authentication and pre-action dry-pipe sprinklers",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-10",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Operator-listed compliance",
+      "value": "SOC 2 Type 2, ISO 27001 and PCI DSS",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-11",
+      "section": "overview",
+      "category": "Services",
+      "label": "Support",
+      "value": "Remote hands services",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-12",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "565 Gordon Baker Road, North York, Ontario M2H 3B4, Canada",
+      "sourceIds": [
+        "address"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": null
+}

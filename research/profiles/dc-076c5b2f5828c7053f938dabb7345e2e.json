@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-076c5b2f5828c7053f938dabb7345e2e",
+  "status": "reviewed",
+  "reviewNote": "Verizon's corporate rules list its Belgian entities at Culliganlaan 2E. This proves a registered/company address, not a data-center operation or specifications.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Verizon's corporate rules list its Belgian entities at Culliganlaan 2E. This proves a registered/company address, not a data-center operation or specifications."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.verizon.com/about/privacy/es/node/51",
+      "title": "Verizon binding corporate rules and entities",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

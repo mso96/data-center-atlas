@@ -1,0 +1,59 @@
+{
+  "facilityId": "dc-0f9c22295a21a79d44536336f07bea56",
+  "status": "reviewed",
+  "reviewNote": "Historical tenant-authored connectivity guide matches Q9 and 100 Wellington. Service withdrawal is explicit; no current Equinix alias or whole-building specifications inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The tenant guide explicitly names Q9 Networks data centre at 100 Wellington Street, matching the imported operator and street."
+  },
+  "website": null,
+  "aliases": [
+    "Q9 Networks — 100 Wellington Street"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://webfiles.thecse.com/CSE_Connectivity_Guide_12122017_0.pdf",
+      "title": "Canadian Securities Exchange connectivity guide — December 2017",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2017-12-12"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "History",
+      "label": "Historical facility role",
+      "value": "Q9 at 100 Wellington Street hosted connectivity to the Canadian Securities Exchange. The exchange announced withdrawal of that connectivity effective 1 May 2018.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Historical cross-connect service",
+      "value": "The December 2017 guide allowed colocated customers to request an in-house connection to CSE. This is historical information; the Q9 connection was scheduled to end in May 2018.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "location",
+      "category": "Location",
+      "label": "Address in the connectivity guide",
+      "value": "100 Wellington Street, Toronto, Canada",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

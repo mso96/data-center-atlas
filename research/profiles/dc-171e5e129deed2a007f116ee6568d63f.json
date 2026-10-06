@@ -1,0 +1,132 @@
+{
+  "facilityId": "dc-171e5e129deed2a007f116ee6568d63f",
+  "status": "reviewed",
+  "reviewNote": "Matched RNP, SeTIC/UFSC building and postal code. Electrical values describe shared SeTIC data-centre infrastructure, not capacity exclusively allocated to RNP. kVA retained as apparent power; no conversion to MW or coordinate correction.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Imported Florianópolis (RNP) at Superintendência de Governança Eletrônica e Tecnologia da Informação e Comunicação 88040-900 Florianópolis Brazil matches RNP PoP-SC Florianópolis at SeTIC / UFSC, Centro Tecnológico, Campus Universitário Trindade, Florianópolis 88040-900, Brazil."
+  },
+  "aliases": [
+    "RNP PoP-SC Florianópolis"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.pop-sc.rnp.br/home/sobre/",
+      "title": "RNP PoP-SC Florianópolis — official facility information",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "RNP’s Santa Catarina point of presence operates from SeTIC at UFSC. Its dedicated equipment area supports academic backbone, metropolitan network and exchange connectivity.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "scope",
+      "section": "specs",
+      "category": "Summary",
+      "label": "Specification scope",
+      "value": "Electrical ratings describe SeTIC data-centre infrastructure shared by this hosted PoP; they are not an exclusive RNP allocation.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS configuration",
+      "value": "150 kVA rated system, configured for 90 kVA load with two hot-spare modules; stated battery autonomy 7 minutes",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "Alternative UPS configuration",
+      "value": "120 kVA with one hot-spare module; a possible reconfiguration, not additional simultaneous capacity",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Power",
+      "label": "Standby generation",
+      "value": "170 kVA; 250-litre diesel tank with stated 6-hour autonomy",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling",
+      "value": "Climate-controlled equipment room; no redundancy rating disclosed",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Security",
+      "label": "Access control",
+      "value": "Controlled access to the dedicated equipment area",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Network infrastructure",
+      "value": "RNP backbone, REMEP-FLN and IX.br equipment; CAT6 cabling and dedicated carrier-entry racks",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "SeTIC / UFSC, Centro Tecnológico, Campus Universitário Trindade, Florianópolis 88040-900, Brazil",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.pop-sc.rnp.br/home/sobre/",
+    "label": "RNP PoP-SC Florianópolis",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
+}

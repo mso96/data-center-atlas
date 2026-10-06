@@ -1,0 +1,45 @@
+{
+  "facilityId": "dc-1afdb8f84fbbf243f345a3bcf7141400",
+  "status": "reviewed",
+  "reviewNote": "Council entry 006/2025/00029695/001 explicitly names Amazon Data Centre Stage 1 bulk earthworks at 54–80 Ferris Road. This establishes the project and address, not completion or operating capacity. The PDF heading extends beyond the month in its filename.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Council entry 006/2025/00029695/001 explicitly names Amazon Data Centre Stage 1 bulk earthworks at 54–80 Ferris Road. This establishes the project and address, not completion or operating capacity. The PDF heading extends beyond the month in its filename."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.melton.vic.gov.au/files/assets/public/v/3/services/building-planning-amp-transport/building/building-amp-occupancy-permit-registers/building-permit-register-january-2025-to-31-august-2025.pdf",
+      "title": "City of Melton building permit register, 2025",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Project address",
+      "value": "54–80 Ferris Road, Cobblebank, VIC 3338, Australia",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "History",
+      "label": "Earthworks permit",
+      "value": "Council records a permit dated 14 January 2025 for Amazon data-center Stage 1 bulk earthworks; this does not establish an opening date.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "facilityId": "dc-236e384d3718e6395949f275a4239cde",
+  "status": "reviewed",
+  "reviewNote": "Matched exact operator project and address. Converted square feet at 0.09290304 m²/ft². Project area ceilings are not asserted as commissioned capacity; no construction date, Tier certification or PUE inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Imported Montreal (Urbacon Data Centre Solutions) at 544 Rue de l'Inspecteur H3C 2K9 Montréal Canada matches Urbacon Montreal Next Generation Data Centre at 544 rue de l’Inspecteur, Montreal, Quebec, Canada."
+  },
+  "aliases": [
+    "Urbacon Montreal Next Generation Data Centre"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.urbacon.net/projects-archive/next-generation-data-centre-montreal-qc/",
+      "title": "Urbacon Montreal Next Generation Data Centre — official facility information",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "Urbacon describes a purpose-built wholesale colocation project at 544 rue de l’Inspecteur. Published area figures are project limits, not a measurement of occupied space.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Published project gross floor area",
+      "value": "Up to approximately 19,417 m² (209,000 ft²)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "White space per floor",
+      "value": "Approximately 929 m² (10,000 ft²)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling approach",
+      "value": "Free cooling using the local climate; no measured PUE or redundancy level disclosed on this source",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "544 rue de l’Inspecteur, Montreal, Quebec, Canada",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.urbacon.net/projects-archive/next-generation-data-centre-montreal-qc/",
+    "label": "Urbacon Montreal Next Generation Data Centre",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
+}

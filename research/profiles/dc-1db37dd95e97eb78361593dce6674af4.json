@@ -1,0 +1,84 @@
+{
+  "facilityId": "dc-1db37dd95e97eb78361593dce6674af4",
+  "status": "reviewed",
+  "reviewNote": "Matched PoP-BA at UFBA IT superintendency and reconciled old street name using university address guidance. Campus/building context verified; no exact entrance coordinates, power, floor area or certification inferred.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Imported Salvador / POP-BA at CPD UFBA on Av. Ademar Barros matches the current PoP at STI/UFBA. UFBA explicitly identifies Av. Milton Santos as the former Adhemar de Barros. Campus-level identity, not entrance geocoding."
+  },
+  "aliases": [
+    "RNP PoP-BA Salvador"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.pop-ba.rnp.br/Site/",
+      "title": "PoP-BA — operator, hosted location and network role",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    },
+    {
+      "id": "street",
+      "url": "https://computacao.ufba.br/sites/computacao.ufba.br/files/edital_2022.1_-_cursos_de_extensao_em_tecnologia.pdf",
+      "title": "UFBA — address explicitly identifies Milton Santos as former Adhemar de Barros",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "The Bahia RNP point of presence operates from UFBA’s IT superintendency in Salvador and serves education and research institutions.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Network role",
+      "value": "RNP backbone access and operation of IX.br Salvador",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "location",
+      "category": "Location",
+      "label": "Street-name change",
+      "value": "The imported Av. Adhemar de Barros is now named Av. Milton Santos, as identified in UFBA’s own address guidance.",
+      "sourceIds": [
+        "street"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "STI / UFBA, Av. Milton Santos, s/n, Ondina, Salvador, Bahia 40170-110, Brazil",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.pop-ba.rnp.br/Site/",
+    "label": "RNP PoP-BA Salvador",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
+}

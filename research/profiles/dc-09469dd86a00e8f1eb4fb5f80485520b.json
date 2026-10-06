@@ -1,0 +1,15 @@
+{
+  "facilityId": "dc-09469dd86a00e8f1eb4fb5f80485520b",
+  "status": "in-progress",
+  "reviewNote": "Operator page failed to load; exact street searches returned third-party corporate listings, not facility evidence. Research remains in progress; no published facts. Checked/attempted: https://www.voxbras.com.br/",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Operator page failed to load; exact street searches returned third-party corporate listings, not facility evidence. Research remains in progress; no published facts. Checked/attempted: https://www.voxbras.com.br/"
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

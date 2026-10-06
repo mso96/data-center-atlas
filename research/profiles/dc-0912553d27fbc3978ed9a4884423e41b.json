@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-0912553d27fbc3978ed9a4884423e41b",
+  "status": "reviewed",
+  "reviewNote": "The current PE1 page identifies a Perth 6004 facility, but does not explicitly link the imported Metronode Perth 1 record, whose address is only East Perth, to a specific building. Metronode acquisition at portfolio level is not enough to verify the site mapping.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The current PE1 page identifies a Perth 6004 facility, but does not explicitly link the imported Metronode Perth 1 record, whose address is only East Perth, to a specific building. Metronode acquisition at portfolio level is not enough to verify the site mapping."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/perth-data-centers/pe1",
+      "title": "Equinix PE1",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

@@ -1,0 +1,30 @@
+{
+  "facilityId": "dc-fb0cf4c3df51570b13e9a570b6d4f602",
+  "status": "reviewed",
+  "reviewNote": "Tigo publishes data-centre services and a Santa Cruz facility announcement, but no street-level match was established for this address-less imported record. The advertised rack/Tier figures are withheld until the individual site identity can be bound to this record.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Tigo publishes data-centre services and a Santa Cruz facility announcement, but no street-level match was established for this address-less imported record. The advertised rack/Tier figures are withheld until the individual site identity can be bound to this record."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.tigo.com.bo/empresas/soluciones-en-la-nube/data-center",
+      "title": "Tigo Bolivia — Data Center services",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    },
+    {
+      "id": "announcement",
+      "url": "https://www.tigo.com.bo/sala-prensa/frost-and-sullivan-premia-a-tigo-por-infraestructura-de-ultima-generacion-en-su-data-center",
+      "title": "Tigo — Santa Cruz facility announcement",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

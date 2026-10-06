@@ -1,0 +1,15 @@
+{
+  "facilityId": "dc-0e44274522512f55ef86a8cb953e079f",
+  "status": "in-progress",
+  "reviewNote": "Operator page could not be read. Old mailing-list signatures describe an office suite, not an independently identified data hall. Research remains in progress; no published facts. Checked/attempted: https://www.ibtelecom.net.br/",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Operator page could not be read. Old mailing-list signatures describe an office suite, not an independently identified data hall. Research remains in progress; no published facts. Checked/attempted: https://www.ibtelecom.net.br/"
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [],
+  "facts": []
+}

@@ -1,0 +1,65 @@
+{
+  "facilityId": "dc-9bb0f5172324b1a04adcc11c22de8331",
+  "status": "reviewed",
+  "reviewNote": "The bank identifies its Data Center-2 in Dumni, Dhaka, matching the facility label and locality. Locality-level identification only: no street number or coordinates validated. Leased floor area in note 49 is not server white space. Tender requirements are not as-built specifications.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The bank identifies its Data Center-2 in Dumni, Dhaka, matching the facility label and locality. Locality-level identification only: no street number or coordinates validated. Leased floor area in note 49 is not server white space. Tender requirements are not as-built specifications."
+  },
+  "aliases": [
+    "Dutch-Bangla Bank Data Center-2"
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.dutchbanglabank.com/investor-relations/Interim_Report/2023_first_quarter/Financial_Statements_Q1_31-Mar-2023.pdf",
+      "title": "Dutch-Bangla Bank Q1 2023 financial statements, note 49",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.dutchbanglabank.com/tender/tender_pdf/rfp_Dumni-Data-Center.pdf",
+      "title": "Dutch-Bangla Bank Dumni data center tender",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Verified locality",
+      "value": "Dumni, Dhaka, Bangladesh; exact building coordinates remain unverified.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Leased floor space (2023 disclosure)",
+      "value": "Approximately 3,597 m² (38,718 ft² × 0.09290304); total leased floor space, not IT white space.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "overview",
+      "category": "History",
+      "label": "Lease disclosure",
+      "value": "The bank's 2023 financial statement records a ten-year lease effective 16 January 2022 for Data Center-2.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ]
+}

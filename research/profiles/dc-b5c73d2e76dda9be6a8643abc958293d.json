@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-b5c73d2e76dda9be6a8643abc958293d",
+  "status": "reviewed",
+  "reviewNote": "Globalhost describes its own Bosnia and Herzegovina facility and redundancy, but the imported record has no address and the reviewed facility page does not establish a street location. The site specifications are withheld until the building can be matched.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Globalhost describes its own Bosnia and Herzegovina facility and redundancy, but the imported record has no address and the reviewed facility page does not establish a street location. The site specifications are withheld until the building can be matched."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.globalhost.info/en/dc.php",
+      "title": "Globalhost data center",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

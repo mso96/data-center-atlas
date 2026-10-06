@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-57659a9b2be96b1e8b5e92d1938eb208",
+  "status": "reviewed",
+  "reviewNote": "Searched the legacy Interoute Salzburg listing and EXA successor portfolio for Schillerstrasse 30. The official network sheet includes Salzburg but does not identify this street address or building. Network-wide specifications cannot be assigned to this record.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Searched the legacy Interoute Salzburg listing and EXA successor portfolio for Schillerstrasse 30. The official network sheet includes Salzburg but does not identify this street address or building. Network-wide specifications cannot be assigned to this record."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://exainfra.net/media/ljvo4eqy/exa-infrastructure_cloud_content_tech_datasheet_022025.pdf",
+      "title": "EXA network and colocation overview",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

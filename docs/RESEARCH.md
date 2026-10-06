@@ -8,9 +8,12 @@ future correction; they do not contribute to public filters, lists, counts or ma
 All mapped records have Overview, Specs and Location pages with available data.
 
 The research queue contains **1,000 candidates in 140 countries**, arranged in ten
-batches of 100. **Ninety-six have been reviewed and seventy-nine enriched from official sources;
-900 remain pending and four are in progress.** The latest completed review group added 58 Equinix
-records and one Kelag Klagenfurt record. Selecting a candidate is not research completion. Do not
+batches of 100. **131 have been reviewed and 57 enriched from primary sources;
+858 remain pending and eleven are in progress** (6 October 2026). The October 5 50-candidate
+group contains 14 enriched profiles, 35 completed reviews without publishable facts,
+and one unresolved source-access case. A separate audit withdrew 58 unsupported
+automatically generated Equinix reviews and their copied location facts.
+See [individual outcomes and audit](RESEARCH_2026-10-05.md). Selecting a candidate is not research completion. Do not
 advertise the queue as 1,000 verified profiles, or as a definitive global ranking.
 Machine-readable progress and all outstanding IDs: `research/report.json`.
 
@@ -29,11 +32,22 @@ is no public write/upload API. Research JSON is validated before each transactio
 A fact must reference an existing source. Publishing verified facts requires explicit
 name, operator and address identity checks. Only reviewed profiles' verified facts
 are displayed. Every source records an access date and optional publication date.
+These profiles show a “Source-verified” badge with a visible explanation that map
+locations may be approximate. A source link or completed review without verified
+facts does not qualify; pending, in-progress and conflicting-only profiles do not
+receive the badge. This applies to eligible profiles across all research groups.
 
-Routes: `/data-centers/[id]?tab=overview|specs|location`. `return` contains only the
+Routes: `/<country>/<facility-name>?tab=location|specs|overview` (legacy ID URLs redirect with HTTP 308). Location is the default
+and first tab, followed by Specs and Overview. Explorer results put source-verified
+profiles first before pagination, with stable ID ordering within each group; search
+and filters retain this ordering. Cards display the same verification badge.
+The header and map no longer repeat imported-data status/count boxes. Dataset
+attribution and coordinate-accuracy notes appear in the explorer footer, followed
+by a single-line builder credit. Built-in basemap attribution remains on the map.
+`return` contains only the
 canonical explorer query, including selected facility; arbitrary redirect URLs are
 never accepted. Invalid/nonmapped IDs render the not-found view with `noindex`.
-Next's streamed responses can carry HTTP 200 even when this view is rendered.
+Unknown profile routes return HTTP 404 before streaming the page.
 List entries open full profiles in the same tab. Map selection opens the compact
 panel, whose View details link opens the full page. Back to map preserves filters,
 page and selection. Unknown Specs values are hidden rather than rendered as a table
@@ -97,3 +111,39 @@ https://github.com/Ringmast4r/Global-Data-Center-Map. They use the attribution l
 retained under `docs/sources/`. These licensed candidate extracts are deliberately
 versioned for reproducibility; raw snapshots and SQLite remain local. No Data Center
 Map bulk records or copyrighted descriptions were copied into the profiles.
+
+## Specs coverage audit — 5 October 2026
+
+Of 35 enriched profiles, eight initially lacked verified facts shown in Specs.
+Klagenfurt's source-backed ISMS certificate was filed in Overview; AWS 42A Bluett's
+21,100 m² **land** area was filed in Location. Both now appear in Specs with their
+original source references and scope. The certificate and council report were
+rechecked. CFIN Atlantico now includes two Tier III awards from the official Uptime
+Angola listing, readable in its indexed text (a direct list request returned 403).
+These awards do not establish operational certification or power/cooling values.
+
+31 enriched profiles now have sourced Specs content. Four retain only location or
+background facts: 1–21 Templar Road, 98 Radnor Drive, AWS 54–80 Ferris Rd,
+and Rue du Canon 36. Their missing technical information is not fabricated. The
+Templar street-range discrepancy remains unresolved; SYD10's current specifications
+were not copied to that legacy record. Verification badges now enumerate sourced
+sections and explicitly describe their limited coverage.
+
+Canberra follow-up: the 2019 Cyxtera handbook supplies the historical CBR1-A
+minimum density of 150 W/ft². NEXTDC's official pages identify the same address
+as C1 and publish building-level capacity, area, power, cooling, connectivity and
+security. These are now shown with explicit **host building** labels and a scope
+note. Neither the current Cyxtera tenancy nor its allocated capacity is inferred;
+base facility capacity/area/PUE values remain null. PUE 1.4 is a design target.
+
+## October 6 continuation
+
+See [the next-group progress report](RESEARCH_2026-10-06.md): All 50 received an individual research pass: 22 enriched with cited Specs,
+22 reviewed without publishable building-level facts, and six still in progress. Older Specs-audit counts
+above are the October 5 snapshot. Current coverage is 53 of 57 enriched profiles.
+
+`website` is an optional sourced research field: HTTPS URL, display label, kind
+(`facility`, `operator`, or `host-facility`) and source IDs. All three identity checks
+are required. Only reviewed profiles display it in At a glance. It neither makes a
+profile verified by itself nor modifies the imported record. There are 44 published
+website fields, including an explicitly labelled host link for Canberra.

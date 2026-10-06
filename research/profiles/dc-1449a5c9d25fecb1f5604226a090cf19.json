@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-1449a5c9d25fecb1f5604226a090cf19",
+  "status": "reviewed",
+  "reviewNote": "The regulator’s SBIN catalogue documents SAT-3 network/landing connectivity. SAT-3 is a cable-system label, not sufficient operator or building identity for this address-less CLS Cotonou record. No facility specifications or precise location published.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The regulator’s SBIN catalogue documents SAT-3 network/landing connectivity. SAT-3 is a cable-system label, not sufficient operator or building identity for this address-less CLS Cotonou record. No facility specifications or precise location published."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://arcep.bj/wp-content/uploads/2021/03/DECISION-2021-035-PORTANT-APPROBATION-DU-CATALOGUE-DE-SBIN-1.pdf",
+      "title": "ARCEP Benin — approval of SBIN service catalogue",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

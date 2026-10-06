@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Map as LibreMap, NavigationControl, FullscreenControl, AttributionControl, Popup, setWorkerUrl, type GeoJSONSource, type MapLayerMouseEvent } from "maplibre-gl";
 import { RotateCcw } from "lucide-react";
-import type { DatasetCredit } from "@/data/explorer";
 import type { MapFeatures } from "@/data/repository";
 import { hasValidCoordinates, type DataCenter } from "@/domain/data-center";
 import { Button } from "@/components/ui/button";
@@ -19,7 +18,7 @@ const SELECTED_SOURCE = "atlas-selected-source";
 const CLUSTERS = "atlas-clusters";
 const motionDuration = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 1200;
 
-export default function WorldMap({ features, selected, onSelect, mode, dataset }: { features: MapFeatures; selected: DataCenter | null; onSelect: (id: string) => void; mode: "demo" | "imported"; dataset: DatasetCredit | null }) {
+export default function WorldMap({ features, selected, onSelect }: { features: MapFeatures; selected: DataCenter | null; onSelect: (id: string) => void }) {
   const container = useRef<HTMLDivElement>(null);
   const frame = useRef<HTMLDivElement>(null);
   const mapRef = useRef<LibreMap | null>(null);
@@ -146,7 +145,6 @@ export default function WorldMap({ features, selected, onSelect, mode, dataset }
     <Button className="reset-map" variant="outline" size="sm" onClick={reset} disabled={!ready} aria-label="Reset to global view"><RotateCcw size={13} />Global view</Button>
     {!ready && !error && <div className="map-message"><LoadingState message="Loading world map…" /></div>}
     {error && <div className="map-message"><ErrorState message={error} onRetry={retry} /></div>}
-    {dataset && <div className="dataset-credit"><a href={dataset.url} target="_blank" rel="noreferrer">{dataset.label}</a><span>{dataset.notice}</span></div>}
-    <div className="map-legend"><span className="legend-dot" />{mode === "demo" ? "Demo data" : "Imported data"}<span className="legend-divider" />{features.features.length} mapped</div>
+
   </div>;
 }

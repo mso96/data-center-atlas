@@ -1,0 +1,121 @@
+{
+  "facilityId": "dc-0d5b4e2f2509efbe777596ef94e6aebb",
+  "status": "reviewed",
+  "reviewNote": "Individually checked the operator facility page and matched the imported operator, facility and street address. Published only site-specific claims; no coordinates changed.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Imported 371 Gough Road (Digital Realty Trust) at 371 Gough Road Markham Canada matches Digital Realty YYZ10 at 371 Gough Road, Markham, Ontario L3R 4B6, Canada."
+  },
+  "aliases": [
+    "Digital Realty YYZ10"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.digitalrealty.com/data-centers/americas/toronto/yyz10",
+      "title": "Digital Realty YYZ10 — official facility information",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Facility overview",
+      "value": "Digital Realty’s YYZ10 is a single-storey data centre in Markham serving the Toronto market.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Total building area",
+      "value": "9,700 m² (104,500 ft², operator-rounded figures)",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "UPS redundancy",
+      "value": "2N",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling redundancy",
+      "value": "N+1",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "specs",
+      "category": "Security",
+      "label": "Site security",
+      "value": "24/7 personnel; CCTV retained for 90 days; biometric and photo-badge access",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-6",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Operator-listed standards",
+      "value": "SOC 2, SOC 3, PCI DSS, ISO 9001, ISO 14001 and ISO 27001",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-7",
+      "section": "specs",
+      "category": "Compliance",
+      "label": "Building certification",
+      "value": "LEED Silver",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-8",
+      "section": "location",
+      "category": "Location",
+      "label": "Published address",
+      "value": "371 Gough Road, Markham, Ontario L3R 4B6, Canada",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://www.digitalrealty.com/data-centers/americas/toronto/yyz10",
+    "label": "Digital Realty YYZ10",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
+}

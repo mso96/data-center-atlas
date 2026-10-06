@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-42f64b1561b6798cd8a7b3c573447951",
+  "status": "reviewed",
+  "reviewNote": "The acquisition is verified at business level, but no primary document matches Nieuwbrugstraat 91 to the currently listed Machelen building. An alternate Rittwegerlaan address in directories is not treated as the same entrance/building without evidence. Technical claims withheld.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The acquisition is verified at business level, but no primary document matches Nieuwbrugstraat 91 to the currently listed Machelen building. An alternate Rittwegerlaan address in directories is not treated as the same entrance/building without evidence. Technical claims withheld."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.proximus.com/news/2025/202503-news-proximus-datacenter-sale-completed.html",
+      "title": "Proximus data-center business sale",
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2025-03-03"
+    },
+    {
+      "id": "source-2",
+      "url": "https://datacenterunited.com/en/our-datacenters/",
+      "title": "Datacenter United locations",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

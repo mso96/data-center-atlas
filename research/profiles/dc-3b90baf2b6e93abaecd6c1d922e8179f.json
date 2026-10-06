@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-3b90baf2b6e93abaecd6c1d922e8179f",
+  "status": "reviewed",
+  "reviewNote": "EXA's network map confirms Sofia network coverage but not the imported Interoute SOF-SHI building at Shipchenski Prohod 63. S3 Company currently identifies that address. This is a potential shared-site/legacy relationship with priority 78, not evidence that the records should be merged or assigned identical specifications.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": true,
+    "notes": "EXA's network map confirms Sofia network coverage but not the imported Interoute SOF-SHI building at Shipchenski Prohod 63. S3 Company currently identifies that address. This is a potential shared-site/legacy relationship with priority 78, not evidence that the records should be merged or assigned identical specifications."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://exainfra.net/media/ytig11mc/exa_infrastructure_dci_network_map_082025_a4.pdf",
+      "title": "EXA data-center interconnection network map",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.s3c.bg/contacts",
+      "title": "S3 Company address",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

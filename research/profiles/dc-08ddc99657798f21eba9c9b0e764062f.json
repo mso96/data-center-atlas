@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-08ddc99657798f21eba9c9b0e764062f",
+  "status": "reviewed",
+  "reviewNote": "The official corporate registry was checked for the imported Chucri Zaidan address. It does not establish that this company address is a data centre. No NTT/Dimension Data campus specifications were transferred to it.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The official corporate registry was checked for the imported Chucri Zaidan address. It does not establish that this company address is a data centre. No NTT/Dimension Data campus specifications were transferred to it."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://portaldatransparencia.gov.br/pessoa-juridica/00447484000111",
+      "title": "Brazil Transparency Portal — corporate registration 00447484000111",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

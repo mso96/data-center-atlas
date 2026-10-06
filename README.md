@@ -6,8 +6,9 @@ replaceable demo/SQLite repository.
 
 **The public explorer shows 6,086 mapped Ringmast4r facilities.**
 All have separate Overview, Specs and Location pages. Unmapped records remain in
-storage. The 1,000-candidate research queue is selected; 4 profiles are enriched
-from official sources and 996 are still pending. [Research status](docs/RESEARCH.md).
+storage. The 1,000-candidate research queue is selected; 131 profiles have been reviewed,
+57 enriched from primary sources, 858 remain pending and 11 are in progress
+(as of 6 October 2026). [Research status](docs/RESEARCH.md).
 A clean checkout defaults to demo mode until the documented import is reproduced.
 See [source attribution, license and import instructions](docs/sources/RINGMAST4R.md).
 
@@ -17,7 +18,7 @@ npm run dev
 ```
 
 Open http://localhost:3000. Requires Node >=22.13. Map worker assets are generated
-before dev/build. Run `npm run validate` for lint, type checking, 20 tests, and build.
+before dev/build. Run `npm run validate` for lint, type checking, 24 tests, and build.
 
 - [Project plan and verification](PROJECT_PLAN.md)
 - [SQLite setup and deployment](docs/DEPLOYMENT.md)

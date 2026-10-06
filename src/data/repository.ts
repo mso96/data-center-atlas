@@ -6,8 +6,13 @@ export interface Pagination {
   /** Integer 1–100; defaults to 20. Invalid pagination throws RangeError. */
   pageSize?: number;
 }
+export type PublicFacility = DataCenter & { detailPath?: string };
+export type FacilityListItem = PublicFacility & {
+  /** Derived from completed research with verified facts; never imported as a source claim. */
+  sourceVerified?: boolean;
+};
 export interface FacilityPage {
-  items: DataCenter[];
+  items: FacilityListItem[];
   total: number;
   page: number;
   pageSize: number;
@@ -33,9 +38,11 @@ export interface MapFeatures {
   missingCoordinatesCount: number;
 }
 export interface DataCenterRepository {
-  /** Stable order by internal ID. Search is case-insensitive substring matching. */
+  /** Source-verified profiles first, then stable internal ID within each group.
+   * Demo records have no research verification. Search is case-insensitive substring matching. */
   list(filters?: DataCenterFilters, pagination?: Pagination): Promise<FacilityPage>;
-  getById(id: string): Promise<DataCenter | null>;
+  getById(id: string): Promise<PublicFacility | null>;
+  getByPath(path: string): Promise<PublicFacility | null>;
   /** Distinct sorted values within the supplied filters; unknowns excluded. */
   getFilterOptions(filters?: DataCenterFilters): Promise<FilterOptions>;
   /** All matching geolocated records, independent of list pagination. */

@@ -47,9 +47,47 @@ test("research requires evidence and identity verification and survives base rec
   saveProfile(db,profile);assert.equal(db.prepare("SELECT count(*) n FROM research_facts").get()!.n,1);
  }finally{db.close();}
 });
+test("verified research sorts before pagination without promoting incomplete or conflicting profiles",async()=>{
+ const db=openDatabase(":memory:");migrate(db);
+ try {
+  for(let i=0;i<7;i++)writeRecord(db,"test",{...demoFacilities[0],id:`rank-${i}`,sourceId:`rank-${i}`,isDemo:false,name:`Facility ${i}`});
+  saveProfile(db,{...profile,facilityId:"rank-1",facts:[]});
+  saveProfile(db,{...profile,facilityId:"rank-2",status:"in-progress"});
+  saveProfile(db,{...profile,facilityId:"rank-3",status:"pending"});
+  saveProfile(db,{...profile,facilityId:"rank-4",facts:[{...profile.facts[0],status:"conflicting"}]});
+  saveProfile(db,{...profile,facilityId:"rank-5"});
+  saveProfile(db,{...profile,facilityId:"rank-6"});
+  const repo=new SqliteDataCenterRepository(db);
+  const first=await repo.list({mappedOnly:true},{pageSize:1});
+  const second=await repo.list({mappedOnly:true},{page:2,pageSize:1});
+  assert.equal(first.items[0].id,"rank-5");assert.equal(first.items[0].sourceVerified,true);
+  assert.equal(second.items[0].id,"rank-6");assert.equal(first.total,7);
+  const all=await repo.list();
+  assert.deepEqual(all.items.map(r=>r.id),["rank-5","rank-6","rank-0","rank-1","rank-2","rank-3","rank-4"]);
+  assert.ok(all.items.slice(2).every(r=>!r.sourceVerified));
+  const filtered=await repo.list({search:"Facility 0"});assert.equal(filtered.total,1);assert.equal(filtered.items[0].id,"rank-0");
+  assert.equal((await repo.getMapFeatures({mappedOnly:true})).features.length,7);
+ }finally{db.close();}
+});
 test("detail return state preserves filters, page and selection without external redirects",()=>{
- const href=detailHref("demo-001","search=London&countryCode=GB&page=3&selected=demo-002");
+ const href=detailHref({id:"demo-001",detailPath:"/united-kingdom/test-facility"},"search=London&countryCode=GB&page=3&selected=demo-002");
  const url=new URL(href,"https://atlas.example");const back=url.searchParams.get("return")!;
  const q=parseQuery(new URLSearchParams(back));assert.equal(q.page,3);assert.equal(q.filters.search,"London");assert.equal(q.selectedId,"demo-001");
  assert.equal(returnQuery("https://evil.example/path","demo-001"),"selected=demo-001");
+});
+
+
+test("official website requires HTTPS, cited identity and survives imported updates",()=>{
+ const website={url:"https://example.com/facility",label:"Official facility website",kind:"facility",sourceIds:["operator"]};
+ assert.equal(researchProfileSchema.parse(profile).website,null);
+ assert.equal(researchProfileSchema.safeParse({...profile,website:{...website,url:"javascript:alert(1)"}}).success,false);
+ assert.equal(researchProfileSchema.safeParse({...profile,website:{...website,sourceIds:["missing"]}}).success,false);
+ assert.equal(researchProfileSchema.safeParse({...profile,facts:[],identity:{...profile.identity,addressMatched:false},website}).success,false);
+ const db=openDatabase(":memory:");migrate(db);
+ try {
+  writeRecord(db,"test",{...demoFacilities[0],sourceId:"stable"});
+  saveProfile(db,{...profile,website:{...website,kind:"host-facility"}});
+  writeRecord(db,"test",{...demoFacilities[0],sourceId:"stable",name:"Imported update"});
+  assert.deepEqual(getProfile(db,"demo-001")!.website,{...website,kind:"host-facility"});
+ }finally{db.close();}
 });

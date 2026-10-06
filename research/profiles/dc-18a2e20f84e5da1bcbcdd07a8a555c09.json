@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-18a2e20f84e5da1bcbcdd07a8a555c09",
+  "status": "reviewed",
+  "reviewNote": "Searched Interoute/EXA and Leuvensesteenweg 573. EXA's primary colocation page describes its portfolio but does not establish this building. Third-party directory matches are not used as proof, and portfolio-wide specifications remain unpublished.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Searched Interoute/EXA and Leuvensesteenweg 573. EXA's primary colocation page describes its portfolio but does not establish this building. Third-party directory matches are not used as proof, and portfolio-wide specifications remain unpublished."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.exainfra.net/services/colocation",
+      "title": "EXA Infrastructure colocation",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-082d0939ef0db752b62135ee16951433",
+  "status": "reviewed",
+  "reviewNote": "Searched AAPT/Vocus and 180 Burnley Street individually. AAPT now redirects to Vocus, but the reviewed primary page does not identify the Richmond facility. Historical network-registration contact addresses do not prove data-center space. Imported postcode 3043 also requires correction; no facility facts published.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Searched AAPT/Vocus and 180 Burnley Street individually. AAPT now redirects to Vocus, but the reviewed primary page does not identify the Richmond facility. Historical network-registration contact addresses do not prove data-center space. Imported postcode 3043 also requires correction; no facility facts published."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.vocus.com.au/business",
+      "title": "Vocus business (current redirect of AAPT)",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

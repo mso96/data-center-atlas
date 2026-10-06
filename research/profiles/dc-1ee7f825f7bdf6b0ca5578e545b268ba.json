@@ -1,0 +1,77 @@
+{
+  "facilityId": "dc-1ee7f825f7bdf6b0ca5578e545b268ba",
+  "status": "reviewed",
+  "reviewNote": "Former operator confirms acquisition and 2025 decommissioning. New TOR2 specifications at 151 Front Street are excluded; this profile preserves the historical 1 Yonge identity.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Amanah explicitly identifies its acquired Cogeco-Peer1 facility at 1 Yonge Street, matching both imported operator and address."
+  },
+  "website": {
+    "url": "https://www.amanah.com/about/",
+    "label": "Amanah — former operator",
+    "kind": "operator",
+    "sourceIds": [
+      "operator"
+    ]
+  },
+  "aliases": [
+    "Former Amanah 1 Yonge Street"
+  ],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.amanah.com/about/",
+      "title": "Amanah — company history and 1 Yonge decommissioning",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "History",
+      "label": "Operator change — 2015",
+      "value": "Amanah acquired the former Cogeco-Peer1 facility at 1 Yonge Street in 2015.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "History",
+      "label": "Facility closed — 2025",
+      "value": "Amanah reports decommissioning this location in 2025 as part of the waterfront redevelopment. Its replacement TOR2 facility is at a different address, 151 Front Street West.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Connectivity",
+      "label": "Historical inter-building connection",
+      "value": "Before closure, a private dark-fibre link connected 1 Yonge with Amanah’s 151 Front Street facility. This is not a current service offer.",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "location",
+      "category": "Location",
+      "label": "Former facility address",
+      "value": "1 Yonge Street, Toronto, Canada; decommissioned in 2025",
+      "sourceIds": [
+        "operator"
+      ],
+      "status": "verified"
+    }
+  ]
+}

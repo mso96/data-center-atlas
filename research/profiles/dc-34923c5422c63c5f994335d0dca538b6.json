@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-34923c5422c63c5f994335d0dca538b6",
+  "status": "reviewed",
+  "reviewNote": "The official Bohicon entry describes an MTN retail agency, not a data centre. The colocation product page could not be read. No evidence ties a specific Bohicon data hall to the imported coordinate; agency details were not substituted.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The official Bohicon entry describes an MTN retail agency, not a data centre. The colocation product page could not be read. No evidence ties a specific Bohicon data hall to the imported coordinate; agency details were not substituted."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://www.mtn.bj/stores/mtn-connect-agence-bohicon/",
+      "title": "MTN Benin — Bohicon retail agency",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

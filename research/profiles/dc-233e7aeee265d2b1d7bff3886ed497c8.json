@@ -1,0 +1,29 @@
+{
+  "facilityId": "dc-233e7aeee265d2b1d7bff3886ed497c8",
+  "status": "reviewed",
+  "reviewNote": "Proximus identifies Netcenter Evere at Rue Carli 2, while the imported record says Carlistraat 2B. The group sale closed 28 February 2025, but the specific building suffix is not reconciled. Avoid assigning present-day Datacenter United capacity to an unidentified sub-building.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "Proximus identifies Netcenter Evere at Rue Carli 2, while the imported record says Carlistraat 2B. The group sale closed 28 February 2025, but the specific building suffix is not reconciled. Avoid assigning present-day Datacenter United capacity to an unidentified sub-building."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.proximus.com/fr/our-company/contact.html",
+      "title": "Proximus Netcenter Evere address",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.proximus.com/news/2025/202503-news-proximus-datacenter-sale-completed.html",
+      "title": "Proximus data-center sale completed",
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2025-03-03"
+    }
+  ],
+  "facts": []
+}

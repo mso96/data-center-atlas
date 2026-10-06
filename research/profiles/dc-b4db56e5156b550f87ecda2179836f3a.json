@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-b4db56e5156b550f87ecda2179836f3a",
+  "status": "reviewed",
+  "reviewNote": "The BCC hosting page describes a National Data Center established in 2011. BDCCL separately publishes information for the Kaliakoir national facility. The imported BCC operator and Kaliakair Highway label do not establish which organization/building the record represents. Tier IV and BDCCL rack specifications are withheld until that ambiguity is resolved.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The BCC hosting page describes a National Data Center established in 2011. BDCCL separately publishes information for the Kaliakoir national facility. The imported BCC operator and Kaliakair Highway label do not establish which organization/building the record represents. Tier IV and BDCCL rack specifications are withheld until that ambiguity is resolved."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://bcc.gov.bd/pages/static-pages/688a355cf1fb5aa36c85a12e",
+      "title": "Bangladesh Computer Council hosting service",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

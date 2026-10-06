@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-0907d37b4f816bbd330c888af73804c1",
+  "status": "reviewed",
+  "reviewNote": "The operator has a named North Ryde facility sheet, but the imported address is only a locality. The 118 Talavera Road contact block is a company office, not an established facility address. Old sheets also differ in MVA/MW labels. No street-level match or conversion to IT capacity is asserted.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "The operator has a named North Ryde facility sheet, but the imported address is only a locality. The 118 Talavera Road contact block is a company office, not an established facility address. Old sheets also differ in MVA/MW labels. No street-level match or conversion to IT capacity is asserted."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.fujitsu.com/au/Images/Fujitsu-Data-Centre-North-Ryde-Fact-Sheet.pdf",
+      "title": "Fujitsu North Ryde data center fact sheet",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

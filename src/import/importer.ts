@@ -1,3 +1,4 @@
+import { knownText } from "../domain/facility-presentation";
 import { parse } from "csv-parse/sync";
 import { createHash } from "node:crypto";
 import type { DatabaseSync } from "node:sqlite";
@@ -21,7 +22,7 @@ const stringValue = (value: unknown): string | null => {
   if (typeof value !== "string" && typeof value !== "number") throw new Error("Expected a string or number, not an object/boolean");
   if (typeof value === "number" && (!Number.isFinite(value) || (Number.isInteger(value) && !Number.isSafeInteger(value)))) throw new Error("Unsafe numeric value; provide identifiers as strings");
   const text = String(value).trim();
-  return !text || /^(null|n\/a|unknown|not available)$/i.test(text) ? null : text;
+  return /^null$/i.test(text) ? null : knownText(text);
 };
 const numberValue = (value: string | null, field: string) => {
   if (value === null) return null;

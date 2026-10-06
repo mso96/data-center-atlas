@@ -1,0 +1,93 @@
+{
+  "facilityId": "dc-ef8285af6f73e77bda1c665b198ab0b8",
+  "status": "reviewed",
+  "reviewNote": "Google's campus page matches St. Ghislain. The GSMA-issued historical certificate identifies Google's supporting-site address at Rue de Ghlin 100, matching the imported street. Its January 2023 expiry prevents any current certification claim. Campus statements are not assigned to an individual building; map coordinates are unchanged.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Google's campus page matches St. Ghislain. The GSMA-issued historical certificate identifies Google's supporting-site address at Rue de Ghlin 100, matching the imported street. Its January 2023 expiry prevents any current certification claim. Campus statements are not assigned to an individual building; map coordinates are unchanged."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://datacenters.google/locations/belgium/",
+      "title": "Google St. Ghislain campus",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.gsma.com/security/wp-content/uploads/2021/04/GSMA-SAS_SM-Certificate-Thales-Tours-France-0123-v2.pdf",
+      "title": "GSMA SAS-SM supporting-site certificate (historical)",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Campus",
+      "value": "Google operates a data-center campus in St. Ghislain–Mons, Belgium.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Cooling",
+      "label": "Cooling approach",
+      "value": "The campus uses water from an industrial canal for server cooling.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "specs",
+      "category": "Power",
+      "label": "On-site energy",
+      "value": "Google identifies a solar farm contributing to campus electricity generation.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-4",
+      "section": "overview",
+      "category": "History",
+      "label": "Campus opening",
+      "value": "Google's location timeline dates the first Belgian data-center opening to 2010.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-5",
+      "section": "location",
+      "category": "Location",
+      "label": "Historical site address",
+      "value": "Rue de Ghlin 100, Ghlin-Baudour Sud industrial zone, Belgium (historical GSMA supporting-site record)",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    }
+  ],
+  "website": {
+    "url": "https://datacenters.google/locations/belgium/",
+    "label": "Google Belgium",
+    "kind": "facility",
+    "sourceIds": [
+      "source-1"
+    ]
+  }
+}

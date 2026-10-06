@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-56e47e84ec30b55149c3eb149753ff6d",
+  "status": "reviewed",
+  "reviewNote": "The imported address is a placeholder. AWS discusses Rio as a Local Zone market in a regional announcement, without identifying this individual building. No city-level cloud infrastructure claims were published as site specifications.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The imported address is a placeholder. AWS discusses Rio as a Local Zone market in a regional announcement, without identifying this individual building. No city-level cloud infrastructure claims were published as site specifications."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://aws.amazon.com/es/blogs/aws-spanish/experimente-sus-primeras-cargas-de-trabajo-en-aws-local-zones/",
+      "title": "AWS — Latin America Local Zones",
+      "accessedAt": "2026-10-06",
+      "publishedAt": "2023-03-28"
+    }
+  ],
+  "facts": []
+}

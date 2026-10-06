@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-0e1de1365386f1300323cc2d22a2197b",
+  "status": "reviewed",
+  "reviewNote": "Reviewed Montoni’s Varennes projects against imported AWS YUL 1790 Lionel-Boulet A. The contractor does not disclose a customer, street address or the imported A/B distinction. Its separate 40 MW and 50 MW project figures cannot safely be assigned to either record. Records were not merged.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Reviewed Montoni’s Varennes projects against imported AWS YUL 1790 Lionel-Boulet A. The contractor does not disclose a customer, street address or the imported A/B distinction. Its separate 40 MW and 50 MW project figures cannot safely be assigned to either record. Records were not merged."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://groupemontoni.com/en/expertises/data-centers",
+      "title": "Montoni — data-centre construction portfolio",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

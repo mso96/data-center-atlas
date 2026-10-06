@@ -1,0 +1,23 @@
+{
+  "facilityId": "dc-110ab40cc480d699b59fd5f84968e779",
+  "status": "reviewed",
+  "reviewNote": "The indexed Algar Tech sustainability article concerns Uberlândia infrastructure, but its live URL now redirects to Callink. No reliable match to the imported Floriano Peixoto 6500 building was established. Portfolio energy or certification claims are not published for this site.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "The indexed Algar Tech sustainability article concerns Uberlândia infrastructure, but its live URL now redirects to Callink. No reliable match to the imported Floriano Peixoto 6500 building was established. Portfolio energy or certification claims are not published for this site."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://algartech.com/blog/esg/sustentabilidade-inovacao-e-tecnologia-a-servico-das-empresas-e-clientes/",
+      "title": "Algar Tech sustainability article — redirects to Callink at review",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

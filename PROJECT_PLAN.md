@@ -11,7 +11,11 @@ The public explorer now shows only the 6,086 geolocated facilities. Its title is
 “Discover data centers”. Each mapped facility has a dedicated Overview / Specs /
 Location page, with safe filter-preserving Back to map navigation and linked sources.
 Migration 002 stores research separately from imported records. The 1,000-candidate
-selection is complete; **official-source research is 96 reviewed, 79 enriched, 900 pending, 4 in progress**.
+selection is complete; **official-source research is 131 reviewed, 57 enriched, 858 pending, 11 in progress** (6 October 2026).
+The latest 50-candidate group has 49 completed reviews: 14 with publishable facts
+and 35 without a reliable facility match; one remains in progress. A separate
+evidence audit withdrew 58 unsupported automatically generated reviews and
+location facts. See [the individual outcomes](docs/RESEARCH_2026-10-05.md).
 The requested 1,000-facility research is not complete. See [research workflow and
 progress](docs/RESEARCH.md) and `research/report.json`.
 
@@ -138,7 +142,9 @@ application code has no map-specific React lint exemptions.
 
 ## Verification results
 
-- 20 automated tests pass: original contracts, SQLite persistence/reopen and migration
+- 21 automated tests pass, including verification-first ordering before pagination
+  and exclusion of pending/in-progress/conflicting-only research from badges.
+  Existing coverage includes original contracts, SQLite persistence/reopen and migration
   repeatability, unit/country/date normalization, GeoJSON order/null geometry,
   invalid-coordinate/URL/date/header reports, repeated imports, dry-run isolation,
   duplicate ambiguity, fixture separation, SQL/demo filter parity and injection-like
@@ -180,3 +186,33 @@ application code has no map-specific React lint exemptions.
   behavior; OS preference switching and forced GPU loss were not simulated.
 - The originally referenced composition screenshot was not supplied; the existing
   approved written composition and Phase 2 implementation were preserved.
+
+## Country-based facility URLs (October 5)
+
+- Public profiles use `/<country>/<facility-name>` (for example
+  `/united-kingdom/london-and-west`). Migration 003 stores a unique route per
+  existing facility ID; duplicate names receive numeric suffixes. Reimports keep
+  previously allocated routes, including when a facility is renamed.
+- Run `npm run db:migrate` before starting an updated imported-mode deployment.
+  It backfills existing records; future authorized imports allocate routes locally.
+- Old `/data-centers/[id]` URLs permanently redirect (308), preserving the active
+  section and map return state. All list links, panel links and section navigation
+  use the country-based route.
+- Profiles have individual titles, descriptions, canonical URLs and Open Graph
+  metadata. Set `ATLAS_SITE_URL=https://your-production-domain` at deployment;
+  the local fallback is `http://localhost:3001`. Canonicals omit navigation queries.
+- Placeholder city/operator/address values such as TBC, TBD and N/A are hidden
+  without altering original stored source records. The compact panel uses the
+  existing footer attribution instead of repeating the Ringmast4r source block.
+- Route collision handling, lookup, persistence after reimport, return state and
+  placeholder normalization are covered by automated tests.
+
+## Official website links and next research group (October 6)
+
+- At a glance shows a cited, identity-checked HTTPS website for reviewed profiles.
+  Missing links are hidden. Host-facility links are explicitly labelled, including Canberra.
+- Added website links to 27 earlier profiles and 17 newly researched profiles (44 total).
+- Researched the next fixed 50-candidate group: 22 enriched with cited Specs,
+  22 reviewed without publishable facility facts, and six still in progress.
+  See [the progress report](docs/RESEARCH_2026-10-06.md) and its evidence limitations.
+  No claim is made that all 50 reviews, or the full 1,000, are complete.

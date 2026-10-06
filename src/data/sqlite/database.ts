@@ -1,3 +1,4 @@
+import { allocateFacilityPath, baseFacilityPath } from "../../domain/facility-path";
 import { DatabaseSync } from "node:sqlite";
 import { readFileSync, readdirSync, mkdirSync } from "node:fs";
 import path from "node:path";
@@ -25,6 +26,22 @@ export function migrate(db: DatabaseSync) {
       db.exec("COMMIT");
     } catch (error) { db.exec("ROLLBACK"); throw error; }
   }
+  db.exec("BEGIN IMMEDIATE");
+  try {
+    const used=new Set(db.prepare("SELECT path FROM facility_routes").all().map(row=>String(row.path)));
+    for(const row of db.prepare("SELECT record FROM facilities WHERE id NOT IN (SELECT facility_id FROM facility_routes) ORDER BY id").all()) {
+      const record=dataCenterSchema.parse(JSON.parse(String(row.record)));
+      db.prepare("INSERT INTO facility_routes (facility_id,path) VALUES (?,?)").run(record.id,allocateFacilityPath(record,used));
+    }
+    db.exec("COMMIT");
+  } catch(error) { db.exec("ROLLBACK"); throw error; }
+}
+function ensureFacilityRoute(db: DatabaseSync, record: DataCenter) {
+  if (db.prepare("SELECT 1 FROM facility_routes WHERE facility_id=?").get(record.id)) return;
+  const base=baseFacilityPath(record);
+  let route=base; let suffix=2;
+  while(db.prepare("SELECT 1 FROM facility_routes WHERE path=?").get(route)) route=`${base}-${suffix++}`;
+  db.prepare("INSERT INTO facility_routes (facility_id,path) VALUES (?,?)").run(record.id,route);
 }
 export function writeRecord(db: DatabaseSync, source: string, value: DataCenter) {
   const record = dataCenterSchema.parse(value);
@@ -38,4 +55,6 @@ export function writeRecord(db: DatabaseSync, source: string, value: DataCenter)
     norm(record.city) || null, norm(record.operator) || null, record.status,
     [record.name, record.operator, record.countryCode, record.country, record.city, record.address, record.description].map(norm).join("\n"),
     identityKey(record), record.latitude, record.longitude, JSON.stringify(record));
+  const stored = db.prepare("SELECT record FROM facilities WHERE source_key=? AND source_id=?").get(source,record.sourceId)!;
+  ensureFacilityRoute(db,dataCenterSchema.parse(JSON.parse(String(stored.record))));
 }

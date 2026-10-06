@@ -1,0 +1,63 @@
+{
+  "facilityId": "dc-cc541d35c6125a1486b8ccf6d6448b44",
+  "status": "reviewed",
+  "reviewNote": "The council study explicitly connects Amazon and 42A Bluett Drive. The site area is land, not building or IT floor space. Planning approval is not evidence of current operational status.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The council study explicitly connects Amazon and 42A Bluett Drive. The site area is land, not building or IT floor space. Planning approval is not evidence of current operational status."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.camden.nsw.gov.au/assets/Uploads/20-64051-Camden-Industrial-and-Employment-Lands-Study-Final.PDF",
+      "title": "Camden Industrial and Employment Lands Study",
+      "accessedAt": "2026-10-05",
+      "publishedAt": "2020-02-28"
+    },
+    {
+      "id": "source-2",
+      "url": "https://www.planningportal.nsw.gov.au/daex/determined/42a-bluett-drive-smeaton-grange-2567",
+      "title": "NSW planning determination DA/2021/1417/1",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Project address",
+      "value": "42A Bluett Drive, Smeaton Grange, NSW 2567, Australia",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "specs",
+      "category": "Capacity",
+      "label": "Site area",
+      "value": "21,100 m² of land; not data-hall area",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-3",
+      "section": "overview",
+      "category": "History",
+      "label": "Planning decision",
+      "value": "An addition to the existing data center was approved on 21 December 2021 (DA/2021/1417/1).",
+      "sourceIds": [
+        "source-2"
+      ],
+      "status": "verified"
+    }
+  ]
+}

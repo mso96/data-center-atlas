@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-0a34b84e3789e2bab28839f66faffa24",
+  "status": "reviewed",
+  "reviewNote": "PIPE Networks correspondence identifies a company office at Level 17, 127 Creek Street. The imported record says Level 9. Neither this corporate letter nor an address-only listing establishes the claimed data-center space; no technical facts published.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "PIPE Networks correspondence identifies a company office at Level 17, 127 Creek Street. The imported record says Level 9. Neither this corporate letter nor an address-only listing establishes the claimed data-center space; no technical facts published."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.transport.nsw.gov.au/sites/default/files/media/documents/rww/projects/01documents/prospect-highway-upgrade/prospect-ref-appendix-j-5.pdf",
+      "title": "Transport for NSW: PIPE Networks correspondence",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

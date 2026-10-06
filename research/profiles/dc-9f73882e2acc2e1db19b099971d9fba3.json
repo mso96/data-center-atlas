@@ -1,0 +1,30 @@
+{
+  "facilityId": "dc-9f73882e2acc2e1db19b099971d9fba3",
+  "status": "reviewed",
+  "reviewNote": "Mascom describes its Innovation Centre in Phakalane, while its certificate lists several locations. The imported record has no address and only the generic name Mascom. Individual site identity remains unresolved; group telecom certifications were not labelled as data-centre certifications.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": false,
+    "addressMatched": false,
+    "notes": "Mascom describes its Innovation Centre in Phakalane, while its certificate lists several locations. The imported record has no address and only the generic name Mascom. Individual site identity remains unresolved; group telecom certifications were not labelled as data-centre certifications."
+  },
+  "website": null,
+  "aliases": [],
+  "sources": [
+    {
+      "id": "operator",
+      "url": "https://mascom.bw/about-mascom-wirelesss/",
+      "title": "Mascom — company and Innovation Centre overview",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    },
+    {
+      "id": "certificate",
+      "url": "https://mascom.bw/wp-content/uploads/2025/10/ISO-Certification.pdf",
+      "title": "Mascom — multi-location management-system certificates",
+      "accessedAt": "2026-10-06",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

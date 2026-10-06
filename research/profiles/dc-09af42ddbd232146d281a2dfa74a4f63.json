@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-09af42ddbd232146d281a2dfa74a4f63",
+  "status": "reviewed",
+  "reviewNote": "NetActuate/legacy Host Virtual has a Sydney facility page but no street address resolves the imported 'tbc' location. Its published imperial and metric building areas are inconsistent (74,000 ft² versus 18,000 m²). No size conversion or site specifications are published without identity resolution.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "NetActuate/legacy Host Virtual has a Sydney facility page but no street address resolves the imported 'tbc' location. Its published imperial and metric building areas are inconsistent (74,000 ft² versus 18,000 m²). No size conversion or site specifications are published without identity resolution."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://netactuate.com/data-centers/sydney-australia",
+      "title": "NetActuate Sydney",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

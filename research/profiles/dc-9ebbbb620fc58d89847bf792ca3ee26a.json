@@ -1,0 +1,45 @@
+{
+  "facilityId": "dc-9ebbbb620fc58d89847bf792ca3ee26a",
+  "status": "reviewed",
+  "reviewNote": "Historical operator portfolio identifies 98 Radnor Drive as a Melbourne data center. Historical leased-area and financial columns are not presented as current technical capacity. No current MEL10 facility page could be retrieved.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Historical operator portfolio identifies 98 Radnor Drive as a Melbourne data center. Historical leased-area and financial columns are not presented as current technical capacity. No current MEL10 facility page could be retrieved."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://investor.digitalrealty.com/static-files/18487391-d78b-41c5-a4d9-51d59d6483ba",
+      "title": "Digital Realty 4Q15 financial supplement",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Historical portfolio address",
+      "value": "98 Radnor Drive, Melbourne, Australia (2015 operator portfolio)",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "History",
+      "label": "Historical identification",
+      "value": "Digital Realty listed this address as a data center in its fourth-quarter 2015 financial supplement; current operating details remain unconfirmed.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ]
+}

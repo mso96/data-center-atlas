@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-8bda9edb94d8ca788a147d6dd014e529",
+  "status": "reviewed",
+  "reviewNote": "NTT's brochure describes Melbourne 1, including a Tier III design claim, but does not supply a street address. The imported record contains postcode 3004 and a Japanese telephone number rather than a building address. Cannot bind Melbourne 1 specifications to this generic record.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": false,
+    "notes": "NTT's brochure describes Melbourne 1, including a Tier III design claim, but does not supply a street address. The imported record contains postcode 3004 and a Japanese telephone number rather than a building address. Cannot bind Melbourne 1 specifications to this generic record."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://services.global.ntt/-/media/ntt/global/products-and-services/data-centers/colocation/brochure_data-center-locations_australia.pdf",
+      "title": "NTT Australia data center brochure",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}

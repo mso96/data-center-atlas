@@ -1,6 +1,8 @@
+import type { Metadata } from "next";
+import { cache } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight, Globe2, MapPin, Server, Zap, Check, BookOpen } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Globe2, MapPin, Server, Zap, Check, BookOpen, BadgeCheck } from "lucide-react";
 import { openRepository } from "@/data";
 import { hasValidCoordinates } from "@/domain/data-center";
 import { returnQuery } from "@/domain/detail-navigation";
@@ -8,25 +10,41 @@ import type { ResearchFact,ResearchProfile } from "@/domain/research/profile";
 import { LocationMap } from "@/components/facility/location-map";
 export const runtime="nodejs";
 export const dynamic="force-dynamic";
-type Props={params:Promise<{id:string}>;searchParams:Promise<Record<string,string|string[]|undefined>>};
-const tabs=["overview","specs","location"] as const;
+type Props={params:Promise<{country:string;slug:string}>;searchParams:Promise<Record<string,string|string[]|undefined>>};
+const tabs=["location","specs","overview"] as const;
 function Citations({fact,profile}:{fact:ResearchFact;profile:ResearchProfile}){
  return <span className="fact-citations">{fact.sourceIds.map(id=>{const source=profile.sources.find(s=>s.id===id)!;return <a key={id} href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`Source for ${fact.label}: ${source.title}`}><ArrowUpRight size={12}/></a>;})}</span>;
 }
-export default async function FacilityPage({params,searchParams}:Props){
- const [{id},search]=await Promise.all([params,searchParams]);
+const loadFacility = cache(async (country:string,slug:string) => {
  const context=openRepository();
- const [facility,profile]=await (async()=>{try{return [await context.repository.getById(id),context.getResearch(id)] as const;}finally{context.close();}})();
- if(!facility || !hasValidCoordinates(facility))notFound();
- const tab=typeof search.tab==="string" && tabs.includes(search.tab as typeof tabs[number]) ? search.tab : "overview";
+ try {
+  const facility=await context.repository.getByPath(`/${country}/${slug}`);
+  if(!facility || !hasValidCoordinates(facility)) notFound();
+  return {facility,profile:context.getResearch(facility.id)};
+ } finally { context.close(); }
+});
+export async function generateMetadata({params}:Props):Promise<Metadata> {
+ const {country,slug}=await params;
+ const {facility}=await loadFacility(country,slug);
+ const location=[facility.city,facility.country].filter(Boolean).join(", ");
+ const title=`${facility.name} | ${location || "Data center"} | Data Center Atlas`;
+ const description=`Explore ${facility.name}${location ? ` in ${location}` : ""}${facility.operator ? `, operated by ${facility.operator}` : ""}. View its location, available specifications, and sources.`;
+ return {title,description,alternates:{canonical:facility.detailPath},openGraph:{title,description,url:facility.detailPath,type:"website"},...(facility.isDemo ? {robots:{index:false,follow:true}} : {})};
+}
+export default async function FacilityPage({params,searchParams}:Props){
+ const [{country,slug},search]=await Promise.all([params,searchParams]);
+ const {facility,profile}=await loadFacility(country,slug);
+ const id=facility.id;
+ const tab=typeof search.tab==="string" && tabs.includes(search.tab as typeof tabs[number]) ? search.tab : "location";
  const backQuery=returnQuery(typeof search.return==="string"?search.return:undefined,id);
  const backHref=`/?${backQuery}`;
- const href=(next:string)=>`/data-centers/${encodeURIComponent(id)}?${new URLSearchParams({tab:next,return:backQuery})}`;
+ const href=(next:string)=>`${facility.detailPath}?${new URLSearchParams({tab:next,return:backQuery})}`;
  const facts=profile?.status==="reviewed" ? profile.facts.filter(f=>f.status==="verified") : [];
+ const sourcedSections=tabs.filter(section=>facts.some(f=>f.section===section || (section==="specs" && f.category==="Services"))).map(section=>section.charAt(0).toUpperCase()+section.slice(1));
  const sectionFacts=facts.filter(f=>f.section===tab || (tab==="specs" && f.category==="Services"));
+ const website=profile?.status==="reviewed" ? profile.website : null;
  const aliases=profile?.aliases.filter(alias=>alias.trim().toLowerCase()!==facility.name.trim().toLowerCase()) ?? [];
  const isRing=facility.sourceUrl?.startsWith("https://github.com/Ringmast4r/Global-Data-Center-Map/");
- const dataset=isRing ? {label:"Data centers (c) Ringmast4r — Global-Data-Center-Map",url:"https://github.com/Ringmast4r/Global-Data-Center-Map",notice:"Locations may be city or regional centroids; not verified building locations."}:null;
  const baseSpecs=[
   ["Power capacity",facility.powerCapacityMw!==null?`${facility.powerCapacityMw.toLocaleString("en-US")} MW`:null],
   ["Facility area",facility.facilityAreaSqM!==null?`${facility.facilityAreaSqM.toLocaleString("en-US")} m²`:null],
@@ -39,7 +57,10 @@ export default async function FacilityPage({params,searchParams}:Props){
    <div className="profile-breadcrumb"><Link href={backHref}>Explore</Link><span>/</span><span>{facility.country ?? "Data center"}</span></div>
    <section className="profile-hero"><div><p className="eyebrow">DATA CENTER</p><h1>{facility.name.replace(/^Demo — /,"")}</h1>{location && <p className="profile-location"><MapPin size={16}/>{location}</p>}
     <div className="profile-badges">{facility.operator && <span><Server size={13}/>{facility.operator}</span>}{facility.status && <span className="profile-status">{facility.status.replaceAll("-"," ")}</span>}{facility.isDemo && <span>Fictional demo facility</span>}</div>
-   </div><div className="profile-research-label"><BookOpen size={16}/>{facts.length ? "Official sources added" : "Dataset profile"}</div></section>
+   </div>{facts.length > 0 ? <div className="profile-verification">
+    <span className="profile-verified-badge" aria-describedby="profile-verification-note"><BadgeCheck size={16} aria-hidden="true"/>Source-verified</span>
+    <p id="profile-verification-note">Sourced information: {sourcedSections.join(", ")}. Only cited facts are verified; other fields may be incomplete. Map location may be approximate.</p>
+   </div> : <div className="profile-research-label"><BookOpen size={16} aria-hidden="true"/>Dataset profile</div>}</section>
    <nav className="profile-tabs" aria-label="Facility sections">{tabs.map(t=><Link prefetch={false} key={t} href={href(t)} aria-current={tab===t?"page":undefined}>{t.charAt(0).toUpperCase()+t.slice(1)}</Link>)}</nav>
    <div className="profile-columns"><article className="profile-content">
     {tab==="overview" && <>
@@ -52,11 +73,12 @@ export default async function FacilityPage({params,searchParams}:Props){
     </>}
     {tab==="specs" && <>
      {sectionFacts.length===0 && baseSpecs.length===0 && <p className="profile-empty">Technical specifications have not been provided or verified for this facility.</p>}
-     {sectionFacts.length>0 && [...new Set(sectionFacts.map(f=>f.category))].map(category=><section key={category} className="profile-block"><h2>{category}</h2><dl className="profile-specs">{sectionFacts.filter(f=>f.category===category).map(f=><div key={f.id}><dt>{f.label}</dt><dd>{f.value}<Citations fact={f} profile={profile!}/></dd></div>)}</dl></section>)}
+     {sectionFacts.filter(f=>f.category==="Summary").map(f=><p className="profile-note" key={f.id}>{f.value}<Citations fact={f} profile={profile!}/></p>)}
+     {sectionFacts.length>0 && [...new Set(sectionFacts.filter(f=>f.category!=="Summary").map(f=>f.category))].map(category=><section key={category} className="profile-block"><h2>{category}</h2><dl className="profile-specs">{sectionFacts.filter(f=>f.category===category).map(f=><div key={f.id}><dt>{f.label}</dt><dd>{f.value}<Citations fact={f} profile={profile!}/></dd></div>)}</dl></section>)}
      {baseSpecs.length>0 && <section className="profile-block"><h2><Zap size={16}/> Imported specifications</h2><p className="profile-note">Reported in the source dataset; scope and current availability are not independently verified.</p><dl className="profile-specs">{baseSpecs.map(([label,value])=><div key={String(label)}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>}
     </>}
-    {tab==="location" && <><h2>Location</h2>{facility.address && <p className="profile-summary">{facility.address}</p>}<p className="profile-note">This map uses the imported location. It may identify a city or regional centre rather than the facility building.</p><LocationMap facility={facility} dataset={dataset}/>{sectionFacts.map(f=><p className="profile-note" key={f.id}>{f.value}<Citations fact={f} profile={profile!}/></p>)}</>}
-   </article><aside className="profile-aside" aria-label="Facility information"><h2>At a glance</h2><dl>{[["Operator",facility.operator],["Country",facility.country],["City",facility.city],["Address",facility.address]].filter(([,v])=>v).map(([label,value])=><div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl><p className="profile-note">Only available information is shown. Source details may change over time.</p></aside></div>
+    {tab==="location" && <><h2>Location</h2>{facility.address && <p className="profile-summary">{facility.address}</p>}<p className="profile-note">This map uses the imported location. It may identify a city or regional centre rather than the facility building.</p><LocationMap facility={facility}/>{sectionFacts.map(f=><p className="profile-note" key={f.id}>{f.value}<Citations fact={f} profile={profile!}/></p>)}</>}
+   </article><aside className="profile-aside" aria-label="Facility information"><h2>At a glance</h2><dl>{[["Operator",facility.operator],["Country",facility.country],["City",facility.city],["Address",facility.address]].filter(([,v])=>v).map(([label,value])=><div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}{website && <div><dt>{website.kind==="host-facility" ? "Host facility website" : "Website"}</dt><dd><a className="profile-website" href={website.url} target="_blank" rel="noreferrer">{website.label}<ArrowUpRight size={13} aria-hidden="true"/></a></dd></div>}</dl><p className="profile-note">Only available information is shown. Source details may change over time.</p></aside></div>
    <footer className="profile-sources"><h2>Sources & attribution</h2>{facility.sourceUrl && <a href={facility.sourceUrl} target="_blank" rel="noreferrer">{isRing ? "Data centers © Ringmast4r — Global-Data-Center-Map" : "Source dataset"}<ArrowUpRight size={13}/></a>}{isRing && <p>Imported snapshot. Coordinates may be approximate.</p>}{profile?.sources.map(s=><div key={s.id}><a href={s.url} target="_blank" rel="noreferrer">{s.title}<ArrowUpRight size={13}/></a><p>Accessed {s.accessedAt}{s.publishedAt ? ` · Published ${s.publishedAt}` : ""}</p></div>)}</footer>
   </main>
  </div>;

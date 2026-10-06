@@ -1,0 +1,45 @@
+{
+  "facilityId": "dc-3fada128f3d864e0e9df88b2e0444b78",
+  "status": "reviewed",
+  "reviewNote": "The operator's 2025 European PoP table explicitly lists Rue du Canon 36 with BICS as colocation provider. This verifies network presence and provider/address only, not a hyperscale building, available capacity or service inventory.",
+  "identity": {
+    "nameMatched": true,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "The operator's 2025 European PoP table explicitly lists Rue du Canon 36 with BICS as colocation provider. This verifies network presence and provider/address only, not a hyperscale building, available capacity or service inventory."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://www.bics.com/wp-content/uploads/2023/08/BICS-Network-Presence-Map-2025.pdf",
+      "title": "BICS Network Presence Map 2025",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-1",
+      "section": "location",
+      "category": "Location",
+      "label": "Published PoP address",
+      "value": "Rue du Canon 36, 1000 Brussels, Belgium",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fact-2",
+      "section": "overview",
+      "category": "Summary",
+      "label": "Network presence",
+      "value": "BICS identifies this address as a network point of presence in its 2025 map, with BICS listed as the colocation provider.",
+      "sourceIds": [
+        "source-1"
+      ],
+      "status": "verified"
+    }
+  ]
+}

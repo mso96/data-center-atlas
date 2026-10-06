@@ -65,5 +65,13 @@
       ],
       "status": "verified"
     }
-  ]
+  ],
+  "website": {
+    "url": "https://www.equinix.com/fr/fr/data-centers/asia-pacific-colocation/singapore-colocation/singapore-data-center/sg1",
+    "label": "Equinix facility website",
+    "kind": "facility",
+    "sourceIds": [
+      "operator"
+    ]
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "facilityId": "dc-05d96e9ecad08334caf3fea394949e37",
+  "status": "reviewed",
+  "reviewNote": "Dimension Data's brochure gives Level 6, 121–127 Harrington Street as a company contact address. It does not establish that address as a data-center building. No facility specifications inferred from office contact information.",
+  "identity": {
+    "nameMatched": false,
+    "operatorMatched": true,
+    "addressMatched": true,
+    "notes": "Dimension Data's brochure gives Level 6, 121–127 Harrington Street as a company contact address. It does not establish that address as a data-center building. No facility specifications inferred from office contact information."
+  },
+  "aliases": [],
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://download.microsoft.com/documents/australia/windowsserversystem/sql/DiData_Managed_SQL.pdf",
+      "title": "Dimension Data managed SQL brochure hosted by Microsoft",
+      "accessedAt": "2026-10-05",
+      "publishedAt": null
+    }
+  ],
+  "facts": []
+}
